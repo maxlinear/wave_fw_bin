@@ -69,16 +69,16 @@ S 4 1 2 341 tx_main_pre_dma_start
 S 4 1 3 49 tx_main_post_hc_start
 S 4 1 3 105 TX END DURING DELAY LOOP
 H 4 1 3 161 TxMpduDescriptor_t
-S 4 1 3 271 post_hc_tx_addba_request
-S 4 1 3 333 post_hc_tx_bar
-S 4 1 3 387 post_hc_tx_ch_switch_ann/post_hc_tx_ch_switch_ann_enc
-S 4 1 3 440 post_hc_tx_color_switch_ann_enc/post_hc_tx_color_switch_ann_enc
-S 4 1 3 557 tx_main_post_hc_end
-S 4 1 3 593 Fatal Error in file: "../../Code/Source/Wave600D2/mainTxPostHeaderConversion.c"; Fatal Print: H/C manipulation is not supported
+S 4 1 3 291 post_hc_tx_addba_request
+S 4 1 3 347 post_hc_tx_bar
+S 4 1 3 401 post_hc_tx_ch_switch_ann/post_hc_tx_ch_switch_ann_enc
+S 4 1 3 454 post_hc_tx_color_switch_ann_enc/post_hc_tx_color_switch_ann_enc
+S 4 1 3 571 tx_main_post_hc_end
+S 4 1 3 607 Fatal Error in file: "../../Code/Source/Wave600D2/mainTxPostHeaderConversion.c"; Fatal Print: H/C manipulation is not supported
 S 4 1 4 176 tx_post_main_start
-S 4 1 4 2725 [pos main handle moveToNextPhase] bit to move enabled! currentPhasePointer 0x%08x, fullPhasePointer 0x%08x
-S 4 1 4 2730 [post main handle moveToNextPhase] currentPhasePointer 0x%08x -> nextPhasePointer 0x%08x
-S 4 1 4 2786 [tx_post_main_handle_mu_he_probing] OneShot BIT TRUE
+S 4 1 4 2715 [pos main handle moveToNextPhase] bit to move enabled! currentPhasePointer 0x%08x, fullPhasePointer 0x%08x
+S 4 1 4 2720 [post main handle moveToNextPhase] currentPhasePointer 0x%08x -> nextPhasePointer 0x%08x
+S 4 1 4 2776 [tx_post_main_handle_mu_he_probing] OneShot BIT TRUE
 S 4 1 5 128 Tx Start: Beacon
 S 4 1 5 132 Tx Start: Probe Response
 S 4 1 5 1271 coSaIndication %d
