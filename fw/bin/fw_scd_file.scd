@@ -1304,27 +1304,27 @@ S 1 27 1 143 dutResetBb, calling PhyDrv_ResetBB()
 S 1 27 1 156 dutStartBb, calling PhyDrv_ReActivateBB()
 S 1 27 1 339 dutHwAccessSetDefaultAntenaSet, calling PhyDrv_SetRFMtype(MTLK_RF_MGMT_TYPE_OFF)
 S 1 27 1 444 dutHwAccessSetSpacelessTransmission, dutDB_p->spaceless:%d was  (0=false, 1=true), now chabge to %d
-S 1 27 1 465 dutHwAccessSetSpacelessTransmission: txDone = %d
-S 1 27 1 470 dutHwAccessSetSpacelessTransmission: txDone = %d
-S 1 27 1 511 DUT_SendModifyIfsParamsReq
-S 1 27 1 583 DUT_SetIfsValue, spacingUsec:%d, ifsn:%d, slotTimer:%d
-S 1 27 1 942 COND_FATAL Error in file: "Dut_HwAccess.c"; COND_FATAL description: dutDB_p->TxPowerFeedbackRequested == FALSE
-S 1 27 1 955 dutHwAccessGetTxPowerFeedbackReq, dutTxState NOT is DUT_TX_STATE_TRANSMITTING ! return to user
-S 1 27 1 1006 dutHwAccessGetRxGains, sysGain[%d] = 0x%x
-S 1 27 1 1019 dutHwAccessGetRxGains, backoffToDbmOffset = 0x%x
-S 1 27 1 1026 dutHwAccessGetRxGains, rxGains_p->antRxGains[%d].bbGain = 0x%x
-S 1 27 1 1048 dutHwAccessGetRxGains, sysGainDfs = 0x%x
-S 1 27 1 1059 dutHwAccessGetRxGains, backoffToDbmOffsetDfs = 0x%x
-S 1 27 1 1066 dutHwAccessGetRxGains, rxGains_p->antRxGainsDfs.bbGain = 0x%x
-S 1 27 1 1079 COND_FATAL Error in file: "Dut_HwAccess.c"; COND_FATAL description: dutHwAccessGetRxGains shouldn't be called in w600/d2/d2b or w700
-S 1 27 1 1175 COND_FATAL Error in file: "Dut_HwAccess.c"; COND_FATAL description: !((memoryAccessParams->address)%4)
-S 1 27 1 1197 Fatal Error in file: "Dut_HwAccess.c"; Fatal Print: klocwork ignore, UNREACH.GEN..... All the cases in the ENUM is handled, klockwork sees this assert as unreachable code
-S 1 27 1 1223 COND_FATAL Error in file: "Dut_HwAccess.c"; COND_FATAL description: !((memoryAccessParams->address)%4)
-S 1 27 1 1242 Fatal Error in file: "Dut_HwAccess.c"; Fatal Print: klocwork ignore, UNREACH.GEN..... All the cases in the ENUM is handled, klockwork sees this assert as unreachable code
-S 1 27 1 1272 COND_FATAL Error in file: "Dut_HwAccess.c"; COND_FATAL description: dutDB_p->savedDutMsgId == DUT_GET_TX_POWER_FEEDBACK_REQ
-S 1 27 1 1283 dutHwAccessReadTxPowerFeedBack, powerIndex:%x, validSamples:0x%x, txEnabledAntennas:0x%x, phyBw:%d
-S 1 27 1 1295 dutHwAccessReadTxPowerFeedBack, ant:%d, voltageMeasure:%d
-S 1 27 1 1304 voltageMeasure, voltageMeasure:%d , ant = %d
+S 1 27 1 466 dutHwAccessSetSpacelessTransmission: txDone = %d
+S 1 27 1 471 dutHwAccessSetSpacelessTransmission: txDone = %d
+S 1 27 1 512 DUT_SendModifyIfsParamsReq
+S 1 27 1 584 DUT_SetIfsValue, spacingUsec:%d, ifsn:%d, slotTimer:%d
+S 1 27 1 943 COND_FATAL Error in file: "Dut_HwAccess.c"; COND_FATAL description: dutDB_p->TxPowerFeedbackRequested == FALSE
+S 1 27 1 956 dutHwAccessGetTxPowerFeedbackReq, dutTxState NOT is DUT_TX_STATE_TRANSMITTING ! return to user
+S 1 27 1 1007 dutHwAccessGetRxGains, sysGain[%d] = 0x%x
+S 1 27 1 1020 dutHwAccessGetRxGains, backoffToDbmOffset = 0x%x
+S 1 27 1 1027 dutHwAccessGetRxGains, rxGains_p->antRxGains[%d].bbGain = 0x%x
+S 1 27 1 1049 dutHwAccessGetRxGains, sysGainDfs = 0x%x
+S 1 27 1 1060 dutHwAccessGetRxGains, backoffToDbmOffsetDfs = 0x%x
+S 1 27 1 1067 dutHwAccessGetRxGains, rxGains_p->antRxGainsDfs.bbGain = 0x%x
+S 1 27 1 1080 COND_FATAL Error in file: "Dut_HwAccess.c"; COND_FATAL description: dutHwAccessGetRxGains shouldn't be called in w600/d2/d2b or w700
+S 1 27 1 1176 COND_FATAL Error in file: "Dut_HwAccess.c"; COND_FATAL description: !((memoryAccessParams->address)%4)
+S 1 27 1 1198 Fatal Error in file: "Dut_HwAccess.c"; Fatal Print: klocwork ignore, UNREACH.GEN..... All the cases in the ENUM is handled, klockwork sees this assert as unreachable code
+S 1 27 1 1224 COND_FATAL Error in file: "Dut_HwAccess.c"; COND_FATAL description: !((memoryAccessParams->address)%4)
+S 1 27 1 1243 Fatal Error in file: "Dut_HwAccess.c"; Fatal Print: klocwork ignore, UNREACH.GEN..... All the cases in the ENUM is handled, klockwork sees this assert as unreachable code
+S 1 27 1 1273 COND_FATAL Error in file: "Dut_HwAccess.c"; COND_FATAL description: dutDB_p->savedDutMsgId == DUT_GET_TX_POWER_FEEDBACK_REQ
+S 1 27 1 1284 dutHwAccessReadTxPowerFeedBack, powerIndex:%x, validSamples:0x%x, txEnabledAntennas:0x%x, phyBw:%d
+S 1 27 1 1296 dutHwAccessReadTxPowerFeedBack, ant:%d, voltageMeasure:%d
+S 1 27 1 1305 voltageMeasure, voltageMeasure:%d , ant = %d
 S 1 27 2 341 Fatal Error in file: "Dut_Managment.c"; Fatal Print: [DutMngmnt_Dispatcher], clipping option not available in GEN6
 S 1 27 2 349 Fatal Error in file: "Dut_Managment.c"; Fatal Print: [DutMngmnt_Dispatcher], DUT_SHIFT_POWER_OUT_VECTOR_REQ not available in GEN6 use DUT_SET_POUT_TABLE_OFFSET_REQ
 S 1 27 2 611 Fatal Error in file: "Dut_Managment.c"; Fatal Print: DutMngmnt_Dispatcher invalid case
@@ -1347,52 +1347,52 @@ S 1 27 3 351 Fatal Error in file: "Dut_Tx.c"; Fatal Print: DutTx_Dispatcher inva
 S 1 27 3 361 dutTxSetState, old state:%d, new state:%d
 S 1 27 3 412 dutWaitForMacEmuTransmissionEnd: max time maxTimeExceeded ! Timeout= %d
 S 1 27 3 428 dutTxGetPowerVectorPerAnt, index:%d, measuredVoltagePerPower:%d
-S 1 27 3 466 dutTxStartPowerVectortransmission:lengthOfPowerVector  = %d
-S 1 27 3 467 dutTxStartPowerVectortransmission: current Vector Index = %d
-S 1 27 3 468 dutTxStartPowerVectortransmission: numOftransmissionPerPower = %d
-S 1 27 3 469 dutTxStartPowerVectortransmission:startingPacketLength  = %d
-S 1 27 3 479 dutTxStartPowerVectortransmission: current packetLength = %d
-S 1 27 3 480 dutTxStartPowerVectortransmission:packetLengthIncrementPerIndex  = %d
-S 1 27 3 508 COND_FATAL Error in file: "Dut_Tx.c"; COND_FATAL description: PvNumberOfPacketsTransmitted != 0
-S 1 27 3 519 dutTxStartPowerVectorTransmission: max time maxTimeExceeded! [vector stop & cfm sent]
-S 1 27 3 526 COND_FATAL Error in file: "Dut_Tx.c"; COND_FATAL description: 0
-S 1 27 3 544 Error!, dutTxStartTransmission: Channel NOT SET, isChannelSet:%d
-S 1 27 3 554 dutTxStartTransmission, DUT_STATUS_TX_START_IS_ONGOING
-S 1 27 3 562 dutTxStartTransmission, DUT_STATUS_TX_STOP_IS_ONGOING
-S 1 27 3 569 Fatal Error in file: "Dut_Tx.c"; Fatal Print: klocwork ignore, UNREACH.GEN..... All the cases in the ENUM are handled, klockwork sees this assert as unreachable code
-S 1 27 3 582 dutTxStartTransmision function
-S 1 27 3 595 -----IDLE_STATE: channel set. dutTxStartTransmision:fill traffic param ----
-S 1 27 3 607 Error!, dutTxStartTransmision: Channel NOT SET, isChannelSet:%d
-S 1 27 3 620 dutTxStartTransmision, DUT_STATUS_TX_START_IS_ONGOING
-S 1 27 3 626 dutTxStartTransmision, DUT_STATUS_TX_STOP_IS_ONGOING
-S 1 27 3 631 Fatal Error in file: "Dut_Tx.c"; Fatal Print: klocwork ignore, UNREACH.GEN..... All the cases in the ENUM is handled, klockwork sees this assert as unreachable code
-S 1 27 3 649 ----- dutTxStopTransmision ---- TxState = 0x%x, isDataLongTransmitted:%d
-S 1 27 3 673 dutTxStopTransmision: STATE TX changed to STOPPING. packetsTransmitted:%d, packetsProcessed:%d
-S 1 27 3 678 dutTxStopTransmision, DUT_STATUS_TX_ALREADY_STOPPED
-S 1 27 3 684 dutTxStopTransmision, DUT_STATUS_TX_STOP_IS_ONGOING
-S 1 27 3 689 Fatal Error in file: "Dut_Tx.c"; Fatal Print: klocwork ignore, UNREACH.GEN..... All the cases in the ENUM is handled, klockwork sees this assert as unreachable code
-S 1 27 3 703 COND_FATAL Error in file: "Dut_Tx.c"; COND_FATAL description: txParams_p->repeats != 0
-S 1 27 3 750 COND_FATAL Error in file: "Dut_Tx.c"; COND_FATAL description: 0
-S 1 27 3 853 LongPackets antMask:%d, RfPow:%d, bw:%d, phymode:%d
-S 1 27 3 854 packet_length:%d, ldpc:%d, gap:%d repeats:%d
-S 1 27 3 855 rate_out:%d rate_debug:%d ,mcs:%d, nss:%d
-S 1 27 3 856 isBf:%d, cpMode:%d
-S 1 27 3 857 COND_FATAL Error in file: "Dut_Tx.c"; COND_FATAL description: rate_out == rate_debug
-S 1 27 3 1118 dutSetRuParams: CBW %d userOne %d userTwo %d
-S 1 27 3 1188 User %d
-S 1 27 3 1189 ruSize %d startRu %d subBand %d mru %d
-S 1 27 3 1192 ruConfigType %d puncturingMapWhole %d
-S 1 27 3 1202 %s: setting forceClipperDisable %d
-S 1 27 3 1222 Fatal Error in file: "Dut_Tx.c"; Fatal Print: [DUT_IsBeamformingMatrixValid] Beamforming not supported for legacy modes
-S 1 27 3 1226 COND_FATAL Error in file: "Dut_Tx.c"; COND_FATAL description: [DUT_IsBeamformingMatrixValid] BF matrix PHY mode mismatch: expected HT
-S 1 27 3 1231 COND_FATAL Error in file: "Dut_Tx.c"; COND_FATAL description: [DUT_IsBeamformingMatrixValid] BF matrix PHY mode mismatch: expected VHT
-S 1 27 3 1236 COND_FATAL Error in file: "Dut_Tx.c"; COND_FATAL description: [DUT_IsBeamformingMatrixValid] BF matrix PHY mode mismatch: expected HE
-S 1 27 3 1243 Fatal Error in file: "Dut_Tx.c"; Fatal Print: [DUT_IsBeamformingMatrixValid] Beamforming not supported for 11AX MU modes
-S 1 27 3 1248 COND_FATAL Error in file: "Dut_Tx.c"; COND_FATAL description: [DUT_IsBeamformingMatrixValid] BF matrix PHY mode mismatch: expected EHT
-S 1 27 3 1254 Fatal Error in file: "Dut_Tx.c"; Fatal Print: [DUT_IsBeamformingMatrixValid] Beamforming not supported for 11BE MU modes
-S 1 27 3 1259 Fatal Error in file: "Dut_Tx.c"; Fatal Print: [DUT_IsBeamformingMatrixValid] Unsupported PHY mode for beamforming
-S 1 27 3 1287 COND_FATAL Error in file: "Dut_Tx.c"; COND_FATAL description: [DUT_IsBeamformingMatrixValid] BF matrix bandwidth mismatch
-S 1 27 3 1326 COND_FATAL Error in file: "Dut_Tx.c"; COND_FATAL description: [DUT_IsBeamformingMatrixValid] BF matrix bandwidth mismatch
+S 1 27 3 467 dutTxStartPowerVectortransmission:lengthOfPowerVector  = %d
+S 1 27 3 468 dutTxStartPowerVectortransmission: current Vector Index = %d
+S 1 27 3 469 dutTxStartPowerVectortransmission: numOftransmissionPerPower = %d
+S 1 27 3 470 dutTxStartPowerVectortransmission:startingPacketLength  = %d
+S 1 27 3 480 dutTxStartPowerVectortransmission: current packetLength = %d
+S 1 27 3 481 dutTxStartPowerVectortransmission:packetLengthIncrementPerIndex  = %d
+S 1 27 3 509 COND_FATAL Error in file: "Dut_Tx.c"; COND_FATAL description: PvNumberOfPacketsTransmitted != 0
+S 1 27 3 520 dutTxStartPowerVectorTransmission: max time maxTimeExceeded! [vector stop & cfm sent]
+S 1 27 3 527 COND_FATAL Error in file: "Dut_Tx.c"; COND_FATAL description: 0
+S 1 27 3 545 Error!, dutTxStartTransmission: Channel NOT SET, isChannelSet:%d
+S 1 27 3 555 dutTxStartTransmission, DUT_STATUS_TX_START_IS_ONGOING
+S 1 27 3 563 dutTxStartTransmission, DUT_STATUS_TX_STOP_IS_ONGOING
+S 1 27 3 570 Fatal Error in file: "Dut_Tx.c"; Fatal Print: klocwork ignore, UNREACH.GEN..... All the cases in the ENUM are handled, klockwork sees this assert as unreachable code
+S 1 27 3 583 dutTxStartTransmision function
+S 1 27 3 596 -----IDLE_STATE: channel set. dutTxStartTransmision:fill traffic param ----
+S 1 27 3 608 Error!, dutTxStartTransmision: Channel NOT SET, isChannelSet:%d
+S 1 27 3 621 dutTxStartTransmision, DUT_STATUS_TX_START_IS_ONGOING
+S 1 27 3 627 dutTxStartTransmision, DUT_STATUS_TX_STOP_IS_ONGOING
+S 1 27 3 632 Fatal Error in file: "Dut_Tx.c"; Fatal Print: klocwork ignore, UNREACH.GEN..... All the cases in the ENUM is handled, klockwork sees this assert as unreachable code
+S 1 27 3 650 ----- dutTxStopTransmision ---- TxState = 0x%x, isDataLongTransmitted:%d
+S 1 27 3 674 dutTxStopTransmision: STATE TX changed to STOPPING. packetsTransmitted:%d, packetsProcessed:%d
+S 1 27 3 679 dutTxStopTransmision, DUT_STATUS_TX_ALREADY_STOPPED
+S 1 27 3 685 dutTxStopTransmision, DUT_STATUS_TX_STOP_IS_ONGOING
+S 1 27 3 690 Fatal Error in file: "Dut_Tx.c"; Fatal Print: klocwork ignore, UNREACH.GEN..... All the cases in the ENUM is handled, klockwork sees this assert as unreachable code
+S 1 27 3 704 COND_FATAL Error in file: "Dut_Tx.c"; COND_FATAL description: txParams_p->repeats != 0
+S 1 27 3 751 COND_FATAL Error in file: "Dut_Tx.c"; COND_FATAL description: 0
+S 1 27 3 846 LongPackets antMask:%d, RfPow:%d, bw:%d, phymode:%d
+S 1 27 3 847 packet_length:%d, ldpc:%d, gap:%d repeats:%d
+S 1 27 3 848 rate_out:%d rate_debug:%d ,mcs:%d, nss:%d
+S 1 27 3 849 isBf:%d, cpMode:%d
+S 1 27 3 850 COND_FATAL Error in file: "Dut_Tx.c"; COND_FATAL description: rate_out == rate_debug
+S 1 27 3 1111 dutSetRuParams: CBW %d userOne %d userTwo %d
+S 1 27 3 1181 User %d
+S 1 27 3 1182 ruSize %d startRu %d subBand %d mru %d
+S 1 27 3 1185 ruConfigType %d puncturingMapWhole %d
+S 1 27 3 1195 %s: setting forceClipperDisable %d
+S 1 27 3 1215 Fatal Error in file: "Dut_Tx.c"; Fatal Print: [DUT_IsBeamformingMatrixValid] Beamforming not supported for legacy modes
+S 1 27 3 1219 COND_FATAL Error in file: "Dut_Tx.c"; COND_FATAL description: [DUT_IsBeamformingMatrixValid] BF matrix PHY mode mismatch: expected HT
+S 1 27 3 1224 COND_FATAL Error in file: "Dut_Tx.c"; COND_FATAL description: [DUT_IsBeamformingMatrixValid] BF matrix PHY mode mismatch: expected VHT
+S 1 27 3 1229 COND_FATAL Error in file: "Dut_Tx.c"; COND_FATAL description: [DUT_IsBeamformingMatrixValid] BF matrix PHY mode mismatch: expected HE
+S 1 27 3 1236 Fatal Error in file: "Dut_Tx.c"; Fatal Print: [DUT_IsBeamformingMatrixValid] Beamforming not supported for 11AX MU modes
+S 1 27 3 1241 COND_FATAL Error in file: "Dut_Tx.c"; COND_FATAL description: [DUT_IsBeamformingMatrixValid] BF matrix PHY mode mismatch: expected EHT
+S 1 27 3 1247 Fatal Error in file: "Dut_Tx.c"; Fatal Print: [DUT_IsBeamformingMatrixValid] Beamforming not supported for 11BE MU modes
+S 1 27 3 1252 Fatal Error in file: "Dut_Tx.c"; Fatal Print: [DUT_IsBeamformingMatrixValid] Unsupported PHY mode for beamforming
+S 1 27 3 1280 COND_FATAL Error in file: "Dut_Tx.c"; COND_FATAL description: [DUT_IsBeamformingMatrixValid] BF matrix bandwidth mismatch
+S 1 27 3 1319 COND_FATAL Error in file: "Dut_Tx.c"; COND_FATAL description: [DUT_IsBeamformingMatrixValid] BF matrix bandwidth mismatch
 S 1 28 1 453 vAPP_Assert assertGroupId=%d assertFileId=%d assertLine=%d
 S 1 28 1 930 Fatal Error in file: "ErrorHandler.c"; Fatal Print: [ErrorHadler_CheckAssertReqFromHost], Assert Requested by the Host
 S 1 28 1 1094 COND_FATAL Error in file: "ErrorHandler.c"; COND_FATAL description: FWinterface < MAX_NUMBER_OF_WLAN_INTERFACES
@@ -5113,7 +5113,7 @@ S 1 56 2 185 COND_FATAL Error in file: "loggerAPI.c"; COND_FATAL description: fi
 S 1 56 2 235 COND_FATAL Error in file: "loggerAPI.c"; COND_FATAL description: filterMsg_p
 S 1 56 2 337 KERNEL_EVENT_RECV_FROM_HOST_MSG kMsgType: %08x
 S 1 56 2 348 KERNEL_EVENT_SEND_TO_HOST_MSG kMsgType: %08x
-S 1 2 0 0 wlan_7.2.300@r1044+a+233+a+15-354fd2
+S 1 2 0 0 wlan_7.2.300@r1044+a+233+a+23-e90bc1
 S 1 57 0 210 COND_FATAL Error in file: "lm_StaDatabase.c"; COND_FATAL description: pStaDbSwEntry->nextSid < (SYS_NUM_OF_STAS)
 S 1 57 0 256 COND_FATAL Error in file: "lm_StaDatabase.c"; COND_FATAL description: nextSid != DB_ASYNC_SID
 S 1 57 0 292 COND_FATAL Error in file: "lm_StaDatabase.c"; COND_FATAL description: staIndex<SYS_NUM_OF_STAS
@@ -8035,17 +8035,17 @@ M 1 27 1 223 LinkAdaptationFixedAntennaSelection_t
 M 1 27 1 250 dutSetAntennaParams_t
 M 1 27 1 387 dutTxToneParams_t
 M 1 27 1 443 dutTxSpacelessParams_t
-M 1 27 1 572 dutIfsParams_t
-M 1 27 1 627 dutRssiParams_t
-M 1 27 1 945 dutTpcFeedbackparams_t
-M 1 27 1 1031 dutRficRxGainsParams_t
-M 1 27 1 1070 dutRficRxGainsParams_t
-M 1 27 1 1099 dutXtalParams_t
-M 1 27 1 1119 dutXtalParams_t
-M 1 27 1 1164 dutMemoryAccessParams_t
-M 1 27 1 1212 dutMemoryAccessParams_t
-M 1 27 1 1341 dutTpcFeedbackparams_t
-M 1 27 1 1367 dutRficTxGainsParams_t
+M 1 27 1 573 dutIfsParams_t
+M 1 27 1 628 dutRssiParams_t
+M 1 27 1 946 dutTpcFeedbackparams_t
+M 1 27 1 1032 dutRficRxGainsParams_t
+M 1 27 1 1071 dutRficRxGainsParams_t
+M 1 27 1 1100 dutXtalParams_t
+M 1 27 1 1120 dutXtalParams_t
+M 1 27 1 1165 dutMemoryAccessParams_t
+M 1 27 1 1213 dutMemoryAccessParams_t
+M 1 27 1 1342 dutTpcFeedbackparams_t
+M 1 27 1 1368 dutRficTxGainsParams_t
 M 1 27 2 153 RssiGainBlock_t
 M 1 27 2 180 dutLnaMidGain_t
 M 1 27 2 207 RssiCwPower_t
@@ -8069,8 +8069,8 @@ M 1 27 2 959 LaFixedRateParams_t
 M 1 27 2 980 dutGetRate_t
 M 1 27 2 994 LaGetPhyRateParams_t
 M 1 27 2 1078 dutGetFwInfo_t
-M 1 27 3 583 dutTxParams_t
-M 1 27 3 599 trafficParams_t
+M 1 27 3 584 dutTxParams_t
+M 1 27 3 600 trafficParams_t
 M 1 29 0 297 RetryDbDebugInfo_t
 M 1 29 0 366 EstimatorsDebugErrorRate_t
 M 1 29 0 423 EstimatorsIfMitigationConfig_t
