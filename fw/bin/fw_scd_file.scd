@@ -809,21 +809,23 @@ S 1 16 7 94 run RxDC for Zwdfs Antenna
 S 1 16 7 108 RxDC Zwdfs Antenna Calibration done. elapsed time = %d TSF units. retVal %d
 S 1 16 9 35 Run TxLO calibration. CalibType %d
 S 1 16 9 57 TxLO Calibration done. elapsed time = %d usec
-S 1 16 10 109 TPC_loadChannelData chID = 0x%x, bw = %d, antMask=%d
-S 1 16 10 156 TPC_extractTpcFreqParams ant = 0x%x, channel = 0x%x, bw = %d
-S 1 16 10 157 TPC_extractTpcFreqParams channel = 0x%x, rfBand = %d
-S 1 16 10 167 COND_FATAL Error in file: "TpcClbrHndlr.c"; COND_FATAL description: bw < MAX_NUM_OF_BW
-S 1 16 10 168 COND_FATAL Error in file: "TpcClbrHndlr.c"; COND_FATAL description: numElements[bw] < 2
-S 1 16 10 375 TPC_loadTSSIParams bw = %d, tpcFreqLen = %d
-S 1 16 10 430 TPC_loadTSSIParams tpcAntBandwidth = %d, bw = %d, tpcFreqLen = %d
-S 1 16 10 449 TPC_loadTSSIParams tpcAntBandwidth = %d, bw = %d, tpcFreqLen = %d
-S 1 16 10 484 TPC_setTxPowerTableOffset ant = %d, bw = %d, uevm_gain = %d
-S 1 16 10 508 COND_FATAL Error in file: "TpcClbrHndlr.c"; COND_FATAL description: bandwidth < BW_LAST
-S 1 16 10 558 Fatal Error in file: "TpcClbrHndlr.c"; Fatal Print: in TPC_getRegulationLimit unsupported Phy mode
-S 1 16 10 717 Fatal Error in file: "TpcClbrHndlr.c"; Fatal Print: Bw out of the range
-S 1 16 10 746 TPC_FreqInterpolation_1s2d outTpcFreq->chID = %d, tpcFreq1->chID = %d, tpcFreq2->chID = %d
-S 1 16 10 932 TPC_configureS2DGainAndOffset ant = %d, bw = %d
-S 1 16 10 933 TPC_configureS2DGainAndOffset region = %d, gain = %d, offset = %d
+S 1 16 10 114 TPC_loadChannelData chID = 0x%x, bw = %d, antMask=%d
+S 1 16 10 161 TPC_extractTpcFreqParams ant = 0x%x, channel = 0x%x, bw = %d
+S 1 16 10 162 TPC_extractTpcFreqParams channel = 0x%x, rfBand = %d
+S 1 16 10 172 COND_FATAL Error in file: "TpcClbrHndlr.c"; COND_FATAL description: bw < MAX_NUM_OF_BW
+S 1 16 10 173 COND_FATAL Error in file: "TpcClbrHndlr.c"; COND_FATAL description: numElements[bw] < 2
+S 1 16 10 386 TPC_loadTSSIParams bw = %d, tpcFreqLen = %d
+S 1 16 10 451 TPC_loadTSSIParams tpcAntBandwidth = %d, bw = %d, tpcFreqLen = %d
+S 1 16 10 471 TPC_loadTSSIParams tpcAntBandwidth = %d, bw = %d, tpcFreqLen = %d
+S 1 16 10 506 TPC_setTxPowerTableOffset ant = %d, bw = %d, uevm_gain = %d
+S 1 16 10 530 COND_FATAL Error in file: "TpcClbrHndlr.c"; COND_FATAL description: bandwidth < BW_LAST
+S 1 16 10 580 Fatal Error in file: "TpcClbrHndlr.c"; Fatal Print: in TPC_getRegulationLimit unsupported Phy mode
+S 1 16 10 739 Fatal Error in file: "TpcClbrHndlr.c"; Fatal Print: Bw out of the range
+S 1 16 10 768 TPC_FreqInterpolation_1s2d outTpcFreq->chID = %d, tpcFreq1->chID = %d, tpcFreq2->chID = %d
+S 1 16 10 954 TPC_configureS2DGainAndOffset ant = %d, bw = %d
+S 1 16 10 955 TPC_configureS2DGainAndOffset region = %d, gain = %d, offset = %d
+S 1 16 10 979 TPC_configureTssiPowerThreshold ant = %d, bw = %d
+S 1 16 10 980 TPC_configureTssiPowerThreshold region = %d, Threshold = %d
 S 1 16 11 267 RSSI Path: Executing Calibration
 S 1 16 11 278 COND_FATAL Error in file: "RssiPathClbrHndlr.c"; COND_FATAL description: inCalibType == CLBR_TYPE_OFFLINE
 S 1 16 11 531 COND_FATAL Error in file: "RssiPathClbrHndlr.c"; COND_FATAL description: 0 == memcmp(calFileShramDb.rssiPointer[rfBand], &rssiPathData,rssiDataSize)
@@ -1325,23 +1327,23 @@ S 1 27 1 1273 COND_FATAL Error in file: "Dut_HwAccess.c"; COND_FATAL description
 S 1 27 1 1284 dutHwAccessReadTxPowerFeedBack, powerIndex:%x, validSamples:0x%x, txEnabledAntennas:0x%x, phyBw:%d
 S 1 27 1 1296 dutHwAccessReadTxPowerFeedBack, ant:%d, voltageMeasure:%d
 S 1 27 1 1305 voltageMeasure, voltageMeasure:%d , ant = %d
-S 1 27 2 341 Fatal Error in file: "Dut_Managment.c"; Fatal Print: [DutMngmnt_Dispatcher], clipping option not available in GEN6
-S 1 27 2 349 Fatal Error in file: "Dut_Managment.c"; Fatal Print: [DutMngmnt_Dispatcher], DUT_SHIFT_POWER_OUT_VECTOR_REQ not available in GEN6 use DUT_SET_POUT_TABLE_OFFSET_REQ
-S 1 27 2 611 Fatal Error in file: "Dut_Managment.c"; Fatal Print: DutMngmnt_Dispatcher invalid case
-S 1 27 2 706 dutStartCalibration, abort request, calibration in process: %d
-S 1 27 2 724 dutStartCalibration, start DUT_CALIBRATION_TYPE_ONLINE
-S 1 27 2 726 Fatal Error in file: "Dut_Managment.c"; Fatal Print: [DUT_StartCalibration], Online calibration not yet supported
-S 1 27 2 733 dutStartCalibration, start DUT_CALIBRATION_TYPE_OFFLINE
-S 1 27 2 741 Fatal Error in file: "Dut_Managment.c"; Fatal Print: [DUT_StartCalibration], calibrationReq invalid case
-S 1 27 2 764 COND_FATAL Error in file: "Dut_Managment.c"; COND_FATAL description: dutDB_p->onlineCalibrationCount > 0
-S 1 27 2 787 COND_FATAL Error in file: "Dut_Managment.c"; COND_FATAL description: dutDB_p->savedDutMsgId == DUT_START_CALIBRATION_REQ
-S 1 27 2 807 DUT_HandleCalibDone, calibration type: %d ended
-S 1 27 2 979 GET RATE %d
-S 1 27 2 1014 DUT_getRateCfm pLaGetPhyRateParams= %d ,pDutGetRate->rate = %d
-S 1 27 2 1024 rfchip:%x,bbchipId:%x
-S 1 27 2 1070 COND_FATAL Error in file: "Dut_Managment.c"; COND_FATAL description: 1 == Utils_GetNumAntsFromMask((dutGetFwInfo_p->zwdfsAntMask))
-S 1 27 2 1071 COND_FATAL Error in file: "Dut_Managment.c"; COND_FATAL description: dutGetFwInfo_p->psdMaxRxAntMask & dutGetFwInfo_p->zwdfsAntMask
-S 1 27 2 1098 Fatal Error in file: "Dut_Managment.c"; Fatal Print: klocwork ignore, UNREACH.GEN..... All the cases in the ENUM is handled, klockwork sees this assert as unreachable code
+S 1 27 2 343 Fatal Error in file: "Dut_Managment.c"; Fatal Print: [DutMngmnt_Dispatcher], clipping option not available in GEN6
+S 1 27 2 351 Fatal Error in file: "Dut_Managment.c"; Fatal Print: [DutMngmnt_Dispatcher], DUT_SHIFT_POWER_OUT_VECTOR_REQ not available in GEN6 use DUT_SET_POUT_TABLE_OFFSET_REQ
+S 1 27 2 613 Fatal Error in file: "Dut_Managment.c"; Fatal Print: DutMngmnt_Dispatcher invalid case
+S 1 27 2 708 dutStartCalibration, abort request, calibration in process: %d
+S 1 27 2 726 dutStartCalibration, start DUT_CALIBRATION_TYPE_ONLINE
+S 1 27 2 728 Fatal Error in file: "Dut_Managment.c"; Fatal Print: [DUT_StartCalibration], Online calibration not yet supported
+S 1 27 2 735 dutStartCalibration, start DUT_CALIBRATION_TYPE_OFFLINE
+S 1 27 2 743 Fatal Error in file: "Dut_Managment.c"; Fatal Print: [DUT_StartCalibration], calibrationReq invalid case
+S 1 27 2 766 COND_FATAL Error in file: "Dut_Managment.c"; COND_FATAL description: dutDB_p->onlineCalibrationCount > 0
+S 1 27 2 789 COND_FATAL Error in file: "Dut_Managment.c"; COND_FATAL description: dutDB_p->savedDutMsgId == DUT_START_CALIBRATION_REQ
+S 1 27 2 809 DUT_HandleCalibDone, calibration type: %d ended
+S 1 27 2 981 GET RATE %d
+S 1 27 2 1016 DUT_getRateCfm pLaGetPhyRateParams= %d ,pDutGetRate->rate = %d
+S 1 27 2 1026 rfchip:%x,bbchipId:%x
+S 1 27 2 1072 COND_FATAL Error in file: "Dut_Managment.c"; COND_FATAL description: 1 == Utils_GetNumAntsFromMask((dutGetFwInfo_p->zwdfsAntMask))
+S 1 27 2 1073 COND_FATAL Error in file: "Dut_Managment.c"; COND_FATAL description: dutGetFwInfo_p->psdMaxRxAntMask & dutGetFwInfo_p->zwdfsAntMask
+S 1 27 2 1100 Fatal Error in file: "Dut_Managment.c"; Fatal Print: klocwork ignore, UNREACH.GEN..... All the cases in the ENUM is handled, klockwork sees this assert as unreachable code
 S 1 27 3 335 packetLength:%d
 S 1 27 3 351 Fatal Error in file: "Dut_Tx.c"; Fatal Print: DutTx_Dispatcher invalid case
 S 1 27 3 361 dutTxSetState, old state:%d, new state:%d
@@ -5113,7 +5115,7 @@ S 1 56 2 185 COND_FATAL Error in file: "loggerAPI.c"; COND_FATAL description: fi
 S 1 56 2 235 COND_FATAL Error in file: "loggerAPI.c"; COND_FATAL description: filterMsg_p
 S 1 56 2 337 KERNEL_EVENT_RECV_FROM_HOST_MSG kMsgType: %08x
 S 1 56 2 348 KERNEL_EVENT_SEND_TO_HOST_MSG kMsgType: %08x
-S 1 2 0 0 wlan_7.2.300@r1044+a+233+a+23-e90bc1
+S 1 2 0 0 wlan_7.2.300@r1044+a+233+a+37-78e07d
 S 1 57 0 210 COND_FATAL Error in file: "lm_StaDatabase.c"; COND_FATAL description: pStaDbSwEntry->nextSid < (SYS_NUM_OF_STAS)
 S 1 57 0 256 COND_FATAL Error in file: "lm_StaDatabase.c"; COND_FATAL description: nextSid != DB_ASYNC_SID
 S 1 57 0 292 COND_FATAL Error in file: "lm_StaDatabase.c"; COND_FATAL description: staIndex<SYS_NUM_OF_STAS
@@ -7877,16 +7879,16 @@ S 1 107 0 513 Set MRU Parameters %d %d %d %d
 S 1 107 0 518 Set MRU error. Primary %d, DSB: 0x%X
 S 1 107 0 523 NO puncturing configured: disabled subch bitmap 0x%X
 S 1 107 0 528 MRU_SetBwStaHwDb upperIdex %d, sta %d
-S 1 107 0 571 [MRU_FillVapDbHwEntry] disabledSubchBitmap: 0x%x, bandwidth: %d, primary: %d, mruEnable: %d
-S 1 107 0 575 MRU Logic Disabled
-S 1 107 0 593 Set MRU Parameters in VAP DB %d
-S 1 107 0 594 Set MRU Parameters in VAP DB %d %d %d %d
-S 1 107 0 600 Set MRU error in VAP DB. Primary %d, DSB: 0x%X
-S 1 107 0 606 NO puncturing configured in VAP: disabled subch bitmap 0x%X
-S 1 107 0 650 MRU_StoreParamsInStaHwDb sta Id %d, UpperIdx %d, bitmap %x
-S 1 107 0 733 COND_FATAL Error in file: "MRU.c"; COND_FATAL description: Invalid primary subband
-S 1 107 0 734 COND_FATAL Error in file: "MRU.c"; COND_FATAL description: Invalid bandwidth
-S 1 107 0 753 [LinkAdapatation_SetDebugMRUMode] dynamicPunctDebug %d
+S 1 107 0 572 [MRU_FillVapDbHwEntry] disabledSubchBitmap: 0x%x, bandwidth: %d, primary: %d, mruEnable: %d
+S 1 107 0 576 MRU Logic Disabled
+S 1 107 0 594 Set MRU Parameters in VAP DB %d
+S 1 107 0 595 Set MRU Parameters in VAP DB %d %d %d %d
+S 1 107 0 601 Set MRU error in VAP DB. Primary %d, DSB: 0x%X
+S 1 107 0 607 NO puncturing configured in VAP: disabled subch bitmap 0x%X
+S 1 107 0 651 MRU_StoreParamsInStaHwDb sta Id %d, UpperIdx %d, bitmap %x
+S 1 107 0 734 COND_FATAL Error in file: "MRU.c"; COND_FATAL description: Invalid primary subband
+S 1 107 0 735 COND_FATAL Error in file: "MRU.c"; COND_FATAL description: Invalid bandwidth
+S 1 107 0 754 [LinkAdapatation_SetDebugMRUMode] dynamicPunctDebug %d
 S 1 107 1 895 COND_FATAL Error in file: "MruUserAlloc.c"; COND_FATAL description: numUsersIdx<PRE_AGG_NUM_USERS_NUM_ENTRIES
 S 1 107 1 1302 Assert in file: "MruUserAlloc.c" in line: 1302
 S 1 108 0 87 COND_FATAL Error in file: "MuPhasesBank.c"; COND_FATAL description: Invalid group Id
@@ -8054,21 +8056,21 @@ M 1 27 2 237 DutRssiOffsetGain_t
 M 1 27 2 250 RfRssiPower_t
 M 1 27 2 270 FemType_t
 M 1 27 2 301 dpdNmseMeasures_t
-M 1 27 2 442 dutPowerOutVecParams_t
-M 1 27 2 452 dutRuParams_t
-M 1 27 2 463 bool
-M 1 27 2 556 dutRxPacketLimit_t
-M 1 27 2 570 dutRxPerCounters_t
-M 1 27 2 590 dutRxMeasureParams_t
-M 1 27 2 666 CLBR_HNDLR_RESET_CONF
-M 1 27 2 695 dutStartCalibrationParams_t
-M 1 27 2 696 dutDB_t
-M 1 27 2 900 dutPowerOutVecParams_t
-M 1 27 2 932 dutSetRate_t
-M 1 27 2 959 LaFixedRateParams_t
-M 1 27 2 980 dutGetRate_t
-M 1 27 2 994 LaGetPhyRateParams_t
-M 1 27 2 1078 dutGetFwInfo_t
+M 1 27 2 444 dutPowerOutVecParams_t
+M 1 27 2 454 dutRuParams_t
+M 1 27 2 465 bool
+M 1 27 2 558 dutRxPacketLimit_t
+M 1 27 2 572 dutRxPerCounters_t
+M 1 27 2 592 dutRxMeasureParams_t
+M 1 27 2 668 CLBR_HNDLR_RESET_CONF
+M 1 27 2 697 dutStartCalibrationParams_t
+M 1 27 2 698 dutDB_t
+M 1 27 2 902 dutPowerOutVecParams_t
+M 1 27 2 934 dutSetRate_t
+M 1 27 2 961 LaFixedRateParams_t
+M 1 27 2 982 dutGetRate_t
+M 1 27 2 996 LaGetPhyRateParams_t
+M 1 27 2 1080 dutGetFwInfo_t
 M 1 27 3 584 dutTxParams_t
 M 1 27 3 600 trafficParams_t
 M 1 29 0 297 RetryDbDebugInfo_t
