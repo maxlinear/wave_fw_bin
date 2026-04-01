@@ -5164,7 +5164,7 @@ S 1 56 2 185 COND_FATAL Error in file: "loggerAPI.c"; COND_FATAL description: fi
 S 1 56 2 235 COND_FATAL Error in file: "loggerAPI.c"; COND_FATAL description: filterMsg_p
 S 1 56 2 337 KERNEL_EVENT_RECV_FROM_HOST_MSG kMsgType: %08x
 S 1 56 2 348 KERNEL_EVENT_SEND_TO_HOST_MSG kMsgType: %08x
-S 1 2 0 0 wlan_7.2.440@r1676+a+13-778613
+S 1 2 0 0 wlan_7.2.440@r1676+a+24-a0c082
 S 1 57 0 211 COND_FATAL Error in file: "lm_StaDatabase.c"; COND_FATAL description: pStaDbSwEntry->nextSid < (SYS_NUM_OF_STAS)
 S 1 57 0 257 COND_FATAL Error in file: "lm_StaDatabase.c"; COND_FATAL description: nextSid != DB_ASYNC_SID
 S 1 57 0 293 COND_FATAL Error in file: "lm_StaDatabase.c"; COND_FATAL description: staIndex<SYS_NUM_OF_STAS
