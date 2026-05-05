@@ -111,25 +111,25 @@ G 1 110 GLOBAL_GID_TUAO_SP
 G 1 111 GLOBAL_GID_CFR
 G 1 112 PLAN_DRIVER
 G 1 113 GLOBAL_GID_LINK_ADAPTATION_2
-S 1 5 0 178 Assert in file: "StatisticsManager.c" in line: 178
-S 1 5 0 463 Statistics Manager, Send Confirmation, Client %d, SID %d
-S 1 5 0 496 Statistics Manager, Send Confirmation, VapId %d
-S 1 5 0 689 Fatal Error in file: "StatisticsManager.c"; Fatal Print: [statisticsManagerCopyStatisticsStart], STATISTICS_MANIPULATION_DATA type is unsupported currently
-S 1 5 0 715 Fatal Error in file: "StatisticsManager.c"; Fatal Print: [statisticsManagerCopyStatisticsManipulationData], itzhaki - currently we don't support manipulation data. (STATISTICS_MANIPULATION_DATA)
-S 1 5 0 742 Fatal Error in file: "StatisticsManager.c"; Fatal Print: [statisticsManagerCopyStatisticsManipulationDataShramHandler]
-S 1 5 0 773 Assert in file: "StatisticsManager.c" in line: 773
-S 1 5 0 1312 COND_FATAL Error in file: "StatisticsManager.c"; COND_FATAL description: vapId < SYS_NUM_OF_VAPS
-S 1 5 0 1378 COND_FATAL Error in file: "StatisticsManager.c"; COND_FATAL description: GetStatisticsReqMsgData_p->length >= statsMangDb_p->totalSizeToAllocate
-S 1 5 0 1379 COND_FATAL Error in file: "StatisticsManager.c"; COND_FATAL description: statsMangDbDmaParams_p->pMcMsg == NULL
-S 1 5 0 1380 COND_FATAL Error in file: "StatisticsManager.c"; COND_FATAL description: statsMangDbDmaParams_p->dmaInUse == FALSE
-S 1 5 0 1548 COND_FATAL Error in file: "StatisticsManager.c"; COND_FATAL description: (statsMangDbDmaParams_p->ddrBufferStartAddress + statsMangDb_p->totalSizeToAllocate) >= ((uint32)destination + length)
-S 1 5 0 1550 COND_FATAL Error in file: "StatisticsManager.c"; COND_FATAL description: length>0
-S 1 5 0 1660 COND_FATAL Error in file: "StatisticsManager.c"; COND_FATAL description: (statisticsManagerDb.operation[i].copy.typesArraySize & STAT_FOUR_BYTES_MASK) == 0
-S 1 5 0 1892 COND_FATAL Error in file: "StatisticsManager.c"; COND_FATAL description: ((uint32)statisticsManagerDb.operation[i].copy.pTypeDataList  & STAT_FOUR_BYTES_MASK) == 0
-S 1 5 0 1893 COND_FATAL Error in file: "StatisticsManager.c"; COND_FATAL description: ((uint32)statisticsManagerDb.operation[i].copy.typesArraySize & STAT_FOUR_BYTES_MASK) == 0
-S 1 5 0 1899 COND_FATAL Error in file: "StatisticsManager.c"; COND_FATAL description: statisticsManagerDb.operation[i].translation.converter != 0x0
-S 1 5 0 1900 COND_FATAL Error in file: "StatisticsManager.c"; COND_FATAL description: (statisticsManagerDb.operation[i].translation.convertedTypeSize & STAT_FOUR_BYTES_MASK) == 0
-S 1 5 0 1907 COND_FATAL Error in file: "StatisticsManager.c"; COND_FATAL description: statisticsManagerDb.totalSizeToAllocate >= sizeof(StatisticsDb_t)
+S 1 5 0 179 Assert in file: "StatisticsManager.c" in line: 179
+S 1 5 0 464 Statistics Manager, Send Confirmation, Client %d, SID %d
+S 1 5 0 497 Statistics Manager, Send Confirmation, VapId %d
+S 1 5 0 695 Fatal Error in file: "StatisticsManager.c"; Fatal Print: [statisticsManagerCopyStatisticsStart], STATISTICS_MANIPULATION_DATA type is unsupported currently
+S 1 5 0 721 Fatal Error in file: "StatisticsManager.c"; Fatal Print: [statisticsManagerCopyStatisticsManipulationData], itzhaki - currently we don't support manipulation data. (STATISTICS_MANIPULATION_DATA)
+S 1 5 0 748 Fatal Error in file: "StatisticsManager.c"; Fatal Print: [statisticsManagerCopyStatisticsManipulationDataShramHandler]
+S 1 5 0 779 Assert in file: "StatisticsManager.c" in line: 779
+S 1 5 0 1318 COND_FATAL Error in file: "StatisticsManager.c"; COND_FATAL description: vapId < SYS_NUM_OF_VAPS
+S 1 5 0 1384 COND_FATAL Error in file: "StatisticsManager.c"; COND_FATAL description: GetStatisticsReqMsgData_p->length >= statsMangDb_p->totalSizeToAllocate
+S 1 5 0 1385 COND_FATAL Error in file: "StatisticsManager.c"; COND_FATAL description: statsMangDbDmaParams_p->pMcMsg == NULL
+S 1 5 0 1386 COND_FATAL Error in file: "StatisticsManager.c"; COND_FATAL description: statsMangDbDmaParams_p->dmaInUse == FALSE
+S 1 5 0 1554 COND_FATAL Error in file: "StatisticsManager.c"; COND_FATAL description: (statsMangDbDmaParams_p->ddrBufferStartAddress + statsMangDb_p->totalSizeToAllocate) >= ((uint32)destination + length)
+S 1 5 0 1556 COND_FATAL Error in file: "StatisticsManager.c"; COND_FATAL description: length>0
+S 1 5 0 1666 COND_FATAL Error in file: "StatisticsManager.c"; COND_FATAL description: (statisticsManagerDb.operation[i].copy.typesArraySize & STAT_FOUR_BYTES_MASK) == 0
+S 1 5 0 1898 COND_FATAL Error in file: "StatisticsManager.c"; COND_FATAL description: ((uint32)statisticsManagerDb.operation[i].copy.pTypeDataList  & STAT_FOUR_BYTES_MASK) == 0
+S 1 5 0 1899 COND_FATAL Error in file: "StatisticsManager.c"; COND_FATAL description: ((uint32)statisticsManagerDb.operation[i].copy.typesArraySize & STAT_FOUR_BYTES_MASK) == 0
+S 1 5 0 1905 COND_FATAL Error in file: "StatisticsManager.c"; COND_FATAL description: statisticsManagerDb.operation[i].translation.converter != 0x0
+S 1 5 0 1906 COND_FATAL Error in file: "StatisticsManager.c"; COND_FATAL description: (statisticsManagerDb.operation[i].translation.convertedTypeSize & STAT_FOUR_BYTES_MASK) == 0
+S 1 5 0 1913 COND_FATAL Error in file: "StatisticsManager.c"; COND_FATAL description: statisticsManagerDb.totalSizeToAllocate >= sizeof(StatisticsDb_t)
 S 1 5 1 105 Fatal Error in file: "GroupManagerPhyDriver.c"; Fatal Print: [PhyDrv_SetMuGroupUsp], In gen6 we don't support being beamformee (even not as STA). Need to check why we got here
 S 1 5 2 106 Fatal Error in file: "GroupManagerPhyDriver.c"; Fatal Print: [PhyDrv_SetMuGroupUsp], In gen6 we don't support being beamformee (even not as STA). Need to check why we got here
 S 1 5 3 75 [getPPDUStatisticsTableByType] Getting %d(UL=1/DL=0) PPDU statistics
@@ -495,89 +495,101 @@ S 1 10 2 1611 COND_FATAL Error in file: "BccAnnManager.c"; COND_FATAL descriptio
 S 1 10 2 1669 COND_FATAL Error in file: "BccAnnManager.c"; COND_FATAL description: BccAnnManagerStaGetState(sid) == BCC_ANN_MANAGER_STA_STATE_INVALID
 S 1 10 2 1735 COND_FATAL Error in file: "BccAnnManager.c"; COND_FATAL description: sid < SYS_NUM_OF_STAS
 S 1 10 2 1778 we arrived to BccAnnManager_RemoveSta
-S 1 11 0 232 Beacon CSA Manager changed from %d to %d
-S 1 11 0 426 [CSA] BeaconCsaManager_StartInIdle, bitmap %08x
-S 1 11 0 518 [CSA] BeaconCsaManager_StopInStart
-S 1 11 0 521 COND_FATAL Error in file: "Beacon_CsaManager.c"; COND_FATAL description: Utils_IsBitmapEmpty(BeaconCsaManager_Db.pendingIeVaps, CONVERT_WORDS_TO_BIT_INDEX(SYS_VAP_BITMAP_SIZE_WORDS))
-S 1 11 0 584 [CSA] BeaconCsaManager_LockInStart channelCount %d = time %d / beacon interval %d
-S 1 11 0 691 [CSA] BeaconCsaManager_StopInAffilatedStart No Vap in band %d
-S 1 11 0 700 [CSA] BeaconCsaManager_StopInAffilatedStart Vap Idx %d, reducedVapId %d, reducedPending 0x%x, band %d
-S 1 11 0 759 [CSA] BeaconCsaManager_LockInStartAffiliated Vap Idx %d, channelCount %d = time %d / beacon interval %d
-S 1 11 0 769 [CSA] BeaconCsaManager_LockInStartAffiliated, VapIdx %d, bitmap %08x inBand %d
-S 1 11 0 776 [CSA] BeaconCsaManager_LockInStartAffiliated Start counting
-S 1 11 0 785 [CSA] BeaconCsaManager_LockInStartAffiliated Next vapIdx %d, reducedVapIdx %d, reducedBitmap %08x
-S 1 11 0 837 [CSA] BeaconCsaManager_LockInStop VapIdx %d
-S 1 11 0 924 [CSA] BeaconCsaManager_LockInStopAffiliated, VapIdx %d, bitmap %08x inBand %d
-S 1 11 0 934 [CSA] BeaconCsaManager_LockInStopAffiliated Count Done Notif to Driver
-S 1 11 0 946 [CSA] BeaconCsaManager_LockInStopAffiliated All stopped, go to Idle
-S 1 11 0 1008 [CSA] BeaconCsaManager_PdInStart VapIdx %d
-S 1 11 0 1059 [CSA] BeaconCsaManager_PdInStartAffiliated Next VapIdx %d
-S 1 11 0 1073 [CSA] BeaconCsaManager_PdInStartAffiliated go back to idle
-S 1 11 0 1114 [CSA] BeaconCsaManager_PdInStopAffiliated, VapIdx %d, pendingAffiliatedVaps %08x inBand %d
-S 1 11 0 1202 [CSA] BeaconCsaManager_StartAffiliatedInIdle bitmap %08x, %08x, reducedMask %08x
-S 1 11 0 1206 [CSA] BeaconCsaManager_StartAffiliatedInIdle No Vap in Band %d
-S 1 11 0 1220 [CSA] BeaconCsaManager_StartAffiliatedInIdle Next VapIdx %d, reducedVapId %d, reducedBitmap %08x
-S 1 11 0 1267 [CSA] BeaconCsaManager_McstCountZeroInIdle VapIdx %d
-S 1 11 0 1304 Fatal Error in file: "Beacon_CsaManager.c"; Fatal Print: [BeaconCsaManager_Fatal], Beacon CSA Manager Fatal
-S 1 11 0 1336 COND_FATAL Error in file: "Beacon_CsaManager.c"; COND_FATAL description: BeaconCsaManager_Db.state == BEACON_CSA_MANAGER_IDLE_STATE
-S 1 11 0 1373 COND_FATAL Error in file: "Beacon_CsaManager.c"; COND_FATAL description: BeaconCsaManager_Db.state == BEACON_CSA_MANAGER_IDLE_STATE
+S 1 11 0 233 Beacon CSA Manager changed from %d to %d
+S 1 11 0 419 [CSA] BeaconCsaManager_StartInIdle, bitmap %08x
+S 1 11 0 511 [CSA] BeaconCsaManager_StopInStart
+S 1 11 0 514 COND_FATAL Error in file: "Beacon_CsaManager.c"; COND_FATAL description: Utils_IsBitmapEmpty(BeaconCsaManager_Db.pendingIeVaps, CONVERT_WORDS_TO_BIT_INDEX(SYS_VAP_BITMAP_SIZE_WORDS))
+S 1 11 0 580 [CSA] BeaconCsaManager_LockInStart Starting CSA count for VapId: %d, channelCount %d = time %d / beacon interval %d
+S 1 11 0 683 [CSA] BeaconCsaManager_StopInAffilatedStart No Vap in band %d
+S 1 11 0 692 [CSA] BeaconCsaManager_StopInAffilatedStart Vap Idx %d, reducedVapId %d, reducedPending 0x%x, band %d
+S 1 11 0 756 [CSA] BeaconCsaManager_LockInStartAffiliated Starting CSA count for VapId: %d, channelCount %d = time %d / beacon interval %d
+S 1 11 0 762 [CSA] BeaconCsaManager_LockInStartAffiliated, VapIdx %d, bitmap %08x inBand %d
+S 1 11 0 768 COND_FATAL Error in file: "Beacon_CsaManager.c"; COND_FATAL description: BeaconCsaManager_LockInStartAffiliated nonTx VAP not expected here
+S 1 11 0 788 [CSA] BeaconCsaManager_LockInStartAffiliated Next vapIdx %d, reducedVapIdx %d, reducedBitmap %08x
+S 1 11 0 840 [CSA] BeaconCsaManager_LockInStop VapIdx %d
+S 1 11 0 927 [CSA] BeaconCsaManager_LockInStopAffiliated, VapIdx %d, bitmap %08x inBand %d
+S 1 11 0 937 [CSA] BeaconCsaManager_LockInStopAffiliated Count Done Notif to Driver
+S 1 11 0 949 [CSA] BeaconCsaManager_LockInStopAffiliated All stopped, go to Idle
+S 1 11 0 1011 [CSA] BeaconCsaManager_PdInStart VapIdx %d
+S 1 11 0 1062 [CSA] BeaconCsaManager_PdInStartAffiliated Next VapIdx %d
+S 1 11 0 1076 [CSA] BeaconCsaManager_PdInStartAffiliated go back to idle
+S 1 11 0 1117 [CSA] BeaconCsaManager_PdInStopAffiliated, VapIdx %d, pendingAffiliatedVaps %08x inBand %d
+S 1 11 0 1205 BeaconCsaManager_StartAffiliatedInIdle ERROR: the number of MLD nonTx BSSIDs exceeds supported limit, CSA support in the beacon will be incomplete for the excess VAPs
+S 1 11 0 1209 [CSA] BeaconCsaManager_StartAffiliatedInIdle bitmap %08x
+S 1 11 0 1213 [CSA] BeaconCsaManager_StartAffiliatedInIdle No Vap in Band %d
+S 1 11 0 1241 [CSA] BeaconCsaManager_StartAffiliatedInIdle Next VapIdx %d, reducedVapId %d, reducedBitmap %08x
+S 1 11 0 1288 [CSA] BeaconCsaManager_McstCountZeroInIdle VapIdx %d
+S 1 11 0 1325 Fatal Error in file: "Beacon_CsaManager.c"; Fatal Print: [BeaconCsaManager_Fatal], Beacon CSA Manager Fatal
+S 1 11 0 1357 COND_FATAL Error in file: "Beacon_CsaManager.c"; COND_FATAL description: BeaconCsaManager_Db.state == BEACON_CSA_MANAGER_IDLE_STATE
+S 1 11 0 1394 COND_FATAL Error in file: "Beacon_CsaManager.c"; COND_FATAL description: BeaconCsaManager_Db.state == BEACON_CSA_MANAGER_IDLE_STATE
 S 1 11 1 114 BeaconBlockingManagerChangeState from %d to %d
 S 1 11 1 250 Assert in file: "Beacon_BlockingManager.c" in line: 250
 S 1 11 1 300 COND_FATAL Error in file: "Beacon_BlockingManager.c"; COND_FATAL description: BeaconHandlerBlockingDb.numActiveBeacons > 0
 S 1 11 1 550 BeaconBlockingManagerTimer
 S 1 11 1 557 pScratchPadApiParams->numOfBeaconsTransmitted =%d, BeaconHandlerBlockingDb.lastNumBeaconsTransmitted =%d
-S 1 11 2 397 beaconHandlerConfigureTimGenForMbssId, Band: %d, timGenRegAddr = 0X%X
-S 1 11 2 463 [beaconHandlerConfigureHwForMbssId]
-S 1 11 2 648 [beaconHandlerActivateHw] vapId %d
-S 1 11 2 707 beaconHandlerDeactivateHw for vap:%d
-S 1 11 2 737 beaconHandlerSendTemplateWasSetIndication for vap:%d
-S 1 11 2 808 Fatal Error in file: "BeaconHandler.c"; Fatal Print: [beaconHandler_PullPd], Pd allocation failed
-S 1 11 2 855 beaconHandlerUpdateIEsPdList for vap:%d
-S 1 11 2 873 beaconHandlerUpdateIEsPdList is criticalUpdate: %d, is nonTxBssidCriticalUpdate: %d
-S 1 11 2 1222 [beaconHandlerUpdateIEsPdReportedList] Included MCST on PD list
-S 1 11 2 1318 beaconHandlerUpdateIEsPdReportedList for vap:%d
-S 1 11 2 1600 [beaconHandlerUpdateIEsPdReportedList] Included CSA on PD list
-S 1 11 2 1626 [beaconHandlerUpdateIEsPdReportedList] Included CSW on PD list
-S 1 11 2 1831 beaconHandlerSwapIEsPdList vapdId: %d
-S 1 11 2 1849 [beaconHandlerSwapIEsPdList] Vap Id:%d is on critical update, setting bit on txSender scratchpad: 0x%x
-S 1 11 2 1857 [beaconHandlerSwapIEsPdList] Vap Id:%d is on nonTxBss critical update, setting bit on txSender scratchpad: 0x%x
-S 1 11 2 1866 [beaconHandlerSwapIEsPdList] Vap Id:%d requires Mcst IE, setting MCST value on txSender scratchpad: %u TUs
-S 1 11 2 1884 beaconHandlerSwapIEsPdList Queue for vapid: %d Swaped and unlocked
-S 1 11 2 2023 BeaconHandler_SetBeaconTemplate vapid: %d, is critical: %d, is nonTxBssCritical: %d
-S 1 11 2 2091 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: [BeaconHandler_SetBeaconTemplate] partition u16partMbssidLen doesn't match part u16part5Len when non_tx_bss_critical_update is enabled
-S 1 11 2 2092 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: [BeaconHandler_SetBeaconTemplate] partition u16partMbssidAddr can't be 0
-S 1 11 2 2098 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: [BeaconHandler_SetBeaconTemplate] non_tx_bss_critical_update is not supported
-S 1 11 2 2099 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: [BeaconHandler_SetBeaconTemplate] partition u16partMbssidLen is not supported
-S 1 11 2 2100 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: [BeaconHandler_SetBeaconTemplate] partition u16partMbssidAddr is not supported
-S 1 11 2 2105 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: offset <= allocatedBufferLength
-S 1 11 2 2124 beaconHandlerUpdateIEsPdList Vap Id:%d is active so calling Locker
-S 1 11 2 2156 beaconHandlerUpdateIEsPdList Vap Id:%d is inactive, activating only template dma
-S 1 11 2 2173 beaconHandlerUpdateIEsPdList Vap Id:%d is waiting for CSA, activating only template dma
-S 1 11 2 2178 beaconHandlerUpdateIEsPdList Vap Id:%d is inactive sending template was set indication
-S 1 11 2 2316 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: templateUpdateRequest != NULL
-S 1 11 2 2367 [BeaconHandler_TemplateUpdate] Scheduler:idle,Vap Id:%d, set to busy serviceBitmap = 0x%x
-S 1 11 2 2376 [BeaconHandler_TemplateUpdate] Scheduler:busy,Vap Id:%d, push to pending request Q
-S 1 11 2 2382 [BeaconHandler_TemplateUpdate] Scheduler:busy,Vap Id:%d, push to pending BAA request Q
-S 1 11 2 2392 [BeaconHandler_TemplateUpdate] Scheduler:busy,Vap Id:%d, pre-empt lock request and queue this BAA request as active
-S 1 11 2 2405 [BeaconHandler_TemplateUpdate] Scheduler:busy,Vap Id:%d, no lock request pending for this vap, so queue this BAA request in BAA Q
-S 1 11 2 2413 [BeaconHandler_TemplateUpdate] Vap Id:%d is busy, push to pending Q
-S 1 11 2 2504 [BeaconHandler_FinalizeTemplateUpdate] Vap id:%d get next pending BAA Q
-S 1 11 2 2507 Assert in file: "BeaconHandler.c" in line: 2507
-S 1 11 2 2515 [BeaconHandler_FinalizeTemplateUpdate] Vap id:%d process pre-empted pending lock req
-S 1 11 2 2542 [BeaconHandler_FinalizeTemplateUpdate] Vap id:%d move scheduler state to idle
-S 1 11 2 2605 BeaconHandler_AddVap for vap:%d operation Mode %d
-S 1 11 2 2628 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: beaconHWparams.beaconInterval > ConfigurationManager_GetReducedVapIdx(vapId)
-S 1 11 2 2638 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: vapId == ConfigurationManager_GetFirstVapForBand(ConfigurationManager_GetMyBand())
-S 1 11 2 2722 BeaconHandler_SetWmmParameters, vapId = %d, isBeaconQActive = %d
-S 1 11 2 2790 beaconHandlerDeactivateBeacon for vap:%d
-S 1 11 2 2846 BeaconHandler_QueueIsLocked, VapId = %d
-S 1 11 2 2889 beaconHandlerUpdateIEsPdList Vap Id:%d is waiting for CSA, activating only template dma
-S 1 11 2 2951 BeaconHandler_BeaconTemplateDmaDone
-S 1 11 2 3166 BeaconHandler_BeaconCriticalUpdateReset vapId: %d, criticalBit: %d
-S 1 11 2 3199 BeaconHandler_BeaconNonTxBssCriticalUpdateReset vapId: %d, criticalBit: %d, nonTxBssCriticalBit: %d
-S 1 11 2 3292 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: (Utils_GetBitFromBitmap(BeaconManagement.isBssLoadIe, pd->txQVapId, SIZE_IN_BITS(BeaconManagement.isBssLoadIe))) != 0
-S 1 11 2 3666 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: (firstPdIndex + numOfPdsInBand) <= BEACON_NUM_OF_PDS_IN_POOL
-S 1 11 2 3817 Fatal Error in file: "BeaconHandler.c"; Fatal Print: function not implemented
+S 1 11 2 380 beaconHandlerConfigureTimGenForMbssId, Band: %d, timGenRegAddr = 0X%X
+S 1 11 2 446 [beaconHandlerConfigureHwForMbssId]
+S 1 11 2 653 [beaconHandlerActivateHw] vapId %d
+S 1 11 2 712 beaconHandlerDeactivateHw for vap:%d
+S 1 11 2 742 beaconHandlerSendTemplateWasSetIndication for vap:%d
+S 1 11 2 813 Fatal Error in file: "BeaconHandler.c"; Fatal Print: [beaconHandler_PullPd], Pd allocation failed
+S 1 11 2 869 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: beaconHandlerBuildMbssidSubsetPdList mbssidSubBuffer is out of bounds
+S 1 11 2 906 [beaconHandlerBuildMbssidSubsetPdList] Included CSA on PD list for non-Tx BSSID, vapId: %d
+S 1 11 2 934 [beaconHandlerBuildMbssidSubsetPdList] Included ECSA on PD list for non-Tx BSSID, vapId: %d
+S 1 11 2 963 [beaconHandlerBuildMbssidSubsetPdList] Included MCST on PD list for non-Tx BSSID, vapId: %d
+S 1 11 2 1038 beaconHandlerUpdateIEsPdList for vap:%d
+S 1 11 2 1056 beaconHandlerUpdateIEsPdList is criticalUpdate: %d, is nonTxBssidCriticalUpdate: %d
+S 1 11 2 1110 [beaconHandlerUpdateIEsPdList] Included CSA on PD list for affected VAP
+S 1 11 2 1138 [beaconHandlerUpdateIEsPdList] Included ECSA on PD list for affected VAP
+S 1 11 2 1292 [beaconHandlerUpdateIEsPdList] Included CSW on PD list for affected VAP
+S 1 11 2 1417 [beaconHandlerUpdateIEsPdList] Included CSA on PD list for reporting VAP
+S 1 11 2 1444 [beaconHandlerUpdateIEsPdList] Included ECSA on PD list for reporting VAP
+S 1 11 2 1471 [beaconHandlerUpdateIEsPdList] Included CSW on PD list for reporting VAP
+S 1 11 2 1500 [beaconHandlerUpdateIEsPdList] Included MCST on PD list
+S 1 11 2 1552 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: [beaconHandlerUpdateIEsPdList] pdIndex exceeds pdCounter 5-bit max
+S 1 11 2 1706 beaconHandlerSwapIEsPdList vapdId: %d
+S 1 11 2 1724 [beaconHandlerSwapIEsPdList] Vap Id:%d is on critical update, setting bit on txSender scratchpad: 0x%x
+S 1 11 2 1732 [beaconHandlerSwapIEsPdList] Vap Id:%d is on nonTxBss critical update, setting bit on txSender scratchpad: 0x%x
+S 1 11 2 1741 [beaconHandlerSwapIEsPdList] Vap Id:%d requires Mcst IE, setting MCST value on txSender scratchpad: %u TUs
+S 1 11 2 1759 beaconHandlerSwapIEsPdList Queue for vapid: %d Swaped and unlocked
+S 1 11 2 1901 BeaconHandler_SetBeaconTemplate vapid: %d, is critical: %d, is nonTxBssCritical: %d
+S 1 11 2 1978 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: [BeaconHandler_SetBeaconTemplate] partition u16partMbssidAddr can't be 0
+S 1 11 2 1980 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: [BeaconHandler_SetBeaconTemplate] partition u16partMbssidLen doesn't match part u16part5Len when non_tx_bss_critical_update is enabled
+S 1 11 2 1992 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: [BeaconHandler_SetBeaconTemplate] partition u16partMbssidSubLen doesn't match part u16part5SubLen when non_tx_bss_critical_update is enabled
+S 1 11 2 1996 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: [BeaconHandler_SetBeaconTemplate] non_tx_bss_critical_update is not supported
+S 1 11 2 1997 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: [BeaconHandler_SetBeaconTemplate] partition u16partMbssidLen is not supported
+S 1 11 2 1998 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: [BeaconHandler_SetBeaconTemplate] partition u16partMbssidAddr is not supported
+S 1 11 2 2007 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: [BeaconHandler_SetBeaconTemplate] partition u16part5SubLen must be zero when u16part5Len is greater than zero
+S 1 11 2 2009 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: [BeaconHandler_SetBeaconTemplate] partition u16partMbssidSubLen must be zero when u16part5Len is greater than zero
+S 1 11 2 2016 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: offset <= allocatedBufferLength
+S 1 11 2 2035 beaconHandlerUpdateIEsPdList Vap Id:%d is active so calling Locker
+S 1 11 2 2067 beaconHandlerUpdateIEsPdList Vap Id:%d is inactive, activating only template dma
+S 1 11 2 2084 beaconHandlerUpdateIEsPdList Vap Id:%d is waiting for CSA, activating only template dma
+S 1 11 2 2089 beaconHandlerUpdateIEsPdList Vap Id:%d is inactive sending template was set indication
+S 1 11 2 2221 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: templateUpdateRequest != NULL
+S 1 11 2 2272 [BeaconHandler_TemplateUpdate] Scheduler:idle,Vap Id:%d, set to busy serviceBitmap = 0x%x
+S 1 11 2 2281 [BeaconHandler_TemplateUpdate] Scheduler:busy,Vap Id:%d, push to pending request Q
+S 1 11 2 2287 [BeaconHandler_TemplateUpdate] Scheduler:busy,Vap Id:%d, push to pending BAA request Q
+S 1 11 2 2297 [BeaconHandler_TemplateUpdate] Scheduler:busy,Vap Id:%d, pre-empt lock request and queue this BAA request as active
+S 1 11 2 2310 [BeaconHandler_TemplateUpdate] Scheduler:busy,Vap Id:%d, no lock request pending for this vap, so queue this BAA request in BAA Q
+S 1 11 2 2318 [BeaconHandler_TemplateUpdate] Vap Id:%d is busy, push to pending Q
+S 1 11 2 2409 [BeaconHandler_FinalizeTemplateUpdate] Vap id:%d get next pending BAA Q
+S 1 11 2 2412 Assert in file: "BeaconHandler.c" in line: 2412
+S 1 11 2 2420 [BeaconHandler_FinalizeTemplateUpdate] Vap id:%d process pre-empted pending lock req
+S 1 11 2 2447 [BeaconHandler_FinalizeTemplateUpdate] Vap id:%d move scheduler state to idle
+S 1 11 2 2510 BeaconHandler_AddVap for vap:%d operation Mode %d
+S 1 11 2 2533 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: beaconHWparams.beaconInterval > ConfigurationManager_GetReducedVapIdx(vapId)
+S 1 11 2 2543 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: vapId == ConfigurationManager_GetFirstVapForBand(ConfigurationManager_GetMyBand())
+S 1 11 2 2627 BeaconHandler_SetWmmParameters, vapId = %d, isBeaconQActive = %d
+S 1 11 2 2695 beaconHandlerDeactivateBeacon for vap:%d
+S 1 11 2 2755 BeaconHandler_QueueIsLocked, VapId = %d
+S 1 11 2 2816 beaconHandlerUpdateIEsPdList Vap Id:%d is waiting for CSA, activating only template dma
+S 1 11 2 2878 BeaconHandler_BeaconTemplateDmaDone
+S 1 11 2 3093 BeaconHandler_BeaconCriticalUpdateReset vapId: %d, criticalBit: %d
+S 1 11 2 3126 BeaconHandler_BeaconNonTxBssCriticalUpdateReset vapId: %d, criticalBit: %d, nonTxBssCriticalBit: %d
+S 1 11 2 3219 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: (Utils_GetBitFromBitmap(BeaconManagement.isBssLoadIe, pd->txQVapId, SIZE_IN_BITS(BeaconManagement.isBssLoadIe))) != 0
+S 1 11 2 3593 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: (firstPdIndex + numOfPdsInBand) <= BEACON_NUM_OF_PDS_IN_POOL
+S 1 11 2 3744 Fatal Error in file: "BeaconHandler.c"; Fatal Print: function not implemented
 S 1 11 7 213 [DynamicEdcaManagerCongestedDlGroupDetection] vapId %d, groupId %d, congested
 S 1 11 7 361 [linkAdapatationUpdateATFInfoGet]: numActiveDlSta=%d, numGroupedUlSta=%d, CongestedUlMuGroup=%d, numSta=%d
 S 1 11 7 381 [linkAdapatationUpdateATFInfoGet]: vapId=%d, fairnessInc=%d
@@ -811,23 +823,29 @@ S 1 16 7 94 run RxDC for Zwdfs Antenna
 S 1 16 7 108 RxDC Zwdfs Antenna Calibration done. elapsed time = %d TSF units. retVal %d
 S 1 16 9 35 Run TxLO calibration. CalibType %d
 S 1 16 9 57 TxLO Calibration done. elapsed time = %d usec
-S 1 16 10 114 TPC_loadChannelData chID = 0x%x, bw = %d, antMask=%d
-S 1 16 10 161 TPC_extractTpcFreqParams ant = 0x%x, channel = 0x%x, bw = %d
-S 1 16 10 162 TPC_extractTpcFreqParams channel = 0x%x, rfBand = %d
-S 1 16 10 172 COND_FATAL Error in file: "TpcClbrHndlr.c"; COND_FATAL description: bw < MAX_NUM_OF_BW
-S 1 16 10 173 COND_FATAL Error in file: "TpcClbrHndlr.c"; COND_FATAL description: numElements[bw] < 2
-S 1 16 10 386 TPC_loadTSSIParams bw = %d, tpcFreqLen = %d
-S 1 16 10 451 TPC_loadTSSIParams tpcAntBandwidth = %d, bw = %d, tpcFreqLen = %d
-S 1 16 10 471 TPC_loadTSSIParams tpcAntBandwidth = %d, bw = %d, tpcFreqLen = %d
-S 1 16 10 506 TPC_setTxPowerTableOffset ant = %d, bw = %d, uevm_gain = %d
-S 1 16 10 530 COND_FATAL Error in file: "TpcClbrHndlr.c"; COND_FATAL description: bandwidth < BW_LAST
-S 1 16 10 580 Fatal Error in file: "TpcClbrHndlr.c"; Fatal Print: in TPC_getRegulationLimit unsupported Phy mode
-S 1 16 10 739 Fatal Error in file: "TpcClbrHndlr.c"; Fatal Print: Bw out of the range
-S 1 16 10 768 TPC_FreqInterpolation_1s2d outTpcFreq->chID = %d, tpcFreq1->chID = %d, tpcFreq2->chID = %d
-S 1 16 10 954 TPC_configureS2DGainAndOffset ant = %d, bw = %d
-S 1 16 10 955 TPC_configureS2DGainAndOffset region = %d, gain = %d, offset = %d
-S 1 16 10 979 TPC_configureTssiPowerThreshold ant = %d, bw = %d
-S 1 16 10 980 TPC_configureTssiPowerThreshold region = %d, Threshold = %d
+S 1 16 10 123 TPC_loadChannelData chID = 0x%x, bw = %d, antMask=%d
+S 1 16 10 182 TPC_extractTpcFreqParams ant = 0x%x, channel = 0x%x, bw = %d
+S 1 16 10 183 TPC_extractTpcFreqParams channel = 0x%x, rfBand = %d
+S 1 16 10 193 COND_FATAL Error in file: "TpcClbrHndlr.c"; COND_FATAL description: bw < MAX_NUM_OF_BW
+S 1 16 10 194 COND_FATAL Error in file: "TpcClbrHndlr.c"; COND_FATAL description: numElements[bw] < 2
+S 1 16 10 407 TPC_loadTSSIParams bw = %d, tpcFreqLen = %d
+S 1 16 10 472 TPC_loadTSSIParams tpcAntBandwidth = %d, bw = %d, tpcFreqLen = %d
+S 1 16 10 492 TPC_loadTSSIParams tpcAntBandwidth = %d, bw = %d, tpcFreqLen = %d
+S 1 16 10 527 TPC_setTxPowerTableOffset ant = %d, bw = %d, uevm_gain = %d
+S 1 16 10 551 COND_FATAL Error in file: "TpcClbrHndlr.c"; COND_FATAL description: bandwidth < BW_LAST
+S 1 16 10 601 Fatal Error in file: "TpcClbrHndlr.c"; Fatal Print: in TPC_getRegulationLimit unsupported Phy mode
+S 1 16 10 648 COND_FATAL Error in file: "TpcClbrHndlr.c"; COND_FATAL description: mruIndex out of range
+S 1 16 10 674 TPC: Stored %d MRU power limits in tpcConfiguration
+S 1 16 10 821 Fatal Error in file: "TpcClbrHndlr.c"; Fatal Print: Bw out of the range
+S 1 16 10 850 TPC_FreqInterpolation_1s2d outTpcFreq->chID = %d, tpcFreq1->chID = %d, tpcFreq2->chID = %d
+S 1 16 10 1036 TPC_configureS2DGainAndOffset ant = %d, bw = %d
+S 1 16 10 1037 TPC_configureS2DGainAndOffset region = %d, gain = %d, offset = %d
+S 1 16 10 1059 TPC_configureTssiPowerThreshold ant = %d, bw = %d
+S 1 16 10 1060 TPC_configureTssiPowerThreshold region = %d, Threshold = %d
+S 1 16 10 1094 COND_FATAL Error in file: "TpcClbrHndlr.c"; COND_FATAL description: freqTxTempDeltaTableSize < FREQ_TX_TEMP_DELTA_MAX_NUM_OF_ROWS
+S 1 16 10 1102 [TPC_buildTempDeltaTableCurrChannel] freqTxTempDeltaTable[%d].delta[%d] = %d
+S 1 16 10 1184 [TPC_getTempDelta] temperature %d in gap, applying zero delta
+S 1 16 10 1218 [TPC_setTableOffsetPerTemperature] updatedOffset = %d, TpcGainDelta[%d] = %d
 S 1 16 11 267 RSSI Path: Executing Calibration
 S 1 16 11 278 COND_FATAL Error in file: "RssiPathClbrHndlr.c"; COND_FATAL description: inCalibType == CLBR_TYPE_OFFLINE
 S 1 16 11 531 COND_FATAL Error in file: "RssiPathClbrHndlr.c"; COND_FATAL description: 0 == memcmp(calFileShramDb.rssiPointer[rfBand], &rssiPathData,rssiDataSize)
@@ -871,110 +889,111 @@ S 1 16 14 129 COND_FATAL Error in file: "DpdAdapter.c"; COND_FATAL description: 
 S 1 16 14 280 COND_FATAL Error in file: "DpdAdapter.c"; COND_FATAL description: DPD RxEq invalid computation step
 S 1 16 14 350 COND_FATAL Error in file: "DpdAdapter.c"; COND_FATAL description: Unknown BW option
 S 1 16 15 31 COND_FATAL Error in file: "NmseMeasures.c"; COND_FATAL description: Nmse_Measure only supports CLBR_TYPE_OFFLINE
-S 1 17 0 212 channelSwitchManager_ChangeState from %d, to %d
-S 1 17 0 276 [EASY_CONNECT] ChannelSwitchManagerPostChannelSwitchTxPaused
-S 1 17 0 340 [channelSwitchManager_SetChannelRequest] in RSSI 1
-S 1 17 0 422 [EASY_CONNECT] ChannelSwitchManagerFlushGPHP
-S 1 17 0 517 [EASY_CONNECT][ChannelSwitchManager_EasyConnectTest] pEasyConnectTest->isStDppAction = %d
-S 1 17 0 636 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: Utils_IsBitmapNotEmpty(channelSwitchManagerParams.activeVapsBitmap, CONVERT_WORDS_TO_BIT_INDEX(SYS_VAP_BITMAP_SIZE_WORDS))
-S 1 17 0 649 [channelSwitchManager_SetChannelRequest] CHANNEL_SWITCH_MANAGER_STATE_IDLE, channelSwitchManagerParams.pUmSetChannelParams->switch_type=%d
-S 1 17 0 675 [channelSwitchManager_SetChannelRequest] in RSSI 0
-S 1 17 0 722 [EASY_CONNECT][channelSwitchManager_SetChannelRequest] ST_DPP_ACTION
-S 1 17 0 730 [channelSwitchManager_SetChannelRequest] ST_ZWDFS
-S 1 17 0 739 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: illegal switch type
-S 1 17 0 748 [EASY_CONNECT] [channelSwitchManager_SetChannelRequest] CHANNEL_SWITCH_MANAGER_STATE_DPP
-S 1 17 0 771 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [channelSwitchManager_SetChannelRequest], DPP must be followed by SET CHANNEL with switch type NORMAL
-S 1 17 0 809 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: pUmSetChannelParamsLocal->bg_scan == FALSE
-S 1 17 0 842 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [channelSwitchManager_SetChannelRequest], illegal type in current state
-S 1 17 0 847 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: pUmSetChannelParamsLocal->switch_type == ST_NORMAL_AFTER_RSSI
-S 1 17 0 866 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 904 [channelSwitchManager_ProcessStartConfirm] channelSwitchManagerParams.state = %d, channelSwitchManagerParams.pUmSetChannelParams->switch_type = %d
-S 1 17 0 906 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: processMangerReturnParams->processStatus == PROCESS_STATUS_REQUEST_ACCEPTED
-S 1 17 0 920 [channelSwitchManager_ProcessStartConfirm] send message to HDK
-S 1 17 0 983 [channelSwitchManager_ProcessStartConfirm] Affected band %d, vap %d
-S 1 17 0 1000 [channelSwitchManager_ProcessStartConfirm] Send CSA To Multilink, bitMap %08x
-S 1 17 0 1017 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: illegal switch type
-S 1 17 0 1021 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 1051 state: %d, event: Tx Queue Lock Confirm
-S 1 17 0 1058 [EASY_CONNECT] [channelSwitchManager_TxQueueLockConfirm] CHANNEL_SWITCH_MANAGER_STATE_POST_DPP_WAIT_FOR_TX_QUEUE_LOCK
-S 1 17 0 1126 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 1153 [channelSwitchManager_ProcessFinishConfirm] channelSwitchManagerParams.state = %d
-S 1 17 0 1168 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 1206 [channelSwitchManager_SetChannelConfirm] channelSwitchManagerParams.state = %d
-S 1 17 0 1224 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 1258 [channelSwitchManager_SetChannelConfirm] channelSwitchManagerParams.state = %d
-S 1 17 0 1267 [channelSwitchManager_NotifyConfirm] CHANNEL_SWITCH_MANAGER_STATE_WAIT_FOR_NOTIFY_CFM, channelSwitchManagerParams.pUmSetChannelParams->switch_type = %d
-S 1 17 0 1282 [EASY_CONNECT] [channelSwitchManager_NotifyConfirm] ST_NORMAL easy connect active = %d
-S 1 17 0 1316 [channelSwitchManager_NotifyConfirm] ZWDFS
-S 1 17 0 1336 postProcessServiceBitmap = %x
-S 1 17 0 1361 [channelSwitchManager_NotifyConfirm], pUmSetChannelParamsLocal->u16SID = %d, pRssiParams->vapId = %d
-S 1 17 0 1434 [EASY_CONNECT] [channelSwitchManager_NotifyConfirm] ST_DPP_ACTION
-S 1 17 0 1452 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: illegal switch type
-S 1 17 0 1458 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 1487 state: %d, event: Tx Resume Confirm
-S 1 17 0 1509 [EASY_CONNECT] [channelSwitchManager_TxResumeConfirm] CHANNEL_SWITCH_MANAGER_STATE_DPP_WAIT_FOR_TX_RESUME
-S 1 17 0 1526 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 1552 state: %d, event: Rx Resume Confirm
-S 1 17 0 1574 [EASY_CONNECT] [channelSwitchManager_RxResumeConfirm] CHANNEL_SWITCH_MANAGER_STATE_DPP_WAIT_FOR_RX_RESUME
-S 1 17 0 1584 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 1611 state: %d, event: Tx Pause Confirm
-S 1 17 0 1619 [EASY_CONNECT] [channelSwitchManager_TxPauseConfirm] CHANNEL_SWITCH_MANAGER_STATE_POST_DPP_WAIT_FOR_TX_PAUSE
-S 1 17 0 1666 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 1695 state: %d, event: TX Pause VAP Confirm
-S 1 17 0 1767 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 1793 state: %d, event: Rx Pause Confirm
-S 1 17 0 1800 [EASY_CONNECT] [channelSwitchManager_RxPauseConfirm] CHANNEL_SWITCH_MANAGER_STATE_POST_DPP_WAIT_FOR_RX_PAUSE
-S 1 17 0 1824 channelSwitchManager_RxPauseConfirm Csa Stop
-S 1 17 0 1833 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 1862 state: %d, event: Timer Expired
-S 1 17 0 1894 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 1922 state: %d, event: Beacon Add Csa Ie Confirm
-S 1 17 0 1941 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 1975 state: %d, event: OTF MultiLink CSA Start confirm
-S 1 17 0 1994 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 2096 state: %d, event: OTF MultiLink CSA Stop confirm
-S 1 17 0 2121 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 2151 state: %d, event: CSA Beacon Done Indication
-S 1 17 0 2215 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 2247 state: %d, event: CSA Sec Beacon Done Indication from VapIdx %d
-S 1 17 0 2278 state: %d, event: Stop CSA Beacons Confirm
-S 1 17 0 2299 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 2409 channelSwitchManager_VapManagerRegistrationEventAddVap, state: %d, event: Vap Manager Registration Event Add Vap
-S 1 17 0 2411 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: channelSwitchManagerParams.state == CHANNEL_SWITCH_MANAGER_STATE_IDLE
-S 1 17 0 2455 state: %d, event: Vap Manager Registration Event Post Remove Vap
-S 1 17 0 2457 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: channelSwitchManagerParams.state == CHANNEL_SWITCH_MANAGER_STATE_IDLE
-S 1 17 0 2529 state: %d, event: Csa Manager Start Tx Cfm
-S 1 17 0 2558 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: channelSwitchManager_ProcessInterruptedIndication
-S 1 17 0 2587 state: %d, event: Csa Manager Stop Tx Cfm
-S 1 17 0 2590 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: CSA Manager stop confirm received before CSA Manager start confirm
-S 1 17 0 2668 [channelSwitchManager_SendConfirmationToHost] channelSwitchManagerParams.pUmSetChannelParams->rssi[%d] = %d
-S 1 17 0 2747 [channelSwitchManager_ChannelSwitchDone]
-S 1 17 0 2844 [channelSwitchManager_ChannelLoadBssLoadIeCalc] channelSwitchManagerChannelLoadDb.totalChannelLoadBssLoad[index] = %d
-S 1 17 0 2866 [channelSwitchManager_ChannelLoadBssLoadIeCalc] range = %d index = %d deltaTime = %d
-S 1 17 0 2868 [channelSwitchManager_ChannelLoadBssLoadIeCalc] totalChannelLoadBssLoad = %d accumulatedLoadBssLoad = %d averageLoadBssLoad = %d
-S 1 17 0 2869 [channelSwitchManager_ChannelLoadBssLoadIeCalc] totalChannelLoadBssLoad = %d accumulatedLoadBssLoad = %d averageLoadBssLoad = %d
-S 1 17 0 2930 [channelSwitchManager_ChannelLoadTimerExpired] QBSS1 = %d, QBSS2 = %d
-S 1 17 0 2936 [channelSwitchManager_ChannelLoadTimerExpired] total load = %d, total utilization = %d
-S 1 17 0 3036 [channelSwitchManager_CalcChannelLoad] rxTotal = %d, rxToMe = %d, QBSS1 = %d, QBSS2 = %d
-S 1 17 0 3042 [channelSwitchManager_CalcChannelLoad] total load = %d, total utilization = %d
-S 1 17 0 3048 [channelSwitchManager_CalcChannelLoad] rxToMe = %d
-S 1 17 0 3051 [channelSwitchManager_CalcChannelLoad] delta time = %d
-S 1 17 0 3055 [channelSwitchManager_CalcChannelLoad] load... delta time = %d
-S 1 17 0 3064 [channelSwitchManager_CalcChannelLoad] load... total utilization = %d
-S 1 17 0 3069 [channelSwitchManager_CalcChannelLoad] utilization... delta time = %d
-S 1 17 0 3086 [channelSwitchManager_CalcChannelLoad] chUtilization->chUtilizationBusyRx = %d)
-S 1 17 0 3129 [channelSwitchManager_ChannelLoadReq]
-S 1 17 0 3158 [channelSwitchManager_CalculateChannelLoadForPhyStatusReq]
-S 1 17 0 3431 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: channelSwitchManagerParams.state == CHANNEL_SWITCH_MANAGER_STATE_WAIT_FOR_RSSI_SET_CFM
-S 1 17 0 3483 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Utils_GetSecondayChannelOffset: 80+80 not supported
-S 1 17 0 3486 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Utils_GetSecondayChannelOffset: Illegal rate
-S 1 17 0 3531 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_GetChannelWidth], 80+80 not supported
-S 1 17 0 3534 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_GetChannelWidth], Illegal channel width
-S 1 17 0 3601 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_GetCenterFreq0Idx], 80+80 not supported
-S 1 17 0 3604 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_GetCenterFreq0Idx], Illegal channel width
-S 1 17 0 3653 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_GetCenterFreq1Idx], 80+80 not supported
-S 1 17 0 3656 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_GetCenterFreq1Idx], Illegal channel width
-S 1 17 0 3712 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_CalcActualChannel], invalid ChannelNotificationMode
+S 1 17 0 214 channelSwitchManager_ChangeState from %d, to %d
+S 1 17 0 278 [EASY_CONNECT] ChannelSwitchManagerPostChannelSwitchTxPaused
+S 1 17 0 342 [channelSwitchManager_SetChannelRequest] in RSSI 1
+S 1 17 0 424 [EASY_CONNECT] ChannelSwitchManagerFlushGPHP
+S 1 17 0 519 [EASY_CONNECT][ChannelSwitchManager_EasyConnectTest] pEasyConnectTest->isStDppAction = %d
+S 1 17 0 638 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: Utils_IsBitmapNotEmpty(channelSwitchManagerParams.activeVapsBitmap, CONVERT_WORDS_TO_BIT_INDEX(SYS_VAP_BITMAP_SIZE_WORDS))
+S 1 17 0 651 [channelSwitchManager_SetChannelRequest] CHANNEL_SWITCH_MANAGER_STATE_IDLE, channelSwitchManagerParams.pUmSetChannelParams->switch_type=%d
+S 1 17 0 677 [channelSwitchManager_SetChannelRequest] in RSSI 0
+S 1 17 0 724 [EASY_CONNECT][channelSwitchManager_SetChannelRequest] ST_DPP_ACTION
+S 1 17 0 732 [channelSwitchManager_SetChannelRequest] ST_ZWDFS
+S 1 17 0 741 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: illegal switch type
+S 1 17 0 750 [EASY_CONNECT] [channelSwitchManager_SetChannelRequest] CHANNEL_SWITCH_MANAGER_STATE_DPP
+S 1 17 0 773 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [channelSwitchManager_SetChannelRequest], DPP must be followed by SET CHANNEL with switch type NORMAL
+S 1 17 0 811 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: pUmSetChannelParamsLocal->bg_scan == FALSE
+S 1 17 0 844 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [channelSwitchManager_SetChannelRequest], illegal type in current state
+S 1 17 0 849 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: pUmSetChannelParamsLocal->switch_type == ST_NORMAL_AFTER_RSSI
+S 1 17 0 868 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 906 [channelSwitchManager_ProcessStartConfirm] channelSwitchManagerParams.state = %d, channelSwitchManagerParams.pUmSetChannelParams->switch_type = %d
+S 1 17 0 908 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: processMangerReturnParams->processStatus == PROCESS_STATUS_REQUEST_ACCEPTED
+S 1 17 0 922 [channelSwitchManager_ProcessStartConfirm] send message to HDK
+S 1 17 0 985 [channelSwitchManager_ProcessStartConfirm] Affected band %d, vap %d
+S 1 17 0 1002 [channelSwitchManager_ProcessStartConfirm] Send CSA To Multilink, bitMap %08x
+S 1 17 0 1019 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: illegal switch type
+S 1 17 0 1023 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 1053 state: %d, event: Tx Queue Lock Confirm
+S 1 17 0 1060 [EASY_CONNECT] [channelSwitchManager_TxQueueLockConfirm] CHANNEL_SWITCH_MANAGER_STATE_POST_DPP_WAIT_FOR_TX_QUEUE_LOCK
+S 1 17 0 1128 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 1155 [channelSwitchManager_ProcessFinishConfirm] channelSwitchManagerParams.state = %d
+S 1 17 0 1170 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 1208 [channelSwitchManager_SetChannelConfirm] channelSwitchManagerParams.state = %d
+S 1 17 0 1226 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 1260 [channelSwitchManager_SetChannelConfirm] channelSwitchManagerParams.state = %d
+S 1 17 0 1269 [channelSwitchManager_NotifyConfirm] CHANNEL_SWITCH_MANAGER_STATE_WAIT_FOR_NOTIFY_CFM, channelSwitchManagerParams.pUmSetChannelParams->switch_type = %d
+S 1 17 0 1284 [EASY_CONNECT] [channelSwitchManager_NotifyConfirm] ST_NORMAL easy connect active = %d
+S 1 17 0 1318 [channelSwitchManager_NotifyConfirm] ZWDFS
+S 1 17 0 1338 postProcessServiceBitmap = %x
+S 1 17 0 1363 [channelSwitchManager_NotifyConfirm], pUmSetChannelParamsLocal->u16SID = %d, pRssiParams->vapId = %d
+S 1 17 0 1436 [EASY_CONNECT] [channelSwitchManager_NotifyConfirm] ST_DPP_ACTION
+S 1 17 0 1454 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: illegal switch type
+S 1 17 0 1460 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 1489 state: %d, event: Tx Resume Confirm
+S 1 17 0 1511 [EASY_CONNECT] [channelSwitchManager_TxResumeConfirm] CHANNEL_SWITCH_MANAGER_STATE_DPP_WAIT_FOR_TX_RESUME
+S 1 17 0 1528 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 1554 state: %d, event: Rx Resume Confirm
+S 1 17 0 1576 [EASY_CONNECT] [channelSwitchManager_RxResumeConfirm] CHANNEL_SWITCH_MANAGER_STATE_DPP_WAIT_FOR_RX_RESUME
+S 1 17 0 1586 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 1613 state: %d, event: Tx Pause Confirm
+S 1 17 0 1621 [EASY_CONNECT] [channelSwitchManager_TxPauseConfirm] CHANNEL_SWITCH_MANAGER_STATE_POST_DPP_WAIT_FOR_TX_PAUSE
+S 1 17 0 1668 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 1697 state: %d, event: TX Pause VAP Confirm
+S 1 17 0 1769 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 1795 state: %d, event: Rx Pause Confirm
+S 1 17 0 1802 [EASY_CONNECT] [channelSwitchManager_RxPauseConfirm] CHANNEL_SWITCH_MANAGER_STATE_POST_DPP_WAIT_FOR_RX_PAUSE
+S 1 17 0 1826 channelSwitchManager_RxPauseConfirm Csa Stop
+S 1 17 0 1835 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 1864 state: %d, event: Timer Expired
+S 1 17 0 1896 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 1924 state: %d, event: Beacon Add Csa Ie Confirm
+S 1 17 0 1943 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 1977 state: %d, event: OTF MultiLink CSA Start confirm
+S 1 17 0 1996 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 2100 state: %d, event: OTF MultiLink CSA Stop confirm
+S 1 17 0 2125 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 2155 state: %d, event: CSA Beacon Done Indication
+S 1 17 0 2220 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 2252 state: %d, event: CSA Sec Beacon Done Indication from VapIdx %d
+S 1 17 0 2283 state: %d, event: Stop CSA Beacons Confirm
+S 1 17 0 2304 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 2414 channelSwitchManager_VapManagerRegistrationEventAddVap, state: %d, event: Vap Manager Registration Event Add Vap
+S 1 17 0 2416 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: channelSwitchManagerParams.state == CHANNEL_SWITCH_MANAGER_STATE_IDLE
+S 1 17 0 2460 state: %d, event: Vap Manager Registration Event Post Remove Vap
+S 1 17 0 2462 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: channelSwitchManagerParams.state == CHANNEL_SWITCH_MANAGER_STATE_IDLE
+S 1 17 0 2580 ChannelSwitchManager_MldNonTxBssidVapsCount mld nonTx BSSID count: %d
+S 1 17 0 2606 state: %d, event: Csa Manager Start Tx Cfm
+S 1 17 0 2635 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: channelSwitchManager_ProcessInterruptedIndication
+S 1 17 0 2664 state: %d, event: Csa Manager Stop Tx Cfm
+S 1 17 0 2667 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: CSA Manager stop confirm received before CSA Manager start confirm
+S 1 17 0 2745 [channelSwitchManager_SendConfirmationToHost] channelSwitchManagerParams.pUmSetChannelParams->rssi[%d] = %d
+S 1 17 0 2824 [channelSwitchManager_ChannelSwitchDone]
+S 1 17 0 2921 [channelSwitchManager_ChannelLoadBssLoadIeCalc] channelSwitchManagerChannelLoadDb.totalChannelLoadBssLoad[index] = %d
+S 1 17 0 2943 [channelSwitchManager_ChannelLoadBssLoadIeCalc] range = %d index = %d deltaTime = %d
+S 1 17 0 2945 [channelSwitchManager_ChannelLoadBssLoadIeCalc] totalChannelLoadBssLoad = %d accumulatedLoadBssLoad = %d averageLoadBssLoad = %d
+S 1 17 0 2946 [channelSwitchManager_ChannelLoadBssLoadIeCalc] totalChannelLoadBssLoad = %d accumulatedLoadBssLoad = %d averageLoadBssLoad = %d
+S 1 17 0 3007 [channelSwitchManager_ChannelLoadTimerExpired] QBSS1 = %d, QBSS2 = %d
+S 1 17 0 3013 [channelSwitchManager_ChannelLoadTimerExpired] total load = %d, total utilization = %d
+S 1 17 0 3113 [channelSwitchManager_CalcChannelLoad] rxTotal = %d, rxToMe = %d, QBSS1 = %d, QBSS2 = %d
+S 1 17 0 3119 [channelSwitchManager_CalcChannelLoad] total load = %d, total utilization = %d
+S 1 17 0 3125 [channelSwitchManager_CalcChannelLoad] rxToMe = %d
+S 1 17 0 3128 [channelSwitchManager_CalcChannelLoad] delta time = %d
+S 1 17 0 3132 [channelSwitchManager_CalcChannelLoad] load... delta time = %d
+S 1 17 0 3141 [channelSwitchManager_CalcChannelLoad] load... total utilization = %d
+S 1 17 0 3146 [channelSwitchManager_CalcChannelLoad] utilization... delta time = %d
+S 1 17 0 3163 [channelSwitchManager_CalcChannelLoad] chUtilization->chUtilizationBusyRx = %d)
+S 1 17 0 3206 [channelSwitchManager_ChannelLoadReq]
+S 1 17 0 3235 [channelSwitchManager_CalculateChannelLoadForPhyStatusReq]
+S 1 17 0 3508 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: channelSwitchManagerParams.state == CHANNEL_SWITCH_MANAGER_STATE_WAIT_FOR_RSSI_SET_CFM
+S 1 17 0 3560 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Utils_GetSecondayChannelOffset: 80+80 not supported
+S 1 17 0 3563 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Utils_GetSecondayChannelOffset: Illegal rate
+S 1 17 0 3608 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_GetChannelWidth], 80+80 not supported
+S 1 17 0 3611 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_GetChannelWidth], Illegal channel width
+S 1 17 0 3678 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_GetCenterFreq0Idx], 80+80 not supported
+S 1 17 0 3681 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_GetCenterFreq0Idx], Illegal channel width
+S 1 17 0 3730 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_GetCenterFreq1Idx], 80+80 not supported
+S 1 17 0 3733 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_GetCenterFreq1Idx], Illegal channel width
+S 1 17 0 3789 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_CalcActualChannel], invalid ChannelNotificationMode
 S 1 18 0 123 COND_FATAL Error in file: "CoC.c"; COND_FATAL description: cocDb.CoCstate == COC_STATE_IDLE
 S 1 18 0 124 COND_FATAL Error in file: "CoC.c"; COND_FATAL description: cocDb.numOfApModeVaps > 0 || cocDb.numOfStaModeVaps > 0
 S 1 18 0 140 COND_FATAL Error in file: "CoC.c"; COND_FATAL description: changePowerStateMsg->TxAntsMask!=0
@@ -1122,11 +1141,11 @@ S 1 21 2 793 COND_FATAL Error in file: "Csi_Um_Api.c"; COND_FATAL description: b
 S 1 21 3 227 COND_FATAL Error in file: "Csi_Lm_Phy.c"; COND_FATAL description: lutIndex < CSI_MAX_NUM_ENABLED_STATIONS
 S 1 21 4 36 COND_FATAL Error in file: "Csi_Um_Phy.c"; COND_FATAL description: bandId < CONFIGURATION_MANAGER_BAND_NUM_MAX
 S 1 21 4 48 COND_FATAL Error in file: "Csi_Um_Phy.c"; COND_FATAL description: bandId < CONFIGURATION_MANAGER_BAND_NUM_MAX
-S 1 22 0 206 CTS Manager changed from %d to %d bandId %d
-S 1 22 0 276 COND_FATAL Error in file: "CtsManager.c"; COND_FATAL description: CtsManagerBand_Db[bandId].vapHead != CTS_MANAGER_INVALID_VAP
-S 1 22 0 795 Fatal Error in file: "CtsManager.c"; Fatal Print: [CtsManager_Fatal]
-S 1 22 0 843 COND_FATAL Error in file: "CtsManager.c"; COND_FATAL description: CtsManager_VapDb[vapId].active == FALSE
-S 1 22 0 1023 COND_FATAL Error in file: "CtsManager.c"; COND_FATAL description: FALSE
+S 1 22 0 207 CTS Manager changed from %d to %d bandId %d
+S 1 22 0 277 COND_FATAL Error in file: "CtsManager.c"; COND_FATAL description: CtsManagerBand_Db[bandId].vapHead != CTS_MANAGER_INVALID_VAP
+S 1 22 0 877 Fatal Error in file: "CtsManager.c"; Fatal Print: [CtsManager_Fatal]
+S 1 22 0 925 COND_FATAL Error in file: "CtsManager.c"; COND_FATAL description: CtsManager_VapDb[vapId].active == FALSE
+S 1 22 0 1105 COND_FATAL Error in file: "CtsManager.c"; COND_FATAL description: FALSE
 S 1 23 0 75 COND_FATAL Error in file: "actionPoints.c"; COND_FATAL description: (ActionPointsActive & (0x1 << apNumber)) != 0
 S 1 23 0 117 COND_FATAL Error in file: "actionPoints.c"; COND_FATAL description: apNumber < 4
 S 1 23 0 118 COND_FATAL Error in file: "actionPoints.c"; COND_FATAL description: isQuad + isPair < 2
@@ -1924,22 +1943,22 @@ S 1 31 2 198 Fatal Error in file: "SenderInterface.c"; Fatal Print: [isr_Sender]
 S 1 31 2 209 Fatal Error in file: "SenderInterface.c"; Fatal Print: [isr_Sender], Sender Unknown Event
 S 1 31 2 384 COND_FATAL Error in file: "SenderInterface.c"; COND_FATAL description: (GET_TSF_TIMER_LOW() - timeStamp) <= SENDER_MAX_MICROSECONDS_FOR_INITIALIZATION
 S 1 31 2 412 COND_FATAL Error in file: "SenderInterface.c"; COND_FATAL description: (pFwTxSenderMailboxFifoInParams->writeCounter - pFwTxSenderMailboxFifoInParams->readCounter) < FW_GENRISC_TX_SENDER_MAILBOX_IN_FIFO_NUMBER_OF_ENTRIES
-S 1 31 3 244 TX_IN = %d TX_OUT = %d DELTA = %d
-S 1 31 3 245 Max TX delta = %d
-S 1 31 3 246 Max TX delta ever = %d
-S 1 31 3 248 RX_IN = %d RX_OUT = %d DELTA = %d
-S 1 31 3 249 Max RX delta = %d
-S 1 31 3 250 Max RX delta ever = %d
-S 1 31 3 314 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: Unsupported Message ID
-S 1 31 3 325 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: Host Interface 2 ARCH Unknown event
-S 1 31 3 435 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: Host Interface TxIn Task Failed to Suspend
-S 1 31 3 516 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: Host Interface TxOut Task Failed to Suspend
+S 1 31 3 245 TX_IN = %d TX_OUT = %d DELTA = %d
+S 1 31 3 246 Max TX delta = %d
+S 1 31 3 247 Max TX delta ever = %d
+S 1 31 3 249 RX_IN = %d RX_OUT = %d DELTA = %d
+S 1 31 3 250 Max RX delta = %d
+S 1 31 3 251 Max RX delta ever = %d
+S 1 31 3 315 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: Unsupported Message ID
+S 1 31 3 326 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: Host Interface 2 ARCH Unknown event
+S 1 31 3 436 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: Host Interface TxIn Task Failed to Suspend
+S 1 31 3 517 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: Host Interface TxOut Task Failed to Suspend
 S 1 31 3 669 COND_FATAL Error in file: "HostGenRiscInterface.c"; COND_FATAL description: HostInterface_UpdateMldDb: main STA is not an MLD STA
 S 1 31 3 677 HostInterface_UpdateMldDb mainSta %d prevTxSecondary %d newTxSecondary %d
-S 1 31 3 1137 COND_FATAL Error in file: "HostGenRiscInterface.c"; COND_FATAL description: LoggerApi_GetLoggerStationIndex() != INVALID_LOGGER_SID
-S 1 31 3 1243 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: [HostInterface_Initialize], CHI MAGIC FAILED
-S 1 31 3 1288 COND_FATAL Error in file: "HostGenRiscInterface.c"; COND_FATAL description: (pFwHostGenRiscInterfaceMailboxFifoInParams->writeCounter - pFwHostGenRiscInterfaceMailboxFifoInParams->readCounter) < FW_GENRISC_HOST_INTERFACE_MAILBOX_IN_FIFO_NUMBER_OF_ENTRIES
-S 1 31 3 1339 COND_FATAL Error in file: "HostGenRiscInterface.c"; COND_FATAL description: (GET_TSF_TIMER_LOW() - timeStamp) <= HOST_IF_MAX_MICROSECONDS_FOR_ERROR_FLOW
+S 1 31 3 1149 COND_FATAL Error in file: "HostGenRiscInterface.c"; COND_FATAL description: LoggerApi_GetLoggerStationIndex() != INVALID_LOGGER_SID
+S 1 31 3 1255 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: [HostInterface_Initialize], CHI MAGIC FAILED
+S 1 31 3 1300 COND_FATAL Error in file: "HostGenRiscInterface.c"; COND_FATAL description: (pFwHostGenRiscInterfaceMailboxFifoInParams->writeCounter - pFwHostGenRiscInterfaceMailboxFifoInParams->readCounter) < FW_GENRISC_HOST_INTERFACE_MAILBOX_IN_FIFO_NUMBER_OF_ENTRIES
+S 1 31 3 1351 COND_FATAL Error in file: "HostGenRiscInterface.c"; COND_FATAL description: (GET_TSF_TIMER_LOW() - timeStamp) <= HOST_IF_MAX_MICROSECONDS_FOR_ERROR_FLOW
 S 1 32 0 150 COND_FATAL Error in file: "GidmManager.c"; COND_FATAL description: event < GIDM_MANAGER_EVENT_NUM_EVENTS
 S 1 32 0 151 COND_FATAL Error in file: "GidmManager.c"; COND_FATAL description: staIndex < SYS_NUM_OF_STAS
 S 1 32 0 164 GidmManager_RunStateMachine: Sta = %d, CurrentState = %d, event = %d
@@ -2422,161 +2441,166 @@ S 1 37 8 557 HDK_DCRequest() dutycycleRfOffTimeOut:%d dutycycleRfOnTimeout:%d is
 S 1 37 8 576 HDK_DCRemoveLastVap()------ASSERT----- dutycycleSmState: %d
 S 1 37 8 629 HDK_DCRadioOnOffCommand() dutycycleRfOffTimeOut:%d dutycycleRfOnTimeout:%d isEnabled:%d
 S 1 37 8 645 HDK_DCinit() - CLEAR DUTYCYCLE DATABASE
-S 1 37 9 831 HDK_setRssiCalData. msgType: 0x%x
-S 1 37 9 845 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: (FIRST_2_4GHZ_CHANNEL <= newChannel) && (LAST_2_4GHZ_CHANNEL >= newChannel)
-S 1 37 9 851 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: ((FIRST_5GHZ_CHANNEL <= newChannel) && (MID_END_5GHZ_CHANNEL >= newChannel)) || ((MID_START_5GHZ_CHANNEL <= newChannel) && (LAST_5GHZ_CHANNEL >= newChannel))
-S 1 37 9 860 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: (FIRST_6GHZ_CHANNEL <= newChannel) && (LAST_6GHZ_CHANNEL >= newChannel)
-S 1 37 9 867 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: FALSE
-S 1 37 9 983 setBwAndFrequency: [DPD/CFR] current_channel %d
-S 1 37 9 997 setBwAndFrequency: [DPD/CFR] dpdClipperSwitchChannelTime = %d
-S 1 37 9 998 setBwAndFrequency: [DPD/CFR] dpdShouldActivate %d
-S 1 37 9 1024 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: ZWDFS ANTENNA MASK not supported in PSD
-S 1 37 9 1031 setBwAndFrequencyWav700ZwdfsResume
-S 1 37 9 1048 setBwAndFrequencyWav700Zwdfs: switchType = %d
-S 1 37 9 1098 HdkWav700DfsHwSetup: isRadarDetectionNeeded = 0x%X
-S 1 37 9 1118 sendChannelParams: switchType = %d, requesterBitmap = %x
-S 1 37 9 1133 sendChannelParams. Call Requester: %d
-S 1 37 9 1149 hdkChannelNotificationCb
-S 1 37 9 1179 antConfigSendParams. Call Requester: %d
-S 1 37 9 1194 hdkAntConfigNotificationCb
-S 1 37 9 1287 Fatal Error in file: "HdkTask.c"; Fatal Print: hdkDownloadProgmodelPermissionReq error
-S 1 37 9 1296 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: memcmp(p32PsdProgmodelShramAddressBand,(((uint32*)PMCommonAddress)+(CHUNK_SIZE_IN_WORDS*PMCommonCounter)),CHUNK_SIZE_IN_BYTES) == 0
-S 1 37 9 1306 Fatal Error in file: "HdkTask.c"; Fatal Print: hdkDownloadProgmodelDiffsReq
-S 1 37 9 1334 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: memcmp(p32PsdProgmodelShramAddressBand,(((uint32*)PMTxAddress)+(CHUNK_SIZE_IN_WORDS*PMTxCounter)),CHUNK_SIZE_IN_BYTES) == 0
-S 1 37 9 1341 Fatal Error in file: "HdkTask.c"; Fatal Print: [hdkDownloadProgmodelAntDependentTxReq]
-S 1 37 9 1350 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: memcmp(p32PsdProgmodelShramAddressBand,(((uint32*)PMRxAddress)+(CHUNK_SIZE_IN_WORDS*PMRxCounter)),CHUNK_SIZE_IN_BYTES) == 0
-S 1 37 9 1357 Fatal Error in file: "HdkTask.c"; Fatal Print: [hdkDownloadProgmodelAntDependentRxReq]
-S 1 37 9 1490 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: PSD_SIGN_NEW_PLTF == platformPointer[PSD_PLTF_SIGN_POS]
-S 1 37 9 1496 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: 0
-S 1 37 9 1505 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: (tableId >> PSD_TABLE_ID_SHIFT) < PSD_TABLE_FUNC_ARRAY_SIZE
-S 1 37 9 1531 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: antIndex < 4
-S 1 37 9 1616 radioOn1:%d (2)
-S 1 37 9 1641 isErpDutyCycle: %x
-S 1 37 9 1643 PowerSaveState: %x
-S 1 37 9 1663 HDK_startUserDemandProcess. temp %d
-S 1 37 9 1913 HDK event: HDK_EVENT_ADD_FIRST_VAP_BAND_CONFIG. current state: %d
-S 1 37 9 1924 HDK event: HDK_EVENT_REMOVE_LAST_VAP. current state: %d
-S 1 37 9 1940 HDK event: HDK_EVENT_ENABLE_RF. current state: %d
-S 1 37 9 1947 HDK event: HDK_EVENT_DISABLE_RF. current state: %d
-S 1 37 9 1959 HDK event: HDK_EVENT_CALIBRATE. current state: %d
-S 1 37 9 1967 HDK event: HDK_EVENT_SET_CHANNEL. current state: %d
-S 1 37 9 1978 HDK event: HDK_EVENT_SCHED_ONLINE_PROCESS. current state: %d
-S 1 37 9 2008 HDK event: HDK_EVENT_SET_ANTENNAS. current state: %d
-S 1 37 9 2017 HDK event: HDK_EVENT_USER_DEMAND. current state: %d
-S 1 37 9 2027 Set Channel event: SET_CHANNEL_EVENT_SET_FREQUENCY. current state: %d
-S 1 37 9 2036 Set Channel event: SET_CHANNEL_EVENT_FREQUENCY_SET. current state: %d
-S 1 37 9 2045 Set Channel event: SET_CHANNEL_EVENT_CAL_RESULTS_LOADED. current state: %d
-S 1 37 9 2054 Set Channel event: SET_CHANNEL_EVENT_OFFLINE_CAL_DONE. current state: %d
-S 1 37 9 2063 Set Channel event: SET_CHANNEL_EVENT_CAL_RESULTS_STORED. current state: %d
-S 1 37 9 2072 Set Channel event: SET_CHANNEL_EVENT_CHANNEL_NOTIFICATION_DONE. current state: %d
-S 1 37 9 2084 HDK Process event: HDK_PROCESS_EVENT_SCHEDULE_PROCESS_REQ. current state: %d proc: %d
-S 1 37 9 2094 HDK Process event: HDK_PROCESS_EVENT_PROCESS_SCHEDULED. current state: %d proc: %d
-S 1 37 9 2103 HDK Process event: HDK_PROCESS_EVENT_PROCESS_FINISHED. current state: %d proc: %d
-S 1 37 9 2112 HDK Process event: HDK_PROCESS_EVENT_EXECUTION_COMPLETED. current state: %d proc: %d
-S 1 37 9 2182 HDK event: HDK_EVENT_REMOVE_LAST_VAP. current state: %d
-S 1 37 9 2246 Fatal Error in file: "HdkTask.c"; Fatal Print: hdkInvalidEvent
-S 1 37 9 2346 HDK_SetupWav700ZwdfsAntenna
-S 1 37 9 2366 abb_vAntennaConfig
-S 1 37 9 2416 setChannelSetFrequencyStateHandler ST_ZWDFS: low_chan_num = %d, chan_width = %d, isRadarDetectionNeeded = %x
-S 1 37 9 2448 FREEEEEE MSG............
-S 1 37 9 2450 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: pMsg
-S 1 37 9 2484 ClbrMngr_ResetStatus
-S 1 37 9 2541 Fatal Error in file: "HdkTask.c"; Fatal Print: setChannelInvalidEvent
-S 1 37 9 2665 Fatal Error in file: "HdkTask.c"; Fatal Print: invalid case
-S 1 37 9 2778 Fatal Error in file: "HdkTask.c"; Fatal Print: invalid case
-S 1 37 9 2792 Fatal Error in file: "HdkTask.c"; Fatal Print: hdkProcessInvalidEvent
-S 1 37 9 2802 setHdkMainSmState. state: %d
-S 1 37 9 2814 setSetChannelSmState. state: %d
-S 1 37 9 2828 setHdkProcessSmState. state: %d
-S 1 37 9 2840 setHdkProcessId. processId: %d
-S 1 37 9 2853 setFreqJumpSmState. state: %d
-S 1 37 9 3008 hdkResetRfReq for Wav700 ZWDFS
-S 1 37 9 3050 hdkResetRfBandReq for Wav700 ZWDFS
-S 1 37 9 3090 Fatal Error in file: "HdkTask.c"; Fatal Print: hdkOfflineCalSmInvalidEvent
-S 1 37 9 3098 setHdkConfigSmState,state: %d
-S 1 37 9 3139 hdkOfflineCalSmRunCalReqFromCdbManEvent mode:%d
-S 1 37 9 3236 Fatal Error in file: "HdkTask.c"; Fatal Print: invalid case
-S 1 37 9 3488 RADIO_OFF FindState
-S 1 37 9 3496 RADIO_OFF_ERP_DUTY_CYCLE FindState
-S 1 37 9 3504 RADIO_ON FindState
-S 1 37 9 3511 RADIO_ON_AND_1_ON_1 FindState
-S 1 37 9 3518 1_ON_1 FindState
-S 1 37 9 3525 INCREASE_NUM_OF_ANTS FindState
-S 1 37 9 3532 OUT_OF_1_ON_1 FindState
-S 1 37 9 3539 DECREASE_NUM_OF_ANTS FindState
-S 1 37 9 3595 RADIO_ON_INIT
-S 1 37 9 3601 RADIO_ON
-S 1 37 9 3607 RADIO_OFF
-S 1 37 9 3613 RADIO_ON_AND_1_ON_1
-S 1 37 9 3619 1_ON_1
-S 1 37 9 3625 OUT_OF_1_ON_1
-S 1 37 9 3632 RADIO_OFF_ERP_DUTY_CYCLE
-S 1 37 9 3858 HDK_SetMaxAnts, numAnts = %d, antMask = %d
-S 1 37 9 3873 Fatal Error in file: "HdkTask.c"; Fatal Print: [HDK_SetMaxAnts] unsupported Antenna Mask configuration
-S 1 37 9 3910 Fatal Error in file: "HdkTask.c"; Fatal Print: [HDK_GetMaxActiveAntennasNumAndMask] unsupported Antenna Mask configuration
-S 1 37 9 3914 HDK_GetMaxActiveAntennasNumAndMask() requestedConf: %d maxAnts: %d antMask: %d
-S 1 37 9 4047 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: PSD_getDataField(PSD_FIELD_BAND_SUPPORT_5G)
-S 1 37 9 4053 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: PSD_getDataField(PSD_FIELD_BAND_SUPPORT_2_4G)
-S 1 37 9 4059 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: PSD_getDataField(PSD_FIELD_BAND_SUPPORT_6G)
-S 1 37 9 4254 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: channelNum
-S 1 37 9 4264 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: channelNum <= 10
-S 1 37 9 4323 Fatal Error in file: "HdkTask.c"; Fatal Print: HDK_convertChannelNumToIndex
-S 1 37 9 4409 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: setChannelParams.band == BAND_5_2_GHZ
-S 1 37 9 4413 Fatal Error in file: "HdkTask.c"; Fatal Print: klocwork ignore, UNREACH.GEN..... All the cases in the ENUM is handled, klockwork sees this assert as unreachable code
-S 1 37 9 4424 Fatal Error in file: "HdkTask.c"; Fatal Print: [hdkGetSsbModifiedBw], No spec defined for SSB in 320 MHz
-S 1 37 9 4553 Fatal Error in file: "HdkTask.c"; Fatal Print: klocwork ignore, UNREACH.GEN..... All the cases in the ENUM is handled, klockwork sees this assert as unreachable code
-S 1 37 9 4821 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: getHdkAntConfigSmState() == ANT_CONFIG_DISABLE_ANT
-S 1 37 9 4824 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: ConfigurationManager_GetIsDualBandZWDFS()
-S 1 37 9 4868 [handleModifyAntMaskOtf] RssiPath_extractValuesFromCalBin
-S 1 37 9 4924 HDK_DisableAllAnts
-S 1 37 9 4943 Fatal Error in file: "HdkTask.c"; Fatal Print: hdkAntConfigSmInvalidEvent
-S 1 37 9 4975 hdkSetOperationalAntConfigReq
-S 1 37 9 4996 hdkSetMaxAntsReq
-S 1 37 9 5116 Assert in file: "HdkTask.c" in line: 5116
-S 1 37 9 5155 Fatal Error in file: "HdkTask.c"; Fatal Print: [hdkAntConfigSmProcessDoneEvent], invalid powerSaveState
-S 1 37 9 5158 [hdkAntConfigSmProcessDoneEvent] 	enableOnline : %d 	forceOnline: %d
-S 1 37 9 5171 hdkSetAntConfigForMyBand. band %d antMask 0x%x
-S 1 37 9 5191 setAntennaConfigurationEventHandler, current state: %d
-S 1 37 9 5231 setHdkAntConfigSmState. state: %d
-S 1 37 9 5388 hdkUpdateantennaMaskPerChannel: switch_type = %d, zwdfs_antmask = %d
-S 1 37 9 5395 hdkUpdateantennaMaskPerChannel: channel_index: %d, channelFreq: %d
-S 1 37 9 5577 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: staIndex < SYS_NUM_OF_STAS
-S 1 37 9 5600 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: staIndex < SYS_NUM_OF_STAS
-S 1 37 9 5681 Hdk_SetTxWindowLimit, sindowSizeOption = %d
-S 1 37 9 5774 HDK event: HDK_EVENT_DPD_COMPUTATION. current state: %d
-S 1 37 9 5822 HDK [Lmmain_HandleGenericReq], Operation not supported in this ASIC
-S 1 37 9 5828 HDK [Lmmain_HandleGenericReq], Unknown message type
-S 1 37 11 434 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: fieldId <= PSD_MAX_NUM_OF_DATA_FIELDS
-S 1 37 11 553 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: tableID < PSD_TABLE_FUNC_ARRAY_SIZE
-S 1 37 11 554 PSD_handlePlatformTabl;e, tableBandDependence[tableID] = %d band = %d tableID = %d
-S 1 37 11 567 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: fieldId <= PSD_MAX_NUM_OF_DATA_FIELDS
-S 1 37 11 613 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: antMask != 0
-S 1 37 11 648 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_PHY_FIELDS_TABLE_NUM_OF_COLS
-S 1 37 11 684 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_PHY_FIELDS_TABLE_NUM_OF_COLS
-S 1 37 11 726 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == rfTableNumOfCol || pShramAddress[PSD_NUM_OF_COLS_INDEX] == rfTableNumOfCol-1
-S 1 37 11 772 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] <= rfTableNumOfCol + 1 && pShramAddress[PSD_NUM_OF_COLS_INDEX] >= rfTableNumOfCol - 1
-S 1 37 11 775 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: ConfigurationManager_GetIsDualBandZWDFS()
-S 1 37 11 777 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == rfTableNumOfCol || pShramAddress[PSD_NUM_OF_COLS_INDEX] == rfTableNumOfCol - 1
-S 1 37 11 826 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] <= rfTableNumOfCol + 1 && pShramAddress[PSD_NUM_OF_COLS_INDEX] >= rfTableNumOfCol - 1
-S 1 37 11 831 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == rfTableNumOfCol || pShramAddress[PSD_NUM_OF_COLS_INDEX] == rfTableNumOfCol - 1
-S 1 37 11 874 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_AFE_TABLE_NUM_OF_COLS
-S 1 37 11 910 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_LIMIT_DAMAGE_LIMIT_NUM_OF_COLS
-S 1 37 11 939 Fatal Error in file: "PSD.c"; Fatal Print: [handleGPIOTable], illigle Zw-dfs GPIO configuraiton
-S 1 37 11 975 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_PHY_DUMPS_TABLE_NUM_OF_COLS
-S 1 37 11 1021 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: (cols == PSD_BF_ACTIVATION_BITMAP_NUM_OF_COLS) && (rows == PSD_BF_ACTIVATION_BITMAP_NUM_OF_ROWS)
-S 1 37 11 1345 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: numRows < MAX_NUM_OF_ANTENNA_MASK_REGIONS
-S 1 37 11 1379 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: numRows < MAX_NUM_OF_ANTENNA_MASK_REGIONS
-S 1 37 11 1437 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_DPD_CONFIG_NUM_OF_COLS
-S 1 37 11 1490 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_ROWS_INDEX] == PSD_SUB_BAND_SELECTION_TABLE_NUM_OF_ROWS
-S 1 37 11 1491 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_SUB_BAND_SELECTION_TABLE_NUM_OF_COLS
-S 1 37 11 1520 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_ROWS_INDEX] == PSD_RSSI_DELTA_VALUE_NUM_OF_ROWS
-S 1 37 11 1521 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_RSSI_DELTA_VALUE_NUM_OF_COLS
-S 1 37 11 1565 Fatal Error in file: "PSD.c"; Fatal Print: [handleZwdfsAntennaMask], invalid Zw-dfs antenna mask for WAV600x
-S 1 37 11 1618 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: region < MAX_NUM_OF_ANTENNA_MASK_REGIONS
-S 1 37 11 1660 Fatal Error in file: "PSD.c"; Fatal Print: [handleInvalidTableId]
-S 1 37 11 1786 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_PHY_FIELDS_TABLE_NUM_OF_COLS
-S 1 37 11 1787 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: rows <= tableMaxSize
-S 1 37 11 1854 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: The PSD version you are using does not match this FW src version. Please update your PSD file to the correct version
+S 1 37 9 839 HDK_setRssiCalData. msgType: 0x%x
+S 1 37 9 853 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: (FIRST_2_4GHZ_CHANNEL <= newChannel) && (LAST_2_4GHZ_CHANNEL >= newChannel)
+S 1 37 9 859 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: ((FIRST_5GHZ_CHANNEL <= newChannel) && (MID_END_5GHZ_CHANNEL >= newChannel)) || ((MID_START_5GHZ_CHANNEL <= newChannel) && (LAST_5GHZ_CHANNEL >= newChannel))
+S 1 37 9 868 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: (FIRST_6GHZ_CHANNEL <= newChannel) && (LAST_6GHZ_CHANNEL >= newChannel)
+S 1 37 9 875 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: FALSE
+S 1 37 9 991 setBwAndFrequency: [DPD/CFR] current_channel %d
+S 1 37 9 1005 setBwAndFrequency: [DPD/CFR] dpdClipperSwitchChannelTime = %d
+S 1 37 9 1006 setBwAndFrequency: [DPD/CFR] dpdShouldActivate %d
+S 1 37 9 1032 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: ZWDFS ANTENNA MASK not supported in PSD
+S 1 37 9 1039 setBwAndFrequencyWav700ZwdfsResume
+S 1 37 9 1056 setBwAndFrequencyWav700Zwdfs: switchType = %d
+S 1 37 9 1106 HdkWav700DfsHwSetup: isRadarDetectionNeeded = 0x%X
+S 1 37 9 1126 sendChannelParams: switchType = %d, requesterBitmap = %x
+S 1 37 9 1141 sendChannelParams. Call Requester: %d
+S 1 37 9 1157 hdkChannelNotificationCb
+S 1 37 9 1187 antConfigSendParams. Call Requester: %d
+S 1 37 9 1202 hdkAntConfigNotificationCb
+S 1 37 9 1295 Fatal Error in file: "HdkTask.c"; Fatal Print: hdkDownloadProgmodelPermissionReq error
+S 1 37 9 1304 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: memcmp(p32PsdProgmodelShramAddressBand,(((uint32*)PMCommonAddress)+(CHUNK_SIZE_IN_WORDS*PMCommonCounter)),CHUNK_SIZE_IN_BYTES) == 0
+S 1 37 9 1314 Fatal Error in file: "HdkTask.c"; Fatal Print: hdkDownloadProgmodelDiffsReq
+S 1 37 9 1342 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: memcmp(p32PsdProgmodelShramAddressBand,(((uint32*)PMTxAddress)+(CHUNK_SIZE_IN_WORDS*PMTxCounter)),CHUNK_SIZE_IN_BYTES) == 0
+S 1 37 9 1349 Fatal Error in file: "HdkTask.c"; Fatal Print: [hdkDownloadProgmodelAntDependentTxReq]
+S 1 37 9 1358 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: memcmp(p32PsdProgmodelShramAddressBand,(((uint32*)PMRxAddress)+(CHUNK_SIZE_IN_WORDS*PMRxCounter)),CHUNK_SIZE_IN_BYTES) == 0
+S 1 37 9 1365 Fatal Error in file: "HdkTask.c"; Fatal Print: [hdkDownloadProgmodelAntDependentRxReq]
+S 1 37 9 1488 HDK_tpcConfigRegulationLimitMRUReq: MRU limits update, inside tpcRegulationLimitMRU_t structure
+S 1 37 9 1521 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: PSD_SIGN_NEW_PLTF == platformPointer[PSD_PLTF_SIGN_POS]
+S 1 37 9 1527 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: 0
+S 1 37 9 1536 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: (tableId >> PSD_TABLE_ID_SHIFT) < PSD_TABLE_FUNC_ARRAY_SIZE
+S 1 37 9 1562 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: antIndex < 4
+S 1 37 9 1647 radioOn1:%d (2)
+S 1 37 9 1672 isErpDutyCycle: %x
+S 1 37 9 1674 PowerSaveState: %x
+S 1 37 9 1694 HDK_startUserDemandProcess. temp %d
+S 1 37 9 1944 HDK event: HDK_EVENT_ADD_FIRST_VAP_BAND_CONFIG. current state: %d
+S 1 37 9 1955 HDK event: HDK_EVENT_REMOVE_LAST_VAP. current state: %d
+S 1 37 9 1971 HDK event: HDK_EVENT_ENABLE_RF. current state: %d
+S 1 37 9 1978 HDK event: HDK_EVENT_DISABLE_RF. current state: %d
+S 1 37 9 1990 HDK event: HDK_EVENT_CALIBRATE. current state: %d
+S 1 37 9 1998 HDK event: HDK_EVENT_SET_CHANNEL. current state: %d
+S 1 37 9 2009 HDK event: HDK_EVENT_SCHED_ONLINE_PROCESS. current state: %d
+S 1 37 9 2039 HDK event: HDK_EVENT_SET_ANTENNAS. current state: %d
+S 1 37 9 2048 HDK event: HDK_EVENT_USER_DEMAND. current state: %d
+S 1 37 9 2058 Set Channel event: SET_CHANNEL_EVENT_SET_FREQUENCY. current state: %d
+S 1 37 9 2067 Set Channel event: SET_CHANNEL_EVENT_FREQUENCY_SET. current state: %d
+S 1 37 9 2076 Set Channel event: SET_CHANNEL_EVENT_CAL_RESULTS_LOADED. current state: %d
+S 1 37 9 2085 Set Channel event: SET_CHANNEL_EVENT_OFFLINE_CAL_DONE. current state: %d
+S 1 37 9 2094 Set Channel event: SET_CHANNEL_EVENT_CAL_RESULTS_STORED. current state: %d
+S 1 37 9 2103 Set Channel event: SET_CHANNEL_EVENT_CHANNEL_NOTIFICATION_DONE. current state: %d
+S 1 37 9 2115 HDK Process event: HDK_PROCESS_EVENT_SCHEDULE_PROCESS_REQ. current state: %d proc: %d
+S 1 37 9 2125 HDK Process event: HDK_PROCESS_EVENT_PROCESS_SCHEDULED. current state: %d proc: %d
+S 1 37 9 2134 HDK Process event: HDK_PROCESS_EVENT_PROCESS_FINISHED. current state: %d proc: %d
+S 1 37 9 2143 HDK Process event: HDK_PROCESS_EVENT_EXECUTION_COMPLETED. current state: %d proc: %d
+S 1 37 9 2213 HDK event: HDK_EVENT_REMOVE_LAST_VAP. current state: %d
+S 1 37 9 2277 Fatal Error in file: "HdkTask.c"; Fatal Print: hdkInvalidEvent
+S 1 37 9 2377 HDK_SetupWav700ZwdfsAntenna
+S 1 37 9 2397 abb_vAntennaConfig
+S 1 37 9 2447 setChannelSetFrequencyStateHandler ST_ZWDFS: low_chan_num = %d, chan_width = %d, isRadarDetectionNeeded = %x
+S 1 37 9 2479 FREEEEEE MSG............
+S 1 37 9 2481 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: pMsg
+S 1 37 9 2515 ClbrMngr_ResetStatus
+S 1 37 9 2572 Fatal Error in file: "HdkTask.c"; Fatal Print: setChannelInvalidEvent
+S 1 37 9 2696 Fatal Error in file: "HdkTask.c"; Fatal Print: invalid case
+S 1 37 9 2809 Fatal Error in file: "HdkTask.c"; Fatal Print: invalid case
+S 1 37 9 2823 Fatal Error in file: "HdkTask.c"; Fatal Print: hdkProcessInvalidEvent
+S 1 37 9 2833 setHdkMainSmState. state: %d
+S 1 37 9 2845 setSetChannelSmState. state: %d
+S 1 37 9 2859 setHdkProcessSmState. state: %d
+S 1 37 9 2871 setHdkProcessId. processId: %d
+S 1 37 9 2884 setFreqJumpSmState. state: %d
+S 1 37 9 3039 hdkResetRfReq for Wav700 ZWDFS
+S 1 37 9 3081 hdkResetRfBandReq for Wav700 ZWDFS
+S 1 37 9 3121 Fatal Error in file: "HdkTask.c"; Fatal Print: hdkOfflineCalSmInvalidEvent
+S 1 37 9 3129 setHdkConfigSmState,state: %d
+S 1 37 9 3170 hdkOfflineCalSmRunCalReqFromCdbManEvent mode:%d
+S 1 37 9 3267 Fatal Error in file: "HdkTask.c"; Fatal Print: invalid case
+S 1 37 9 3398 HDK: Populated MRU limits to channel config
+S 1 37 9 3530 RADIO_OFF FindState
+S 1 37 9 3538 RADIO_OFF_ERP_DUTY_CYCLE FindState
+S 1 37 9 3546 RADIO_ON FindState
+S 1 37 9 3553 RADIO_ON_AND_1_ON_1 FindState
+S 1 37 9 3560 1_ON_1 FindState
+S 1 37 9 3567 INCREASE_NUM_OF_ANTS FindState
+S 1 37 9 3574 OUT_OF_1_ON_1 FindState
+S 1 37 9 3581 DECREASE_NUM_OF_ANTS FindState
+S 1 37 9 3637 RADIO_ON_INIT
+S 1 37 9 3643 RADIO_ON
+S 1 37 9 3649 RADIO_OFF
+S 1 37 9 3655 RADIO_ON_AND_1_ON_1
+S 1 37 9 3661 1_ON_1
+S 1 37 9 3667 OUT_OF_1_ON_1
+S 1 37 9 3674 RADIO_OFF_ERP_DUTY_CYCLE
+S 1 37 9 3900 HDK_SetMaxAnts, numAnts = %d, antMask = %d
+S 1 37 9 3915 Fatal Error in file: "HdkTask.c"; Fatal Print: [HDK_SetMaxAnts] unsupported Antenna Mask configuration
+S 1 37 9 3952 Fatal Error in file: "HdkTask.c"; Fatal Print: [HDK_GetMaxActiveAntennasNumAndMask] unsupported Antenna Mask configuration
+S 1 37 9 3956 HDK_GetMaxActiveAntennasNumAndMask() requestedConf: %d maxAnts: %d antMask: %d
+S 1 37 9 4089 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: PSD_getDataField(PSD_FIELD_BAND_SUPPORT_5G)
+S 1 37 9 4095 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: PSD_getDataField(PSD_FIELD_BAND_SUPPORT_2_4G)
+S 1 37 9 4101 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: PSD_getDataField(PSD_FIELD_BAND_SUPPORT_6G)
+S 1 37 9 4296 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: channelNum
+S 1 37 9 4306 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: channelNum <= 10
+S 1 37 9 4365 Fatal Error in file: "HdkTask.c"; Fatal Print: HDK_convertChannelNumToIndex
+S 1 37 9 4451 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: setChannelParams.band == BAND_5_2_GHZ
+S 1 37 9 4455 Fatal Error in file: "HdkTask.c"; Fatal Print: klocwork ignore, UNREACH.GEN..... All the cases in the ENUM is handled, klockwork sees this assert as unreachable code
+S 1 37 9 4466 Fatal Error in file: "HdkTask.c"; Fatal Print: [hdkGetSsbModifiedBw], No spec defined for SSB in 320 MHz
+S 1 37 9 4595 Fatal Error in file: "HdkTask.c"; Fatal Print: klocwork ignore, UNREACH.GEN..... All the cases in the ENUM is handled, klockwork sees this assert as unreachable code
+S 1 37 9 4863 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: getHdkAntConfigSmState() == ANT_CONFIG_DISABLE_ANT
+S 1 37 9 4866 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: ConfigurationManager_GetIsDualBandZWDFS()
+S 1 37 9 4910 [handleModifyAntMaskOtf] RssiPath_extractValuesFromCalBin
+S 1 37 9 4966 HDK_DisableAllAnts
+S 1 37 9 4985 Fatal Error in file: "HdkTask.c"; Fatal Print: hdkAntConfigSmInvalidEvent
+S 1 37 9 5017 hdkSetOperationalAntConfigReq
+S 1 37 9 5038 hdkSetMaxAntsReq
+S 1 37 9 5158 Assert in file: "HdkTask.c" in line: 5158
+S 1 37 9 5197 Fatal Error in file: "HdkTask.c"; Fatal Print: [hdkAntConfigSmProcessDoneEvent], invalid powerSaveState
+S 1 37 9 5200 [hdkAntConfigSmProcessDoneEvent] 	enableOnline : %d 	forceOnline: %d
+S 1 37 9 5213 hdkSetAntConfigForMyBand. band %d antMask 0x%x
+S 1 37 9 5233 setAntennaConfigurationEventHandler, current state: %d
+S 1 37 9 5273 setHdkAntConfigSmState. state: %d
+S 1 37 9 5430 hdkUpdateantennaMaskPerChannel: switch_type = %d, zwdfs_antmask = %d
+S 1 37 9 5437 hdkUpdateantennaMaskPerChannel: channel_index: %d, channelFreq: %d
+S 1 37 9 5625 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: staIndex < SYS_NUM_OF_STAS
+S 1 37 9 5648 COND_FATAL Error in file: "HdkTask.c"; COND_FATAL description: staIndex < SYS_NUM_OF_STAS
+S 1 37 9 5729 Hdk_SetTxWindowLimit, sindowSizeOption = %d
+S 1 37 9 5822 HDK event: HDK_EVENT_DPD_COMPUTATION. current state: %d
+S 1 37 9 5870 HDK [Lmmain_HandleGenericReq], Operation not supported in this ASIC
+S 1 37 9 5876 HDK [Lmmain_HandleGenericReq], Unknown message type
+S 1 37 11 440 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: fieldId <= PSD_MAX_NUM_OF_DATA_FIELDS
+S 1 37 11 559 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: tableID < PSD_TABLE_FUNC_ARRAY_SIZE
+S 1 37 11 560 PSD_handlePlatformTabl;e, tableBandDependence[tableID] = %d band = %d tableID = %d
+S 1 37 11 573 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: fieldId <= PSD_MAX_NUM_OF_DATA_FIELDS
+S 1 37 11 619 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: antMask != 0
+S 1 37 11 654 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_PHY_FIELDS_TABLE_NUM_OF_COLS
+S 1 37 11 690 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_PHY_FIELDS_TABLE_NUM_OF_COLS
+S 1 37 11 732 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == rfTableNumOfCol || pShramAddress[PSD_NUM_OF_COLS_INDEX] == rfTableNumOfCol-1
+S 1 37 11 778 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] <= rfTableNumOfCol + 1 && pShramAddress[PSD_NUM_OF_COLS_INDEX] >= rfTableNumOfCol - 1
+S 1 37 11 781 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: ConfigurationManager_GetIsDualBandZWDFS()
+S 1 37 11 783 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == rfTableNumOfCol || pShramAddress[PSD_NUM_OF_COLS_INDEX] == rfTableNumOfCol - 1
+S 1 37 11 832 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] <= rfTableNumOfCol + 1 && pShramAddress[PSD_NUM_OF_COLS_INDEX] >= rfTableNumOfCol - 1
+S 1 37 11 837 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == rfTableNumOfCol || pShramAddress[PSD_NUM_OF_COLS_INDEX] == rfTableNumOfCol - 1
+S 1 37 11 880 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_AFE_TABLE_NUM_OF_COLS
+S 1 37 11 916 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_LIMIT_DAMAGE_LIMIT_NUM_OF_COLS
+S 1 37 11 945 Fatal Error in file: "PSD.c"; Fatal Print: [handleGPIOTable], illigle Zw-dfs GPIO configuraiton
+S 1 37 11 981 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_PHY_DUMPS_TABLE_NUM_OF_COLS
+S 1 37 11 1027 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: (cols == PSD_BF_ACTIVATION_BITMAP_NUM_OF_COLS) && (rows == PSD_BF_ACTIVATION_BITMAP_NUM_OF_ROWS)
+S 1 37 11 1351 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: numRows < MAX_NUM_OF_ANTENNA_MASK_REGIONS
+S 1 37 11 1385 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: numRows < MAX_NUM_OF_ANTENNA_MASK_REGIONS
+S 1 37 11 1443 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_DPD_CONFIG_NUM_OF_COLS
+S 1 37 11 1496 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_ROWS_INDEX] == PSD_SUB_BAND_SELECTION_TABLE_NUM_OF_ROWS
+S 1 37 11 1497 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_SUB_BAND_SELECTION_TABLE_NUM_OF_COLS
+S 1 37 11 1526 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_ROWS_INDEX] == PSD_RSSI_DELTA_VALUE_NUM_OF_ROWS
+S 1 37 11 1527 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_RSSI_DELTA_VALUE_NUM_OF_COLS
+S 1 37 11 1571 Fatal Error in file: "PSD.c"; Fatal Print: [handleZwdfsAntennaMask], invalid Zw-dfs antenna mask for WAV600x
+S 1 37 11 1624 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: region < MAX_NUM_OF_ANTENNA_MASK_REGIONS
+S 1 37 11 1666 Fatal Error in file: "PSD.c"; Fatal Print: [handleInvalidTableId]
+S 1 37 11 1792 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_PHY_FIELDS_TABLE_NUM_OF_COLS
+S 1 37 11 1793 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: rows <= tableMaxSize
+S 1 37 11 1860 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: The PSD version you are using does not match this FW src version. Please update your PSD file to the correct version
+S 1 37 11 1916 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_TX_TEMP_DELTA_VALUE_NUM_OF_COLS
+S 1 37 11 1917 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: rows <= PSD_TX_TEMP_DELTA_MAX_NUM_OF_ROWS
+S 1 37 11 1931 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: psdTxTempDeltaTableSize < PSD_TX_TEMP_DELTA_MAX_NUM_OF_ROWS
 S 1 37 12 214 phyDrvInterfererDetectionDisablePhy, first after SetChannel
 S 1 37 12 267 new ZWDFS, configure radar HW: BUT DISABLED, isRadarDetectionEnabled = %d, freq = %d, chanWidth = %d
 S 1 37 12 331 COND_FATAL Error in file: "PhyDriver.c"; COND_FATAL description: !(phyGenriscInterruptCauseRegister.val & ~(PHY_GEN_RISC_INTEERUPT_ALL_CAUSES_MASK))
@@ -2657,103 +2681,105 @@ S 1 37 12 2622 PhyDrv_StopDfsRisc
 S 1 37 12 2628 PhyDrv_StartDfsRisc
 S 1 37 12 2634 PhyDrv_ResetDfsRisc
 S 1 37 12 2640 PhyDrv_ReleaseDfsRisc
-S 1 39 0 132 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: PSD_SIGN_NEW_PLTF == platformPointer[PSD_PLTF_SIGN_POS]
-S 1 39 0 142 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: psdPointer[PSD_ID_POS] != PSD_SIGN_NEW_PLTF
-S 1 39 0 143 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: numOfRemainPairs != 0
-S 1 39 0 209 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: platformPointer != NULL
-S 1 39 0 218 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: tableAddress[PSD_NUM_OF_ROWS_INDEX] == PSD_CDB_CONFIG_NUM_OF_ROWS
-S 1 39 0 219 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: tableAddress[PSD_NUM_OF_COLS_INDEX] == PSD_CDB_CONFIG_NUM_OF_COLS
-S 1 39 0 225 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: (psdCdbConfig[bandId] >= 0) &&  ((psdCdbConfig[bandId] <= PSD_CDB_CONFIG_5_G) || (psdCdbConfig[bandId] == PSD_CDB_CONFIG_6_G))
-S 1 39 0 228 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: (psdCdbConfig[bandId] >= 0) &&  (psdCdbConfig[bandId] <= PSD_CDB_CONFIG_5_G)
-S 1 39 0 243 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: Wrong CDB Configuration for W700 Product
-S 1 39 0 267 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: i < CONFIGURATION_MANAGER_BAND_NUM_MAX
-S 1 39 0 285 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: PSD_SIGN_NEW_PLTF == platformPointer[PSD_PLTF_SIGN_POS]
-S 1 39 0 293 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: platformPointer[PSD_ID_POS] != PSD_SIGN_NEW_PLTF
-S 1 39 0 294 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: numOfRemainPairs != 0
-S 1 39 0 315 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: 6G Band not supported for this W700 Product
-S 1 39 0 321 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: (0 < psdShramDb.txAntMask) && (psdShramDb.txAntMask <= ANTENNA_BITMAP_MAX_ANTENNAS)
-S 1 39 0 341 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: 0
-S 1 39 0 453 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: calFileIdx < CALIBRATION_FILE_NUM_OF_FILES
-S 1 39 0 454 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: cis_p != NULL
-S 1 39 0 486 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: calFileIdx < CALIBRATION_FILE_NUM_OF_FILES
-S 1 39 0 487 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: cis_p != NULL
-S 1 39 0 505 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: 0
-S 1 39 0 541 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: Max Power exceeds expected limit!!!
-S 1 39 0 542 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: UEVM Power exceeds expected limit!!!
-S 1 39 0 547 calCisHandlerTx: Max Power exceeds expected limit with %d half dBms! Limiting to max allowed
-S 1 39 0 552 calCisHandlerTx: Max Power exceeds expected limit with %d half dBms! Limiting to max allowed
-S 1 39 0 559 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: calFileDb.tpcChanIndex[calFileIdx][antIdx][bw]<=MAX_CALIBRATED_CHANNEL
-S 1 39 0 569 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: cisSize == 0
-S 1 39 0 578 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: calFileIdx < CALIBRATION_FILE_NUM_OF_FILES
-S 1 39 0 579 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: cis_p != NULL
-S 1 39 0 584 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: (rfBand == UMI_PHY_TYPE_BAND_2_4_GHZ) || (rfBand == UMI_PHY_TYPE_BAND_5_2_GHZ) || (rfBand == UMI_PHY_TYPE_BAND_6_GHZ)
-S 1 39 0 586 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: cis_p[CAL_FILE_CIS_SIZE_MSB_POS] == 0
-S 1 39 0 598 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: calFileIdx < CALIBRATION_FILE_NUM_OF_FILES
-S 1 39 0 599 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: cis_p != NULL
-S 1 39 0 615 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: 0
-S 1 39 0 691 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: calFileHeader[CAL_FILE_SIGNATURE_LSB_POS] == CAL_FILE_SIGNATURE_LSB
-S 1 39 0 692 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: calFileHeader[CAL_FILE_SIGNATURE_MSB_POS] == CAL_FILE_SIGNATURE_MSB
-S 1 39 0 695 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: calFileHeader[CAL_FILE_VESION_POS] == CAL_FILE_VESION
-S 1 39 0 697 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: calFileHeader[CAL_FILE_VESION_POS] == CAL_FILE_VESION
-S 1 39 0 703 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: calFileDb.chipId == HdkSB_getHWChipId()
-S 1 39 0 709 Assert in file: "HdkSecureBoot.c" in line: 709
-S 1 39 0 735 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: verify CAL_FILE_CIS_CARD_ID mandatory found
-S 1 39 0 780 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: vapId invalid
-S 1 39 0 788 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: vapId invalid
-S 1 39 0 907 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: vapId invalid
-S 1 39 0 1159 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: Invalid bandwidth
-S 1 39 0 1220 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: invalid MRU index
-S 1 39 0 1295 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: maxMruIdx must be < 45
-S 1 39 0 1303 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: phy_cw_mru out of bounds
-S 1 39 0 1363 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: ( num <= ARRAY_SIZE(table_log_mul10) ) && (num > 0)
-S 1 39 0 1416 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: maxMruIdx out of bounds
-S 1 39 0 1427 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: bandId < CONFIGURATION_MANAGER_BAND_NUM_MAX
-S 1 39 0 1451 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: vapId invalid
-S 1 39 0 1501 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: powerLimitDb.table_data.nrows <= PSD_POWER_LIMIT_MAX_ENTRIES
-S 1 39 0 1512 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: illegal CW mode
-S 1 39 0 1529 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: chan_idx != 0
-S 1 39 0 1554 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: chan_idx != 0
-S 1 39 0 1555 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: sub_chan_width < BW_LAST
-S 1 39 0 1736 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: vapId invalid
-S 1 39 0 1750 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: bw < BANDWIDTH_MAX
-S 1 39 0 1755 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: bandId < CONFIGURATION_MANAGER_BAND_NUM_MAX
-S 1 39 0 1789 ---------------------------------------------------------------------------------
-S 1 39 0 1790 HdkSB_saveAntennaGainTable: Rows = %d ,   Cols = %d, bandId = %d, vapId = %d
-S 1 39 0 1807 ---------------------------------------------------------------------------------
-S 1 39 0 1811 HdkSB_setTpcConfigReq: (1) ant. gain table -  indx=%2d seg=%3d   gain=%3d
-S 1 39 0 1813 -------------
-S 1 39 0 1838 Fatal Error in file: "HdkSecureBoot.c"; Fatal Print: HdkSB_setTpcConfigReq(): 80+80 not supported
-S 1 39 0 1857 HdkSB_setTpcConfigReq(): (2) bandwidth = %d ,  channel = %d, freq = %d
-S 1 39 0 1864 psdVerifyCdbConfigTableExist(): (3) antenna Gain Table is Missing
-S 1 39 0 1904 HdkSB_setTpcConfigReq(): (4) Band  is not supporting antenna gain Tx power allignment
-S 1 39 0 1910 HdkSB_setTpcConfigReq(): (7) table index = %d,  antGain = %d
-S 1 39 0 1914 (8) powerLimit11b (Regulate) = %d, psd = %d
-S 1 39 0 1915 (9) regulationLimitAG (Regulate) = %d, psd = %d
-S 1 39 0 1921 (10) after antenna gain adjustment - powerLimit11b (min) = %d, psd = %d
-S 1 39 0 1922 (11) after antenna gain adjustment - regulationLimitAG (min) = %d, psd = %d
-S 1 39 0 1932 --------------------------------------------------
-S 1 39 0 1933 regulation Limit (itterarion = %d)
-S 1 39 0 1934 --------------------------------------------------
-S 1 39 0 1935 (12) regulationLimit[%d] (Regulate) = %d
-S 1 39 0 1936 (13) regulationLimitMU[%d] (Regulate) = %d
-S 1 39 0 1937 (14) regulationLimitBF[%d] (Regulate) = %d
-S 1 39 0 1938 (15) regulationLimitAX[%d] (Regulate) = %d
-S 1 39 0 1939 (16) regulationLimitBF_AX[%d] (Regulate) = %d
-S 1 39 0 1941 (17) regulationLimit_BE[%d] (Regulate) = %d
-S 1 39 0 1942 (18) regulationLimitBF_BE[%d] (Regulate) = %d
-S 1 39 0 1956 -------------------------------------------------------------------
-S 1 39 0 1957 Limit after antenna gain adjustment (itterarion = %d)
-S 1 39 0 1958 -------------------------------------------------------------------
-S 1 39 0 1959 (19) regulationLimit[%d] (min) = %d, psd = %d
-S 1 39 0 1960 (20) regulationLimitMU[%d] (min) = %d, psd = %d
-S 1 39 0 1961 (21) regulationLimitBF[%d] (min) = %d, psd = %d
-S 1 39 0 1962 (22) regulationLimitAX[%d] (min) = %d, psd = %d
-S 1 39 0 1963 (23) regulationLimitBF_AX[%d] (min) = %d, psd = %d
-S 1 39 0 1965 (24) regulationLimitBE[%d] (min) = %d, psd = %d
-S 1 39 0 1966 (25) regulationLimitBF_BE[%d] (min) = %d, psd = %d
-S 1 39 0 1985 (26) regulationLimitMRU[MRU=%d] (min) = %d psd=%d
-S 1 39 0 1995 (28) regulationLimitN[%d] (Regulate) = %d
-S 1 39 0 1999 (29) regulationLimitN[%d] (min) = %d, psd = %d
+S 1 39 0 119 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: PSD_SIGN_NEW_PLTF == platformPointer[PSD_PLTF_SIGN_POS]
+S 1 39 0 129 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: psdPointer[PSD_ID_POS] != PSD_SIGN_NEW_PLTF
+S 1 39 0 130 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: numOfRemainPairs != 0
+S 1 39 0 196 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: platformPointer != NULL
+S 1 39 0 205 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: tableAddress[PSD_NUM_OF_ROWS_INDEX] == PSD_CDB_CONFIG_NUM_OF_ROWS
+S 1 39 0 206 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: tableAddress[PSD_NUM_OF_COLS_INDEX] == PSD_CDB_CONFIG_NUM_OF_COLS
+S 1 39 0 212 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: (psdCdbConfig[bandId] >= 0) &&  ((psdCdbConfig[bandId] <= PSD_CDB_CONFIG_5_G) || (psdCdbConfig[bandId] == PSD_CDB_CONFIG_6_G))
+S 1 39 0 215 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: (psdCdbConfig[bandId] >= 0) &&  (psdCdbConfig[bandId] <= PSD_CDB_CONFIG_5_G)
+S 1 39 0 230 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: Wrong CDB Configuration for W700 Product
+S 1 39 0 254 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: i < CONFIGURATION_MANAGER_BAND_NUM_MAX
+S 1 39 0 272 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: PSD_SIGN_NEW_PLTF == platformPointer[PSD_PLTF_SIGN_POS]
+S 1 39 0 280 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: platformPointer[PSD_ID_POS] != PSD_SIGN_NEW_PLTF
+S 1 39 0 281 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: numOfRemainPairs != 0
+S 1 39 0 302 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: 6G Band not supported for this W700 Product
+S 1 39 0 308 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: (0 < psdShramDb.txAntMask) && (psdShramDb.txAntMask <= ANTENNA_BITMAP_MAX_ANTENNAS)
+S 1 39 0 328 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: 0
+S 1 39 0 440 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: calFileIdx < CALIBRATION_FILE_NUM_OF_FILES
+S 1 39 0 441 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: cis_p != NULL
+S 1 39 0 473 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: calFileIdx < CALIBRATION_FILE_NUM_OF_FILES
+S 1 39 0 474 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: cis_p != NULL
+S 1 39 0 492 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: 0
+S 1 39 0 528 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: Max Power exceeds expected limit!!!
+S 1 39 0 529 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: UEVM Power exceeds expected limit!!!
+S 1 39 0 534 calCisHandlerTx: Max Power exceeds expected limit with %d half dBms! Limiting to max allowed
+S 1 39 0 539 calCisHandlerTx: Max Power exceeds expected limit with %d half dBms! Limiting to max allowed
+S 1 39 0 546 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: calFileDb.tpcChanIndex[calFileIdx][antIdx][bw]<=MAX_CALIBRATED_CHANNEL
+S 1 39 0 556 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: cisSize == 0
+S 1 39 0 565 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: calFileIdx < CALIBRATION_FILE_NUM_OF_FILES
+S 1 39 0 566 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: cis_p != NULL
+S 1 39 0 571 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: (rfBand == UMI_PHY_TYPE_BAND_2_4_GHZ) || (rfBand == UMI_PHY_TYPE_BAND_5_2_GHZ) || (rfBand == UMI_PHY_TYPE_BAND_6_GHZ)
+S 1 39 0 573 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: cis_p[CAL_FILE_CIS_SIZE_MSB_POS] == 0
+S 1 39 0 585 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: calFileIdx < CALIBRATION_FILE_NUM_OF_FILES
+S 1 39 0 586 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: cis_p != NULL
+S 1 39 0 602 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: 0
+S 1 39 0 678 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: calFileHeader[CAL_FILE_SIGNATURE_LSB_POS] == CAL_FILE_SIGNATURE_LSB
+S 1 39 0 679 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: calFileHeader[CAL_FILE_SIGNATURE_MSB_POS] == CAL_FILE_SIGNATURE_MSB
+S 1 39 0 682 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: calFileHeader[CAL_FILE_VESION_POS] == CAL_FILE_VESION
+S 1 39 0 684 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: calFileHeader[CAL_FILE_VESION_POS] == CAL_FILE_VESION
+S 1 39 0 690 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: calFileDb.chipId == HdkSB_getHWChipId()
+S 1 39 0 696 Assert in file: "HdkSecureBoot.c" in line: 696
+S 1 39 0 722 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: verify CAL_FILE_CIS_CARD_ID mandatory found
+S 1 39 0 767 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: vapId invalid
+S 1 39 0 775 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: vapId invalid
+S 1 39 0 894 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: vapId invalid
+S 1 39 0 1146 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: Invalid bandwidth
+S 1 39 0 1207 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: invalid MRU index
+S 1 39 0 1282 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: maxMruIdx must be < 45
+S 1 39 0 1290 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: phy_cw_mru out of bounds
+S 1 39 0 1350 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: ( num <= ARRAY_SIZE(table_log_mul10) ) && (num > 0)
+S 1 39 0 1403 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: maxMruIdx out of bounds
+S 1 39 0 1414 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: bandId < CONFIGURATION_MANAGER_BAND_NUM_MAX
+S 1 39 0 1438 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: vapId invalid
+S 1 39 0 1488 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: powerLimitDb.table_data.nrows <= PSD_POWER_LIMIT_MAX_ENTRIES
+S 1 39 0 1499 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: illegal CW mode
+S 1 39 0 1516 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: chan_idx != 0
+S 1 39 0 1541 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: chan_idx != 0
+S 1 39 0 1542 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: sub_chan_width < BW_LAST
+S 1 39 0 1732 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: vapId invalid
+S 1 39 0 1739 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: bw < BANDWIDTH_MAX
+S 1 39 0 1744 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: bandId < CONFIGURATION_MANAGER_BAND_NUM_MAX
+S 1 39 0 1785 ---------------------------------------------------------------------------------
+S 1 39 0 1786 HdkSB_saveAntennaGainTable: Rows = %d ,   Cols = %d, bandId = %d, vapId = %d
+S 1 39 0 1803 ---------------------------------------------------------------------------------
+S 1 39 0 1807 HdkSB_setTpcConfigReq: (1) ant. gain table -  indx=%2d seg=%3d   gain=%3d
+S 1 39 0 1809 -------------
+S 1 39 0 1834 Fatal Error in file: "HdkSecureBoot.c"; Fatal Print: HdkSB_setTpcConfigReq(): 80+80 not supported
+S 1 39 0 1853 HdkSB_setTpcConfigReq(): (2) bandwidth = %d ,  channel = %d, freq = %d
+S 1 39 0 1860 psdVerifyCdbConfigTableExist(): (3) antenna Gain Table is Missing
+S 1 39 0 1900 HdkSB_setTpcConfigReq(): (4) Band  is not supporting antenna gain Tx power allignment
+S 1 39 0 1906 HdkSB_setTpcConfigReq(): (7) table index = %d,  antGain = %d
+S 1 39 0 1910 (8) powerLimit11b (Regulate) = %d, psd = %d
+S 1 39 0 1911 (9) regulationLimitAG (Regulate) = %d, psd = %d
+S 1 39 0 1917 (10) after antenna gain adjustment - powerLimit11b (min) = %d, psd = %d
+S 1 39 0 1918 (11) after antenna gain adjustment - regulationLimitAG (min) = %d, psd = %d
+S 1 39 0 1928 --------------------------------------------------
+S 1 39 0 1929 regulation Limit (itterarion = %d)
+S 1 39 0 1930 --------------------------------------------------
+S 1 39 0 1931 (12) regulationLimit[%d] (Regulate) = %d
+S 1 39 0 1932 (13) regulationLimitMU[%d] (Regulate) = %d
+S 1 39 0 1933 (14) regulationLimitBF[%d] (Regulate) = %d
+S 1 39 0 1934 (15) regulationLimitAX[%d] (Regulate) = %d
+S 1 39 0 1935 (16) regulationLimitBF_AX[%d] (Regulate) = %d
+S 1 39 0 1937 (17) regulationLimit_BE[%d] (Regulate) = %d
+S 1 39 0 1938 (18) regulationLimitBF_BE[%d] (Regulate) = %d
+S 1 39 0 1952 -------------------------------------------------------------------
+S 1 39 0 1953 Limit after antenna gain adjustment (itterarion = %d)
+S 1 39 0 1954 -------------------------------------------------------------------
+S 1 39 0 1955 (19) regulationLimit[%d] (min) = %d, psd = %d
+S 1 39 0 1956 (20) regulationLimitMU[%d] (min) = %d, psd = %d
+S 1 39 0 1957 (21) regulationLimitBF[%d] (min) = %d, psd = %d
+S 1 39 0 1958 (22) regulationLimitAX[%d] (min) = %d, psd = %d
+S 1 39 0 1959 (23) regulationLimitBF_AX[%d] (min) = %d, psd = %d
+S 1 39 0 1961 (24) regulationLimitBE[%d] (min) = %d, psd = %d
+S 1 39 0 1962 (25) regulationLimitBF_BE[%d] (min) = %d, psd = %d
+S 1 39 0 1972 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: maxMruIdx out of bounds
+S 1 39 0 1982 (26) regulationLimitMRU[MRU=%d] (min) = %d psd=%d
+S 1 39 0 1985 SecureBoot: Calculated MRU limits for BW=%d, maxMruIdx=%d, BElimit=%d
+S 1 39 0 1993 (28) regulationLimitN[%d] (Regulate) = %d
+S 1 39 0 1997 (29) regulationLimitN[%d] (min) = %d, psd = %d
 S 1 39 0 2059 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: powerLimitDb.table_data.ncols == 5
 S 1 39 0 2060 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: powerLimitDb.table_data.nrows <= PSD_POWER_LIMIT_MAX_ENTRIES
 S 1 39 0 2082 COND_FATAL Error in file: "HdkSecureBoot.c"; COND_FATAL description: bands == RF_NUM_OF_BANDS
@@ -3436,8 +3462,8 @@ S 1 42 3 773 ________________ valid agreement exist: (spId=%d, SP[usec]=%d, Slee
 S 1 42 3 812 [TwtSpManager_AllocateSpForSetupFrameReceived]. Parser status %d Negotiation Handler status %d twtDbIndex %d
 S 1 42 3 918 [TwtSpManager_RemoveStaFromSp] staId=%d, spId=%d onlySuspend=%d
 S 1 42 3 1004 [TwtSpManager_AddStaToSp] staId=%d, spId=%d, onlyResume=%d
-S 1 43 0 193 COND_FATAL Error in file: "HostInterfaceCommon.c"; COND_FATAL description: bufIdx < HOST_INTERFACE_MAX_NUM_OF_LOGGER_SHRAM_BUFFERS
-S 1 43 0 246 COND_FATAL Error in file: "HostInterfaceCommon.c"; COND_FATAL description: HostInterface_GlobalDb.loggerflowParams.badPtrLoggerCount < HostInterface_GlobalDb.maxHostRdNum
+S 1 43 0 194 COND_FATAL Error in file: "HostInterfaceCommon.c"; COND_FATAL description: bufIdx < HOST_INTERFACE_MAX_NUM_OF_LOGGER_SHRAM_BUFFERS
+S 1 43 0 247 COND_FATAL Error in file: "HostInterfaceCommon.c"; COND_FATAL description: HostInterface_GlobalDb.loggerflowParams.badPtrLoggerCount < HostInterface_GlobalDb.maxHostRdNum
 S 1 43 2 255 Assert in file: "HostInterfaceRxIn.c" in line: 255
 S 1 43 2 291 Assert in file: "HostInterfaceRxIn.c" in line: 291
 S 1 43 3 100 COND_FATAL Error in file: "HostInterfaceRxOut.c"; COND_FATAL description: numOfHds <= HostInterface_GlobalDb.rxOutFreeHdCount
@@ -3470,23 +3496,23 @@ S 1 45 1 294 Fatal Error in file: "HostInterfaceAcc.c"; Fatal Print: [hostIfAccL
 S 1 45 1 367 Fatal Error in file: "HostInterfaceAcc.c"; Fatal Print: [hostIfAccLoadRxOutCode], DC_MODE not supported
 S 1 45 1 862 HostIfAcc_SetRdThreshold - %d
 S 1 45 3 371 [EASY_CONNECT][HostInterfaceRingsEasyConnectTestSendDppFrame]
-S 1 45 3 417 COND_FATAL Error in file: "HostInterfaceRings.c"; COND_FATAL description: (TxPd_t *)NULL_PD != pDesc
-S 1 45 3 471 [EASY_CONNECT][hostInterfaceRingsConvertDriverHdsToPds]
-S 1 45 3 487 [hostInterfaceRingsConvertDriverHdsToPds]: UNENC PD
-S 1 45 3 492 [hostInterfaceRingsConvertDriverHdsToPds]: ENC PD
-S 1 45 3 497 COND_FATAL Error in file: "HostInterfaceRings.c"; COND_FATAL description: pDesc->txQTid == MANAGEMENT_TID
-S 1 45 3 518 COND_FATAL Error in file: "HostInterfaceRings.c"; COND_FATAL description: pDesc->dataLength == 0
-S 1 45 3 532 COND_FATAL Error in file: "HostInterfaceRings.c"; COND_FATAL description: tempHostDesc.multicastIndication == UNICAST
-S 1 45 3 533 COND_FATAL Error in file: "HostInterfaceRings.c"; COND_FATAL description: tempHostDesc.unknownSidInd == FALSE
-S 1 45 3 603 COND_FATAL Error in file: "HostInterfaceRings.c"; COND_FATAL description: pDesc != (Rd_t *)NULL_RD
-S 1 45 3 614 COND_FATAL Error in file: "HostInterfaceRings.c"; COND_FATAL description: rdList.pHead != (Rd_t *)NULL_RD
-S 1 45 3 692 [hostInterfaceRingsConvertDriverRdsToHds] bdIndex = %d
-S 1 45 3 1114 COND_FATAL Error in file: "HostInterfaceRings.c"; COND_FATAL description: qosTxStaReliableMcastPdCounter[staId][tid]!=0
-S 1 45 3 1193 COND_FATAL Error in file: "HostInterfaceRings.c"; COND_FATAL description: pBufferDb
-S 1 45 3 1222 COND_FATAL Error in file: "HostInterfaceRings.c"; COND_FATAL description: (Rd_t  *)NULL_RD != headRxDescriptor
-S 1 45 3 1223 COND_FATAL Error in file: "HostInterfaceRings.c"; COND_FATAL description: (Rd_t  *)NULL_RD != tailRxDescriptor
-S 1 45 3 1271 COND_FATAL Error in file: "HostInterfaceRings.c"; COND_FATAL description: (TxPd_t *)NULL_PD != pPacketDescHead
-S 1 45 3 1272 COND_FATAL Error in file: "HostInterfaceRings.c"; COND_FATAL description: (TxPd_t *)NULL_PD != pPacketDescTail
+S 1 45 3 418 COND_FATAL Error in file: "HostInterfaceRings.c"; COND_FATAL description: (TxPd_t *)NULL_PD != pDesc
+S 1 45 3 472 [EASY_CONNECT][hostInterfaceRingsConvertDriverHdsToPds]
+S 1 45 3 488 [hostInterfaceRingsConvertDriverHdsToPds]: UNENC PD
+S 1 45 3 493 [hostInterfaceRingsConvertDriverHdsToPds]: ENC PD
+S 1 45 3 498 COND_FATAL Error in file: "HostInterfaceRings.c"; COND_FATAL description: pDesc->txQTid == MANAGEMENT_TID
+S 1 45 3 519 COND_FATAL Error in file: "HostInterfaceRings.c"; COND_FATAL description: pDesc->dataLength == 0
+S 1 45 3 533 COND_FATAL Error in file: "HostInterfaceRings.c"; COND_FATAL description: tempHostDesc.multicastIndication == UNICAST
+S 1 45 3 534 COND_FATAL Error in file: "HostInterfaceRings.c"; COND_FATAL description: tempHostDesc.unknownSidInd == FALSE
+S 1 45 3 631 COND_FATAL Error in file: "HostInterfaceRings.c"; COND_FATAL description: pDesc != (Rd_t *)NULL_RD
+S 1 45 3 642 COND_FATAL Error in file: "HostInterfaceRings.c"; COND_FATAL description: rdList.pHead != (Rd_t *)NULL_RD
+S 1 45 3 720 [hostInterfaceRingsConvertDriverRdsToHds] bdIndex = %d
+S 1 45 3 1142 COND_FATAL Error in file: "HostInterfaceRings.c"; COND_FATAL description: qosTxStaReliableMcastPdCounter[staId][tid]!=0
+S 1 45 3 1221 COND_FATAL Error in file: "HostInterfaceRings.c"; COND_FATAL description: pBufferDb
+S 1 45 3 1250 COND_FATAL Error in file: "HostInterfaceRings.c"; COND_FATAL description: (Rd_t  *)NULL_RD != headRxDescriptor
+S 1 45 3 1251 COND_FATAL Error in file: "HostInterfaceRings.c"; COND_FATAL description: (Rd_t  *)NULL_RD != tailRxDescriptor
+S 1 45 3 1299 COND_FATAL Error in file: "HostInterfaceRings.c"; COND_FATAL description: (TxPd_t *)NULL_PD != pPacketDescHead
+S 1 45 3 1300 COND_FATAL Error in file: "HostInterfaceRings.c"; COND_FATAL description: (TxPd_t *)NULL_PD != pPacketDescTail
 S 1 45 4 141 Fatal Error in file: "HostInterfaceAcc.c"; Fatal Print: [hostIfAccLoadTxInCode], DC_MODE not supported
 S 1 45 4 181 Fatal Error in file: "HostInterfaceAcc.c"; Fatal Print: [hostIfAccLoadTxOutCode], DC_MODE not supported
 S 1 45 4 219 Fatal Error in file: "HostInterfaceAcc.c"; Fatal Print: [hostIfAccLoadRxInCode], DC_MODE not supported
@@ -3767,90 +3793,90 @@ S 1 50 0 166 COND_FATAL Error in file: "HwQManagerDpa.c"; COND_FATAL description
 S 1 50 0 204 COND_FATAL Error in file: "HwQManagerDpa.c"; COND_FATAL description: hwQueueManagerRequestParams->headDescOffset != HW_Q_MANAGER_NULL_PTR
 S 1 50 0 235 COND_FATAL Error in file: "HwQManagerDpa.c"; COND_FATAL description: (hwQueueManagerRequestParams->headDescOffset != HW_Q_MANAGER_NULL_PTR) && (hwQueueManagerRequestParams->tailDescOffset != HW_Q_MANAGER_NULL_PTR)
 S 1 51 0 404 COND_FATAL Error in file: "InterfererDetection.c"; COND_FATAL description: sizeof(InterfererDetectionRadarDetectionSamplesMessageParameters_t) <= K_FAST_MSG_SIZE
-S 1 51 1 326 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: queuedPulseRecord
-S 1 51 1 373 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: pPulseRecord != (RadarDetectionPulseRecord_t *)pPulseCluster->pulseQueue.pvTail
-S 1 51 1 411 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: pPulseRecord != (RadarDetectionPulseRecord_t *)pRecordsQueue->pvTail
-S 1 51 1 440 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: queuedPulseRecord
-S 1 51 1 485 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: emptyClusterIndex < NUM_OF_PULSE_CLUSTERS
-S 1 51 1 500 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: pPulseRecord != NULL
-S 1 51 1 568 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: There is no available empty cluster
-S 1 51 1 573 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: RadarDetectionPerBandGlobalParameters[DfsBand].pulses.blockManagement.biggestClusterIndex < NUM_OF_PULSE_CLUSTERS
-S 1 51 1 621 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: more DFS samples in message than free pulse records available
-S 1 51 1 730 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: pPrevTemp is NULL pointer
-S 1 51 1 738 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: pulse to be aged out must be head of cluster
-S 1 51 1 762 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: pulse to be aged out must be head of cluster
-S 1 51 1 777 RADAR radarDetectionResetAgedOutRecords: biggestClusterIndex = %d, NumFreePulseRecords = %d
-S 1 51 1 825 RADAR isValidPairedPwPri: valid with RadarTableSize = %d, index = %d, pw = %d, pri = %d
-S 1 51 1 829 RADAR isValidPairedPwPri: No valid pair, pw = %d, pri = %d
-S 1 51 1 883 RADAR radarDetectionCheckLongRadarPri_NEW: pulseCount = %d, firstPulseTs = %d
-S 1 51 1 974 RADAR radarDetectionCheckLongRadarPri_NEW: longPriCnt = %d, shortPriCnt = %d, falseCnt = %d, SB-bitmap = %d
-S 1 51 1 1025 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: pPulseRecord is NULL pointer
-S 1 51 1 1026 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: nextPulseRecord is NULL pointer
-S 1 51 1 1034 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: pri_index exceeds array size
-S 1 51 1 1061 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: pri_index exceeds array size
-S 1 51 1 1066 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: pPulseCluster->pulseCount is too small
-S 1 51 1 1241 RADAR SHORT NEW: pri_i = %d, priCnt = %d, falseCount = %d, numUniquePri = %d
-S 1 51 1 1266 RADAR SHORT NEW EVAL: ampSubBandBitMap = %d, maxCount = %d, falseCountStored = %d, region = %d
-S 1 51 1 1267 RADAR SHORT NEW EVAL: unique_pris0..3 = %d, %d, %d, %d
-S 1 51 1 1274 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: numUniquePri is 0
-S 1 51 1 1279 RADAR SHORT NEW EVAL: ETSI short radar detected
-S 1 51 1 1291 RADAR SHORT NEW EVAL: FCC short radar detected
-S 1 51 1 1326 RADAR radarDetectionCheckValidPri: pri = %d
-S 1 51 1 1373 RADAR radarDetectionCheckLongValidPri_NEW: pulse ignored because PW <= %d or PW > %d DfsBand:%d
-S 1 51 1 1380 RADAR radarDetectionCheckLongValidPri_NEW: pulse ignored because SB-bitmap == 0 DfsBand:%d
-S 1 51 1 1444 RADAR SB radarDetectionSubBandFiltering: 20MHz BW %d or short gSubBandPulseWidth %d
-S 1 51 1 1455 RADAR SB radarDetectionSubBandFiltering: Radar Detected, bitMapForSubBand = %d
-S 1 51 1 1460 RADAR SB radarDetectionSubBandFiltering: Radar Filtered, bitMapForSubBand = %d
-S 1 51 1 1534 RADAR RadarDetection_SetChannel isRadarDetectionEnabled = %d
-S 1 51 1 1587 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: pPulseRecord is NULL pointer
-S 1 51 1 1588 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: nextPulseRecord is NULL pointer
-S 1 51 1 1649 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: numberOfSamples <= MAX_NUMBER_OF_RADAR_SAMPLES_IN_MESSAGE
-S 1 51 1 1650 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: numberOfSamples != 0
-S 1 51 1 1656 RADAR RadarDetection_ProcessSamples newestPulseTimeStamp = %u, ageingTimerActive = %d
-S 1 51 1 1672 RADAR ==================== RadarDetection_ProcessSamples, Dfsband = %d ====================
-S 1 51 1 1678 RADAR @@@@@ record: pw = %d, timestamp = %u @@@@@
-S 1 51 1 1679 RADAR PWs minshort = %d, maxshort = %d, minlong = %d, maxlong = %d
-S 1 51 1 1680 RADAR PRIs minshort = %d, maxshort = %d, minlong = %d, maxlong = %d
-S 1 51 1 1748 RADAR Radar detected 55555 type = %d (UMI_BSS_RADAR_SHORT)
-S 1 51 1 1767 RADAR Radar detected 66666 type = %d (UMI_BSS_RADAR_CHIRP)
-S 1 51 1 1785 RADAR Radar detected 22222 type = %d (UMI_BSS_RADAR_SHORT)
-S 1 51 1 1794 RADAR $$$$$$$$$$$$$$$$$$$$$$$$$$ Radar detected: type = %d $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-S 1 51 1 1796 RADAR globals: DfsBand = %d, isIndicationEnabled = %d, channel = %d, bw = %d
-S 1 51 1 1797 RADAR globals: wasRadarIndicationSent = %d, ageingActive = %d, radioState = %d, radarDfsMask = 0x%X
-S 1 51 1 1807 RADAR $$$$$$$$$$ Radar detected, SubBandBitmap = 0x%X, isValidSubBandDetected = %d, gSubBandPulseWidth = %d $$$$$$$$$$
-S 1 51 1 1808 RADAR channelNotification = %d
-S 1 51 1 1829 RADAR RadarDetection_ProcessSamples, RADAR NOT FILTERED, REPORT RADAR
-S 1 51 1 1871 RADAR RadarDetection_ProcessSamples, RADAR FILTERED
-S 1 51 1 1944 RADAR RadarDetection_AgingTimer, DfsBand = %d
-S 1 51 1 1967 RADAR RadarDetection_AgingTimer, AGING CALL, new newestPulseTimeStamp = %u
-S 1 51 1 1972 RADAR RadarDetection_AgingTimer, NO AGING, TsfTimestamp = %u, newestPulseTimeStamp = %u
-S 1 51 1 2060 RADAR RadarDetection_SetRegDomainParams RegulationType = %d
-S 1 51 1 2130 Fatal Error in file: "RadarDetection.c"; Fatal Print: [radarAdaptiveSensStateMachineEnterEvent], invalid case
-S 1 51 1 2142 Fatal Error in file: "RadarDetection.c"; Fatal Print: [radarAdaptiveSensStateMachineEnterEvent], invalid case
-S 1 51 1 2155 Fatal Error in file: "RadarDetection.c"; Fatal Print: [radarAdaptiveSensStateMachineEnterEvent], invalid case
-S 1 51 1 2169 Fatal Error in file: "RadarDetection.c"; Fatal Print: [radarAdaptiveSensStateMachineEnterEvent], invalid case
-S 1 51 1 2182 Fatal Error in file: "RadarDetection.c"; Fatal Print: [radarAdaptiveSensStateMachineEnterEvent], invalid case
-S 1 51 1 2186 Fatal Error in file: "RadarDetection.c"; Fatal Print: [radarAdaptiveSensStateMachineEnterEvent], invalid case
-S 1 51 1 2193 RADAR radarAdaptSenseStateMachineChangeState, newState = %d
-S 1 51 1 2208 RADAR radarAdaptSensSetChannelEvent
-S 1 51 1 2278 RADAR radarAdaptSensDetectionEvent - Radar adaptive sens check burst
-S 1 51 1 2297 RADAR radarAdaptSensTimerExpiredEvent - Radar adaptive sens timer expired
-S 1 51 1 2313 RADAR radarInFilteringPeriod = %d
-S 1 51 1 2316 RADAR radarAdaptSensTimerExpiredEvent, REPORT RADAR
-S 1 51 1 2338 RADAR isRadarFiltering, diffRadarCounter = %d, difftInterfererCounter = %d, difftDataNonAssocCounter = %d
-S 1 51 1 2512 PHYD, SB-ENTRY bw_enum = %d, overallRssi = %d, SB RSSI values below are +1dB
-S 1 51 1 2513 PHYD, SBs 0: %d 1: %d 2: %d 3: %d
-S 1 51 1 2514 PHYD, SBs 4: %d 5: %d 6: %d 7: %d
-S 1 51 1 2555 PHYD, SB subBandIndexMinAmplitude = %d, subBandIndexMaxAmplitude = %d
-S 1 51 1 2586 PHYD, SB FOUND DC subBandRssi1 = %d, subBandRssi2 = %d, subBandDcBitmap = 0x%X
-S 1 51 1 2596 PHYD, SB FOUND single 1 DC subBandRssi1 = %d, subBandRssi2 = %d, subBandDcBitmap = 0x%X
-S 1 51 1 2603 PHYD, SB FOUND single 2 DC subBandRssi1 = %d, subBandRssi2 = %d, subBandDcBitmap = 0x%X
-S 1 51 1 2614 PHYD, SB min-max-diff <= SB_DFS_DC_MIN_MAX_DIFF
-S 1 51 1 2648 PHYD, subBandIndexMaxAmplitude > SB_DFS_DC_AND_ADJACENT_RSSI, no DC treatment
-S 1 51 1 2667 PHYD, SB FOUND single 1 >-85dB subBandRssi1 = %d, subBandRssi2 = %d, subBandDcBitmap = 0x%X
-S 1 51 1 2674 PHYD, SB FOUND single 2 >-85dB subBandRssi1 = %d, subBandRssi2 = %d, subBandDcBitmap = 0x%X
-S 1 51 1 2701 PHYD, SB PW < 4 OR bw < 40MHz, pulseWidth = %d, bw_enum = %d
-S 1 51 1 2707 PHYD, SB-EXIT, pulseWidth = %d, ampSubBandBitMap = 0x%X, isDc = %d
+S 1 51 1 327 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: queuedPulseRecord
+S 1 51 1 374 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: pPulseRecord != (RadarDetectionPulseRecord_t *)pPulseCluster->pulseQueue.pvTail
+S 1 51 1 412 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: pPulseRecord != (RadarDetectionPulseRecord_t *)pRecordsQueue->pvTail
+S 1 51 1 441 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: queuedPulseRecord
+S 1 51 1 486 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: emptyClusterIndex < NUM_OF_PULSE_CLUSTERS
+S 1 51 1 501 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: pPulseRecord != NULL
+S 1 51 1 569 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: There is no available empty cluster
+S 1 51 1 574 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: RadarDetectionPerBandGlobalParameters[DfsBand].pulses.blockManagement.biggestClusterIndex < NUM_OF_PULSE_CLUSTERS
+S 1 51 1 622 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: more DFS samples in message than free pulse records available
+S 1 51 1 731 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: pPrevTemp is NULL pointer
+S 1 51 1 739 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: pulse to be aged out must be head of cluster
+S 1 51 1 763 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: pulse to be aged out must be head of cluster
+S 1 51 1 778 RADAR radarDetectionResetAgedOutRecords: biggestClusterIndex = %d, NumFreePulseRecords = %d
+S 1 51 1 826 RADAR isValidPairedPwPri: valid with RadarTableSize = %d, index = %d, pw = %d, pri = %d
+S 1 51 1 830 RADAR isValidPairedPwPri: No valid pair, pw = %d, pri = %d
+S 1 51 1 884 RADAR radarDetectionCheckLongRadarPri_NEW: pulseCount = %d, firstPulseTs = %d
+S 1 51 1 975 RADAR radarDetectionCheckLongRadarPri_NEW: longPriCnt = %d, shortPriCnt = %d, falseCnt = %d, SB-bitmap = %d
+S 1 51 1 1026 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: pPulseRecord is NULL pointer
+S 1 51 1 1027 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: nextPulseRecord is NULL pointer
+S 1 51 1 1035 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: pri_index exceeds array size
+S 1 51 1 1062 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: pri_index exceeds array size
+S 1 51 1 1067 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: pPulseCluster->pulseCount is too small
+S 1 51 1 1242 RADAR SHORT NEW: pri_i = %d, priCnt = %d, falseCount = %d, numUniquePri = %d
+S 1 51 1 1267 RADAR SHORT NEW EVAL: ampSubBandBitMap = %d, maxCount = %d, falseCountStored = %d, region = %d
+S 1 51 1 1268 RADAR SHORT NEW EVAL: unique_pris0..3 = %d, %d, %d, %d
+S 1 51 1 1275 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: numUniquePri is 0
+S 1 51 1 1280 RADAR SHORT NEW EVAL: ETSI short radar detected
+S 1 51 1 1292 RADAR SHORT NEW EVAL: FCC short radar detected
+S 1 51 1 1327 RADAR radarDetectionCheckValidPri: pri = %d
+S 1 51 1 1374 RADAR radarDetectionCheckLongValidPri_NEW: pulse ignored because PW <= %d or PW > %d DfsBand:%d
+S 1 51 1 1381 RADAR radarDetectionCheckLongValidPri_NEW: pulse ignored because SB-bitmap == 0 DfsBand:%d
+S 1 51 1 1445 RADAR SB radarDetectionSubBandFiltering: 20MHz BW %d or short gSubBandPulseWidth %d
+S 1 51 1 1456 RADAR SB radarDetectionSubBandFiltering: Radar Detected, bitMapForSubBand = %d
+S 1 51 1 1461 RADAR SB radarDetectionSubBandFiltering: Radar Filtered, bitMapForSubBand = %d
+S 1 51 1 1535 RADAR RadarDetection_SetChannel isRadarDetectionEnabled = %d
+S 1 51 1 1588 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: pPulseRecord is NULL pointer
+S 1 51 1 1589 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: nextPulseRecord is NULL pointer
+S 1 51 1 1650 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: numberOfSamples <= MAX_NUMBER_OF_RADAR_SAMPLES_IN_MESSAGE
+S 1 51 1 1651 COND_FATAL Error in file: "RadarDetection.c"; COND_FATAL description: numberOfSamples != 0
+S 1 51 1 1657 RADAR RadarDetection_ProcessSamples newestPulseTimeStamp = %u, ageingTimerActive = %d
+S 1 51 1 1673 RADAR ==================== RadarDetection_ProcessSamples, Dfsband = %d ====================
+S 1 51 1 1679 RADAR @@@@@ record: pw = %d, timestamp = %u @@@@@
+S 1 51 1 1680 RADAR PWs minshort = %d, maxshort = %d, minlong = %d, maxlong = %d
+S 1 51 1 1681 RADAR PRIs minshort = %d, maxshort = %d, minlong = %d, maxlong = %d
+S 1 51 1 1749 RADAR Radar detected 55555 type = %d (UMI_BSS_RADAR_SHORT)
+S 1 51 1 1768 RADAR Radar detected 66666 type = %d (UMI_BSS_RADAR_CHIRP)
+S 1 51 1 1786 RADAR Radar detected 22222 type = %d (UMI_BSS_RADAR_SHORT)
+S 1 51 1 1795 RADAR $$$$$$$$$$$$$$$$$$$$$$$$$$ Radar detected: type = %d $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+S 1 51 1 1797 RADAR globals: DfsBand = %d, isIndicationEnabled = %d, channel = %d, bw = %d
+S 1 51 1 1798 RADAR globals: wasRadarIndicationSent = %d, ageingActive = %d, radioState = %d, radarDfsMask = 0x%X
+S 1 51 1 1810 RADAR $$$$$$$$$$ Radar detected, SubBandBitmap = 0x%X, isValidSubBandDetected = %d, gSubBandPulseWidth = %d $$$$$$$$$$
+S 1 51 1 1811 RADAR channelNotification = %d
+S 1 51 1 1832 RADAR RadarDetection_ProcessSamples, RADAR NOT FILTERED, REPORT RADAR
+S 1 51 1 1878 RADAR RadarDetection_ProcessSamples, RADAR FILTERED
+S 1 51 1 1951 RADAR RadarDetection_AgingTimer, DfsBand = %d
+S 1 51 1 1974 RADAR RadarDetection_AgingTimer, AGING CALL, new newestPulseTimeStamp = %u
+S 1 51 1 1979 RADAR RadarDetection_AgingTimer, NO AGING, TsfTimestamp = %u, newestPulseTimeStamp = %u
+S 1 51 1 2067 RADAR RadarDetection_SetRegDomainParams RegulationType = %d
+S 1 51 1 2137 Fatal Error in file: "RadarDetection.c"; Fatal Print: [radarAdaptiveSensStateMachineEnterEvent], invalid case
+S 1 51 1 2149 Fatal Error in file: "RadarDetection.c"; Fatal Print: [radarAdaptiveSensStateMachineEnterEvent], invalid case
+S 1 51 1 2162 Fatal Error in file: "RadarDetection.c"; Fatal Print: [radarAdaptiveSensStateMachineEnterEvent], invalid case
+S 1 51 1 2176 Fatal Error in file: "RadarDetection.c"; Fatal Print: [radarAdaptiveSensStateMachineEnterEvent], invalid case
+S 1 51 1 2189 Fatal Error in file: "RadarDetection.c"; Fatal Print: [radarAdaptiveSensStateMachineEnterEvent], invalid case
+S 1 51 1 2193 Fatal Error in file: "RadarDetection.c"; Fatal Print: [radarAdaptiveSensStateMachineEnterEvent], invalid case
+S 1 51 1 2200 RADAR radarAdaptSenseStateMachineChangeState, newState = %d
+S 1 51 1 2215 RADAR radarAdaptSensSetChannelEvent
+S 1 51 1 2285 RADAR radarAdaptSensDetectionEvent - Radar adaptive sens check burst
+S 1 51 1 2304 RADAR radarAdaptSensTimerExpiredEvent - Radar adaptive sens timer expired
+S 1 51 1 2320 RADAR radarInFilteringPeriod = %d
+S 1 51 1 2323 RADAR radarAdaptSensTimerExpiredEvent, REPORT RADAR
+S 1 51 1 2345 RADAR isRadarFiltering, diffRadarCounter = %d, difftInterfererCounter = %d, difftDataNonAssocCounter = %d
+S 1 51 1 2524 PHYD, SB-ENTRY bw_enum = %d, overallRssi = %d, SB RSSI values below are +1dB
+S 1 51 1 2525 PHYD, SBs 0: %d 1: %d 2: %d 3: %d
+S 1 51 1 2526 PHYD, SBs 4: %d 5: %d 6: %d 7: %d
+S 1 51 1 2567 PHYD, SB subBandIndexMinAmplitude = %d, subBandIndexMaxAmplitude = %d
+S 1 51 1 2598 PHYD, SB FOUND DC subBandRssi1 = %d, subBandRssi2 = %d, subBandDcBitmap = 0x%X
+S 1 51 1 2608 PHYD, SB FOUND single 1 DC subBandRssi1 = %d, subBandRssi2 = %d, subBandDcBitmap = 0x%X
+S 1 51 1 2615 PHYD, SB FOUND single 2 DC subBandRssi1 = %d, subBandRssi2 = %d, subBandDcBitmap = 0x%X
+S 1 51 1 2626 PHYD, SB min-max-diff <= SB_DFS_DC_MIN_MAX_DIFF
+S 1 51 1 2660 PHYD, subBandIndexMaxAmplitude > SB_DFS_DC_AND_ADJACENT_RSSI, no DC treatment
+S 1 51 1 2679 PHYD, SB FOUND single 1 >-85dB subBandRssi1 = %d, subBandRssi2 = %d, subBandDcBitmap = 0x%X
+S 1 51 1 2686 PHYD, SB FOUND single 2 >-85dB subBandRssi1 = %d, subBandRssi2 = %d, subBandDcBitmap = 0x%X
+S 1 51 1 2713 PHYD, SB PW < 4 OR bw < 40MHz, pulseWidth = %d, bw_enum = %d
+S 1 51 1 2719 PHYD, SB-EXIT, pulseWidth = %d, ampSubBandBitMap = 0x%X, isDc = %d
 S 1 51 2 113 ContinuousInterfererDetectionGlobalParameters.maxMeasurement = %d
 S 1 51 2 226 continuousInterfererMessageParameters->maximumValue = %d continuousInterfererMessageParameters->channel: %d
 S 1 51 2 236 Fatal Error in file: "ContinuousInterfererDetection.c"; Fatal Print: [ContinuousInterfererDetection_ProcessSamples], we do not get driver response
@@ -4073,182 +4099,184 @@ S 1 54 1 9644 LinkAdaptation_CheckMbfmError: Procesing logs for an outdated grou
 S 1 54 1 9751 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: staId < SYS_NUM_OF_STAS
 S 1 54 1 9828 [linkAdaptationProcessBaaReport] BF report bitmap ,Expected = %d Passed  = %d
 S 1 54 1 9949 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: uspIndex < NUM_OF_USERS_MU_HE_PHASE
-S 1 54 1 10051 LinkAdaptationStoreLastHeMuParamsFromBaaReport: after update lastlaPhaseId %d, lastIndexInPair %d, lastWasProbing %d, planIndex %d
-S 1 54 1 10053 LinkAdaptationStoreLastHeMuParamsFromBaaReport: after update lastlaPhaseId %d, lastIndexInPair %d, lastWasProbing %d, planIndex %d
-S 1 54 1 10143 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: tableSize <= POWER_ADAPTATION_MAX_TABLE_SIZE
-S 1 54 1 10304 LinkAdaptation: (1) calling RficDriver_PrintRxDcValues
-S 1 54 1 10311 LinkAdaptation: (2) calling rxdc_reset_analog_cal_single_bw_flag()
-S 1 54 1 10321 LinkAdaptation: Configure SUValidation features 0x%X percentage %d
-S 1 54 1 10329 LinkAdaptation: Configure SUValidation staId/GroupId %d TpT %d
-S 1 54 1 10335 LinkAdaptation: Configure SUValidation eval period %ld alpha filter %d
-S 1 54 1 10342 LinkAdaptation: Configure SUValidation short decission period %d steady period %d
-S 1 54 1 10434 [Lmmain_HandleGenericReq]: Ul power control coeff config. Unknown coefficient type. Nothing configured
-S 1 54 1 10492 LinkAdaptation: LockerBringup LockPlan: planId %d, vapId %d, origTask %d, origFnc %d
-S 1 54 1 10497 LinkAdaptation: LockerBringup UnlockPlan: planId %d, vapId %d, origTask %d, origFnc:%d
-S 1 54 1 10502 Fatal Error in file: "LinkAdaptation.c"; Fatal Print: Wrong lockAction selection in case 23
-S 1 54 1 10599 [Lmmain_HandleGenericReq]: Mu Metric param config. unknown. Nothing configured
-S 1 54 1 10619 [Lmmain_HandleGenericReq]: BSRP param config. unknown. Nothing configured
-S 1 54 1 10719 [LinkAdaptationPhaseHandlerTest]: called
-S 1 54 1 10850 [Lmmain_HandleGenericReq]: Incorrect UL MU Group DB param
-S 1 54 1 10880 [Lmmain_HandleGenericReq]: Set fixed rate params: staId %d; groupId %d
-S 1 54 1 10881 [Lmmain_HandleGenericReq]: enabled %d; rate %d; targetRssi %d
-S 1 54 1 10883 [Lmmain_HandleGenericReq]: enabled %d; rate %d; targetRssi %d
-S 1 54 1 10887 [Lmmain_HandleGenericReq]: Set fixed rate params; invalid groupId for STA %d
-S 1 54 1 10920 [Lmmain_HandleGenericReq]: Airtime fairness param config. unknown. Nothing configured
-S 1 54 1 10997 PHY_CsdTestmodeEnable=%d
-S 1 54 1 11033 [Lmmain_HandleGenericReq], Unknown message type
-S 1 54 1 11107 [LinkAdaptationModifyMpduDensity] stationIndex = %d previousDensity = %d density = %d
-S 1 54 1 11137 LinkAdaptationSetStaDataBwLimit. staId %d bw %d changeWp %d
-S 1 54 1 11185 [ChangeStaToSteadyStateConfigurationParams]
-S 1 54 1 11220 [ChangeStaToFastInitConfigurationParams]
-S 1 54 1 11271 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: stationOrGroupOrPhaseDbIndex < NUM_OF_LA_HE_MU_DB_ENTRIES
-S 1 54 1 11272 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: (uspIndex < MAX_USP_IN_HE_GROUP) || (uspIndex == DONT_CARE_MU_USP_INDEX)
-S 1 54 1 11290 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: (stationOrGroupOrPhaseDbIndex < TX_MU_GROUPS) && (uspIndex < MAX_USP_IN_VHT_GROUP)
-S 1 54 1 11325 Fatal Error in file: "LinkAdaptation.c"; Fatal Print: pDistParam must be SU, MU HE or MU VHT
-S 1 54 1 11496 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: stationIndex < SYS_NUM_OF_STAS
-S 1 54 1 11601 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: LinkAdaptationVhtGroupDatabase[groupId].laGroupUnique.groupState != LA_INACTIVE_GROUP_STATE
-S 1 54 1 11608 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: stationIndex < SYS_NUM_OF_STAS
-S 1 54 1 11629 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: LinkAdaptationVhtGroupDatabase[groupId].laGroupUnique.groupState !=LA_INACTIVE_GROUP_STATE
-S 1 54 1 11638 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: stationIndex < SYS_NUM_OF_STAS
-S 1 54 1 11733 Fatal Error in file: "LinkAdaptation.c"; Fatal Print: [linkAdaptation_SetPartialDuration], Partial duration currently not supported for HE MU
-S 1 54 1 11824 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: supportedRateIndex < BASICRATE_NUMBER_OF_SORT_RATE_INDEX
-S 1 54 1 11828 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: pLmVapDbSwInfo->supportedRateNumOfStationsCounter[supportedRateIndex] <= pLmVapDbSwInfo->numOfStations
-S 1 54 1 11834 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: pLmVapDbSwInfo->supportedRateNumOfStationsCounter[supportedRateIndex] > 0
-S 1 54 1 11853 [linkAdaptationDmrRebuildVapSupportedRates] basicRatePhyRate: %d, maxRate: %d
-S 1 54 1 11907 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: pLmVapDbSwInfo->sortBasicRateNumOfStationsCounter[pLmStaDbSwinfo->mcWpRate] > 0
-S 1 54 1 11925 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: pLmStaDbSwinfo->mcWpRate < BASICRATE_NUMBER_OF_SORT_RATE_INDEX && pLmStaDbSwinfo->mcWpRate >= 0
-S 1 54 1 11965 [linkAdaptationDmrConfig] before vapId = %d, getSetOperation = %d, maxRate = %d, dmrMode = %d
-S 1 54 1 11966 [linkAdaptationDmrConfig] before vapId = %d, getSetOperation = %d, maxRate = %d, dmrMode = %d
-S 1 54 1 11990 [linkAdaptationDmrConfig] after  dmrMode= %d, status = %d
-S 1 54 1 12012 [linkAdaptationDmrAddVap], vapId = %d, dmrMode = %d,
-S 1 54 1 12037 [linkAdaptationDmrAddRmStationEventHandler], stationId = %d, vapId = %d, newRateIndex = %d, event = %d
-S 1 54 1 12057 [linkAdaptationDmrStationEventHandler], stationId = %d, newRateIndex = %d, event = %d
-S 1 54 1 12058 [linkAdaptationDmrStationEventHandler2], vapId = %d, LmVapDataBase[vapId].dmrMode = %d
-S 1 54 1 12107 [linkAdaptationDmrSeekLowestBasicRateAmongStations], sortRateIndex = %d
-S 1 54 1 12108 [linkAdaptationDmrSeekLowestBasicRateAmongStations], sortRateIndex = %d
-S 1 54 1 12156 [linkAdaptationDmrConvertRateindexToSortedBasicRateIndex], newRate = %d, ratesmask = %d, isIndex = %d
-S 1 54 1 12162 Fatal Error in file: "LinkAdaptation.c"; Fatal Print: ratesmask is zero
-S 1 54 1 12227 [linkAdaptationDmrConvertRateindexToSortedBasicRateIndex], sortNewRateIndex = %d
-S 1 54 1 12236 DMR ERROR: sortNewRateIndex FAILED TO FIND RATE FOR MULTICAST, WILL USE LOWEST
-S 1 54 1 12281 [linkAdaptationDmrUpdateVapRate], vapId = %d, newMcRateIndex = %d phyrate = %d
-S 1 54 1 12282 [linkAdaptationDmrUpdateVapRate], vapId = %d, newMcRateIndex = %d phyrate = %d
-S 1 54 1 12328 [linkAdaptationCompareRSSI], start
-S 1 54 1 12340 [linkAdaptationCompareRSSI], end newRSSILarger = %d, pQAMplusDatabase->lastRSSIdB = %d, maxCurrentRssidB = %d
-S 1 54 1 12382 [linkAdaptationFindMaxRssi], sta %d, maxCurrentRssidB = %d
-S 1 54 1 12421 [linkAdaptationFindMaxRssi], minCurrentRssidB = %d
-S 1 54 1 12514 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: chosenDcm == requestedDcm
-S 1 54 1 12523 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: laFixedRateStationParams_p->heExtRuSizeData == chosenPartialBwData
-S 1 54 1 12531 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: laFixedRateStationParams_p->heExtRuSizeMng == chosenPartialBwMgmt
-S 1 54 1 12539 Fatal Error in file: "LinkAdaptation.c"; Fatal Print: HE Extended Range is not supported
-S 1 54 1 12545 [overrideRateForUnsupportedFixedRate], requestedPhyMode %d, requestedPartialBwData %d, requestedPartialBwMgmt %d, requestedBw %d
-S 1 54 1 12551 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: chosenNss <= LinkAdaptationStaDatabase[staId].laStationUnique.heExtSuParams.dcmMaxNss
-S 1 54 1 12552 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: laFixedRateStationParams_p->bandwidth <= LinkAdaptationStaDatabase[staId].laStationUnique.heExtSuParams.dcmMaxBw
-S 1 54 1 12559 [overrideRateForUnsupportedFixedRate], chosenPhyMode %d, chosenPartialBwData %d, chosenPartialBwMgmt %d, chosenBw %d
-S 1 54 1 12566 [overrideRateForUnsupportedFixedRate], requestedNss %d, requestedMcs %d, requested DCM %d
-S 1 54 1 12575 [overrideRateForUnsupportedFixedRate], fixedRateBefore: 0x%x, fixedRateBefore after: 0x%x chosenNss: %d
-S 1 54 1 12621 [overrideRateForUnsupportedFixedRate], requestedMcs %d
-S 1 54 1 12627 [overrideRateForUnsupportedFixedRate], fixedRateBefore: 0x%x, fixedRateBefore after: 0x%x
-S 1 54 1 12649 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: (pStaDbHwEntry->common.tcr220MhzDataTxbf == TX_BF_FLAT) && (pStaDbHwEntry->common.tcr220Mhz80211Txbf == TX_BF_FLAT)
-S 1 54 1 12653 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: laFixedRateStationParams_p->bandwidth == BW_20MHZ
-S 1 54 1 12656 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: EXTRACT_NSS_FROM_VHT_HE_EHT_RATE(laFixedRateStationParams_p->rate) ==  SPATIAL_STREAM_1
-S 1 54 1 12659 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: EXTRACT_MCS_FROM_VHT_HE_EHT_RATE(laFixedRateStationParams_p->rate) <=  MCS_2
-S 1 54 1 12664 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: ((laFixedRateStationParams_p->heExtRuSizeData) && (EXTRACT_MCS_FROM_VHT_HE_EHT_RATE(laFixedRateStationParams_p->rate) ==  MCS_0)) || (!laFixedRateStationParams_p->heExtRuSizeData)
-S 1 54 1 12670 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: ((laFixedRateStationParams_p->heExtRuSizeMng) && (EXTRACT_MCS_FROM_VHT_HE_EHT_RATE(laFixedRateStationParams_p->rate) ==  MCS_0)) || (!laFixedRateStationParams_p->heExtRuSizeMng)
-S 1 54 1 12680 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: (laFixedRateStationParams_p->phyMode == PHY_MODE_11BE_SU) || (laFixedRateStationParams_p->phyMode == PHY_MODE_11AX_SU) || (laFixedRateStationParams_p->phyMode == PHY_MODE_11AX_SU_EXT)
-S 1 54 1 12683 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: (laFixedRateStationParams_p->phyMode == PHY_MODE_11AX_SU) || (laFixedRateStationParams_p->phyMode == PHY_MODE_11AX_SU_EXT)
-S 1 54 1 12686 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: EXTRACT_NSS_FROM_VHT_HE_EHT_RATE(laFixedRateStationParams_p->rate) ==  SPATIAL_STREAM_1
-S 1 54 1 12688 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: EXTRACT_MCS_FROM_VHT_HE_EHT_RATE(laFixedRateStationParams_p->rate) ==  MCS_0
-S 1 54 1 12691 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: validate correct CP mode - 4x LTF + 0.8us GI is not allowed for DCM (and STBC) by standard
-S 1 54 1 12698 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: (laFixedRateStationParams_p->phyMode == PHY_MODE_11BE_SU)
-S 1 54 1 12700 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: ConfigurationManager_GetMyBand() == CONFIGURATION_MANAGER_BAND_2
-S 1 54 1 12703 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: (laFixedRateStationParams_p->bandwidth == BANDWIDTH_EIGHTY) || (laFixedRateStationParams_p->bandwidth == BANDWIDTH_ONE_HUNDRED_SIXTY) || (laFixedRateStationParams_p->bandwidth == BANDWIDTH_THREE_HUNDRED_TWENTY)
-S 1 54 1 12707 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: EXTRACT_NSS_FROM_VHT_HE_EHT_RATE(laFixedRateStationParams_p->rate) ==  SPATIAL_STREAM_1
-S 1 54 1 12709 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: EXTRACT_MCS_FROM_VHT_HE_EHT_RATE(laFixedRateStationParams_p->rate) ==  MCS_0
-S 1 54 1 12747 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: commonReport->planId < MAX_NUMBER_OF_PLANS
-S 1 54 1 12749 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: planPtr != NULL
-S 1 54 1 12751 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: phase0Addr != NULL
-S 1 54 1 12753 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: phasePtr != NULL
-S 1 54 1 12756 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: commonReport->planId < MAX_NUMBER_OF_PLANS
-S 1 54 1 12758 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: planPtr != NULL
-S 1 54 1 12760 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: phase0Addr != NULL
-S 1 54 1 12762 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: phasePtr != NULL
-S 1 54 1 12779 PF6_OVERRIDE_MIN_NUM_OF_USERS change to 2 users
-S 1 54 1 12826 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: numConnectedLowRateSta
-S 1 54 1 12934 linkAdaptationSetBaReportReceivedForRealUser, uspIndex = %d
-S 1 54 1 12971 [linkAdaptationIncProbingCounterForTempDummyUser] waitForProbeResponse 0; user: %d; phaseId %d
-S 1 54 1 12980 [linkAdaptationIncProbingCounterForTempDummyUser], dummy user, increase counter for usp: %d
-S 1 54 1 12994 [linkAdaptationIncProbingCounterForTempDummyUser], probe is valid, set bit in bitmap for user: %d
-S 1 54 1 13045 linkAdaptationAllocateAndFillLaPhaseDb, PlanIndex = %d
-S 1 54 1 13056 linkAdaptationAllocateAndFillLaPhaseDb, PlanIndex = %d, phaseEntriesBitmap = 0X%0X
-S 1 54 1 13112 [linkAdaptationFillLaUserPhaseDb] dataPhasePtr = 0x%x laPhaseDbEntry = %d
-S 1 54 1 13139 [linkAdaptationFillLaUserPhaseDb] add sta %d at usp %d to phase
-S 1 54 1 13163 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: uspIndex < MAX_NUM_OF_USERS_IN_MIMO_GROUP
-S 1 54 1 13166 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: maxNssPerUsp <= SPATIAL_STREAM_2
-S 1 54 1 13205 [linkAdaptationFillLaUserPhaseDb] [1] initialRateIndex = %d
-S 1 54 1 13213 [linkAdaptationFillLaUserPhaseDb] [2] initialRateIndex = %d
-S 1 54 1 13217 [linkAdaptationFillLaUserPhaseDb] rateInMask = %d
-S 1 54 1 13225 [linkAdaptationFillLaUserPhaseDb] initialRateIndex after ratemask adjustment %d
-S 1 54 1 13235 [linkAdaptationFillLaUserPhaseDb], fixedRfPowerInTcr rfPower = %d
-S 1 54 1 13267 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: *allocatedEntry < NUM_OF_LA_HE_MU_DB_ENTRIES
-S 1 54 1 13269 LinkAdaptationHePhaseDbListPop,allocatedEntry = %d
-S 1 54 1 13274 linkAdaptationHePhaseDbListPushm, entryIndex = %d
-S 1 54 1 13277 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: listObject->itemsInList < NUM_OF_LA_HE_MU_DB_ENTRIES
-S 1 54 1 13290 linkAdaptationReleaseLaDbGroupEntry: Release DataPhases of groupEntry=%d, phaseDbEntry = %d
-S 1 54 1 13296 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: LinkAdaptationHePhaseDatabase[phaseDbEntry].laHeGroupUnique.planIndex != HE_GROUP_MANAGER_INVALID_PLAN_INDEX
-S 1 54 1 13331 [linkAdaptationSetSuFastProbingThreshold] Set LinkAdaptationStaDatabase[staId %d].fastProbingThK = %d with new value %d
-S 1 54 1 13332 [linkAdaptationSetSuFastProbingThreshold] Set LinkAdaptationStaDatabase[staId %d].fastProbingThK = %d with new value %d
-S 1 54 1 13337 [linkAdaptationSetSuFastProbingThreshold]: Warning: staId out of range
-S 1 54 1 13380 linkAdaptationSetMuOfdmaBfMode
-S 1 54 1 13387 linkAdaptationSetMuOfdmaBfMode: new iw sounding configuration command. sounding mode %d, sounding period %d
-S 1 54 1 13404 linkAdaptationSetMuOfdmaBfMode: iw sounding configuration command has no effect. sounding mode same as previous %d
-S 1 54 1 13435 LinkAdaptation_IsUlPlan laUlGroupId = %d
-S 1 54 1 13471 LinkAdaptation_IsDlPlan planIdx=%d, laDlGroupId=%d, isDlPlan=%d
-S 1 54 1 13539 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: laDbDistributionParameter->laHeGroupUnique != NULL
-S 1 54 1 13547 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: laDbDistributionParameter->laHeGroupUnique != NULL
-S 1 54 1 13588 linkAdaptationUpdateFreePhase - first HE MU report in plan. is probing %d
-S 1 54 1 13591 Fatal Error in file: "LinkAdaptation.c"; Fatal Print: linkAdaptationUpdateFreePhase - very first Baa Tx report is with probing bit set
-S 1 54 1 13615 [linkAdaptationUpdateFreePhase] HeadDataPhase 0x%08x, MuPhasesBankDataPhase 0x%08x, PlanCurrentDataPhase 0x%08x
-S 1 54 1 13618 [linkAdaptationUpdateFreePhase] HeadDataPhase 0x%08x, MuPhasesBankDataPhase 0x%08x, PlanCurrentDataPhase 0x%08x
-S 1 54 1 13724 LinkAdaptationResetDlPhaseStatisticCounters
-S 1 54 1 13733 LinkAdaptationPrintDlPhaseStatistics: mirror phase was busy for fast drop %d, mirror phase was busy for probing %d, mirror phase was busy for duration %d
-S 1 54 1 13736 LinkAdaptationPrintDlPhaseStatistics: mirror phase was busy for fast drop %d, mirror phase was busy for probing %d, mirror phase was busy for duration %d
-S 1 54 1 13737 LinkAdaptationPrintDlPhaseStatistics: wait for free phase to probe expired counter %d, num of times HE MU fast prob started %d, he mu fast probe npot finished counter %d
-S 1 54 1 13740 LinkAdaptationPrintDlPhaseStatistics: wait for free phase to probe expired counter %d, num of times HE MU fast prob started %d, he mu fast probe npot finished counter %d
-S 1 54 1 13741 LinkAdaptationPrintDlPhaseStatistics: wait for free phase to probe and BA with probe rsp received WARNING %d
-S 1 54 1 13742 LinkAdaptationPrintDlPhaseStatistics: wait for free phase to probe and BA with probe rsp received WARNING %d
-S 1 54 1 13749 LinkAdaptationSetRateChangeFlag - rate change val %d, for phaseId %d
-S 1 54 1 13755 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: planIndex < MAX_NUMBER_OF_PLANS
-S 1 54 1 13763 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: planIndex < MAX_NUMBER_OF_PLANS
-S 1 54 1 13771 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: planIndex < MAX_NUMBER_OF_PLANS
-S 1 54 1 13772 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: uspIndex < NUM_OF_USERS_MU_HE_PHASE
-S 1 54 1 13793 Fatal Error in file: "LinkAdaptation.c"; Fatal Print: Invalid planIndex
-S 1 54 1 13875 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: planIndex < MAX_NUMBER_OF_PLANS
-S 1 54 1 13891 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: planIndex < MAX_NUMBER_OF_PLANS
-S 1 54 1 14054 [linkAdaptation_NotifyHeGroupMemberPsMode] staId = %d is in PS mode, group formation = %d
-S 1 54 1 14083 [limitMaxNssForUserInDynamicSmpsState] smpsState %d heDynamicSmpsSupport %d
-S 1 54 1 14090 [limitMaxNssForUserInDynamicSmpsState] phaseValid %d
-S 1 54 1 14096 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: uspIndex < MAX_USP_IN_HE_GROUP
-S 1 54 1 14097 [limitMaxNssForUserInDynamicSmpsState]  maxNssPerUsp %d LA HE-DB-Nss_Usp %d
-S 1 54 1 14142 Fatal Error in file: "LinkAdaptation.c"; Fatal Print: ConvertAidToStaid, non valid aid
-S 1 54 1 14148 Fatal Error in file: "LinkAdaptation.c"; Fatal Print: ConvertAidToStaid, entry is not initiated
-S 1 54 1 14158 Assert in file: "LinkAdaptation.c" in line: 14158
-S 1 54 1 14193 Fatal Error in file: "LinkAdaptation.c"; Fatal Print: SetAid2SidTable, non valid aid
-S 1 54 1 14237 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: maxWindowSize > 1
-S 1 54 1 14244 currentTidWindowSize, maxWindowSize = %d, ampduLimit = %d
-S 1 54 1 14366 [linkAdaptationTwtCheckStaPhyType] StaId: %d - spId: %d - StaPhyMode: %d
-S 1 54 1 14397 [linkAdaptationUpdateTwtInPlan] spId = %d, addAgreement = %d, planIndex = %d
-S 1 54 1 14399 [linkAdaptationUpdateTwtInPlan] spId = %d, bandId = %d
-S 1 54 1 14474 LinkAdaptation_PerTargetConfig: New SU SteadyState LA params: PER_target %d PER_margin %d fastProbingProbeUpMaxPer %d
-S 1 54 1 14482 LinkAdaptation_PerTargetConfig: New SU FastInit LA params: PER_target %d PER_margin %d fastProbingProbeUpMaxPer %d
-S 1 54 1 14490 LinkAdaptation_PerTargetConfig: New DL MU MIMO LA params: PER_target %d PER_margin %d fastProbingProbeUpMaxPer %d workingPointPerThreshold %d
-S 1 54 1 14499 LinkAdaptation_PerTargetConfig: Warning. laConfigurationParamSel invalid
-S 1 54 1 14538 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: emlsr transition delay invalid value
-S 1 54 1 14734 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: primaryTid < NUM_OF_TIDS+1
-S 1 54 1 14740 [linkAdaptationUpdateEdcaCounters_ProcessSequencerReport]: staId = %d
-S 1 54 1 14748 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: txQTid < NUM_OF_TIDS+1
-S 1 54 1 14843 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: pTxopConfig->staId < SYS_NUM_OF_STAS
-S 1 54 1 14845 [linkAdaptationConfigureTxopMode] Configure staId %d mode %d
-S 1 54 1 14854 [LinkAdaptation_LogLevelSet] Set log level to 0x%x
+S 1 54 1 10012 linkAdaptationProcessBaaReport: Update powerData for staId %d, bw %d with rfPower %d
+S 1 54 1 10064 LinkAdaptationStoreLastHeMuParamsFromBaaReport: after update lastlaPhaseId %d, lastIndexInPair %d, lastWasProbing %d, planIndex %d
+S 1 54 1 10066 LinkAdaptationStoreLastHeMuParamsFromBaaReport: after update lastlaPhaseId %d, lastIndexInPair %d, lastWasProbing %d, planIndex %d
+S 1 54 1 10156 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: tableSize <= POWER_ADAPTATION_MAX_TABLE_SIZE
+S 1 54 1 10317 LinkAdaptation: (1) calling RficDriver_PrintRxDcValues
+S 1 54 1 10324 LinkAdaptation: (2) calling rxdc_reset_analog_cal_single_bw_flag()
+S 1 54 1 10334 LinkAdaptation: Configure SUValidation features 0x%X percentage %d
+S 1 54 1 10342 LinkAdaptation: Configure SUValidation staId/GroupId %d TpT %d
+S 1 54 1 10348 LinkAdaptation: Configure SUValidation eval period %ld alpha filter %d
+S 1 54 1 10355 LinkAdaptation: Configure SUValidation short decission period %d steady period %d
+S 1 54 1 10447 [Lmmain_HandleGenericReq]: Ul power control coeff config. Unknown coefficient type. Nothing configured
+S 1 54 1 10505 LinkAdaptation: LockerBringup LockPlan: planId %d, vapId %d, origTask %d, origFnc %d
+S 1 54 1 10510 LinkAdaptation: LockerBringup UnlockPlan: planId %d, vapId %d, origTask %d, origFnc:%d
+S 1 54 1 10515 Fatal Error in file: "LinkAdaptation.c"; Fatal Print: Wrong lockAction selection in case 23
+S 1 54 1 10612 [Lmmain_HandleGenericReq]: Mu Metric param config. unknown. Nothing configured
+S 1 54 1 10632 [Lmmain_HandleGenericReq]: BSRP param config. unknown. Nothing configured
+S 1 54 1 10732 [LinkAdaptationPhaseHandlerTest]: called
+S 1 54 1 10863 [Lmmain_HandleGenericReq]: Incorrect UL MU Group DB param
+S 1 54 1 10893 [Lmmain_HandleGenericReq]: Set fixed rate params: staId %d; groupId %d
+S 1 54 1 10894 [Lmmain_HandleGenericReq]: enabled %d; rate %d; targetRssi %d
+S 1 54 1 10896 [Lmmain_HandleGenericReq]: enabled %d; rate %d; targetRssi %d
+S 1 54 1 10900 [Lmmain_HandleGenericReq]: Set fixed rate params; invalid groupId for STA %d
+S 1 54 1 10933 [Lmmain_HandleGenericReq]: Airtime fairness param config. unknown. Nothing configured
+S 1 54 1 11010 PHY_CsdTestmodeEnable=%d
+S 1 54 1 11058 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: MRU TX Power Test Mode: data2 must be 0 (disable) or 1 (enable)
+S 1 54 1 11085 [Lmmain_HandleGenericReq], Unknown message type
+S 1 54 1 11159 [LinkAdaptationModifyMpduDensity] stationIndex = %d previousDensity = %d density = %d
+S 1 54 1 11189 LinkAdaptationSetStaDataBwLimit. staId %d bw %d changeWp %d
+S 1 54 1 11237 [ChangeStaToSteadyStateConfigurationParams]
+S 1 54 1 11272 [ChangeStaToFastInitConfigurationParams]
+S 1 54 1 11323 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: stationOrGroupOrPhaseDbIndex < NUM_OF_LA_HE_MU_DB_ENTRIES
+S 1 54 1 11324 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: (uspIndex < MAX_USP_IN_HE_GROUP) || (uspIndex == DONT_CARE_MU_USP_INDEX)
+S 1 54 1 11342 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: (stationOrGroupOrPhaseDbIndex < TX_MU_GROUPS) && (uspIndex < MAX_USP_IN_VHT_GROUP)
+S 1 54 1 11377 Fatal Error in file: "LinkAdaptation.c"; Fatal Print: pDistParam must be SU, MU HE or MU VHT
+S 1 54 1 11548 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: stationIndex < SYS_NUM_OF_STAS
+S 1 54 1 11653 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: LinkAdaptationVhtGroupDatabase[groupId].laGroupUnique.groupState != LA_INACTIVE_GROUP_STATE
+S 1 54 1 11660 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: stationIndex < SYS_NUM_OF_STAS
+S 1 54 1 11681 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: LinkAdaptationVhtGroupDatabase[groupId].laGroupUnique.groupState !=LA_INACTIVE_GROUP_STATE
+S 1 54 1 11690 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: stationIndex < SYS_NUM_OF_STAS
+S 1 54 1 11785 Fatal Error in file: "LinkAdaptation.c"; Fatal Print: [linkAdaptation_SetPartialDuration], Partial duration currently not supported for HE MU
+S 1 54 1 11876 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: supportedRateIndex < BASICRATE_NUMBER_OF_SORT_RATE_INDEX
+S 1 54 1 11880 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: pLmVapDbSwInfo->supportedRateNumOfStationsCounter[supportedRateIndex] <= pLmVapDbSwInfo->numOfStations
+S 1 54 1 11886 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: pLmVapDbSwInfo->supportedRateNumOfStationsCounter[supportedRateIndex] > 0
+S 1 54 1 11905 [linkAdaptationDmrRebuildVapSupportedRates] basicRatePhyRate: %d, maxRate: %d
+S 1 54 1 11959 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: pLmVapDbSwInfo->sortBasicRateNumOfStationsCounter[pLmStaDbSwinfo->mcWpRate] > 0
+S 1 54 1 11977 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: pLmStaDbSwinfo->mcWpRate < BASICRATE_NUMBER_OF_SORT_RATE_INDEX && pLmStaDbSwinfo->mcWpRate >= 0
+S 1 54 1 12017 [linkAdaptationDmrConfig] before vapId = %d, getSetOperation = %d, maxRate = %d, dmrMode = %d
+S 1 54 1 12018 [linkAdaptationDmrConfig] before vapId = %d, getSetOperation = %d, maxRate = %d, dmrMode = %d
+S 1 54 1 12042 [linkAdaptationDmrConfig] after  dmrMode= %d, status = %d
+S 1 54 1 12064 [linkAdaptationDmrAddVap], vapId = %d, dmrMode = %d,
+S 1 54 1 12089 [linkAdaptationDmrAddRmStationEventHandler], stationId = %d, vapId = %d, newRateIndex = %d, event = %d
+S 1 54 1 12109 [linkAdaptationDmrStationEventHandler], stationId = %d, newRateIndex = %d, event = %d
+S 1 54 1 12110 [linkAdaptationDmrStationEventHandler2], vapId = %d, LmVapDataBase[vapId].dmrMode = %d
+S 1 54 1 12159 [linkAdaptationDmrSeekLowestBasicRateAmongStations], sortRateIndex = %d
+S 1 54 1 12160 [linkAdaptationDmrSeekLowestBasicRateAmongStations], sortRateIndex = %d
+S 1 54 1 12208 [linkAdaptationDmrConvertRateindexToSortedBasicRateIndex], newRate = %d, ratesmask = %d, isIndex = %d
+S 1 54 1 12214 Fatal Error in file: "LinkAdaptation.c"; Fatal Print: ratesmask is zero
+S 1 54 1 12279 [linkAdaptationDmrConvertRateindexToSortedBasicRateIndex], sortNewRateIndex = %d
+S 1 54 1 12288 DMR ERROR: sortNewRateIndex FAILED TO FIND RATE FOR MULTICAST, WILL USE LOWEST
+S 1 54 1 12333 [linkAdaptationDmrUpdateVapRate], vapId = %d, newMcRateIndex = %d phyrate = %d
+S 1 54 1 12334 [linkAdaptationDmrUpdateVapRate], vapId = %d, newMcRateIndex = %d phyrate = %d
+S 1 54 1 12380 [linkAdaptationCompareRSSI], start
+S 1 54 1 12392 [linkAdaptationCompareRSSI], end newRSSILarger = %d, pQAMplusDatabase->lastRSSIdB = %d, maxCurrentRssidB = %d
+S 1 54 1 12434 [linkAdaptationFindMaxRssi], sta %d, maxCurrentRssidB = %d
+S 1 54 1 12473 [linkAdaptationFindMaxRssi], minCurrentRssidB = %d
+S 1 54 1 12566 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: chosenDcm == requestedDcm
+S 1 54 1 12575 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: laFixedRateStationParams_p->heExtRuSizeData == chosenPartialBwData
+S 1 54 1 12583 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: laFixedRateStationParams_p->heExtRuSizeMng == chosenPartialBwMgmt
+S 1 54 1 12591 Fatal Error in file: "LinkAdaptation.c"; Fatal Print: HE Extended Range is not supported
+S 1 54 1 12597 [overrideRateForUnsupportedFixedRate], requestedPhyMode %d, requestedPartialBwData %d, requestedPartialBwMgmt %d, requestedBw %d
+S 1 54 1 12603 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: chosenNss <= LinkAdaptationStaDatabase[staId].laStationUnique.heExtSuParams.dcmMaxNss
+S 1 54 1 12604 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: laFixedRateStationParams_p->bandwidth <= LinkAdaptationStaDatabase[staId].laStationUnique.heExtSuParams.dcmMaxBw
+S 1 54 1 12611 [overrideRateForUnsupportedFixedRate], chosenPhyMode %d, chosenPartialBwData %d, chosenPartialBwMgmt %d, chosenBw %d
+S 1 54 1 12618 [overrideRateForUnsupportedFixedRate], requestedNss %d, requestedMcs %d, requested DCM %d
+S 1 54 1 12627 [overrideRateForUnsupportedFixedRate], fixedRateBefore: 0x%x, fixedRateBefore after: 0x%x chosenNss: %d
+S 1 54 1 12673 [overrideRateForUnsupportedFixedRate], requestedMcs %d
+S 1 54 1 12679 [overrideRateForUnsupportedFixedRate], fixedRateBefore: 0x%x, fixedRateBefore after: 0x%x
+S 1 54 1 12701 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: (pStaDbHwEntry->common.tcr220MhzDataTxbf == TX_BF_FLAT) && (pStaDbHwEntry->common.tcr220Mhz80211Txbf == TX_BF_FLAT)
+S 1 54 1 12705 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: laFixedRateStationParams_p->bandwidth == BW_20MHZ
+S 1 54 1 12708 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: EXTRACT_NSS_FROM_VHT_HE_EHT_RATE(laFixedRateStationParams_p->rate) ==  SPATIAL_STREAM_1
+S 1 54 1 12711 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: EXTRACT_MCS_FROM_VHT_HE_EHT_RATE(laFixedRateStationParams_p->rate) <=  MCS_2
+S 1 54 1 12716 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: ((laFixedRateStationParams_p->heExtRuSizeData) && (EXTRACT_MCS_FROM_VHT_HE_EHT_RATE(laFixedRateStationParams_p->rate) ==  MCS_0)) || (!laFixedRateStationParams_p->heExtRuSizeData)
+S 1 54 1 12722 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: ((laFixedRateStationParams_p->heExtRuSizeMng) && (EXTRACT_MCS_FROM_VHT_HE_EHT_RATE(laFixedRateStationParams_p->rate) ==  MCS_0)) || (!laFixedRateStationParams_p->heExtRuSizeMng)
+S 1 54 1 12732 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: (laFixedRateStationParams_p->phyMode == PHY_MODE_11BE_SU) || (laFixedRateStationParams_p->phyMode == PHY_MODE_11AX_SU) || (laFixedRateStationParams_p->phyMode == PHY_MODE_11AX_SU_EXT)
+S 1 54 1 12735 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: (laFixedRateStationParams_p->phyMode == PHY_MODE_11AX_SU) || (laFixedRateStationParams_p->phyMode == PHY_MODE_11AX_SU_EXT)
+S 1 54 1 12738 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: EXTRACT_NSS_FROM_VHT_HE_EHT_RATE(laFixedRateStationParams_p->rate) ==  SPATIAL_STREAM_1
+S 1 54 1 12740 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: EXTRACT_MCS_FROM_VHT_HE_EHT_RATE(laFixedRateStationParams_p->rate) ==  MCS_0
+S 1 54 1 12743 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: validate correct CP mode - 4x LTF + 0.8us GI is not allowed for DCM (and STBC) by standard
+S 1 54 1 12750 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: (laFixedRateStationParams_p->phyMode == PHY_MODE_11BE_SU)
+S 1 54 1 12752 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: ConfigurationManager_GetMyBand() == CONFIGURATION_MANAGER_BAND_2
+S 1 54 1 12755 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: (laFixedRateStationParams_p->bandwidth == BANDWIDTH_EIGHTY) || (laFixedRateStationParams_p->bandwidth == BANDWIDTH_ONE_HUNDRED_SIXTY) || (laFixedRateStationParams_p->bandwidth == BANDWIDTH_THREE_HUNDRED_TWENTY)
+S 1 54 1 12759 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: EXTRACT_NSS_FROM_VHT_HE_EHT_RATE(laFixedRateStationParams_p->rate) ==  SPATIAL_STREAM_1
+S 1 54 1 12761 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: EXTRACT_MCS_FROM_VHT_HE_EHT_RATE(laFixedRateStationParams_p->rate) ==  MCS_0
+S 1 54 1 12799 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: commonReport->planId < MAX_NUMBER_OF_PLANS
+S 1 54 1 12801 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: planPtr != NULL
+S 1 54 1 12803 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: phase0Addr != NULL
+S 1 54 1 12805 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: phasePtr != NULL
+S 1 54 1 12808 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: commonReport->planId < MAX_NUMBER_OF_PLANS
+S 1 54 1 12810 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: planPtr != NULL
+S 1 54 1 12812 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: phase0Addr != NULL
+S 1 54 1 12814 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: phasePtr != NULL
+S 1 54 1 12831 PF6_OVERRIDE_MIN_NUM_OF_USERS change to 2 users
+S 1 54 1 12878 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: numConnectedLowRateSta
+S 1 54 1 12986 linkAdaptationSetBaReportReceivedForRealUser, uspIndex = %d
+S 1 54 1 13023 [linkAdaptationIncProbingCounterForTempDummyUser] waitForProbeResponse 0; user: %d; phaseId %d
+S 1 54 1 13032 [linkAdaptationIncProbingCounterForTempDummyUser], dummy user, increase counter for usp: %d
+S 1 54 1 13046 [linkAdaptationIncProbingCounterForTempDummyUser], probe is valid, set bit in bitmap for user: %d
+S 1 54 1 13097 linkAdaptationAllocateAndFillLaPhaseDb, PlanIndex = %d
+S 1 54 1 13108 linkAdaptationAllocateAndFillLaPhaseDb, PlanIndex = %d, phaseEntriesBitmap = 0X%0X
+S 1 54 1 13164 [linkAdaptationFillLaUserPhaseDb] dataPhasePtr = 0x%x laPhaseDbEntry = %d
+S 1 54 1 13191 [linkAdaptationFillLaUserPhaseDb] add sta %d at usp %d to phase
+S 1 54 1 13215 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: uspIndex < MAX_NUM_OF_USERS_IN_MIMO_GROUP
+S 1 54 1 13218 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: maxNssPerUsp <= SPATIAL_STREAM_2
+S 1 54 1 13257 [linkAdaptationFillLaUserPhaseDb] [1] initialRateIndex = %d
+S 1 54 1 13265 [linkAdaptationFillLaUserPhaseDb] [2] initialRateIndex = %d
+S 1 54 1 13269 [linkAdaptationFillLaUserPhaseDb] rateInMask = %d
+S 1 54 1 13277 [linkAdaptationFillLaUserPhaseDb] initialRateIndex after ratemask adjustment %d
+S 1 54 1 13287 [linkAdaptationFillLaUserPhaseDb], fixedRfPowerInTcr rfPower = %d
+S 1 54 1 13319 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: *allocatedEntry < NUM_OF_LA_HE_MU_DB_ENTRIES
+S 1 54 1 13321 LinkAdaptationHePhaseDbListPop,allocatedEntry = %d
+S 1 54 1 13326 linkAdaptationHePhaseDbListPushm, entryIndex = %d
+S 1 54 1 13329 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: listObject->itemsInList < NUM_OF_LA_HE_MU_DB_ENTRIES
+S 1 54 1 13342 linkAdaptationReleaseLaDbGroupEntry: Release DataPhases of groupEntry=%d, phaseDbEntry = %d
+S 1 54 1 13348 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: LinkAdaptationHePhaseDatabase[phaseDbEntry].laHeGroupUnique.planIndex != HE_GROUP_MANAGER_INVALID_PLAN_INDEX
+S 1 54 1 13383 [linkAdaptationSetSuFastProbingThreshold] Set LinkAdaptationStaDatabase[staId %d].fastProbingThK = %d with new value %d
+S 1 54 1 13384 [linkAdaptationSetSuFastProbingThreshold] Set LinkAdaptationStaDatabase[staId %d].fastProbingThK = %d with new value %d
+S 1 54 1 13389 [linkAdaptationSetSuFastProbingThreshold]: Warning: staId out of range
+S 1 54 1 13432 linkAdaptationSetMuOfdmaBfMode
+S 1 54 1 13439 linkAdaptationSetMuOfdmaBfMode: new iw sounding configuration command. sounding mode %d, sounding period %d
+S 1 54 1 13456 linkAdaptationSetMuOfdmaBfMode: iw sounding configuration command has no effect. sounding mode same as previous %d
+S 1 54 1 13487 LinkAdaptation_IsUlPlan laUlGroupId = %d
+S 1 54 1 13523 LinkAdaptation_IsDlPlan planIdx=%d, laDlGroupId=%d, isDlPlan=%d
+S 1 54 1 13591 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: laDbDistributionParameter->laHeGroupUnique != NULL
+S 1 54 1 13599 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: laDbDistributionParameter->laHeGroupUnique != NULL
+S 1 54 1 13640 linkAdaptationUpdateFreePhase - first HE MU report in plan. is probing %d
+S 1 54 1 13643 Fatal Error in file: "LinkAdaptation.c"; Fatal Print: linkAdaptationUpdateFreePhase - very first Baa Tx report is with probing bit set
+S 1 54 1 13667 [linkAdaptationUpdateFreePhase] HeadDataPhase 0x%08x, MuPhasesBankDataPhase 0x%08x, PlanCurrentDataPhase 0x%08x
+S 1 54 1 13670 [linkAdaptationUpdateFreePhase] HeadDataPhase 0x%08x, MuPhasesBankDataPhase 0x%08x, PlanCurrentDataPhase 0x%08x
+S 1 54 1 13776 LinkAdaptationResetDlPhaseStatisticCounters
+S 1 54 1 13785 LinkAdaptationPrintDlPhaseStatistics: mirror phase was busy for fast drop %d, mirror phase was busy for probing %d, mirror phase was busy for duration %d
+S 1 54 1 13788 LinkAdaptationPrintDlPhaseStatistics: mirror phase was busy for fast drop %d, mirror phase was busy for probing %d, mirror phase was busy for duration %d
+S 1 54 1 13789 LinkAdaptationPrintDlPhaseStatistics: wait for free phase to probe expired counter %d, num of times HE MU fast prob started %d, he mu fast probe npot finished counter %d
+S 1 54 1 13792 LinkAdaptationPrintDlPhaseStatistics: wait for free phase to probe expired counter %d, num of times HE MU fast prob started %d, he mu fast probe npot finished counter %d
+S 1 54 1 13793 LinkAdaptationPrintDlPhaseStatistics: wait for free phase to probe and BA with probe rsp received WARNING %d
+S 1 54 1 13794 LinkAdaptationPrintDlPhaseStatistics: wait for free phase to probe and BA with probe rsp received WARNING %d
+S 1 54 1 13801 LinkAdaptationSetRateChangeFlag - rate change val %d, for phaseId %d
+S 1 54 1 13807 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: planIndex < MAX_NUMBER_OF_PLANS
+S 1 54 1 13815 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: planIndex < MAX_NUMBER_OF_PLANS
+S 1 54 1 13823 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: planIndex < MAX_NUMBER_OF_PLANS
+S 1 54 1 13824 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: uspIndex < NUM_OF_USERS_MU_HE_PHASE
+S 1 54 1 13845 Fatal Error in file: "LinkAdaptation.c"; Fatal Print: Invalid planIndex
+S 1 54 1 13927 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: planIndex < MAX_NUMBER_OF_PLANS
+S 1 54 1 13943 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: planIndex < MAX_NUMBER_OF_PLANS
+S 1 54 1 14106 [linkAdaptation_NotifyHeGroupMemberPsMode] staId = %d is in PS mode, group formation = %d
+S 1 54 1 14135 [limitMaxNssForUserInDynamicSmpsState] smpsState %d heDynamicSmpsSupport %d
+S 1 54 1 14142 [limitMaxNssForUserInDynamicSmpsState] phaseValid %d
+S 1 54 1 14148 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: uspIndex < MAX_USP_IN_HE_GROUP
+S 1 54 1 14149 [limitMaxNssForUserInDynamicSmpsState]  maxNssPerUsp %d LA HE-DB-Nss_Usp %d
+S 1 54 1 14194 Fatal Error in file: "LinkAdaptation.c"; Fatal Print: ConvertAidToStaid, non valid aid
+S 1 54 1 14200 Fatal Error in file: "LinkAdaptation.c"; Fatal Print: ConvertAidToStaid, entry is not initiated
+S 1 54 1 14210 Assert in file: "LinkAdaptation.c" in line: 14210
+S 1 54 1 14245 Fatal Error in file: "LinkAdaptation.c"; Fatal Print: SetAid2SidTable, non valid aid
+S 1 54 1 14289 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: maxWindowSize > 1
+S 1 54 1 14296 currentTidWindowSize, maxWindowSize = %d, ampduLimit = %d
+S 1 54 1 14418 [linkAdaptationTwtCheckStaPhyType] StaId: %d - spId: %d - StaPhyMode: %d
+S 1 54 1 14449 [linkAdaptationUpdateTwtInPlan] spId = %d, addAgreement = %d, planIndex = %d
+S 1 54 1 14451 [linkAdaptationUpdateTwtInPlan] spId = %d, bandId = %d
+S 1 54 1 14526 LinkAdaptation_PerTargetConfig: New SU SteadyState LA params: PER_target %d PER_margin %d fastProbingProbeUpMaxPer %d
+S 1 54 1 14534 LinkAdaptation_PerTargetConfig: New SU FastInit LA params: PER_target %d PER_margin %d fastProbingProbeUpMaxPer %d
+S 1 54 1 14542 LinkAdaptation_PerTargetConfig: New DL MU MIMO LA params: PER_target %d PER_margin %d fastProbingProbeUpMaxPer %d workingPointPerThreshold %d
+S 1 54 1 14551 LinkAdaptation_PerTargetConfig: Warning. laConfigurationParamSel invalid
+S 1 54 1 14590 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: emlsr transition delay invalid value
+S 1 54 1 14786 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: primaryTid < NUM_OF_TIDS+1
+S 1 54 1 14792 [linkAdaptationUpdateEdcaCounters_ProcessSequencerReport]: staId = %d
+S 1 54 1 14800 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: txQTid < NUM_OF_TIDS+1
+S 1 54 1 14895 COND_FATAL Error in file: "LinkAdaptation.c"; COND_FATAL description: pTxopConfig->staId < SYS_NUM_OF_STAS
+S 1 54 1 14897 [linkAdaptationConfigureTxopMode] Configure staId %d mode %d
+S 1 54 1 14906 [LinkAdaptation_LogLevelSet] Set log level to 0x%x
 S 1 54 2 164 linkAdaptationBaLimitCalc_UpdateIirFilter: mdpuCount = %d, ampduLimit = %d, threeQuartersBAwindowSize = %d, BAwindowSize = %d
 S 1 54 2 165 linkAdaptationBaLimitCalc_UpdateIirFilter: lastCalculatedMpduCounter = %d, currentBaLimitFactored = %d, msduAtAmsduCount= %d
 S 1 54 2 166 linkAdaptationBaLimitCalc_UpdateIirFilter: staId = %d, mdpuCount = %d, ampduLimit = %d
@@ -4700,102 +4728,106 @@ S 1 54 15 6448 COND_FATAL Error in file: "LinkAdaptationPhyDriver.c"; COND_FATAL
 S 1 54 15 6508 COND_FATAL Error in file: "LinkAdaptationPhyDriver.c"; COND_FATAL description: numNss < VHT_HE_EHT_NUMBER_OF_NSS
 S 1 54 15 6509 COND_FATAL Error in file: "LinkAdaptationPhyDriver.c"; COND_FATAL description: pLinkAdatationDbEntry->laStationUnique.MaxNumEhtLTfs.bitFields.maxLtfsSu  < MAX_EHT_LTF_VALUES
 S 1 54 16 71 [LinkAdaptation_QAMplusInit] Wave500B, QAMplusEnableFromLm = %d
-S 1 54 17 834 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: bandwidth < MAX_NUM_OF_BW
-S 1 54 17 892 PowerSetNextProbingPointAndIndications,wpPower = %d, newProbingPower = %d
-S 1 54 17 964 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: bandwidth < MAX_NUM_OF_BW
-S 1 54 17 970 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: antennaSelectionGetCount < MAX_POSSIBLE_NUM_OF_ANTENNAS
-S 1 54 17 1038 PowerSetNextProbingPointAndIndications, Bw %d, newPower = %d, wpPower = %d
-S 1 54 17 1051 Fatal Error in file: "PowerAdaptation.c"; Fatal Print: code above is only valid for SU
-S 1 54 17 1121 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: antennaSelectionGetCount < MAX_POSSIBLE_NUM_OF_ANTENNAS
-S 1 54 17 1237 PowerAdaptationAdjustAdditionalSteps nextPowerProbingPoint = %d probingPowerStep = %d powerAdditionalStepUp = %d powerAdditionalStepDown = %d
-S 1 54 17 1291 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: mainBw < MAX_NUM_OF_BW
-S 1 54 17 1324 PowerProcessFeedback, wpPowerLimited = %d, ppPowerLimited = %d
-S 1 54 17 1338 PowerProcessFeedback, PowerProbingPoint %d, workingPointPer = %d, slowProbingPointPer = %d
-S 1 54 17 1412 PowerProcessFeedback applyWpUpdate ,powerInlimits = %d, accumulateDiff = %d
-S 1 54 17 1467 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: mainBw < MAX_NUM_OF_BW
-S 1 54 17 1504 PowerProcessFeedback, workingPointPer = %d, slowProbingPointPer = %d
-S 1 54 17 1529 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: bandwidthIterator < MAX_NUM_OF_BW
-S 1 54 17 1570 PowerProcessFeedback: Change power working point newPower = %d
-S 1 54 17 1648 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: bandwidthIterator < MAX_NUM_OF_BW
-S 1 54 17 1675 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: bandwidthIterator < MAX_NUM_OF_BW
-S 1 54 17 1886 CalcLimitsAndGetStaTcrPowerVal, Bw = %d, rateIndex = %d, powerVal = %d, newPower = %d
-S 1 54 17 1925 Fatal Error in file: "PowerAdaptation.c"; Fatal Print: invalid case - station PHY mode cannot be PHY_MODE_LAST
-S 1 54 17 1964 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: numOfAnts <= MAX_POSSIBLE_NUM_OF_ANTENNAS
-S 1 54 17 1967 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: bandwidth < MAX_NUM_OF_BW
-S 1 54 17 1996 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: numOfAnts <= MAX_POSSIBLE_NUM_OF_ANTENNAS
-S 1 54 17 2067 [GetTcrDefaultPowerVal_11AG] phyMode %d powerPhyMode_index %d bandwidth %d isVht %d
-S 1 54 17 2068 [GetTcrDefaultPowerVal_11AG] rateIndex %d refPower %d powerOffset %d
-S 1 54 17 2071 [GetTcrDefaultPowerVal_11AG] rateIndex %d refPower %d powerOffset %d
-S 1 54 17 2072 [GetTcrDefaultPowerVal_11AG] defaultRegulationLimitPerAntenna %d DefaultInternalLowerLimit %d antPower %d antennaCountoffset %d
-S 1 54 17 2076 [GetTcrDefaultPowerVal_11AG] defaultRegulationLimitPerAntenna %d DefaultInternalLowerLimit %d antPower %d antennaCountoffset %d
-S 1 54 17 2120 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: bandwidth < MAX_NUM_OF_BW
-S 1 54 17 2284 setNextPowerFastProbeOffset: Power Quick Latch Try %d Offset used %d
-S 1 54 17 2474 powerAdaptationQuickLatchProgramOffset calling diff Power TRUE TRUE FALSE
-S 1 54 17 2514 powerAdaptationQuickLatchNeeded higher %d, ident %d tried %d
-S 1 54 17 2529 powerAdaptationQuickLatchNeeded Power Quick latching not required
-S 1 54 17 2546 powerAdaptationQuickLatchNeeded calling diff Power TRUE TRUE FALSE
-S 1 54 17 2562 powerAdaptationQuickLatchNeeded: Enabling Power Quick Latch mode Rate index %d TriedRatesbitmap %x prior to rate index add LA STATE TIMER AGER DURATION INCREASED to %d
-S 1 54 17 2565 powerAdaptationQuickLatchNeeded: Enabling Power Quick Latch mode Rate index %d TriedRatesbitmap %x prior to rate index add LA STATE TIMER AGER DURATION INCREASED to %d
-S 1 54 17 2572 powerAdaptationQuickLatchNeeded: All offsets tried, disabling Quick Latch
-S 1 54 17 2589 powerAdaptationQuickLatchNeeded: Offset %d identified for sid %d isProbeOneMcsHigh %d , disabling Quick Latch
-S 1 54 17 2598 powerAdaptationQuickLatchNeeded: Programming identified offset to use
-S 1 54 17 2615 powerAdaptationQuickLatchNeeded Power Quick States Latch point Identified %d PowerQuickLatch already tried %d pp index %d
-S 1 54 17 2713 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: bandwidthIterator < MAX_NUM_OF_BW
-S 1 54 17 2747 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: pModifcationParamsIn->controlParams.lastBwToUpdate < MAX_POSSIBLE_NUM_OF_BW
-S 1 54 17 2803 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: bandwidth < MAX_NUM_OF_BW
-S 1 54 17 2872 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: bandwidth < MAX_NUM_OF_BW
-S 1 54 17 3060 [getChannelPowerOffset] lowChNum=%d chOffset=%d
-S 1 54 17 3132 Fatal Error in file: "PowerAdaptation.c"; Fatal Print: invalid case
-S 1 54 17 3163 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: bandwidth < MAX_NUM_OF_BW
-S 1 54 17 3169 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: antennaNum < MAX_NUM_OF_TX_ANTENNAS
-S 1 54 17 3214 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: antennaNum < MAX_NUM_OF_TX_ANTENNAS
-S 1 54 17 3275 calcInternalLowerLimit, Limit = %d
-S 1 54 17 3306 calcExternalLowerLimit, BW %d, Limit = %d
-S 1 54 17 3334 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: antennaCount <= MAX_POSSIBLE_NUM_OF_ANTENNAS
-S 1 54 17 3389 [calcExternalUpperLimitData] staIndex %d BW %d PhyMode_Data %d Power_PhyMode_Data %d
-S 1 54 17 3390 [calcExternalUpperLimitData] InternalLimit %d antennaCountoffset %d avgAntennaBoost % d
-S 1 54 17 3391 [calcExternalUpperLimitData] externalUpperLimitDamage %d
-S 1 54 17 3399 [calcExternalUpperLimitData] externalUpperAntLimitData %d
-S 1 54 17 3433 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: antennaCount <= MAX_POSSIBLE_NUM_OF_ANTENNAS
-S 1 54 17 3450 [CalcExternalUpperLimitMgmt] antennaCount_Mgmt %d antennaCountoffset_Mgmt %d
-S 1 54 17 3451 [CalcExternalUpperLimitMgmt] PhyMode_Mgmt %d Power_PhyMode_Mgmt %d Limit_Mgmt %d RegulationLimit_Mgmt %d
-S 1 54 17 3454 [CalcExternalUpperLimitMgmt] PhyMode_Mgmt %d Power_PhyMode_Mgmt %d Limit_Mgmt %d RegulationLimit_Mgmt %d
-S 1 54 17 3533 CalcDefaultPowerLimits():       -----------------------------------------------------------------------
-S 1 54 17 3534 protocol=%d, bandwidth=%d, antennaCountoffset=%d, avgAntennaBoost = %d
-S 1 54 17 3535 maxOverExternalLowerLimit=%d, DefaultRegulationLimitPerAnt[prtcl=%d][bw=%d]=%d
-S 1 54 17 3536 -------------------------------------------------------------------------------------------------------
-S 1 54 17 3545 **********************************************************
-S 1 54 17 3546 maxOverInternalLowerLimit=%d,   DefaultInternalLowerLimit=%d
-S 1 54 17 3547 -------------------------------------------------------------------------------------------------------
-S 1 54 17 3924 [PowerAdaptationCalcPowerInStaLimits] staIndex %d bandwidth %d powerPhyMode %d packetType %d
-S 1 54 17 3925 [PowerAdaptationCalcPowerInStaLimits] newPower %d inputPower %d phyMode %d laphyMode %d
-S 1 54 17 3926 [PowerAdaptationCalcPowerInStaLimits] RegulationLimit11b %d isPowerBlocked %d band %d upperLimit %d
-S 1 54 17 3927 [PowerAdaptationCalcPowerInStaLimits] externalUpperAntLimitData_BW20 %d BW40 %d BW80 %d
-S 1 54 17 3930 [PowerAdaptationCalcPowerInStaLimits] externalUpperAntLimitData_BW20 %d BW40 %d BW80 %d
-S 1 54 17 3931 [PowerAdaptationCalcPowerInStaLimits] externalUpperAntLimitData BW160 %d BW320 %d
-S 1 54 17 3933 [PowerAdaptationCalcPowerInStaLimits] externalUpperAntLimitData BW160 %d BW320 %d
-S 1 54 17 3935 [PowerAdaptationCalcPowerInStaLimits] newPower = %d, isPowerBlocked = %d
-S 1 54 17 3936 [PowerAdaptationCalcPowerInStaLimits] bIs11bSupported = %d
-S 1 54 17 3968 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: LmStaDB_NumOfConnectedSta() == 0
-S 1 54 17 3997 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: MAX_NUM_OF_BW > LinkAdaptationCommonConfiguration.wlanBandwidthMax
-S 1 54 17 4058 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: MAX_NUM_OF_BW > LinkAdaptationCommonConfiguration.wlanBandwidthMax
-S 1 54 17 4144 [calcProximateStaIndication], staId=%d currRssi=%d rssiThold=%d
-S 1 54 17 4224 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: WAVE700 Power Adaptation table size not correct
-S 1 54 17 4225 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: WAVE700 Power Adaptation table size not correct
-S 1 54 17 4233 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: WAVE700 Power Adaptation table size not correct
-S 1 54 17 4279 Fatal Error in file: "PowerAdaptation.c"; Fatal Print: invalid case
-S 1 54 17 4324 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: tableEntry < tableLen
-S 1 54 17 4339 [GetInitialRateAccordingToRssi] nss is %d mcsVal is changing from %d to %d
-S 1 54 17 4351 [GetInitialRateAccordingToRssi] nss is %d mcsVal is changing from %d to %d
-S 1 54 17 4356 [GetInitialRateAccordingToRssi] this phy rate does not enjoy fast init yet
-S 1 54 17 4391 Fatal Error in file: "PowerAdaptation.c"; Fatal Print: rate not in mask - required rate is not valid
-S 1 54 17 4443 Fatal Error in file: "PowerAdaptation.c"; Fatal Print: [extractInitRateTableAndLen], invalid case
-S 1 54 17 4461 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: antCount
-S 1 54 17 4579 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: HW Power Limit Damage Limit over maximum
-S 1 54 17 4651 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: bandwidth < MAX_NUM_OF_BW
-S 1 54 17 4652 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: Null StaList
-S 1 54 17 4657 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: Null StaList
-S 1 54 17 4670 [PowerAdaptation_GetMuMimoGroupRfPower] Final %d
+S 1 54 17 845 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: bandwidth < MAX_NUM_OF_BW
+S 1 54 17 903 PowerSetNextProbingPointAndIndications,wpPower = %d, newProbingPower = %d
+S 1 54 17 975 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: bandwidth < MAX_NUM_OF_BW
+S 1 54 17 981 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: antennaSelectionGetCount < MAX_POSSIBLE_NUM_OF_ANTENNAS
+S 1 54 17 1049 PowerSetNextProbingPointAndIndications, Bw %d, newPower = %d, wpPower = %d
+S 1 54 17 1062 Fatal Error in file: "PowerAdaptation.c"; Fatal Print: code above is only valid for SU
+S 1 54 17 1132 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: antennaSelectionGetCount < MAX_POSSIBLE_NUM_OF_ANTENNAS
+S 1 54 17 1248 PowerAdaptationAdjustAdditionalSteps nextPowerProbingPoint = %d probingPowerStep = %d powerAdditionalStepUp = %d powerAdditionalStepDown = %d
+S 1 54 17 1302 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: mainBw < MAX_NUM_OF_BW
+S 1 54 17 1335 PowerProcessFeedback, wpPowerLimited = %d, ppPowerLimited = %d
+S 1 54 17 1349 PowerProcessFeedback, PowerProbingPoint %d, workingPointPer = %d, slowProbingPointPer = %d
+S 1 54 17 1423 PowerProcessFeedback applyWpUpdate ,powerInlimits = %d, accumulateDiff = %d
+S 1 54 17 1478 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: mainBw < MAX_NUM_OF_BW
+S 1 54 17 1515 PowerProcessFeedback, workingPointPer = %d, slowProbingPointPer = %d
+S 1 54 17 1540 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: bandwidthIterator < MAX_NUM_OF_BW
+S 1 54 17 1581 PowerProcessFeedback: Change power working point newPower = %d
+S 1 54 17 1659 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: bandwidthIterator < MAX_NUM_OF_BW
+S 1 54 17 1686 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: bandwidthIterator < MAX_NUM_OF_BW
+S 1 54 17 1897 CalcLimitsAndGetStaTcrPowerVal, Bw = %d, rateIndex = %d, powerVal = %d, newPower = %d
+S 1 54 17 1936 Fatal Error in file: "PowerAdaptation.c"; Fatal Print: invalid case - station PHY mode cannot be PHY_MODE_LAST
+S 1 54 17 1975 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: numOfAnts <= MAX_POSSIBLE_NUM_OF_ANTENNAS
+S 1 54 17 1978 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: bandwidth < MAX_NUM_OF_BW
+S 1 54 17 2007 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: numOfAnts <= MAX_POSSIBLE_NUM_OF_ANTENNAS
+S 1 54 17 2078 [GetTcrDefaultPowerVal_11AG] phyMode %d powerPhyMode_index %d bandwidth %d isVht %d
+S 1 54 17 2079 [GetTcrDefaultPowerVal_11AG] rateIndex %d refPower %d powerOffset %d
+S 1 54 17 2082 [GetTcrDefaultPowerVal_11AG] rateIndex %d refPower %d powerOffset %d
+S 1 54 17 2083 [GetTcrDefaultPowerVal_11AG] defaultRegulationLimitPerAntenna %d DefaultInternalLowerLimit %d antPower %d antennaCountoffset %d
+S 1 54 17 2087 [GetTcrDefaultPowerVal_11AG] defaultRegulationLimitPerAntenna %d DefaultInternalLowerLimit %d antPower %d antennaCountoffset %d
+S 1 54 17 2131 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: bandwidth < MAX_NUM_OF_BW
+S 1 54 17 2295 setNextPowerFastProbeOffset: Power Quick Latch Try %d Offset used %d
+S 1 54 17 2485 powerAdaptationQuickLatchProgramOffset calling diff Power TRUE TRUE FALSE
+S 1 54 17 2525 powerAdaptationQuickLatchNeeded higher %d, ident %d tried %d
+S 1 54 17 2540 powerAdaptationQuickLatchNeeded Power Quick latching not required
+S 1 54 17 2557 powerAdaptationQuickLatchNeeded calling diff Power TRUE TRUE FALSE
+S 1 54 17 2573 powerAdaptationQuickLatchNeeded: Enabling Power Quick Latch mode Rate index %d TriedRatesbitmap %x prior to rate index add LA STATE TIMER AGER DURATION INCREASED to %d
+S 1 54 17 2576 powerAdaptationQuickLatchNeeded: Enabling Power Quick Latch mode Rate index %d TriedRatesbitmap %x prior to rate index add LA STATE TIMER AGER DURATION INCREASED to %d
+S 1 54 17 2583 powerAdaptationQuickLatchNeeded: All offsets tried, disabling Quick Latch
+S 1 54 17 2600 powerAdaptationQuickLatchNeeded: Offset %d identified for sid %d isProbeOneMcsHigh %d , disabling Quick Latch
+S 1 54 17 2609 powerAdaptationQuickLatchNeeded: Programming identified offset to use
+S 1 54 17 2626 powerAdaptationQuickLatchNeeded Power Quick States Latch point Identified %d PowerQuickLatch already tried %d pp index %d
+S 1 54 17 2724 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: bandwidthIterator < MAX_NUM_OF_BW
+S 1 54 17 2758 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: pModifcationParamsIn->controlParams.lastBwToUpdate < MAX_POSSIBLE_NUM_OF_BW
+S 1 54 17 2810 PowerAdaptation: MRU[%d]=%d
+S 1 54 17 2826 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: bandwidth < MAX_NUM_OF_BW
+S 1 54 17 2895 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: bandwidth < MAX_NUM_OF_BW
+S 1 54 17 3083 [getChannelPowerOffset] lowChNum=%d chOffset=%d
+S 1 54 17 3155 Fatal Error in file: "PowerAdaptation.c"; Fatal Print: invalid case
+S 1 54 17 3186 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: bandwidth < MAX_NUM_OF_BW
+S 1 54 17 3192 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: antennaNum < MAX_NUM_OF_TX_ANTENNAS
+S 1 54 17 3237 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: antennaNum < MAX_NUM_OF_TX_ANTENNAS
+S 1 54 17 3298 calcInternalLowerLimit, Limit = %d
+S 1 54 17 3329 calcExternalLowerLimit, BW %d, Limit = %d
+S 1 54 17 3357 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: antennaCount <= MAX_POSSIBLE_NUM_OF_ANTENNAS
+S 1 54 17 3412 [calcExternalUpperLimitData] staIndex %d BW %d PhyMode_Data %d Power_PhyMode_Data %d
+S 1 54 17 3413 [calcExternalUpperLimitData] InternalLimit %d antennaCountoffset %d avgAntennaBoost % d
+S 1 54 17 3414 [calcExternalUpperLimitData] externalUpperLimitDamage %d
+S 1 54 17 3422 [calcExternalUpperLimitData] externalUpperAntLimitData %d
+S 1 54 17 3456 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: antennaCount <= MAX_POSSIBLE_NUM_OF_ANTENNAS
+S 1 54 17 3473 [CalcExternalUpperLimitMgmt] antennaCount_Mgmt %d antennaCountoffset_Mgmt %d
+S 1 54 17 3474 [CalcExternalUpperLimitMgmt] PhyMode_Mgmt %d Power_PhyMode_Mgmt %d Limit_Mgmt %d RegulationLimit_Mgmt %d
+S 1 54 17 3477 [CalcExternalUpperLimitMgmt] PhyMode_Mgmt %d Power_PhyMode_Mgmt %d Limit_Mgmt %d RegulationLimit_Mgmt %d
+S 1 54 17 3556 CalcDefaultPowerLimits():       -----------------------------------------------------------------------
+S 1 54 17 3557 protocol=%d, bandwidth=%d, antennaCountoffset=%d, avgAntennaBoost = %d
+S 1 54 17 3558 maxOverExternalLowerLimit=%d, DefaultRegulationLimitPerAnt[prtcl=%d][bw=%d]=%d
+S 1 54 17 3559 -------------------------------------------------------------------------------------------------------
+S 1 54 17 3568 **********************************************************
+S 1 54 17 3569 maxOverInternalLowerLimit=%d,   DefaultInternalLowerLimit=%d
+S 1 54 17 3570 -------------------------------------------------------------------------------------------------------
+S 1 54 17 3672 PowerAdaptation: Configured PAC/DUR AutoReply with MRU power limits (per-antenna)
+S 1 54 17 3770 PowerAdaptation: Configured PAC/DUR AutoReply with MRU power limits (per-antenna)
+S 1 54 17 3983 [PowerAdaptationCalcPowerInStaLimits] staIndex %d bandwidth %d powerPhyMode %d packetType %d
+S 1 54 17 3984 [PowerAdaptationCalcPowerInStaLimits] newPower %d inputPower %d phyMode %d laphyMode %d
+S 1 54 17 3985 [PowerAdaptationCalcPowerInStaLimits] RegulationLimit11b %d isPowerBlocked %d band %d upperLimit %d
+S 1 54 17 3986 [PowerAdaptationCalcPowerInStaLimits] externalUpperAntLimitData_BW20 %d BW40 %d BW80 %d
+S 1 54 17 3989 [PowerAdaptationCalcPowerInStaLimits] externalUpperAntLimitData_BW20 %d BW40 %d BW80 %d
+S 1 54 17 3990 [PowerAdaptationCalcPowerInStaLimits] externalUpperAntLimitData BW160 %d BW320 %d
+S 1 54 17 3992 [PowerAdaptationCalcPowerInStaLimits] externalUpperAntLimitData BW160 %d BW320 %d
+S 1 54 17 3994 [PowerAdaptationCalcPowerInStaLimits] newPower = %d, isPowerBlocked = %d
+S 1 54 17 3995 [PowerAdaptationCalcPowerInStaLimits] bIs11bSupported = %d
+S 1 54 17 4027 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: LmStaDB_NumOfConnectedSta() == 0
+S 1 54 17 4056 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: MAX_NUM_OF_BW > LinkAdaptationCommonConfiguration.wlanBandwidthMax
+S 1 54 17 4117 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: MAX_NUM_OF_BW > LinkAdaptationCommonConfiguration.wlanBandwidthMax
+S 1 54 17 4203 [calcProximateStaIndication], staId=%d currRssi=%d rssiThold=%d
+S 1 54 17 4283 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: WAVE700 Power Adaptation table size not correct
+S 1 54 17 4284 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: WAVE700 Power Adaptation table size not correct
+S 1 54 17 4292 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: WAVE700 Power Adaptation table size not correct
+S 1 54 17 4338 Fatal Error in file: "PowerAdaptation.c"; Fatal Print: invalid case
+S 1 54 17 4383 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: tableEntry < tableLen
+S 1 54 17 4398 [GetInitialRateAccordingToRssi] nss is %d mcsVal is changing from %d to %d
+S 1 54 17 4410 [GetInitialRateAccordingToRssi] nss is %d mcsVal is changing from %d to %d
+S 1 54 17 4415 [GetInitialRateAccordingToRssi] this phy rate does not enjoy fast init yet
+S 1 54 17 4450 Fatal Error in file: "PowerAdaptation.c"; Fatal Print: rate not in mask - required rate is not valid
+S 1 54 17 4502 Fatal Error in file: "PowerAdaptation.c"; Fatal Print: [extractInitRateTableAndLen], invalid case
+S 1 54 17 4520 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: antCount
+S 1 54 17 4638 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: HW Power Limit Damage Limit over maximum
+S 1 54 17 4710 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: bandwidth < MAX_NUM_OF_BW
+S 1 54 17 4711 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: Null StaList
+S 1 54 17 4716 COND_FATAL Error in file: "PowerAdaptation.c"; COND_FATAL description: Null StaList
+S 1 54 17 4729 [PowerAdaptation_GetMuMimoGroupRfPower] Final %d
+S 1 54 17 4828 MRU TX Power Test Mode %d
 S 1 54 18 235 ProtectionAdaptation_AddVap got vap: %d
 S 1 54 18 237 COND_FATAL Error in file: "ProtectionAdaptation.c"; COND_FATAL description: vapProtectionSm[reducedVapId] == VAP_PROTECTION_INVALID_STATE
 S 1 54 18 265 ProtectionAdaptation_RemoveVap got vap: %d
@@ -5164,7 +5196,7 @@ S 1 56 2 185 COND_FATAL Error in file: "loggerAPI.c"; COND_FATAL description: fi
 S 1 56 2 235 COND_FATAL Error in file: "loggerAPI.c"; COND_FATAL description: filterMsg_p
 S 1 56 2 337 KERNEL_EVENT_RECV_FROM_HOST_MSG kMsgType: %08x
 S 1 56 2 348 KERNEL_EVENT_SEND_TO_HOST_MSG kMsgType: %08x
-S 1 2 0 0 wlan_7.2.440@r1676+a+24-a0c082
+S 1 2 0 0 wlan_master@r1830-66f962
 S 1 57 0 211 COND_FATAL Error in file: "lm_StaDatabase.c"; COND_FATAL description: pStaDbSwEntry->nextSid < (SYS_NUM_OF_STAS)
 S 1 57 0 257 COND_FATAL Error in file: "lm_StaDatabase.c"; COND_FATAL description: nextSid != DB_ASYNC_SID
 S 1 57 0 293 COND_FATAL Error in file: "lm_StaDatabase.c"; COND_FATAL description: staIndex<SYS_NUM_OF_STAS
@@ -5223,138 +5255,150 @@ S 1 61 0 127 COND_FATAL Error in file: "init_ifmsg.c"; COND_FATAL description: p
 S 1 61 0 133 Fatal Error in file: "init_ifmsg.c"; Fatal Print: [vIF_SendMsg], psFreeQueue->maxPayload < u16PayloadSize
 S 1 61 2 170 COND_FATAL Error in file: "PacketDescriptorsPool.c"; COND_FATAL description: (pPdPool->numOfDescInPool + pdCounter) <= pPdPool->maxDescInPool
 S 1 61 2 202 COND_FATAL Error in file: "PacketDescriptorsPool.c"; COND_FATAL description: pPdPool->numOfDescInPool < pPdPool->maxDescInPool
-S 1 62 1 322 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetMlStaEntry: invalid mldId
-S 1 62 1 365 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_AddVap: state is not Idle during Add VAP procedure
-S 1 62 1 426 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_AddVap: state is not Open during Remove VAP procedure
-S 1 62 1 557 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_IsSingleLinkSta: invalid mldId
-S 1 62 1 608 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetVapMldId: Invalid vapId
-S 1 62 1 611 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: Invalid mldId
-S 1 62 1 665 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetStaAId: Invalid STA
-S 1 62 1 727 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: Invalid mldId
-S 1 62 1 756 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: vapId - not found in affiliated VAPs
-S 1 62 1 786 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetSiblingVapIdByBand: Invalid pSiblingVaps pointer
-S 1 62 1 787 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetSiblingVapIdByBand: Invalid number of sibling VAPs
-S 1 62 1 826 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: Invalid mldId
-S 1 62 1 859 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: Invalid mldId
-S 1 62 1 923 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: Invalid number of links
-S 1 62 1 981 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetTxSiblingStaId: invalid SID provided
-S 1 62 1 983 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetTxSiblingStaId: sibling requested in single link
-S 1 62 1 1020 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetSiblingStas: Invalid mldId
-S 1 62 1 1042 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetSiblingStas: siblingCount exceeds MAX_NUM_OF_SIBLINGS_STA
-S 1 62 1 1048 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: StaId - not found in sibling STAs
-S 1 62 1 1081 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetMldAffiliatedStas: Invalid mldId
-S 1 62 1 1115 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetMainStaId: Invalid mldId
-S 1 62 1 1290 OtfMld_SendCfmToBssMgr: SID %d
-S 1 62 1 1353 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetStaMldId: Invalid STA
-S 1 62 1 1397 Set MLD MAC for mldId %d in band %d MLD VAP DB
-S 1 62 1 1423 Programmed MLD VAP DB snapshot, word0: 0X%X, word1: 0X%X, word2: 0X%X
+S 1 62 1 323 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetMlStaEntry: invalid mldId
+S 1 62 1 366 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_AddVap: state is not Idle during Add VAP procedure
+S 1 62 1 427 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_AddVap: state is not Open during Remove VAP procedure
+S 1 62 1 558 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_IsSingleLinkSta: invalid mldId
+S 1 62 1 609 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetVapMldId: Invalid vapId
+S 1 62 1 612 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: Invalid mldId
+S 1 62 1 666 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetStaAId: Invalid STA
+S 1 62 1 728 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: Invalid mldId
+S 1 62 1 757 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: vapId - not found in affiliated VAPs
+S 1 62 1 787 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetSiblingVapIdByBand: Invalid pSiblingVaps pointer
+S 1 62 1 788 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetSiblingVapIdByBand: Invalid number of sibling VAPs
+S 1 62 1 827 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: Invalid mldId
+S 1 62 1 860 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: Invalid mldId
+S 1 62 1 924 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: Invalid number of links
+S 1 62 1 982 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetTxSiblingStaId: invalid SID provided
+S 1 62 1 984 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetTxSiblingStaId: sibling requested in single link
+S 1 62 1 1021 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetSiblingStas: Invalid mldId
+S 1 62 1 1043 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetSiblingStas: siblingCount exceeds MAX_NUM_OF_SIBLINGS_STA
+S 1 62 1 1049 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: StaId - not found in sibling STAs
+S 1 62 1 1082 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetMldAffiliatedStas: Invalid mldId
+S 1 62 1 1116 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetMainStaId: Invalid mldId
+S 1 62 1 1291 OtfMld_SendCfmToBssMgr: SID %d
+S 1 62 1 1354 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetStaMldId: Invalid STA
+S 1 62 1 1398 Set MLD MAC for mldId %d in band %d MLD VAP DB
 S 1 62 1 1424 Programmed MLD VAP DB snapshot, word0: 0X%X, word1: 0X%X, word2: 0X%X
-S 1 62 1 1453 OtfMld_ConfigTimGen: vapId: %d
-S 1 62 1 1537 OtfMld_ChangeVapState: State transition from %d to %d
-S 1 62 1 1562 OtfMld_MlStaChangeStaState: State transition from %d to %d
-S 1 62 1 1609 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_VapSmIdleState: Invalid siblingVapId
-S 1 62 1 1667 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_VapSmIdleState: Invalid Event
-S 1 62 1 1756 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_VapSmMldReadyState: Invalid Event
-S 1 62 1 1850 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_VapSmBeaconLockCfmInWaitBeaconLockState: un-handled event
-S 1 62 1 1878 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlVapSM: Invalid mldId
-S 1 62 1 1892 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_MlVapSM: Invalid ML VAP State
-S 1 62 1 1920 OtfMld_SendSidReqToPacMgr: mldId = %d
-S 1 62 1 1971 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_MlStaSmInitState: Invalid Event
-S 1 62 1 2172 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_IsAllocArrayValid: Invalid pMsg
-S 1 62 1 2181 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_IsAllocArrayValid: Next SID not found
-S 1 62 1 2210 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_IsAllocArrayValid: Invalid pMsg
-S 1 62 1 2264 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_CheckAndRemoveSid: No sibling vap found
-S 1 62 1 2265 OtfMld_CheckAndRemoveSid: Remove SID %d created on vapId %d
-S 1 62 1 2340 OtfMld_SidReqConfirmedEvent: SID allocation failed for STA %d (mldId:%d)
-S 1 62 1 2360 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_SidReqConfirmedEvent: No sibling vap found
-S 1 62 1 2361 OtfMld_SidReqConfirmedEvent: Request to remove SID %d on vapId %d
-S 1 62 1 2378 OtfMld_SidReqConfirmedEvent: SID %d allocated for STA %d (mldId:%d)
-S 1 62 1 2386 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_SidReqConfirmedEvent: No sibling vap found
-S 1 62 1 2403 OtfMld_SidReqConfirmedEvent: last SID %d allocated for (mldId:%d)
-S 1 62 1 2455 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_MlStaSmRetrievingSidState: Invalid Event
-S 1 62 1 2488 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_MlStaSmRemovingSidState: Invalid Event
-S 1 62 1 2518 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_SetIsMldInStaHwDb: Invalid mldId
-S 1 62 1 2527 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_SetIsMldInStaHwDb: Invalid sta ID
-S 1 62 1 2757 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_SetMlmrConfiguration: Invalid mldId
-S 1 62 1 2816 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetSidByBand: SID not found
-S 1 62 1 2896 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_StaMldAddEvent: Invalid assoc band
-S 1 62 1 2925 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_StaMldAddEvent: Invalid ML STA link type
-S 1 62 1 3152 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_StaMldReadyNotify: Invalid band
-S 1 62 1 3189 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_MlStaSmAddingMldState: Invalid Event
-S 1 62 1 3260 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_MlStaSmFwClientsAckPendingState: Invalid event
-S 1 62 1 3349 OtfMld_MlStaSmMldRemoveInMlsrEvent: Can't remove MLD yet as msgSM in progress for (mldId=%d)
-S 1 62 1 3388 OtfMld_MlStaSmMldRemoveInEmlsrEvent: Can't remove MLD yet as msgSM in progress for (mldId=%d)
-S 1 62 1 3462 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_Update: LA pending bitmap not zero
-S 1 62 1 3694 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlStaUpdateNewEmlsrModeOn: Invalid mldId
-S 1 62 1 3695 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlStaUpdateNewEmlsrModeOn: new bitmap cant be zero
-S 1 62 1 3699 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlStaUpdateNewEmlsrModeOn: LA pending bitmap not zero
-S 1 62 1 3763 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlStaUpdateNewEmlsrModeOff: Invalid mldId
-S 1 62 1 3767 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlStaUpdateNewEmlsrModeOff: LA pending bitmap not zero
-S 1 62 1 3893 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlStaUpdateNewEmlsrLinkBitmap: new bitmap cant be zero
-S 1 62 1 3894 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlStaUpdateNewEmlsrLinkBitmap: Invalid mldId
-S 1 62 1 3897 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlStaUpdateNewEmlsrLinkBitmap: Internal emlsr bitmap is zero
-S 1 62 1 3898 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlStaUpdateNewEmlsrLinkBitmap: LA pending bitmap not zero
-S 1 62 1 4308 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlStaSmReAssocReceivedEvent: MLD LA pending bitmap not zero
-S 1 62 1 4587 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_MlStaSmEmlOmnTxCfmEvent: Valid emslr mode restore condition not met
-S 1 62 1 4647 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_MlStaSmPdAllocatedEvent: PD Allocated in Unexpected State
-S 1 62 1 4714 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_SetStaticPlanBsrpTimer, Try to set timer for new UL TF group, before two groups have been unset
-S 1 62 1 4723 OtfMld_SetStaticPlanBsrpTimer, Set groupId %d in linkEntry[%d]
-S 1 62 1 4728 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_SetStaticPlanBsrpTimer, more than one static group per link is not supported
-S 1 62 1 4752 OtfMld_SetStaticPlanBsrpTimer, All groups have been added to DB, Set timer
-S 1 62 1 4801 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_StaticPlanBsrpTimerExpired, Try to trigger BSRP to non BSRP VAP
-S 1 62 1 4802 OtfMld_StaticPlanBsrpTimerExpired, Send BSRP timer event to vapId %d
-S 1 62 1 4805 OtfMld_StaticPlanBsrpTimerExpired, Set timer for groupId %d
-S 1 62 1 4842 OtfMld_UnsetStaticPlanBsrpTimer, UnSet groupId %d in linkEntry[%d]
-S 1 62 1 4846 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_UnsetStaticPlanBsrpTimer, Invalid group id - not found in DB
-S 1 62 1 4859 OtfMld_UnsetStaticPlanBsrpTimer, Unset all groups from all links
-S 1 62 1 4903 OtfMld_SendBsrpTfAbortMsgToLms, Abort BSRP TF from ML, groupId = %d
-S 1 62 1 4960 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_MlStaSmMldMlsrtState: Invalid Event
-S 1 62 1 5016 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_MlStaSmMldEmlsrtState: Invalid Event
-S 1 62 1 5072 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_MlStaSmMlmrState: Invalid Event
-S 1 62 1 5107 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_MlStaSmWaitLaRemoveState: Invalid Event
-S 1 62 1 5139 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_MlStaSmWaitLinkRemoveState: Invalid Event
-S 1 62 1 5165 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlStaSM: Invalid mldId
-S 1 62 1 5200 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_MlStaSM: Invalid ML Sta State
-S 1 62 1 5309 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_RemoveMlStaFinish: MLD VAP connectedMlStaCount is zero
-S 1 62 1 5311 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_RemoveMlStaFinish: connectedMlStaCount is zero
-S 1 62 1 5393 OtfMld_SidReq: Allocated temporary index %d in mlStaDb[]
-S 1 62 1 5408 OtfMld_SidReq: No Free Slot in mlStaDb[]
-S 1 62 1 5498 OtfMld_AddStaReq: staId %d, AID %d
-S 1 62 1 5661 OtfMld_RemoveStaReq: staId %d
-S 1 62 1 5926 OtfMld: Ignore EML OMN Action Frame Arrived in state %d
-S 1 62 1 6089 OTF MultiLink Csa state for band %d changed to %d
-S 1 62 1 6132 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OTF Manager is in the middle of a previous channel switch on this band
-S 1 62 1 6182 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OTF Manager is in the middle of a previous channel switch involving MLD
-S 1 62 1 6214 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: Got unexpected Beacon CSA Manager start confirm
-S 1 62 1 6256 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: Got unexpected Beacon CSA Manager stsrt confirm
-S 1 62 1 6290 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: Got unexpected Beacon CSA Manager stop confirm
-S 1 62 1 6535 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_LinksRemoveDone: Invalid mldId
-S 1 62 1 6561 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_LinkHandlerEmlsrUpdateDone: Invalid mldId
-S 1 62 1 6597 OtfMld_StaSmChangeState: Change state from %d to %d for SID %d
-S 1 62 1 6599 OtfMld_StaSmChangeState: Change state from %d to %d for SID %d
-S 1 62 1 6627 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlStaSmAddMld: Invalid mldId
-S 1 62 1 6688 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlStaSmRemoveMld: Invalid mldId
-S 1 62 1 6752 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_StaSmIdleState: Invalid event
-S 1 62 1 6790 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_StaSmWaitForAddMldState: Invalid event
-S 1 62 1 6825 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_StaSmMldState: Invalid event
-S 1 62 1 6859 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_StaSmNonMldState: Invalid event
-S 1 62 1 6886 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_StaSM: Invalid staId
-S 1 62 1 6889 OtfMld_StaSM: SID(%d) Received event %d in state %d
-S 1 62 1 6905 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_StaSM: Invalid STA State
-S 1 62 1 7052 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetStaInMldByBand called with invalid parameters
-S 1 62 1 7057 OtfMld_GetStaInMldByBand: Searching for STA in MLD %d on band %d, found %d links
-S 1 62 1 7058 OtfMld_GetStaInMldByBand: Searching for STA in MLD %d on band %d, found %d links
-S 1 62 1 7067 OtfMld_GetStaInMldByBand: Found matching STA %d on target band %d
-S 1 62 1 7073 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetStaInMldByBand no station found for target band
-S 1 62 1 7109 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetVapInMldByBand called with invalid parameters
-S 1 62 1 7126 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetVapInMldByBand no VAP found for target band
-S 1 62 1 7290 OtfMld_RecoverRdOriginalVapIdAndStaId before change: vapId %d and StaId %d
-S 1 62 1 7291 OtfMld_RecoverRdOriginalVapIdAndStaId before change: vapId %d and StaId %d
-S 1 62 1 7294 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_RecoverRdOriginalVapId: Invalid band extracted from descriptor
-S 1 62 1 7303 OtfMld_RecoverRdOriginalVapIdAndStaId: Recovered original StaId %d for band %d
-S 1 62 1 7304 OtfMld_RecoverRdOriginalVapIdAndStaId: Recovered original StaId %d for band %d
-S 1 62 1 7313 OtfMld_RecoverRdOriginalVapIdAndStaId: Recovered original VapId %d for band %d
-S 1 62 1 7314 OtfMld_RecoverRdOriginalVapIdAndStaId: Recovered original VapId %d for band %d
+S 1 62 1 1425 Programmed MLD VAP DB snapshot, word0: 0X%X, word1: 0X%X, word2: 0X%X
+S 1 62 1 1454 OtfMld_ConfigTimGen: vapId: %d
+S 1 62 1 1538 OtfMld_ChangeVapState: State transition from %d to %d
+S 1 62 1 1563 OtfMld_MlStaChangeStaState: State transition from %d to %d
+S 1 62 1 1610 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_VapSmIdleState: Invalid siblingVapId
+S 1 62 1 1668 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_VapSmIdleState: Invalid Event
+S 1 62 1 1757 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_VapSmMldReadyState: Invalid Event
+S 1 62 1 1851 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_VapSmBeaconLockCfmInWaitBeaconLockState: un-handled event
+S 1 62 1 1879 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlVapSM: Invalid mldId
+S 1 62 1 1893 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_MlVapSM: Invalid ML VAP State
+S 1 62 1 1921 OtfMld_SendSidReqToPacMgr: mldId = %d
+S 1 62 1 1972 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_MlStaSmInitState: Invalid Event
+S 1 62 1 2166 MLO PS debug cli: staId=%d isStaInPs=%d
+S 1 62 1 2228 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_IsAllocArrayValid: Invalid pMsg
+S 1 62 1 2237 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_IsAllocArrayValid: Next SID not found
+S 1 62 1 2266 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_IsAllocArrayValid: Invalid pMsg
+S 1 62 1 2320 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_CheckAndRemoveSid: No sibling vap found
+S 1 62 1 2321 OtfMld_CheckAndRemoveSid: Remove SID %d created on vapId %d
+S 1 62 1 2396 OtfMld_SidReqConfirmedEvent: SID allocation failed for STA %d (mldId:%d)
+S 1 62 1 2416 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_SidReqConfirmedEvent: No sibling vap found
+S 1 62 1 2417 OtfMld_SidReqConfirmedEvent: Request to remove SID %d on vapId %d
+S 1 62 1 2434 OtfMld_SidReqConfirmedEvent: SID %d allocated for STA %d (mldId:%d)
+S 1 62 1 2442 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_SidReqConfirmedEvent: No sibling vap found
+S 1 62 1 2459 OtfMld_SidReqConfirmedEvent: last SID %d allocated for (mldId:%d)
+S 1 62 1 2511 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_MlStaSmRetrievingSidState: Invalid Event
+S 1 62 1 2544 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_MlStaSmRemovingSidState: Invalid Event
+S 1 62 1 2574 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_SetIsMldInStaHwDb: Invalid mldId
+S 1 62 1 2583 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_SetIsMldInStaHwDb: Invalid sta ID
+S 1 62 1 2813 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_SetMlmrConfiguration: Invalid mldId
+S 1 62 1 2872 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetSidByBand: SID not found
+S 1 62 1 2947 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_StaMldAddEvent: Associated STA not found
+S 1 62 1 2953 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_StaMldAddEvent: Invalid assoc band
+S 1 62 1 2962 OtfMld_StaMldAddEvent: Using configured link roles mainBand: %d, preferredBand: %d, backupBand: %d
+S 1 62 1 2993 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_StaMldAddEvent: Invalid ML STA link type
+S 1 62 1 3213 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_StaMldReadyNotify: Invalid band
+S 1 62 1 3250 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_MlStaSmAddingMldState: Invalid Event
+S 1 62 1 3321 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_MlStaSmFwClientsAckPendingState: Invalid event
+S 1 62 1 3410 OtfMld_MlStaSmMldRemoveInMlsrEvent: Can't remove MLD yet as msgSM in progress for (mldId=%d)
+S 1 62 1 3449 OtfMld_MlStaSmMldRemoveInEmlsrEvent: Can't remove MLD yet as msgSM in progress for (mldId=%d)
+S 1 62 1 3523 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_Update: LA pending bitmap not zero
+S 1 62 1 3755 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlStaUpdateNewEmlsrModeOn: Invalid mldId
+S 1 62 1 3756 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlStaUpdateNewEmlsrModeOn: new bitmap cant be zero
+S 1 62 1 3760 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlStaUpdateNewEmlsrModeOn: LA pending bitmap not zero
+S 1 62 1 3824 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlStaUpdateNewEmlsrModeOff: Invalid mldId
+S 1 62 1 3828 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlStaUpdateNewEmlsrModeOff: LA pending bitmap not zero
+S 1 62 1 3954 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlStaUpdateNewEmlsrLinkBitmap: new bitmap cant be zero
+S 1 62 1 3955 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlStaUpdateNewEmlsrLinkBitmap: Invalid mldId
+S 1 62 1 3958 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlStaUpdateNewEmlsrLinkBitmap: Internal emlsr bitmap is zero
+S 1 62 1 3959 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlStaUpdateNewEmlsrLinkBitmap: LA pending bitmap not zero
+S 1 62 1 4369 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlStaSmReAssocReceivedEvent: MLD LA pending bitmap not zero
+S 1 62 1 4648 OtfMld_MlStaSmEmlOmnTxCfmEvent: EML OMN CFM failed, No change in EMLSR mode or bitmap, nothing to restore
+S 1 62 1 4708 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_MlStaSmPdAllocatedEvent: PD Allocated in Unexpected State
+S 1 62 1 4775 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_SetStaticPlanBsrpTimer, Try to set timer for new UL TF group, before two groups have been unset
+S 1 62 1 4784 OtfMld_SetStaticPlanBsrpTimer, Set groupId %d in linkEntry[%d]
+S 1 62 1 4789 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_SetStaticPlanBsrpTimer, more than one static group per link is not supported
+S 1 62 1 4813 OtfMld_SetStaticPlanBsrpTimer, All groups have been added to DB, Set timer
+S 1 62 1 4862 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_StaticPlanBsrpTimerExpired, Try to trigger BSRP to non BSRP VAP
+S 1 62 1 4863 OtfMld_StaticPlanBsrpTimerExpired, Send BSRP timer event to vapId %d
+S 1 62 1 4866 OtfMld_StaticPlanBsrpTimerExpired, Set timer for groupId %d
+S 1 62 1 4903 OtfMld_UnsetStaticPlanBsrpTimer, UnSet groupId %d in linkEntry[%d]
+S 1 62 1 4907 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_UnsetStaticPlanBsrpTimer, Invalid group id - not found in DB
+S 1 62 1 4920 OtfMld_UnsetStaticPlanBsrpTimer, Unset all groups from all links
+S 1 62 1 4964 OtfMld_SendBsrpTfAbortMsgToLms, Abort BSRP TF from ML, groupId = %d
+S 1 62 1 5021 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_MlStaSmMldMlsrtState: Invalid Event
+S 1 62 1 5077 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_MlStaSmMldEmlsrtState: Invalid Event
+S 1 62 1 5133 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_MlStaSmMlmrState: Invalid Event
+S 1 62 1 5168 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_MlStaSmWaitLaRemoveState: Invalid Event
+S 1 62 1 5200 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_MlStaSmWaitLinkRemoveState: Invalid Event
+S 1 62 1 5226 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlStaSM: Invalid mldId
+S 1 62 1 5227 OtfMld_MlStaSM: mldId=%d, event=%d, state=%d
+S 1 62 1 5261 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_MlStaSM: Invalid ML Sta State
+S 1 62 1 5370 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_RemoveMlStaFinish: MLD VAP connectedMlStaCount is zero
+S 1 62 1 5372 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_RemoveMlStaFinish: connectedMlStaCount is zero
+S 1 62 1 5454 OtfMld_SidReq: Allocated temporary index %d in mlStaDb[]
+S 1 62 1 5469 OtfMld_SidReq: No Free Slot in mlStaDb[]
+S 1 62 1 5559 OtfMld_AddStaReq: staId %d, AID %d
+S 1 62 1 5722 OtfMld_RemoveStaReq: staId %d
+S 1 62 1 5987 OtfMld: Ignore EML OMN Action Frame Arrived in state %d
+S 1 62 1 6168 OTF MultiLink Csa state for band %d changed to %d
+S 1 62 1 6211 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OTF Manager is in the middle of a previous channel switch on this band
+S 1 62 1 6261 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OTF Manager is in the middle of a previous channel switch involving MLD
+S 1 62 1 6293 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: Got unexpected Beacon CSA Manager start confirm
+S 1 62 1 6335 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: Got unexpected Beacon CSA Manager stsrt confirm
+S 1 62 1 6369 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: Got unexpected Beacon CSA Manager stop confirm
+S 1 62 1 6614 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_LinksRemoveDone: Invalid mldId
+S 1 62 1 6640 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_LinkHandlerEmlsrUpdateDone: Invalid mldId
+S 1 62 1 6676 OtfMld_StaSmChangeState: Change state from %d to %d for SID %d
+S 1 62 1 6678 OtfMld_StaSmChangeState: Change state from %d to %d for SID %d
+S 1 62 1 6706 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlStaSmAddMld: Invalid mldId
+S 1 62 1 6767 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_MlStaSmRemoveMld: Invalid mldId
+S 1 62 1 6831 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_StaSmIdleState: Invalid event
+S 1 62 1 6869 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_StaSmWaitForAddMldState: Invalid event
+S 1 62 1 6904 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_StaSmMldState: Invalid event
+S 1 62 1 6938 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_StaSmNonMldState: Invalid event
+S 1 62 1 6965 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_StaSM: Invalid staId
+S 1 62 1 6968 OtfMld_StaSM: SID(%d) Received event %d in state %d
+S 1 62 1 6984 Fatal Error in file: "OtfMultiLink.c"; Fatal Print: OtfMld_StaSM: Invalid STA State
+S 1 62 1 7134 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_SetLinkRoleConfig: invalid mainBand
+S 1 62 1 7135 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_SetLinkRoleConfig: invalid preferredSecondaryBand
+S 1 62 1 7136 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_SetLinkRoleConfig: mainBand and preferredSecondaryBand must be different
+S 1 62 1 7140 OtfMld_SetLinkRoleConfig: rejected - active MLD STA exists (mainBand: %d, preferredSecondaryBand: %d)
+S 1 62 1 7150 OtfMld_SetLinkRoleConfig: mainBand: %d, preferredSecondaryBand: %d, backupBand: %d
+S 1 62 1 7182 OtfMld_SetLinkRoleDefaultMode: rejected - active MLD STA exists
+S 1 62 1 7192 OtfMld_SetLinkRoleDefaultMode: enabled default mode (mainBand: %d, preferredSecondaryBand: %d, isLinkRoleConfigured: %d)
+S 1 62 1 7193 OtfMld_SetLinkRoleDefaultMode: enabled default mode (mainBand: %d, preferredSecondaryBand: %d, isLinkRoleConfigured: %d)
+S 1 62 1 7263 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetStaInMldByBand called with invalid parameters
+S 1 62 1 7268 OtfMld_GetStaInMldByBand: Searching for STA in MLD %d on band %d, found %d links
+S 1 62 1 7269 OtfMld_GetStaInMldByBand: Searching for STA in MLD %d on band %d, found %d links
+S 1 62 1 7278 OtfMld_GetStaInMldByBand: Found matching STA %d on target band %d
+S 1 62 1 7284 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetStaInMldByBand no station found for target band
+S 1 62 1 7320 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetVapInMldByBand called with invalid parameters
+S 1 62 1 7337 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_GetVapInMldByBand no VAP found for target band
+S 1 62 1 7501 OtfMld_RecoverRdOriginalVapIdAndStaId before change: vapId %d and StaId %d
+S 1 62 1 7502 OtfMld_RecoverRdOriginalVapIdAndStaId before change: vapId %d and StaId %d
+S 1 62 1 7505 COND_FATAL Error in file: "OtfMultiLink.c"; COND_FATAL description: OtfMld_RecoverRdOriginalVapId: Invalid band extracted from descriptor
+S 1 62 1 7514 OtfMld_RecoverRdOriginalVapIdAndStaId: Recovered original StaId %d for band %d
+S 1 62 1 7515 OtfMld_RecoverRdOriginalVapIdAndStaId: Recovered original StaId %d for band %d
+S 1 62 1 7524 OtfMld_RecoverRdOriginalVapIdAndStaId: Recovered original VapId %d for band %d
+S 1 62 1 7525 OtfMld_RecoverRdOriginalVapIdAndStaId: Recovered original VapId %d for band %d
 S 1 62 2 89 COND_FATAL Error in file: "GphpQManager.c"; COND_FATAL description: GphpQManager_DecrementPendingPdCount: pendingPdCount is zero
 S 1 62 2 249 COND_FATAL Error in file: "GphpQManager.c"; COND_FATAL description: GphpQManager_DecrementQueuedPdCount: queuedPdCount is zero
 S 1 62 3 142 SMM: OtfMlScheduler_ChangeState: Transistion from %d to %d
@@ -5375,47 +5419,53 @@ S 1 62 3 659 SMM: OtfMlScheduler_ProcessUpdateLinks Update links for mldId: %d, 
 S 1 62 3 776 SMM: OtfMlScheduler_SyncPendingMldSta new mldId: %d is considered by SMM
 S 1 62 3 900 SMM: band %d chLoad3 %d txTime %d availinkcapa %d
 S 1 62 3 1328 OtfMlScheduler_StaticLinkAllocationAlgo: STA is in MLSR mode with more than one link in PS, activeLink:%d
-S 1 62 3 1420 Fatal Error in file: "OtfMlScheduler.c"; Fatal Print: OtfMlScheduler_IdleStateHandler: Invalid event
-S 1 62 3 1467 Fatal Error in file: "OtfMlScheduler.c"; Fatal Print: OtfMlScheduler_MeasurementStateHandler: Invalid event
-S 1 62 3 1535 Fatal Error in file: "OtfMlScheduler.c"; Fatal Print: OtfMlScheduler_ActiveStateHandler: Invalid event
-S 1 62 3 1559 SMM: OtfMlScheduler_StateMachine state = %d event = %d
-S 1 62 3 1573 Fatal Error in file: "OtfMlScheduler.c"; Fatal Print: SmartMultiLink_StateMachine: Invalid state
+S 1 62 3 1425 Fatal Error in file: "OtfMlScheduler.c"; Fatal Print: OtfMlScheduler_IdleStateHandler: Invalid event
+S 1 62 3 1472 Fatal Error in file: "OtfMlScheduler.c"; Fatal Print: OtfMlScheduler_MeasurementStateHandler: Invalid event
+S 1 62 3 1540 Fatal Error in file: "OtfMlScheduler.c"; Fatal Print: OtfMlScheduler_ActiveStateHandler: Invalid event
+S 1 62 3 1564 SMM: OtfMlScheduler_StateMachine state = %d event = %d
+S 1 62 3 1578 Fatal Error in file: "OtfMlScheduler.c"; Fatal Print: SmartMultiLink_StateMachine: Invalid state
 S 1 62 4 113 OtfMld_LinkHandlerChangeState: MldId %d State transition from %d to %d
 S 1 62 4 142 OtfMld_LinkHandlerSendEventToSm: MldId %d State %d Event %d
-S 1 62 4 289 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerGetNewTxSecondary: invalid mldId
-S 1 62 4 292 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerGetNewTxSecondary: sta is not triband
-S 1 62 4 299 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerGetNewTxSecondary: invalid transmittingSecondary sid
-S 1 62 4 305 OtfMld_LinkHandlerGetNewTxSecondary mainSta: %d, txSeconday: %d, preferredPsMode: %d, backupPsMode: %d
-S 1 62 4 306 OtfMld_LinkHandlerGetNewTxSecondary mainSta: %d, txSeconday: %d, preferredPsMode: %d, backupPsMode: %d
-S 1 62 4 364 OtfMld_LinkHandlerEmlOmnReceived mldId %d enableLinksBitmap %d disableLinkBitmap %d
-S 1 62 4 366 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerEmlOmnReceived: Invalid mldId
-S 1 62 4 367 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerEmlOmnReceived enable and disable bitmaps are not mutually exlucive
-S 1 62 4 513 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerPsModeUpdate: invalid staId
-S 1 62 4 548 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerRemoveMldLinks: invalid mldId
-S 1 62 4 557 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerRemoveMldLinks: lockLinksBitmap is not cleared
-S 1 62 4 653 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerLockLinks: invalid mldId
-S 1 62 4 707 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerLockLinksCfm: Invalid staId
-S 1 62 4 743 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerUnlockLinks: invalid mldId
-S 1 62 4 782 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerUpdateHostIfDb: invalid mldId
-S 1 62 4 831 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerSendSmmUpdateLinks: invalid mldId
-S 1 62 4 982 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerSmIdleState: invalid mldId
-S 1 62 4 1033 Fatal Error in file: "OtfLinkHandler.c"; Fatal Print: OtfMld_LinkHandlerSmIdleState: Invalid Event
-S 1 62 4 1081 Fatal Error in file: "OtfLinkHandler.c"; Fatal Print: OtfMld_LinkHandlerSmNoTxUpdateState: Invalid Event
-S 1 62 4 1129 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerSmWaitTxUpdateState: invalid mldId
-S 1 62 4 1135 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerPsModeUpdate: invalid transmittingSecondary sid
-S 1 62 4 1148 Fatal Error in file: "OtfLinkHandler.c"; Fatal Print: OtfMld_LinkHandlerSmWaitTxUpdateState: Invalid Event
-S 1 62 4 1179 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerSmWaitLockState: invalid mldId
-S 1 62 4 1223 Fatal Error in file: "OtfLinkHandler.c"; Fatal Print: OtfMld_LinkHandlerSmNoTxUpdateState: Invalid Event
-S 1 62 4 1272 Fatal Error in file: "OtfLinkHandler.c"; Fatal Print: OtfMld_LinkHandlerSmNoTxUpdateState: Invalid Event
-S 1 62 4 1348 Fatal Error in file: "OtfLinkHandler.c"; Fatal Print: OtfMld_LinkHandlerSmNoTxUpdateState: Invalid Event
-S 1 62 4 1398 Fatal Error in file: "OtfLinkHandler.c"; Fatal Print: OtfMld_LinkHandlerSmStopTrafficState: Invalid Event
-S 1 62 4 1455 Fatal Error in file: "OtfLinkHandler.c"; Fatal Print: OtfMld_LinkHandlerSmWaitLockStopTrafficState: Invalid Event
-S 1 62 4 1484 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerSM: Invalid mldId
-S 1 62 4 1529 Fatal Error in file: "OtfLinkHandler.c"; Fatal Print: OtfMld_LinkHandlerSM: Invalid ML Sta State
-S 1 62 4 1561 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerUpdateTxSecondary: invalid mainSta sid
-S 1 62 4 1568 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerUpdateTxSecondary: invalid transmittingSecondary sid
-S 1 62 4 1612 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_ConfigMldSiblingDb: invalid transmittingSecondary sid
-S 1 62 4 1679 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerClearMlStaInDisableStaBitmap: invalid mldId
+S 1 62 4 290 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerGetNewTxSecondary: invalid mldId
+S 1 62 4 293 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerGetNewTxSecondary: sta is not triband
+S 1 62 4 300 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerGetNewTxSecondary: invalid transmittingSecondary sid
+S 1 62 4 311 OtfMld_LinkHandlerGetNewTxSecondary mainSta: %d, txSeconday: %d, preferredPsMode: %d, backupPsMode: %d
+S 1 62 4 312 OtfMld_LinkHandlerGetNewTxSecondary preferred is transmitting: isCurrentLinkDisabled: %d, isNewLinkDisabled (backup): %d
+S 1 62 4 322 OtfMld_LinkHandlerGetNewTxSecondary backup is transmitting: mainSta: %d, txSeconday: %d, preferredPsMode: %d, isNewLinkDisabled (preferred): %d
+S 1 62 4 329 OtfMld_LinkHandlerGetNewTxSecondary mainSta: %d, new txSecondary selected: %d
+S 1 62 4 367 OtfMld_LinkHandlerEmlOmnReceived mldId %d enableLinksBitmap %d disableLinkBitmap %d
+S 1 62 4 369 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerEmlOmnReceived: Invalid mldId
+S 1 62 4 370 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerEmlOmnReceived enable and disable bitmaps are not mutually exlucive
+S 1 62 4 375 OtfMld_LinkHandlerUpdateEmlsrEvent: CLI override lock active for mldId %d, skipping bitmap update
+S 1 62 4 441 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerCliForceDisableLinks: Invalid mldId
+S 1 62 4 453 OtfMld_LinkHandlerCliForceDisableLinks: Lock set for mldId %d
+S 1 62 4 458 OtfMld_LinkHandlerCliForceDisableLinks: Lock released for mldId %d
+S 1 62 4 572 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerPsModeUpdate: invalid staId
+S 1 62 4 607 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerRemoveMldLinks: invalid mldId
+S 1 62 4 616 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerRemoveMldLinks: lockLinksBitmap is not cleared
+S 1 62 4 713 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerLockLinks: invalid mldId
+S 1 62 4 767 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerLockLinksCfm: Invalid staId
+S 1 62 4 803 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerUnlockLinks: invalid mldId
+S 1 62 4 842 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerUpdateHostIfDb: invalid mldId
+S 1 62 4 891 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerSendSmmUpdateLinks: invalid mldId
+S 1 62 4 1042 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerSmIdleState: invalid mldId
+S 1 62 4 1093 Fatal Error in file: "OtfLinkHandler.c"; Fatal Print: OtfMld_LinkHandlerSmIdleState: Invalid Event
+S 1 62 4 1141 Fatal Error in file: "OtfLinkHandler.c"; Fatal Print: OtfMld_LinkHandlerSmNoTxUpdateState: Invalid Event
+S 1 62 4 1189 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerSmWaitTxUpdateState: invalid mldId
+S 1 62 4 1195 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerPsModeUpdate: invalid transmittingSecondary sid
+S 1 62 4 1208 Fatal Error in file: "OtfLinkHandler.c"; Fatal Print: OtfMld_LinkHandlerSmWaitTxUpdateState: Invalid Event
+S 1 62 4 1239 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerSmWaitLockState: invalid mldId
+S 1 62 4 1283 Fatal Error in file: "OtfLinkHandler.c"; Fatal Print: OtfMld_LinkHandlerSmNoTxUpdateState: Invalid Event
+S 1 62 4 1332 Fatal Error in file: "OtfLinkHandler.c"; Fatal Print: OtfMld_LinkHandlerSmNoTxUpdateState: Invalid Event
+S 1 62 4 1408 Fatal Error in file: "OtfLinkHandler.c"; Fatal Print: OtfMld_LinkHandlerSmNoTxUpdateState: Invalid Event
+S 1 62 4 1458 Fatal Error in file: "OtfLinkHandler.c"; Fatal Print: OtfMld_LinkHandlerSmStopTrafficState: Invalid Event
+S 1 62 4 1515 Fatal Error in file: "OtfLinkHandler.c"; Fatal Print: OtfMld_LinkHandlerSmWaitLockStopTrafficState: Invalid Event
+S 1 62 4 1544 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerSM: Invalid mldId
+S 1 62 4 1589 Fatal Error in file: "OtfLinkHandler.c"; Fatal Print: OtfMld_LinkHandlerSM: Invalid ML Sta State
+S 1 62 4 1621 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerUpdateTxSecondary: invalid mainSta sid
+S 1 62 4 1628 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerUpdateTxSecondary: invalid transmittingSecondary sid
+S 1 62 4 1672 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_ConfigMldSiblingDb: invalid transmittingSecondary sid
+S 1 62 4 1739 COND_FATAL Error in file: "OtfLinkHandler.c"; COND_FATAL description: OtfMld_LinkHandlerClearMlStaInDisableStaBitmap: invalid mldId
 S 1 63 1 88 COND_FATAL Error in file: "PlanHandler.c"; COND_FATAL description: currentUlDataPhasePtr != NULL
 S 1 63 1 91 PlanHandlerGetNextUlDataPhase: ulDataPhasePtr=  0x%X
 S 1 63 1 101 COND_FATAL Error in file: "PlanHandler.c"; COND_FATAL description: phaseMember < NUM_OF_USERS_MU_HE_PHASE
@@ -5545,8 +5595,16 @@ S 1 65 5 129 Pac_DeliaTxEndErrorDuringTx, delia status = 0x%08x
 S 1 65 5 130 Fatal Error in file: "PacDelia.c"; Fatal Print: [Pac_DeliaTxEndDuringTx]
 S 1 65 5 152 Pac_DeliaTxEndErrorAtEndOfTx, delia status =  0x%08x
 S 1 65 5 153 Fatal Error in file: "PacDelia.c"; Fatal Print: [Pac_DeliaTxEndErrorAtEndOfTx]
-S 1 65 11 723 COND_FATAL Error in file: "PacDur.c"; COND_FATAL description: autoReplyRate < LM_PHY_11A_MAX_RATES
-S 1 65 11 821 COND_FATAL Error in file: "PacDur.c"; COND_FATAL description: autoReplyRate < LM_PHY_11A_MAX_RATES
+S 1 65 11 292 useMruArray = %d (testMode && puncturing=%d, map=0x%04x)
+S 1 65 11 301 PacDur - PSD Values: Using fallback txPowerRuSize0=%d for all MRUs
+S 1 65 11 317 PacDur - PSD Values: MRU[%d] arrayVal=%d -> LUT4[word%d]=%d
+S 1 65 11 318 PacDur - PSD Values: MRU[%d] arrayVal=%d -> LUT4[word%d]=%d
+S 1 65 11 793 COND_FATAL Error in file: "PacDur.c"; COND_FATAL description: autoReplyRate < LM_PHY_11A_MAX_RATES
+S 1 65 11 891 COND_FATAL Error in file: "PacDur.c"; COND_FATAL description: autoReplyRate < LM_PHY_11A_MAX_RATES
+S 1 65 11 1033 PacDur - LUT4 read-back verification starting
+S 1 65 11 1045 PacDur - LUT4 read-back FAIL: MRU[%d] exp=%d rb=%d word=%d
+S 1 65 11 1047 PacDur - LUT4 read-back OK:   MRU[%d] exp=%d rb=%d word=%d
+S 1 65 11 1053 PacDur - LUT4 read-back verification complete
 S 1 66 0 314 COND_FATAL Error in file: "PacketTrafficArbitrator.c"; COND_FATAL description: ptaDb.state == PTA_STATE_INIT
 S 1 66 0 320 [PTA][PtaTest] Test command received
 S 1 66 0 359 [PTA][PtaTestDriverReq]
@@ -6008,11 +6066,14 @@ S 1 81 1 321 COND_FATAL Error in file: "SmpsManager.c"; COND_FATAL description: 
 S 1 81 1 370 [SmpsManager_OmiCalcRxNss()] staNss : %d  maxAnt : %d vapNaa : %d
 S 1 81 1 454 [SmpsManager_SetAControl()] StaId: %d rxNss: %d channelWidth: %d
 S 1 81 1 456 [SmpsManager_SetAControl()] StaId: %d rxNss: %d channelWidth: %d
-S 1 81 1 576 [SmpsManager_BuildOmn()] rxNss:%d channelWidth:%d bw160MHZ:%d
-S 1 81 1 807 [smpsManagerTxStartReq()] no change in antenna mask requested numOFAnt: %d current numOfAnt: %d
-S 1 81 1 814 [smpsManagerTxStartReq()] mode: %d	numOfAntennas: %d	maxRxAntsNum: %d
-S 1 81 1 1018 [smpsManager_UpdateChannelWidth()] cocChannelWidth_p->channelWidth: %d
-S 1 81 1 1228 [SmpsManager_SetMaxRxNss()] maxRxNss : %d
+S 1 81 1 457 [SmpsManager_SetAControl] vap = %d band = %d
+S 1 81 1 577 [SmpsManager_BuildOmn()] rxNss:%d channelWidth:%d bw160MHZ:%d
+S 1 81 1 808 [smpsManagerTxStartReq()] no change in antenna mask requested numOFAnt: %d current numOfAnt: %d
+S 1 81 1 815 [smpsManagerTxStartReq()] mode: %d	numOfAntennas: %d	maxRxAntsNum: %d
+S 1 81 1 977 [smpsManagerCheckBwUpdate] numPendingStations = %d SmpsManager_Db[bandId].vapHead = %d
+S 1 81 1 1021 [smpsManager_UpdateChannelWidth()] SmpsManager_Db[bandId].channelWidth %d cocChannelWidth_p->channelWidth: %d
+S 1 81 1 1022 [smpsManager_UpdateChannelWidth] vap = %d band = %d
+S 1 81 1 1232 [SmpsManager_SetMaxRxNss()] maxRxNss : %d
 S 1 82 0 342 COND_FATAL Error in file: "StaDatabase.c"; COND_FATAL description: 0
 S 1 82 0 459 COND_FATAL Error in file: "StaDatabase.c"; COND_FATAL description: 0
 S 1 82 0 668 StaDb_RemoveStationFromDB %X
@@ -6298,7 +6359,9 @@ S 1 90 1 2580 COND_FATAL Error in file: "PreAggregator.c"; COND_FATAL descriptio
 S 1 90 1 3521 COND_FATAL Error in file: "PreAggregator.c"; COND_FATAL description: newLimit < BANDWIDTH_EIGHTY_EIGHTY
 S 1 90 1 3549 COND_FATAL Error in file: "PreAggregator.c"; COND_FATAL description: 0
 S 1 90 1 3561 COND_FATAL Error in file: "PreAggregator.c"; COND_FATAL description: planId < MAX_NUMBER_OF_PLANS
-S 1 90 1 3759 [LinkAdaptation_PreAggregator_LogLevelSet] Set log level to 0x%x
+S 1 90 1 3788 [MRU Power] EHT_MISC before: 0x%X (powerPlanLimitEn=%d powerSuLimitEn=%d) enable=%d
+S 1 90 1 3795 [MRU Power] EHT_MISC after:  0x%X (powerPlanLimitEn=%d powerSuLimitEn=%d)
+S 1 90 1 3807 [LinkAdaptation_PreAggregator_LogLevelSet] Set log level to 0x%x
 S 1 90 4 141 [TxPdAcc_getRetryLimit]: Msg params: txRetryLimitMgmt = %d, txRetryLimitData = %d txRetryLimitProbeRsp =%d
 S 1 90 4 142 [TxPdAcc_getRetryLimit]: Msg params: txRetryLimitMgmt = %d, txRetryLimitData = %d txRetryLimitProbeRsp =%d
 S 1 90 4 147 [TxPdAcc_SetRetryLimit]: Msg params: txRetryLimitMgmt = %d, txRetryLimitData = %d txRetryLimitProbeRsp =%d
@@ -6347,12 +6410,12 @@ S 1 90 6 2284 TxSelector_GetMuEnabledTidsBitmap: staId %d (reduced %d), muEnTidB
 S 1 90 6 2315 COND_FATAL Error in file: "TxSelector.c"; COND_FATAL description: reducedSid < TX_SELECTOR_NUM_OF_STATIONS_ENTRIES_IN_RAM
 S 1 90 6 2324 TxSelector_GetPsModeForUlScheduler, pStaTidBitmap = %d
 S 1 90 6 2330 [TxSelector_GetPsModeForUlScheduler], staId: %d(%d) tid: %d is in PS mode
-S 1 90 6 2501 Fatal Error in file: "TxSelector.c"; Fatal Print: TxSelector_LockerRequestServiced_Band: calculated band out of range
-S 1 90 6 2585 LMAC%d: [hwEventsTxSelectorLockerPlanRequestServiced], bandId = %d
-S 1 90 6 3176 Fatal Error in file: "TxSelector.c"; Fatal Print: [TxSelector_IsDataInQueue], back door not available in gen6
-S 1 90 6 3202 Fatal Error in file: "TxSelector.c"; Fatal Print: [isr_TxSelector_Error]
-S 1 90 6 3358 COND_FATAL Error in file: "TxSelector.c"; COND_FATAL description: instruction < TX_SELECTOR_NUM_OF_INSTRUCTION
-S 1 90 6 3391 COND_FATAL Error in file: "TxSelector.c"; COND_FATAL description: mgmtAcMap < ACCESS_CATEGORY_NUM
+S 1 90 6 2502 Fatal Error in file: "TxSelector.c"; Fatal Print: TxSelector_LockerRequestServiced_Band: calculated band out of range
+S 1 90 6 2586 LMAC%d: [hwEventsTxSelectorLockerPlanRequestServiced], bandId = %d
+S 1 90 6 3177 Fatal Error in file: "TxSelector.c"; Fatal Print: [TxSelector_IsDataInQueue], back door not available in gen6
+S 1 90 6 3203 Fatal Error in file: "TxSelector.c"; Fatal Print: [isr_TxSelector_Error]
+S 1 90 6 3359 COND_FATAL Error in file: "TxSelector.c"; COND_FATAL description: instruction < TX_SELECTOR_NUM_OF_INSTRUCTION
+S 1 90 6 3392 COND_FATAL Error in file: "TxSelector.c"; COND_FATAL description: mgmtAcMap < ACCESS_CATEGORY_NUM
 S 1 90 7 155 Fatal Error in file: "TxSequencer.c"; Fatal Print: [TxSequencer_GetStationIndex]: Invalid uspIndex
 S 1 90 7 191 COND_FATAL Error in file: "TxSequencer.c"; COND_FATAL description: txopTimeThreshold <= PRE_AGGREGATOR_TXOP_AIR_TIME_DURATION_LIMIT
 S 1 90 7 203 COND_FATAL Error in file: "TxSequencer.c"; COND_FATAL description: txopTimeThreshold <= PRE_AGGREGATOR_TXOP_AIR_TIME_DURATION_LIMIT
@@ -6505,162 +6568,169 @@ S 1 94 0 1283 unsolicitedManager TunsolicitedMng_GetActiveBeacon_FirstVap, vapId
 S 1 94 0 1385 Fatal Error in file: "UnsolicitedManager.c"; Fatal Print: [unsolicitedMng_Set], Unsolicited_SET recieved prior to  previews setter confirmation
 S 1 94 0 1436 Fatal Error in file: "UnsolicitedManager.c"; Fatal Print: [unsolicitedMng_TxCfm], Pd pointer in database is not NULL_PD
 S 1 94 0 1485 unsolicitedManager TIMER EVENT ENTRY ,current state: %d
-S 1 95 0 1046 [UMI_PCIE_CONTROL_TRAFFIC_REQ]
-S 1 95 0 1047 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: UMI_PCIE_NUM_CFMS == 0
-S 1 95 0 1081 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: PCIE_CFM_MSG
-S 1 95 0 1082 [UMI_PCIE_CONTROL_TRAFFIC_CFM]
-S 1 95 0 1247 [UMI_ADD_VAP_REQ LA]
-S 1 95 0 1440 UMI_SET_INTERFERER_DETECTION_PARAMS_REQ: time %u
-S 1 95 0 1548 UMI_POLL_CLIENT_REQ: Station %d is not showing activity
-S 1 95 0 1644 [vUM_SET_CHAN_CFM]
-S 1 95 0 1719 Fatal Error in file: "um_interface_task.c"; Fatal Print: [vUM_MAN_FW_DBG_REQ], Debug Assert Requested by Host
-S 1 95 0 1725 Fatal Error in file: "um_interface_task.c"; Fatal Print: [vUM_MAN_FW_DBG_REQ], invalid case
-S 1 95 0 1853 [vUM_SET_CHAN_REQ]
-S 1 95 0 2485 Assert in file: "um_interface_task.c" in line: 2485
-S 1 95 0 2749 [startLockAttempt 1] *** semaphore test start ***
-S 1 95 0 2768 [startLockAttempt 2] UM is trying to get the lock -> lock is busy = %d
-S 1 95 0 2772 [startLockAttempt 3] Get a non used lock
-S 1 95 0 2774 [startLockAttempt 4] Got the lock
-S 1 95 0 2776 [startLockAttempt 5] Free the lock
-S 1 95 0 2778 [startLockAttempt 6] Get a non used lock
-S 1 95 0 2780 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: ret
-S 1 95 0 2781 [startLockAttempt 7] Got the lock
-S 1 95 0 2782 [startLockAttempt 8] Free the lock
-S 1 95 0 2784 [startLockAttempt 9] Free
-S 1 95 0 2786 [startLockAttempt 10] Get a busy lock
-S 1 95 0 2788 [startLockAttempt 11] Locked
-S 1 95 0 2789 [startLockAttempt 12] Free the lock
-S 1 95 0 2791 [startLockAttempt 13] Free
-S 1 95 0 2881 UMAC Rx UM_DBG_CLI_REQ from Host, action:%d, data1:%d, data2:%d, data3:%d
-S 1 95 0 2885 UMAC Rx UM_DBG_CLI_REQ from Host, action:%d, data1:%d, data2:%d, data3:%d
-S 1 95 0 3037 [UmDbgCliReq] Unknown message type
-S 1 95 0 3087 Fatal Error in file: "um_interface_task.c"; Fatal Print: [UmDbgCliReq], NOT SUPPORTED
-S 1 95 0 3117 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: ConfigurationManager_GetNumOfActiveBands() == 1
-S 1 95 0 3613 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: (umiDbgCliReq_p->data1 + umiDbgCliReq_p->data2 + umiDbgCliReq_p->data3) == 100
-S 1 95 0 3635 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: umiDbgCliReq_p->data2 < NUM_OF_MCS
-S 1 95 0 3643 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: umiDbgCliReq_p->data2 < SPATIAL_STREAM_NUM
-S 1 95 0 3649 Fatal Error in file: "um_interface_task.c"; Fatal Print: [UmDbgCliReq], invalid case
-S 1 95 0 3679 Fatal Error in file: "um_interface_task.c"; Fatal Print: [UmDbgCliReq], invalid case
-S 1 95 0 3701 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: the desired duration can't be bigger than max allowed in Agg builder/Pre Agg
-S 1 95 0 3707 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: ConfigurationManager_GetNumOfActiveBands() == 1
-S 1 95 0 3717 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: (umiDbgCliReq_p->data1 <= 64) && (umiDbgCliReq_p->data1 >= 1)
-S 1 95 0 3814 heGroupManagerClassifier_Punishment_PunishSta: Punish STA: %d, formationType: %d, action: %d
-S 1 95 0 3848 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: umiDbgCliReq_p->data1 <= TX_SELECTOR_BF_WITH_DATA
-S 1 95 0 3859 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: umiDbgCliReq_p->data1 <= MCS_9
-S 1 95 0 4097 UmDbgCliReq() userDemandMsg vapId: %d
-S 1 95 0 4110 UmDbgCliReq() - EnableNonSecuredInterrupt: %d
-S 1 95 0 4140 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: umiDbgCliReq_p->data1 <= 1
-S 1 95 0 4167 [PIE] UmDbgCliReq Test start %d
-S 1 95 0 4169 [PIE] UmDbgCliReq Test end
-S 1 95 0 4171 [PIE] UmDbgCliReq PIE test is not compiled
-S 1 95 0 4190 UmDbgCliReq() erpMsg vapId: %d
-S 1 95 0 4217 [EASY_CONNECT][UmDbgCliReq] params->isStDppAction = %d
-S 1 95 0 4228 [EASY_CONNECT][UmDbgCliReq] >>>> SEND DPP FRAME <<<<
-S 1 95 0 4259 DebugCLI- Set MU OFDMA, Bfmode %d, bfPeriod %d
-S 1 95 0 4310 DebugCLI- TimerUtil, UMAC Timer Event was ADDED id = %d, time = %d, multiShot = %d
-S 1 95 0 4320 DebugCLI- TimerUtil, LMAC Timer Event MSG was sent time = %d, multiShot = %d
-S 1 95 0 4326 DebugCLI- TimerUtil, Timer Event was REMOVED id = %d, status = %d
-S 1 95 0 4335 DebugCLI- TimerUtil, Timer Event was REMOVED id = %d
-S 1 95 0 4401 [UmDbgCliReq] modify alpha to = %d
-S 1 95 0 4433 UmDbgCliReq: calling HdkSB_setTpcConfigReq()
-S 1 95 0 4444 DebugCLI- Ignore stations power classification during group generation %d %d
-S 1 95 0 4588 UmDbgCliReq 108, vapId:%d, data1:%d, data2:%d, data3:%d
-S 1 95 0 4592 UmDbgCliReq 108, vapId:%d, data1:%d, data2:%d, data3:%d
-S 1 95 0 4642 Policy Procedure SNR Min changed: FormationType %d; SnrMin %d
-S 1 95 0 4659 ATR procedure enabled %d
-S 1 95 0 4675 ATR Factor changed: FormationType %d; Bandwidth %d; Index %d; New ATR Factor %d
-S 1 95 0 4676 ATR Factor changed: FormationType %d; Bandwidth %d; Index %d; New ATR Factor %d
-S 1 95 0 4683 Active Xput Thr changed: FormationType %d; New Thr %d
-S 1 95 0 4690 Max ATR Thr changed: FormationType %d; New Thr %d
-S 1 95 0 4697 Sorting direction changed: FormationType %d; New direction %d
-S 1 95 0 4704 Change the txopUsage threshold for MIMO: FormationType %d; New txopUsage threshold %d
-S 1 95 0 4720 ATR Threshold changed: FormationType %d; Bandwidth %d; Index %d; New ATR Threshold %d
-S 1 95 0 4721 ATR Threshold changed: FormationType %d; Bandwidth %d; Index %d; New ATR Threshold %d
-S 1 95 0 4730 Active Xput Thr changed: FormationType %d; channel bandwidth %d New Thr %d
-S 1 95 0 4737 Changed congestion threshold: FormationType %d; New threshold %d
-S 1 95 0 4742 Unknown ATR procedure parameter %d
-S 1 95 0 4759 Tx Power procedure enabled %d
-S 1 95 0 4766 Tx Power Range changed: FormationType %d; New ATR Factor %d
-S 1 95 0 4773 Tx Sorting direction changed: FormationType %d; New direction %d
-S 1 95 0 4780 Rx Power procedure enabled %d
-S 1 95 0 4787 Rx Power Range changed: FormationType %d; New ATR Factor %d
-S 1 95 0 4794 Rx Sorting direction changed: FormationType %d; New direction %d
-S 1 95 0 4799 Unknown Power procedure parameter %d
-S 1 95 0 4816 Formation type %d enabled %d
-S 1 95 0 4823 Reset grouping procedures statistics
-S 1 95 0 4830 Formation type %d TryStasAlreadyInGroups %d
-S 1 95 0 4837 Formation type %d TryStasAlreadyInGroupsWithDifferentFormationType %d
-S 1 95 0 4856 Unknown grouping procedures parameter %d
-S 1 95 0 4873 GroupCreation procedure enabled %d
-S 1 95 0 4880 GroupCreation: Formation type %d enabled %d
-S 1 95 0 4885 Unknown GroupCreation procedure parameter %d
-S 1 95 0 4930 NssMcs procedure enabled %d
-S 1 95 0 4938 NssMcs combination flag changed: FormationType %d; New combination flag %d
-S 1 95 0 4947 NssMcs 4SS SNR Limit changed: FormationType %d; 4SS SNR Limit %d
-S 1 95 0 4953 Unknown NssMcs procedure parameter %d
-S 1 95 0 5176 Eml Notification CFM %d
-S 1 95 0 5187 Starting Hw Logger FIFO1
-S 1 95 0 5192 Starting Hw Logger FIFO2
-S 1 95 0 5197 Stopping Hw Logger
-S 1 95 0 5272 Setting MU formations for WAV700: dlMuType = %d, ulMuType = %d, cdbConfig = %d
-S 1 95 0 5277 Bad MU formations for WAV700: dlMuType = %d, ulMuType = %d, cdbConfig = %d
-S 1 95 0 5440 edca set enable : %d
-S 1 95 0 5504 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: Regulation Type code must be small than REGD_CODE_MAX
-S 1 95 0 5531 [DebugBuffer] Circular buffer mode set to [%d]
-S 1 95 0 5536 [DebugBuffer] Logs paused set to [%d]
-S 1 95 0 5540 [DebugBuffer] ERROR. Usupported option [%d]
-S 1 95 0 5559 groupsGenerator_EnableEhtPolicies : %d
-S 1 95 0 5594 [heGroupManagerClassifier] Clearing Forbidden List in HegroupManager
-S 1 95 0 5666 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: band<CONFIGURATION_MANAGER_BAND_NUM_MAX
-S 1 95 0 5677 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: bfCustomBit == 1 || bfCustomBit == 0
-S 1 95 0 5694 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: skipZldSuppression == 1 || skipZldSuppression == 0
-S 1 95 0 5748 SMM debug cli: Call OtfMld_LinkHandlerUpdateEmlsrEvent
-S 1 95 0 5771 SMM debug cli: send OTF_ML_SCHEDULER_PS_STA_CHANGE message to SMM
-S 1 95 0 5950 **** Warning: Trying to add first station with no resources ****
-S 1 95 0 5975 [vUMI_MAN_STA_ADD_REQ] secondary vap is overwritten using main vap value
-S 1 95 0 5985 [vUMI_MAN_STA_ADD_REQ]
-S 1 95 0 6013 [vUMI_MAN_STA_ADD_CFM]
-S 1 95 0 6034 [vUMI_MAN_STA_REMOVE_REQ]
-S 1 95 0 6055 [vUMI_MAN_STA_REMOVE_CFM]
-S 1 95 0 6119 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: psMsgShram
-S 1 95 0 6128 vUMI_MC_MAN_CHANNEL_SWITCH_NOTIFICATION_AFFILIATED_COUNT_DONE_IND VapIdx = %d
-S 1 95 0 6151 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: psMsgShram
-S 1 95 0 6160 vUMI_MC_MAN_CHANNEL_SWITCH_NOTIFICATION_MCST_DONE_IND VapIdx = %d
-S 1 95 0 6183 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: psMsgShram
-S 1 95 0 6461 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: pInitParams->numOfAllocatedTxHds <= NUM_OF_TX_DESC
-S 1 95 0 6511 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: HostRxDescriptorsPool[INDEX_OF_MANAGEMENT_FIRST_RX_DESCRIPTOR].dramPointer != 0x0
-S 1 95 0 6533 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: pInitParams->numOfAllocatedRxHds <= NUM_OF_HOST_DATA_AND_LOGGER_RX_DESCRIPTORS
-S 1 95 0 6631 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: numOfAllocatedRxHds <= MAX_NUM_OF_HOST_DATA_AND_LOGGER_RX_DESCRIPTORS_IN_DC_MODE0_AND_DC_MODE3
-S 1 95 0 6633 UmiTask_CopyDataRdsPayloadAddress numOfAllocatedRxHds = %d
-S 1 95 0 6865 vUM_MAN_MU_STATIC_PLAN_CONFIG_REQ, vap Id = %d
-S 1 95 0 6880 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: phaseFormat < PHASE_FORMAT_MAX_ALLOWED_FORMATS_IN_STATIC_PLAN
-S 1 95 0 6931 [vUM_MAN_MU_STATIC_PLAN_CONFIG_REQ] Can't configure a Static MU plan while running Dynamic MU
-S 1 95 0 6942 [vUM_MAN_MU_STATIC_PLAN_CONFIG_REQ] Wrong station configuration for static HE group! station is not HE capable!
-S 1 95 0 6947 [vUM_MAN_MU_STATIC_PLAN_CONFIG_REQ] Wrong station configuration for static HE group! station not connected
-S 1 95 0 6952 [vUM_MAN_MU_STATIC_PLAN_CONFIG_REQ] Wrong DL CP or LTF configuration
-S 1 95 0 6996 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: phaseFormat < PHASE_FORMAT_MAX_ALLOWED_FORMATS_IN_STATIC_PLAN
-S 1 95 0 7024 [MU_USER][vUM_MAN_MU_OPERATION_CONFIG_REQ] vapId = %d
-S 1 95 0 7141 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: psMsgShram
-S 1 95 0 7209 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: psMsgShram
-S 1 95 0 7261 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: UMI_TESTBUS_NUM_CFMS == 0
-S 1 95 0 7287 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: TESTBUS_MSG
-S 1 95 0 7334 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: 0
-S 1 95 0 7850 [UMI_DMR_CONFIG_REQ] vapid:%d
-S 1 95 0 8108 [vUMI_MAN_STOP_TRAFFIC_REQ]
-S 1 95 0 8126 [vUMI_MAN_STOP_TRAFFIC_CFM]
-S 1 95 0 8711 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: 0
-S 1 95 0 9823 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: psMsgShram
-S 1 95 0 9824 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: psKmsg->header.payloadSize < psFreeQueue->maxPayload
-S 1 95 0 9881 Fatal Error in file: "um_interface_task.c"; Fatal Print: UM_MAN_FREQ_JUMP_MODE_REQ no longer supported in FW
-S 1 95 0 9992 [CPU LOAD] UMI_MAN_CPU_LOAD_REQ
-S 1 95 0 10010 [CPU LOAD] UMI_MAN_CPU_LOAD_CFM
-S 1 95 0 10033 Fatal Error in file: "um_interface_task.c"; Fatal Print: [UMI_PIE_REQ]
-S 1 95 0 10053 Fatal Error in file: "um_interface_task.c"; Fatal Print: [UMI_MAN_AQM_STA_EN_REQ]
-S 1 95 0 10234 NFRP_CONFIG: support=%d, threshold=%d
-S 1 95 0 10253 [UMI_NFRP_CONFIG_CFM]
-S 1 95 0 10666 vUM_MAN_MU_OFDMA_BF_CONFIG_REQ - bfMode %d, bfPeriod %d
-S 1 95 0 10733 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: 0
-S 1 95 0 11439 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: psMsgShram
+S 1 95 0 1052 [UMI_PCIE_CONTROL_TRAFFIC_REQ]
+S 1 95 0 1053 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: UMI_PCIE_NUM_CFMS == 0
+S 1 95 0 1087 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: PCIE_CFM_MSG
+S 1 95 0 1088 [UMI_PCIE_CONTROL_TRAFFIC_CFM]
+S 1 95 0 1253 [UMI_ADD_VAP_REQ LA]
+S 1 95 0 1446 UMI_SET_INTERFERER_DETECTION_PARAMS_REQ: time %u
+S 1 95 0 1554 UMI_POLL_CLIENT_REQ: Station %d is not showing activity
+S 1 95 0 1650 [vUM_SET_CHAN_CFM]
+S 1 95 0 1725 Fatal Error in file: "um_interface_task.c"; Fatal Print: [vUM_MAN_FW_DBG_REQ], Debug Assert Requested by Host
+S 1 95 0 1731 Fatal Error in file: "um_interface_task.c"; Fatal Print: [vUM_MAN_FW_DBG_REQ], invalid case
+S 1 95 0 1860 [vUM_SET_CHAN_REQ]
+S 1 95 0 2492 Assert in file: "um_interface_task.c" in line: 2492
+S 1 95 0 2756 [startLockAttempt 1] *** semaphore test start ***
+S 1 95 0 2775 [startLockAttempt 2] UM is trying to get the lock -> lock is busy = %d
+S 1 95 0 2779 [startLockAttempt 3] Get a non used lock
+S 1 95 0 2781 [startLockAttempt 4] Got the lock
+S 1 95 0 2783 [startLockAttempt 5] Free the lock
+S 1 95 0 2785 [startLockAttempt 6] Get a non used lock
+S 1 95 0 2787 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: ret
+S 1 95 0 2788 [startLockAttempt 7] Got the lock
+S 1 95 0 2789 [startLockAttempt 8] Free the lock
+S 1 95 0 2791 [startLockAttempt 9] Free
+S 1 95 0 2793 [startLockAttempt 10] Get a busy lock
+S 1 95 0 2795 [startLockAttempt 11] Locked
+S 1 95 0 2796 [startLockAttempt 12] Free the lock
+S 1 95 0 2798 [startLockAttempt 13] Free
+S 1 95 0 2888 UMAC Rx UM_DBG_CLI_REQ from Host, action:%d, data1:%d, data2:%d, data3:%d
+S 1 95 0 2892 UMAC Rx UM_DBG_CLI_REQ from Host, action:%d, data1:%d, data2:%d, data3:%d
+S 1 95 0 3044 [UmDbgCliReq] Unknown message type
+S 1 95 0 3094 Fatal Error in file: "um_interface_task.c"; Fatal Print: [UmDbgCliReq], NOT SUPPORTED
+S 1 95 0 3124 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: ConfigurationManager_GetNumOfActiveBands() == 1
+S 1 95 0 3620 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: (umiDbgCliReq_p->data1 + umiDbgCliReq_p->data2 + umiDbgCliReq_p->data3) == 100
+S 1 95 0 3642 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: umiDbgCliReq_p->data2 < NUM_OF_MCS
+S 1 95 0 3650 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: umiDbgCliReq_p->data2 < SPATIAL_STREAM_NUM
+S 1 95 0 3656 Fatal Error in file: "um_interface_task.c"; Fatal Print: [UmDbgCliReq], invalid case
+S 1 95 0 3686 Fatal Error in file: "um_interface_task.c"; Fatal Print: [UmDbgCliReq], invalid case
+S 1 95 0 3708 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: the desired duration can't be bigger than max allowed in Agg builder/Pre Agg
+S 1 95 0 3714 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: ConfigurationManager_GetNumOfActiveBands() == 1
+S 1 95 0 3724 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: (umiDbgCliReq_p->data1 <= 64) && (umiDbgCliReq_p->data1 >= 1)
+S 1 95 0 3821 heGroupManagerClassifier_Punishment_PunishSta: Punish STA: %d, formationType: %d, action: %d
+S 1 95 0 3855 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: umiDbgCliReq_p->data1 <= TX_SELECTOR_BF_WITH_DATA
+S 1 95 0 3866 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: umiDbgCliReq_p->data1 <= MCS_9
+S 1 95 0 4122 UmDbgCliReq() userDemandMsg vapId: %d
+S 1 95 0 4135 UmDbgCliReq() - EnableNonSecuredInterrupt: %d
+S 1 95 0 4165 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: umiDbgCliReq_p->data1 <= 1
+S 1 95 0 4192 [PIE] UmDbgCliReq Test start %d
+S 1 95 0 4194 [PIE] UmDbgCliReq Test end
+S 1 95 0 4196 [PIE] UmDbgCliReq PIE test is not compiled
+S 1 95 0 4215 UmDbgCliReq() erpMsg vapId: %d
+S 1 95 0 4242 [EASY_CONNECT][UmDbgCliReq] params->isStDppAction = %d
+S 1 95 0 4253 [EASY_CONNECT][UmDbgCliReq] >>>> SEND DPP FRAME <<<<
+S 1 95 0 4284 DebugCLI- Set MU OFDMA, Bfmode %d, bfPeriod %d
+S 1 95 0 4335 DebugCLI- TimerUtil, UMAC Timer Event was ADDED id = %d, time = %d, multiShot = %d
+S 1 95 0 4345 DebugCLI- TimerUtil, LMAC Timer Event MSG was sent time = %d, multiShot = %d
+S 1 95 0 4351 DebugCLI- TimerUtil, Timer Event was REMOVED id = %d, status = %d
+S 1 95 0 4360 DebugCLI- TimerUtil, Timer Event was REMOVED id = %d
+S 1 95 0 4426 [UmDbgCliReq] modify alpha to = %d
+S 1 95 0 4458 UmDbgCliReq: calling HdkSB_setTpcConfigReq()
+S 1 95 0 4469 DebugCLI- Ignore stations power classification during group generation %d %d
+S 1 95 0 4613 UmDbgCliReq 108, vapId:%d, data1:%d, data2:%d, data3:%d
+S 1 95 0 4617 UmDbgCliReq 108, vapId:%d, data1:%d, data2:%d, data3:%d
+S 1 95 0 4667 Policy Procedure SNR Min changed: FormationType %d; SnrMin %d
+S 1 95 0 4684 ATR procedure enabled %d
+S 1 95 0 4700 ATR Factor changed: FormationType %d; Bandwidth %d; Index %d; New ATR Factor %d
+S 1 95 0 4701 ATR Factor changed: FormationType %d; Bandwidth %d; Index %d; New ATR Factor %d
+S 1 95 0 4708 Active Xput Thr changed: FormationType %d; New Thr %d
+S 1 95 0 4715 Max ATR Thr changed: FormationType %d; New Thr %d
+S 1 95 0 4722 Sorting direction changed: FormationType %d; New direction %d
+S 1 95 0 4729 Change the txopUsage threshold for MIMO: FormationType %d; New txopUsage threshold %d
+S 1 95 0 4745 ATR Threshold changed: FormationType %d; Bandwidth %d; Index %d; New ATR Threshold %d
+S 1 95 0 4746 ATR Threshold changed: FormationType %d; Bandwidth %d; Index %d; New ATR Threshold %d
+S 1 95 0 4755 Active Xput Thr changed: FormationType %d; channel bandwidth %d New Thr %d
+S 1 95 0 4762 Changed congestion threshold: FormationType %d; New threshold %d
+S 1 95 0 4767 Unknown ATR procedure parameter %d
+S 1 95 0 4784 Tx Power procedure enabled %d
+S 1 95 0 4791 Tx Power Range changed: FormationType %d; New ATR Factor %d
+S 1 95 0 4798 Tx Sorting direction changed: FormationType %d; New direction %d
+S 1 95 0 4805 Rx Power procedure enabled %d
+S 1 95 0 4812 Rx Power Range changed: FormationType %d; New ATR Factor %d
+S 1 95 0 4819 Rx Sorting direction changed: FormationType %d; New direction %d
+S 1 95 0 4824 Unknown Power procedure parameter %d
+S 1 95 0 4841 Formation type %d enabled %d
+S 1 95 0 4848 Reset grouping procedures statistics
+S 1 95 0 4855 Formation type %d TryStasAlreadyInGroups %d
+S 1 95 0 4862 Formation type %d TryStasAlreadyInGroupsWithDifferentFormationType %d
+S 1 95 0 4881 Unknown grouping procedures parameter %d
+S 1 95 0 4898 GroupCreation procedure enabled %d
+S 1 95 0 4905 GroupCreation: Formation type %d enabled %d
+S 1 95 0 4910 Unknown GroupCreation procedure parameter %d
+S 1 95 0 4955 NssMcs procedure enabled %d
+S 1 95 0 4963 NssMcs combination flag changed: FormationType %d; New combination flag %d
+S 1 95 0 4972 NssMcs 4SS SNR Limit changed: FormationType %d; 4SS SNR Limit %d
+S 1 95 0 4978 Unknown NssMcs procedure parameter %d
+S 1 95 0 5201 Eml Notification CFM %d
+S 1 95 0 5212 Starting Hw Logger FIFO1
+S 1 95 0 5217 Starting Hw Logger FIFO2
+S 1 95 0 5222 Stopping Hw Logger
+S 1 95 0 5297 Setting MU formations for WAV700: dlMuType = %d, ulMuType = %d, cdbConfig = %d
+S 1 95 0 5302 Bad MU formations for WAV700: dlMuType = %d, ulMuType = %d, cdbConfig = %d
+S 1 95 0 5465 edca set enable : %d
+S 1 95 0 5529 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: Regulation Type code must be small than REGD_CODE_MAX
+S 1 95 0 5556 [DebugBuffer] Circular buffer mode set to [%d]
+S 1 95 0 5561 [DebugBuffer] Logs paused set to [%d]
+S 1 95 0 5565 [DebugBuffer] ERROR. Usupported option [%d]
+S 1 95 0 5584 groupsGenerator_EnableEhtPolicies : %d
+S 1 95 0 5619 [heGroupManagerClassifier] Clearing Forbidden List in HegroupManager
+S 1 95 0 5691 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: band<CONFIGURATION_MANAGER_BAND_NUM_MAX
+S 1 95 0 5702 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: bfCustomBit == 1 || bfCustomBit == 0
+S 1 95 0 5719 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: skipZldSuppression == 1 || skipZldSuppression == 0
+S 1 95 0 5807 MLO CLI 171: mldId %d enableLinks 0x%x disableLinks 0x%x
+S 1 95 0 5818 SMM debug cli: send OTF_ML_SCHEDULER_PS_STA_CHANGE message to SMM
+S 1 95 0 5861 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: not MLD STA
+S 1 95 0 5904 CLI 176: Set link role config to default mode
+S 1 95 0 5922 CLI 176: Set link role config mainBand: %d, preferredSecondaryBand: %d
+S 1 95 0 5949 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: MRU TX Power Test Mode: data1 must be 0 (disable) or 1 (enable)
+S 1 95 0 5950 MRU TX Power Test Mode set to %d
+S 1 95 0 6106 **** Warning: Trying to add first station with no resources ****
+S 1 95 0 6131 [vUMI_MAN_STA_ADD_REQ] secondary vap is overwritten using main vap value
+S 1 95 0 6141 [vUMI_MAN_STA_ADD_REQ]
+S 1 95 0 6169 [vUMI_MAN_STA_ADD_CFM]
+S 1 95 0 6190 [vUMI_MAN_STA_REMOVE_REQ]
+S 1 95 0 6211 [vUMI_MAN_STA_REMOVE_CFM]
+S 1 95 0 6275 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: psMsgShram
+S 1 95 0 6284 vUMI_MC_MAN_CHANNEL_SWITCH_NOTIFICATION_AFFILIATED_COUNT_DONE_IND VapIdx = %d
+S 1 95 0 6307 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: psMsgShram
+S 1 95 0 6316 vUMI_MC_MAN_CHANNEL_SWITCH_NOTIFICATION_MCST_DONE_IND VapIdx = %d
+S 1 95 0 6339 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: psMsgShram
+S 1 95 0 6617 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: pInitParams->numOfAllocatedTxHds <= NUM_OF_TX_DESC
+S 1 95 0 6667 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: HostRxDescriptorsPool[INDEX_OF_MANAGEMENT_FIRST_RX_DESCRIPTOR].dramPointer != 0x0
+S 1 95 0 6689 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: pInitParams->numOfAllocatedRxHds <= NUM_OF_HOST_DATA_AND_LOGGER_RX_DESCRIPTORS
+S 1 95 0 6787 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: numOfAllocatedRxHds <= MAX_NUM_OF_HOST_DATA_AND_LOGGER_RX_DESCRIPTORS_IN_DC_MODE0_AND_DC_MODE3
+S 1 95 0 6789 UmiTask_CopyDataRdsPayloadAddress numOfAllocatedRxHds = %d
+S 1 95 0 7021 vUM_MAN_MU_STATIC_PLAN_CONFIG_REQ, vap Id = %d
+S 1 95 0 7036 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: phaseFormat < PHASE_FORMAT_MAX_ALLOWED_FORMATS_IN_STATIC_PLAN
+S 1 95 0 7087 [vUM_MAN_MU_STATIC_PLAN_CONFIG_REQ] Can't configure a Static MU plan while running Dynamic MU
+S 1 95 0 7098 [vUM_MAN_MU_STATIC_PLAN_CONFIG_REQ] Wrong station configuration for static HE group! station is not HE capable!
+S 1 95 0 7103 [vUM_MAN_MU_STATIC_PLAN_CONFIG_REQ] Wrong station configuration for static HE group! station not connected
+S 1 95 0 7108 [vUM_MAN_MU_STATIC_PLAN_CONFIG_REQ] Wrong DL CP or LTF configuration
+S 1 95 0 7152 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: phaseFormat < PHASE_FORMAT_MAX_ALLOWED_FORMATS_IN_STATIC_PLAN
+S 1 95 0 7180 [MU_USER][vUM_MAN_MU_OPERATION_CONFIG_REQ] vapId = %d
+S 1 95 0 7297 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: psMsgShram
+S 1 95 0 7365 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: psMsgShram
+S 1 95 0 7417 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: UMI_TESTBUS_NUM_CFMS == 0
+S 1 95 0 7443 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: TESTBUS_MSG
+S 1 95 0 7490 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: 0
+S 1 95 0 8006 [UMI_DMR_CONFIG_REQ] vapid:%d
+S 1 95 0 8264 [vUMI_MAN_STOP_TRAFFIC_REQ]
+S 1 95 0 8282 [vUMI_MAN_STOP_TRAFFIC_CFM]
+S 1 95 0 8867 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: 0
+S 1 95 0 9979 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: psMsgShram
+S 1 95 0 9980 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: psKmsg->header.payloadSize < psFreeQueue->maxPayload
+S 1 95 0 10037 Fatal Error in file: "um_interface_task.c"; Fatal Print: UM_MAN_FREQ_JUMP_MODE_REQ no longer supported in FW
+S 1 95 0 10148 [CPU LOAD] UMI_MAN_CPU_LOAD_REQ
+S 1 95 0 10166 [CPU LOAD] UMI_MAN_CPU_LOAD_CFM
+S 1 95 0 10189 Fatal Error in file: "um_interface_task.c"; Fatal Print: [UMI_PIE_REQ]
+S 1 95 0 10209 Fatal Error in file: "um_interface_task.c"; Fatal Print: [UMI_MAN_AQM_STA_EN_REQ]
+S 1 95 0 10390 NFRP_CONFIG: support=%d, threshold=%d
+S 1 95 0 10409 [UMI_NFRP_CONFIG_CFM]
+S 1 95 0 10822 vUM_MAN_MU_OFDMA_BF_CONFIG_REQ - bfMode %d, bfPeriod %d
+S 1 95 0 10889 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: 0
+S 1 95 0 11194 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: MRU TX Power Test Mode: mruTxPowerEnable must be 0 or 1
+S 1 95 0 11196 MRU TX Power Test Mode set to %d
+S 1 95 0 11653 COND_FATAL Error in file: "um_interface_task.c"; COND_FATAL description: psMsgShram
 S 1 96 0 472 COND_FATAL Error in file: "Utils_Misc.c"; COND_FATAL description: index < numOfBitsInBitmap
 S 1 96 0 507 COND_FATAL Error in file: "Utils_Misc.c"; COND_FATAL description: index < numOfBitsInBitmap
 S 1 96 0 573 COND_FATAL Error in file: "Utils_Misc.c"; COND_FATAL description: index < numOfBitsInBitmap
@@ -7019,21 +7089,22 @@ S 1 101 9 638 rxdc_reset_analog_cal_single_bw_flag: fail to reset cal_single_bw_
 S 1 101 9 640 rxdc_reset_analog_cal_single_bw_flag: success reseting cal_single_bw_was_calibrated flag
 S 1 101 9 723 RxDcOffset_LoadResults antMask:%d
 S 1 101 9 766 RxDcOffset_StoreResults antMask:%d
-S 1 101 10 67 configureRficForTxLOCalibration antMask 0x%x
-S 1 101 10 119 configurePhyForTxLOCalibration antMask 0x%x
-S 1 101 10 140 Assert in file: "bbic_TxLOLeakage.c" in line: 140
-S 1 101 10 326 verifyTxLoCalibrationResults ant %d test i:%d, q:%d, energy:%d
-S 1 101 10 335 ant %d failed in TxLoverification test i:%d, q:%d, energy:%d
-S 1 101 10 365 Assert in file: "bbic_TxLOLeakage.c" in line: 365
-S 1 101 10 377 failedAntMask 0x%x, tryCounter %d
-S 1 101 10 444 txloCoeffs->iDig[%d]:%d, qDig:%d
-S 1 101 10 461 minimum choosen ant :%d, MinimumEnergy[ant]:%d,MinimumIndex[ant]:%d
-S 1 101 10 474 txloCoeffs->iDig[%d]:%d, qDig:%d
-S 1 101 10 481 calcBestTxLoCoeff-> mask:%x  steps:%d, time: %d
-S 1 101 10 492 setTxLoAnalogDacs. antMask = 0x%x
-S 1 101 10 513 setTxLoDigitalDacs. antMask = 0x%x
-S 1 101 10 525 setTxLoDigitalDacsAllTpc. antMask = 0x%x
-S 1 101 10 539 getTxLoDacsPerGain. antMask = 0x%x tpcIndex = %d
+S 1 101 10 70 configureRficForTxLOCalibration antMask 0x%x
+S 1 101 10 122 configurePhyForTxLOCalibration antMask 0x%x
+S 1 101 10 143 Assert in file: "bbic_TxLOLeakage.c" in line: 143
+S 1 101 10 329 verifyTxLoCalibrationResults ant %d test i:%d, q:%d, energy:%d
+S 1 101 10 338 ant %d failed in TxLoverification test i:%d, q:%d, energy:%d
+S 1 101 10 368 Assert in file: "bbic_TxLOLeakage.c" in line: 368
+S 1 101 10 389 LO leakage - Open loop Temperature correction ant %d delta gain bw20  %d
+S 1 101 10 400 failedAntMask 0x%x, tryCounter %d
+S 1 101 10 466 txloCoeffs->iDig[%d]:%d, qDig:%d
+S 1 101 10 483 minimum choosen ant :%d, MinimumEnergy[ant]:%d,MinimumIndex[ant]:%d
+S 1 101 10 496 txloCoeffs->iDig[%d]:%d, qDig:%d
+S 1 101 10 503 calcBestTxLoCoeff-> mask:%x  steps:%d, time: %d
+S 1 101 10 514 setTxLoAnalogDacs. antMask = 0x%x
+S 1 101 10 535 setTxLoDigitalDacs. antMask = 0x%x
+S 1 101 10 547 setTxLoDigitalDacsAllTpc. antMask = 0x%x
+S 1 101 10 561 getTxLoDacsPerGain. antMask = 0x%x tpcIndex = %d
 S 1 101 11 46 runW1W2Calibration. antMask 0x%x
 S 1 101 11 104 failedAntMask 0x%x, tryCounter %d
 S 1 101 11 115 retVal %d failedAntMask 0x%x, tryCounter %d
@@ -7901,28 +7972,29 @@ S 1 106 0 628 COND_FATAL Error in file: "PhaseHandler.c"; COND_FATAL description
 S 1 106 0 631 COND_FATAL Error in file: "PhaseHandler.c"; COND_FATAL description: moveToNextPhase bit is set when adding a new phase
 S 1 106 0 666 COND_FATAL Error in file: "PhaseHandler.c"; COND_FATAL description: Phase list pointer is NULL
 S 1 106 0 667 COND_FATAL Error in file: "PhaseHandler.c"; COND_FATAL description: Phase list empty when TxSender simulation called
-S 1 107 0 112 Fatal Error in file: "MRU.c"; Fatal Print: Wrong BW
-S 1 107 0 440 [MRU_FillStaHwDb] Puncturing in disabled subch bitmap: 0x%X, bandwidth: %d
-S 1 107 0 450 Puncturing in disabled subch bitmap 0x%X set reduce to RU
-S 1 107 0 457 Set MRU Parameters %d %d %d %d
-S 1 107 0 462 Set MRU error. Primary %d, DSB: 0x%X
-S 1 107 0 467 NO puncturing configured: disabled subch bitmap 0x%X
-S 1 107 0 501 [MRU_SetBwStaHwDb] Puncturing disabled subch bitmap: 0x%X, bandwidth: %d
-S 1 107 0 511 Puncturing in disabled subch bitmap 0x%X set reduce to RU
-S 1 107 0 517 Set MRU Parameters %d %d %d %d
-S 1 107 0 522 Set MRU error. Primary %d, DSB: 0x%X
-S 1 107 0 527 NO puncturing configured: disabled subch bitmap 0x%X
-S 1 107 0 532 MRU_SetBwStaHwDb upperIdex %d, sta %d
-S 1 107 0 576 [MRU_FillVapDbHwEntry] disabledSubchBitmap: 0x%x, bandwidth: %d, primary: %d, mruEnable: %d
-S 1 107 0 580 MRU Logic Disabled
-S 1 107 0 598 Set MRU Parameters in VAP DB %d
-S 1 107 0 599 Set MRU Parameters in VAP DB %d %d %d %d
-S 1 107 0 605 Set MRU error in VAP DB. Primary %d, DSB: 0x%X
-S 1 107 0 611 NO puncturing configured in VAP: disabled subch bitmap 0x%X
-S 1 107 0 655 MRU_StoreParamsInStaHwDb sta Id %d, UpperIdx %d, bitmap %x
-S 1 107 0 742 COND_FATAL Error in file: "MRU.c"; COND_FATAL description: Invalid primary subband
-S 1 107 0 743 COND_FATAL Error in file: "MRU.c"; COND_FATAL description: Invalid bandwidth
-S 1 107 0 762 [LinkAdapatation_SetDebugMRUMode] dynamicPunctDebug %d
+S 1 107 0 115 Fatal Error in file: "MRU.c"; Fatal Print: Wrong BW
+S 1 107 0 443 [MRU_FillStaHwDb] Puncturing in disabled subch bitmap: 0x%X, bandwidth: %d
+S 1 107 0 453 Puncturing in disabled subch bitmap 0x%X set reduce to RU
+S 1 107 0 460 Set MRU Parameters %d %d %d %d
+S 1 107 0 465 Set MRU error. Primary %d, DSB: 0x%X
+S 1 107 0 470 NO puncturing configured: disabled subch bitmap 0x%X
+S 1 107 0 504 [MRU_SetBwStaHwDb] Puncturing disabled subch bitmap: 0x%X, bandwidth: %d
+S 1 107 0 514 Puncturing in disabled subch bitmap 0x%X set reduce to RU
+S 1 107 0 520 Set MRU Parameters %d %d %d %d
+S 1 107 0 525 Set MRU error. Primary %d, DSB: 0x%X
+S 1 107 0 530 NO puncturing configured: disabled subch bitmap 0x%X
+S 1 107 0 535 MRU_SetBwStaHwDb upperIdex %d, sta %d
+S 1 107 0 579 [MRU_FillVapDbHwEntry] disabledSubchBitmap: 0x%x, bandwidth: %d, primary: %d, mruEnable: %d
+S 1 107 0 583 MRU Logic Disabled
+S 1 107 0 601 Set MRU Parameters in VAP DB %d
+S 1 107 0 602 Set MRU Parameters in VAP DB %d %d %d %d
+S 1 107 0 608 Set MRU error in VAP DB. Primary %d, DSB: 0x%X
+S 1 107 0 614 NO puncturing configured in VAP: disabled subch bitmap 0x%X
+S 1 107 0 637 [MRU Power] VAP noReduceEn=0 for MRU power limiting
+S 1 107 0 670 MRU_StoreParamsInStaHwDb sta Id %d, UpperIdx %d, bitmap %x
+S 1 107 0 757 COND_FATAL Error in file: "MRU.c"; COND_FATAL description: Invalid primary subband
+S 1 107 0 758 COND_FATAL Error in file: "MRU.c"; COND_FATAL description: Invalid bandwidth
+S 1 107 0 777 [LinkAdapatation_SetDebugMRUMode] dynamicPunctDebug %d
 S 1 107 1 895 COND_FATAL Error in file: "MruUserAlloc.c"; COND_FATAL description: numUsersIdx<PRE_AGG_NUM_USERS_NUM_ENTRIES
 S 1 107 1 1302 Assert in file: "MruUserAlloc.c" in line: 1302
 S 1 108 0 87 COND_FATAL Error in file: "MuPhasesBank.c"; COND_FATAL description: Invalid group Id
@@ -8031,10 +8103,9 @@ M 1 5 8 434 LinkAdaptationMuHeEhtDLStatistics_t
 M 1 5 8 441 LinkAdaptationMuHeEhtULStatistics_t
 M 1 6 0 1198 TrainingVectorDebugStruct_t
 M 1 10 2 1329 TxPd_t
-M 1 11 0 760 BeaconCsaStartMsg_t
-M 1 11 2 1195 TxPd_t
-M 1 11 2 1575 TxPd_t
-M 1 11 2 1832 TxPd_t
+M 1 11 0 751 BeaconCsaStartMsg_t
+M 1 11 2 1390 TxPd_t
+M 1 11 2 1707 TxPd_t
 M 1 11 7 476 DynWmmAcParams_t
 M 1 11 7 477 DynWmmAcParams_t
 M 1 11 7 478 DynWmmAcParams_t
@@ -8055,6 +8126,7 @@ M 1 16 2 872 ClbrMngr_CalibrateDB_t
 M 1 16 2 943 HdkCdbManagerOfflineCalSmMsg_t
 M 1 16 2 967 HdkCdbManagerOfflineCalSmMsg_t
 M 1 16 2 1013 ClbrMngr_TemperatureDB_t
+M 1 16 10 675 tpcRegulationLimitMRU_t
 M 1 16 11 536 rssiPathCalibrationHeaderParams_t
 M 1 16 12 878 rssiPathCalibrationHeaderParams_t
 M 1 16 13 313 DpdCalDb
@@ -8065,12 +8137,12 @@ M 1 16 14 210 dpd_info_t
 M 1 16 14 230 calibration_step_t
 M 1 16 14 236 dpd_phy_t
 M 1 16 14 266 rxeq_step_t
-M 1 17 0 631 UM_SET_CHAN_PARAMS
-M 1 17 0 909 UM_SET_CHAN_PARAMS
-M 1 17 0 980 BeaconCsaStartMsg_t
-M 1 17 0 1001 BeaconCsaMldStartMsg_t
-M 1 17 0 2716 UMI_UM_SET_CHAN_CFM
-M 1 17 0 3109 AAA_DebugChannelStats_t
+M 1 17 0 633 UM_SET_CHAN_PARAMS
+M 1 17 0 911 UM_SET_CHAN_PARAMS
+M 1 17 0 982 BeaconCsaStartMsg_t
+M 1 17 0 1003 BeaconCsaMldStartMsg_t
+M 1 17 0 2793 UMI_UM_SET_CHAN_CFM
+M 1 17 0 3186 AAA_DebugChannelStats_t
 M 1 19 1 530 PCIE_CONFIGURATION
 M 1 19 1 531 RegSocRegsPcieAppsPmWakeup_u
 M 1 27 0 281 dutMessageHeader_t
@@ -8155,16 +8227,18 @@ M 1 36 3 413 CdbManagerOnlineCalDb_t
 M 1 36 3 903 CdbManagerOnlineCalDb_t
 M 1 37 0 168 HdkContinuousInterfererDetectionParameters_t
 M 1 37 1 168 HdkSetChannelReqParams_t
-M 1 37 9 1134 HdkNotificationParams_t
-M 1 37 9 1150 HdkNotificationParams_t
-M 1 37 9 1180 HdkNotificationParams_t
-M 1 37 9 1195 HdkNotificationParams_t
-M 1 37 9 1404 tpcConfig_t
-M 1 37 9 1436 tpcParameters_t
-M 1 37 9 1459 tpcRegulationLimitAxBe_t
-M 1 37 9 1560 UMI_HDK_CONFIG
-M 1 37 9 3805 cocReq_t
-M 1 37 9 4997 SetChannelParams_t
+M 1 37 9 1142 HdkNotificationParams_t
+M 1 37 9 1158 HdkNotificationParams_t
+M 1 37 9 1188 HdkNotificationParams_t
+M 1 37 9 1203 HdkNotificationParams_t
+M 1 37 9 1412 tpcConfig_t
+M 1 37 9 1444 tpcParameters_t
+M 1 37 9 1467 tpcRegulationLimitAxBe_t
+M 1 37 9 1489 tpcRegulationLimitMRU_t
+M 1 37 9 1591 UMI_HDK_CONFIG
+M 1 37 9 3399 LA_SET_TPC_DATA_t
+M 1 37 9 3847 cocReq_t
+M 1 37 9 5039 SetChannelParams_t
 M 1 37 12 1085 PhyDriverInterfererDetectionParameters_t
 M 1 37 12 2332 RegPhyTxtdAnt0TxtdWindowing_u
 M 1 37 12 2341 RegUpPhyTxtdAnt0TxtdWindowing_u
@@ -8224,10 +8298,10 @@ M 1 42 3 157 TwtSpManagerAllocateSpRes_t
 M 1 42 3 237 ServicePeriod_t
 M 1 42 3 380 TwtSpManagerAllocateSpRes_t
 M 1 45 0 1493 UMI_MULTICAST_MODE
-M 1 45 3 440 Hd_t
-M 1 45 3 693 Hd_t
-M 1 45 3 698 Hd_t
-M 1 45 3 724 TxPd_t
+M 1 45 3 441 Hd_t
+M 1 45 3 721 Hd_t
+M 1 45 3 726 Hd_t
+M 1 45 3 752 TxPd_t
 M 1 45 6 426 Hd_t
 M 1 45 6 627 Hd_t
 M 1 45 6 659 TxPd_t
@@ -8285,14 +8359,14 @@ M 1 49 19 1343 RegCpuXbarStatusCpuNocErrlog0_u
 M 1 49 19 1344 RegCpuXbarStatusCpuNocErrlog1_u
 M 1 49 19 1345 RegCpuXbarStatusCpuNocErrlog3_u
 M 1 49 19 1346 RegCpuXbarStatusCpuNocErrlog4_u
-M 1 51 1 780 RadarDetectionPulseCluster_t
-M 1 51 1 783 RadarDetectionPulseCluster_t
-M 1 51 1 1604 radarDebugPulseStruct_t
-M 1 51 1 2209 radarAdaptiveSensDb_t
-M 1 51 1 2307 radarAdaptiveSensDb_t
-M 1 51 1 2308 radarAdaptiveSensConfig_t
-M 1 51 1 2309 radarAdaptiveSensConfig_t
-M 1 51 1 2339 radarAdaptiveSensConfig_t
+M 1 51 1 781 RadarDetectionPulseCluster_t
+M 1 51 1 784 RadarDetectionPulseCluster_t
+M 1 51 1 1605 radarDebugPulseStruct_t
+M 1 51 1 2216 radarAdaptiveSensDb_t
+M 1 51 1 2314 radarAdaptiveSensDb_t
+M 1 51 1 2315 radarAdaptiveSensConfig_t
+M 1 51 1 2316 radarAdaptiveSensConfig_t
+M 1 51 1 2346 radarAdaptiveSensConfig_t
 M 1 54 1 1447 LinkAdaptationDebugTxHandlerMap_t
 M 1 54 1 1571 UlPostRxInternalOmiControl_u
 M 1 54 1 1623 UlPostRxInternalOmiControl_u
@@ -8332,12 +8406,12 @@ M 1 54 1 9719 RegOtfaHeTbMode_u
 M 1 54 1 9720 RegPreAggInvPhyDmaRatioSu_u
 M 1 54 1 9721 RegPreAggPacketExtOverhead_u
 M 1 54 1 9791 BaaRateAdaptiveFullFifo_t
-M 1 54 1 11932 LmVapDbSwInfo_t
-M 1 54 1 12879 HdkCdbManagerConfigBandReq_t
-M 1 54 1 13620 DlDataPhase_t
-M 1 54 1 13621 DlDataPhase_t
-M 1 54 1 13622 DlDataPhase_t
-M 1 54 1 13732 LinkAdaptationDlPhasesStatisticsDatabase_t
+M 1 54 1 11984 LmVapDbSwInfo_t
+M 1 54 1 12931 HdkCdbManagerConfigBandReq_t
+M 1 54 1 13672 DlDataPhase_t
+M 1 54 1 13673 DlDataPhase_t
+M 1 54 1 13674 DlDataPhase_t
+M 1 54 1 13784 LinkAdaptationDlPhasesStatisticsDatabase_t
 M 1 54 3 2091 overridePendingDb_t
 M 1 54 6 684 EHT_MCS_SUPPORT
 M 1 54 6 758 HE_MCS_SUPPORT
@@ -8406,7 +8480,8 @@ M 1 54 15 597 RateMask_t
 M 1 54 15 714 RateMask_t
 M 1 54 15 821 RateMask_t
 M 1 54 15 5923 UMI_MSDU_IN_AMSDU_CONFIG
-M 1 54 17 2784 LA_SET_TPC_DATA_t
+M 1 54 17 2795 LA_SET_TPC_DATA_t
+M 1 54 17 3673 PacDurAutoReplyPowerParameters_t
 M 1 54 18 294 UMI_SET_BSS
 M 1 54 18 561 vapEstimatorsDataBase_t
 M 1 54 19 442 RateMask_t
@@ -8424,7 +8499,7 @@ M 1 54 21 177 TurboRatesDataBase_t
 M 1 54 22 1890 FastProbingPointEstimators_t
 M 1 54 22 1894 MaxEffTpInputParams_t
 M 1 56 2 305 UMI_LOGGER_MSG_FLUSH_BUFFER
-M 1 62 1 1921 IEEE_ADDR
+M 1 62 1 1922 IEEE_ADDR
 M 1 62 3 475 otfMlSmmDisableLink_t
 M 1 62 3 869 OtfMlSchedulerMldStaMetricsDb_t
 M 1 62 3 1208 otfMlSmmDisableLink_t
@@ -8484,20 +8559,20 @@ M 1 93 0 861 CommonUlReport_t
 M 1 93 0 862 UserUlReport_t
 M 1 93 1 82 UlPostRxRssiGroupInfo_t
 M 1 93 1 204 AAA_DebugUlPostRxLowRssiFiltering_t
-M 1 95 0 1676 UMI_SET_KEY
-M 1 95 0 3082 BaaRateAdaptiveFullFifo_t
-M 1 95 0 6864 UMI_STATIC_PLAN_CONFIG
-M 1 95 0 7445 UMI_FIXED_RATE_CONFIG
-M 1 95 0 10477 UMI_GET_TWT_PARAMS
-M 1 95 0 10503 UMI_GET_TWT_PARAMS
+M 1 95 0 1682 UMI_SET_KEY
+M 1 95 0 3089 BaaRateAdaptiveFullFifo_t
+M 1 95 0 7020 UMI_STATIC_PLAN_CONFIG
+M 1 95 0 7601 UMI_FIXED_RATE_CONFIG
+M 1 95 0 10633 UMI_GET_TWT_PARAMS
+M 1 95 0 10659 UMI_GET_TWT_PARAMS
 M 1 101 0 173 GoertzelRes_t
 M 1 101 1 1138 TxIQParams_t
 M 1 101 6 1037 SetChannelParams_t
 M 1 101 9 336 RxDCParams_t
-M 1 101 10 493 TxLo_DacIndexes_t
-M 1 101 10 514 TxLo_DacIndexes_t
-M 1 101 10 526 TxLo_DacIndexes_t
-M 1 101 10 551 TxLo_DacIndexes_t
+M 1 101 10 515 TxLo_DacIndexes_t
+M 1 101 10 536 TxLo_DacIndexes_t
+M 1 101 10 548 TxLo_DacIndexes_t
+M 1 101 10 573 TxLo_DacIndexes_t
 M 1 101 11 632 RxIQWs_t
 M 1 101 11 780 RxIQParams_t
 M 1 103 2 1346 groupingProceduresPolicyLocalDebugInfo_t

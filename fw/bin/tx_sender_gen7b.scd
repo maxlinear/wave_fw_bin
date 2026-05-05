@@ -93,8 +93,8 @@ S 4 1 4 4093 postTx - tidValue = %d, retxDb = %x, retxDbAddr = %p
 S 4 1 4 4094 postTx - tidAllocatedBitmap = %d, tidValidBitmap = %x, tidAllocated = %x
 S 4 1 5 148 Tx Start: Beacon
 S 4 1 5 152 Tx Start: Probe Response
-S 4 1 5 1141 Fatal Error in file: "../../Code/Source/Wave700/beacon_probe_res.c"; Fatal Print: Unexpected TIM case to generate beacon
-S 4 1 5 2456 Free TXMPDU from TxSender due to Delia failure
+S 4 1 5 1173 Fatal Error in file: "../../Code/Source/Wave700/beacon_probe_res.c"; Fatal Print: Unexpected TIM case to generate beacon
+S 4 1 5 2532 Free TXMPDU from TxSender due to Delia failure
 S 4 1 10 259 Tx Start: Cts2Self
 S 4 1 14 41 Post Tx: CTS to Self instead of NDPA
 S 4 1 15 209 Tx Start: BAR sequence
