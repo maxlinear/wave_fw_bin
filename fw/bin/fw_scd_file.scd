@@ -566,30 +566,30 @@ S 1 11 2 2035 beaconHandlerUpdateIEsPdList Vap Id:%d is active so calling Locker
 S 1 11 2 2067 beaconHandlerUpdateIEsPdList Vap Id:%d is inactive, activating only template dma
 S 1 11 2 2084 beaconHandlerUpdateIEsPdList Vap Id:%d is waiting for CSA, activating only template dma
 S 1 11 2 2089 beaconHandlerUpdateIEsPdList Vap Id:%d is inactive sending template was set indication
-S 1 11 2 2221 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: templateUpdateRequest != NULL
-S 1 11 2 2272 [BeaconHandler_TemplateUpdate] Scheduler:idle,Vap Id:%d, set to busy serviceBitmap = 0x%x
-S 1 11 2 2281 [BeaconHandler_TemplateUpdate] Scheduler:busy,Vap Id:%d, push to pending request Q
-S 1 11 2 2287 [BeaconHandler_TemplateUpdate] Scheduler:busy,Vap Id:%d, push to pending BAA request Q
-S 1 11 2 2297 [BeaconHandler_TemplateUpdate] Scheduler:busy,Vap Id:%d, pre-empt lock request and queue this BAA request as active
-S 1 11 2 2310 [BeaconHandler_TemplateUpdate] Scheduler:busy,Vap Id:%d, no lock request pending for this vap, so queue this BAA request in BAA Q
-S 1 11 2 2318 [BeaconHandler_TemplateUpdate] Vap Id:%d is busy, push to pending Q
-S 1 11 2 2409 [BeaconHandler_FinalizeTemplateUpdate] Vap id:%d get next pending BAA Q
-S 1 11 2 2412 Assert in file: "BeaconHandler.c" in line: 2412
-S 1 11 2 2420 [BeaconHandler_FinalizeTemplateUpdate] Vap id:%d process pre-empted pending lock req
-S 1 11 2 2447 [BeaconHandler_FinalizeTemplateUpdate] Vap id:%d move scheduler state to idle
-S 1 11 2 2510 BeaconHandler_AddVap for vap:%d operation Mode %d
-S 1 11 2 2533 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: beaconHWparams.beaconInterval > ConfigurationManager_GetReducedVapIdx(vapId)
-S 1 11 2 2543 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: vapId == ConfigurationManager_GetFirstVapForBand(ConfigurationManager_GetMyBand())
-S 1 11 2 2627 BeaconHandler_SetWmmParameters, vapId = %d, isBeaconQActive = %d
-S 1 11 2 2695 beaconHandlerDeactivateBeacon for vap:%d
-S 1 11 2 2755 BeaconHandler_QueueIsLocked, VapId = %d
-S 1 11 2 2816 beaconHandlerUpdateIEsPdList Vap Id:%d is waiting for CSA, activating only template dma
-S 1 11 2 2878 BeaconHandler_BeaconTemplateDmaDone
-S 1 11 2 3093 BeaconHandler_BeaconCriticalUpdateReset vapId: %d, criticalBit: %d
-S 1 11 2 3126 BeaconHandler_BeaconNonTxBssCriticalUpdateReset vapId: %d, criticalBit: %d, nonTxBssCriticalBit: %d
-S 1 11 2 3219 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: (Utils_GetBitFromBitmap(BeaconManagement.isBssLoadIe, pd->txQVapId, SIZE_IN_BITS(BeaconManagement.isBssLoadIe))) != 0
-S 1 11 2 3593 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: (firstPdIndex + numOfPdsInBand) <= BEACON_NUM_OF_PDS_IN_POOL
-S 1 11 2 3744 Fatal Error in file: "BeaconHandler.c"; Fatal Print: function not implemented
+S 1 11 2 2262 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: templateUpdateRequest != NULL
+S 1 11 2 2278 [BeaconHandler_TemplateUpdate] Scheduler:idle,Vap Id:%d, set to busy serviceBitmap = 0x%x
+S 1 11 2 2287 [BeaconHandler_TemplateUpdate] Scheduler:busy,Vap Id:%d, push to pending request Q
+S 1 11 2 2293 [BeaconHandler_TemplateUpdate] Scheduler:busy,Vap Id:%d, push to pending BAA request Q
+S 1 11 2 2303 [BeaconHandler_TemplateUpdate] Scheduler:busy,Vap Id:%d, pre-empt lock request and queue this BAA request as active
+S 1 11 2 2316 [BeaconHandler_TemplateUpdate] Scheduler:busy,Vap Id:%d, no lock request pending for this vap, so queue this BAA request in BAA Q
+S 1 11 2 2324 [BeaconHandler_TemplateUpdate] Vap Id:%d is busy, push to pending Q
+S 1 11 2 2415 [BeaconHandler_FinalizeTemplateUpdate] Vap id:%d get next pending BAA Q
+S 1 11 2 2418 Assert in file: "BeaconHandler.c" in line: 2418
+S 1 11 2 2426 [BeaconHandler_FinalizeTemplateUpdate] Vap id:%d process pre-empted pending lock req
+S 1 11 2 2453 [BeaconHandler_FinalizeTemplateUpdate] Vap id:%d move scheduler state to idle
+S 1 11 2 2516 BeaconHandler_AddVap for vap:%d operation Mode %d
+S 1 11 2 2539 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: beaconHWparams.beaconInterval > ConfigurationManager_GetReducedVapIdx(vapId)
+S 1 11 2 2549 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: vapId == ConfigurationManager_GetFirstVapForBand(ConfigurationManager_GetMyBand())
+S 1 11 2 2633 BeaconHandler_SetWmmParameters, vapId = %d, isBeaconQActive = %d
+S 1 11 2 2701 beaconHandlerDeactivateBeacon for vap:%d
+S 1 11 2 2761 BeaconHandler_QueueIsLocked, VapId = %d
+S 1 11 2 2822 beaconHandlerUpdateIEsPdList Vap Id:%d is waiting for CSA, activating only template dma
+S 1 11 2 2884 BeaconHandler_BeaconTemplateDmaDone
+S 1 11 2 3080 BeaconHandler_BeaconCriticalUpdateReset vapId: %d, criticalBit: %d, nonTxBssCriticalBit: %d
+S 1 11 2 3113 BeaconHandler_BeaconNonTxBssCriticalUpdateReset vapId: %d, criticalBit: %d, nonTxBssCriticalBit: %d
+S 1 11 2 3206 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: (Utils_GetBitFromBitmap(BeaconManagement.isBssLoadIe, pd->txQVapId, SIZE_IN_BITS(BeaconManagement.isBssLoadIe))) != 0
+S 1 11 2 3580 COND_FATAL Error in file: "BeaconHandler.c"; COND_FATAL description: (firstPdIndex + numOfPdsInBand) <= BEACON_NUM_OF_PDS_IN_POOL
+S 1 11 2 3731 Fatal Error in file: "BeaconHandler.c"; Fatal Print: function not implemented
 S 1 11 7 213 [DynamicEdcaManagerCongestedDlGroupDetection] vapId %d, groupId %d, congested
 S 1 11 7 361 [linkAdapatationUpdateATFInfoGet]: numActiveDlSta=%d, numGroupedUlSta=%d, CongestedUlMuGroup=%d, numSta=%d
 S 1 11 7 381 [linkAdapatationUpdateATFInfoGet]: vapId=%d, fairnessInc=%d
@@ -889,111 +889,111 @@ S 1 16 14 129 COND_FATAL Error in file: "DpdAdapter.c"; COND_FATAL description: 
 S 1 16 14 280 COND_FATAL Error in file: "DpdAdapter.c"; COND_FATAL description: DPD RxEq invalid computation step
 S 1 16 14 350 COND_FATAL Error in file: "DpdAdapter.c"; COND_FATAL description: Unknown BW option
 S 1 16 15 31 COND_FATAL Error in file: "NmseMeasures.c"; COND_FATAL description: Nmse_Measure only supports CLBR_TYPE_OFFLINE
-S 1 17 0 214 channelSwitchManager_ChangeState from %d, to %d
-S 1 17 0 278 [EASY_CONNECT] ChannelSwitchManagerPostChannelSwitchTxPaused
-S 1 17 0 342 [channelSwitchManager_SetChannelRequest] in RSSI 1
-S 1 17 0 424 [EASY_CONNECT] ChannelSwitchManagerFlushGPHP
-S 1 17 0 519 [EASY_CONNECT][ChannelSwitchManager_EasyConnectTest] pEasyConnectTest->isStDppAction = %d
-S 1 17 0 638 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: Utils_IsBitmapNotEmpty(channelSwitchManagerParams.activeVapsBitmap, CONVERT_WORDS_TO_BIT_INDEX(SYS_VAP_BITMAP_SIZE_WORDS))
-S 1 17 0 651 [channelSwitchManager_SetChannelRequest] CHANNEL_SWITCH_MANAGER_STATE_IDLE, channelSwitchManagerParams.pUmSetChannelParams->switch_type=%d
-S 1 17 0 677 [channelSwitchManager_SetChannelRequest] in RSSI 0
-S 1 17 0 724 [EASY_CONNECT][channelSwitchManager_SetChannelRequest] ST_DPP_ACTION
-S 1 17 0 732 [channelSwitchManager_SetChannelRequest] ST_ZWDFS
-S 1 17 0 741 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: illegal switch type
-S 1 17 0 750 [EASY_CONNECT] [channelSwitchManager_SetChannelRequest] CHANNEL_SWITCH_MANAGER_STATE_DPP
-S 1 17 0 773 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [channelSwitchManager_SetChannelRequest], DPP must be followed by SET CHANNEL with switch type NORMAL
-S 1 17 0 811 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: pUmSetChannelParamsLocal->bg_scan == FALSE
-S 1 17 0 844 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [channelSwitchManager_SetChannelRequest], illegal type in current state
-S 1 17 0 849 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: pUmSetChannelParamsLocal->switch_type == ST_NORMAL_AFTER_RSSI
-S 1 17 0 868 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 906 [channelSwitchManager_ProcessStartConfirm] channelSwitchManagerParams.state = %d, channelSwitchManagerParams.pUmSetChannelParams->switch_type = %d
-S 1 17 0 908 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: processMangerReturnParams->processStatus == PROCESS_STATUS_REQUEST_ACCEPTED
-S 1 17 0 922 [channelSwitchManager_ProcessStartConfirm] send message to HDK
-S 1 17 0 985 [channelSwitchManager_ProcessStartConfirm] Affected band %d, vap %d
-S 1 17 0 1002 [channelSwitchManager_ProcessStartConfirm] Send CSA To Multilink, bitMap %08x
-S 1 17 0 1019 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: illegal switch type
-S 1 17 0 1023 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 1053 state: %d, event: Tx Queue Lock Confirm
-S 1 17 0 1060 [EASY_CONNECT] [channelSwitchManager_TxQueueLockConfirm] CHANNEL_SWITCH_MANAGER_STATE_POST_DPP_WAIT_FOR_TX_QUEUE_LOCK
-S 1 17 0 1128 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 1155 [channelSwitchManager_ProcessFinishConfirm] channelSwitchManagerParams.state = %d
-S 1 17 0 1170 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 1208 [channelSwitchManager_SetChannelConfirm] channelSwitchManagerParams.state = %d
-S 1 17 0 1226 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 1260 [channelSwitchManager_SetChannelConfirm] channelSwitchManagerParams.state = %d
-S 1 17 0 1269 [channelSwitchManager_NotifyConfirm] CHANNEL_SWITCH_MANAGER_STATE_WAIT_FOR_NOTIFY_CFM, channelSwitchManagerParams.pUmSetChannelParams->switch_type = %d
-S 1 17 0 1284 [EASY_CONNECT] [channelSwitchManager_NotifyConfirm] ST_NORMAL easy connect active = %d
-S 1 17 0 1318 [channelSwitchManager_NotifyConfirm] ZWDFS
-S 1 17 0 1338 postProcessServiceBitmap = %x
-S 1 17 0 1363 [channelSwitchManager_NotifyConfirm], pUmSetChannelParamsLocal->u16SID = %d, pRssiParams->vapId = %d
-S 1 17 0 1436 [EASY_CONNECT] [channelSwitchManager_NotifyConfirm] ST_DPP_ACTION
-S 1 17 0 1454 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: illegal switch type
-S 1 17 0 1460 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 1489 state: %d, event: Tx Resume Confirm
-S 1 17 0 1511 [EASY_CONNECT] [channelSwitchManager_TxResumeConfirm] CHANNEL_SWITCH_MANAGER_STATE_DPP_WAIT_FOR_TX_RESUME
-S 1 17 0 1528 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 1554 state: %d, event: Rx Resume Confirm
-S 1 17 0 1576 [EASY_CONNECT] [channelSwitchManager_RxResumeConfirm] CHANNEL_SWITCH_MANAGER_STATE_DPP_WAIT_FOR_RX_RESUME
-S 1 17 0 1586 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 1613 state: %d, event: Tx Pause Confirm
-S 1 17 0 1621 [EASY_CONNECT] [channelSwitchManager_TxPauseConfirm] CHANNEL_SWITCH_MANAGER_STATE_POST_DPP_WAIT_FOR_TX_PAUSE
-S 1 17 0 1668 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 1697 state: %d, event: TX Pause VAP Confirm
-S 1 17 0 1769 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 1795 state: %d, event: Rx Pause Confirm
-S 1 17 0 1802 [EASY_CONNECT] [channelSwitchManager_RxPauseConfirm] CHANNEL_SWITCH_MANAGER_STATE_POST_DPP_WAIT_FOR_RX_PAUSE
-S 1 17 0 1826 channelSwitchManager_RxPauseConfirm Csa Stop
-S 1 17 0 1835 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 1864 state: %d, event: Timer Expired
-S 1 17 0 1896 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 1924 state: %d, event: Beacon Add Csa Ie Confirm
-S 1 17 0 1943 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 1977 state: %d, event: OTF MultiLink CSA Start confirm
-S 1 17 0 1996 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 2100 state: %d, event: OTF MultiLink CSA Stop confirm
-S 1 17 0 2125 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 2155 state: %d, event: CSA Beacon Done Indication
-S 1 17 0 2220 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 2252 state: %d, event: CSA Sec Beacon Done Indication from VapIdx %d
-S 1 17 0 2283 state: %d, event: Stop CSA Beacons Confirm
-S 1 17 0 2304 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
-S 1 17 0 2414 channelSwitchManager_VapManagerRegistrationEventAddVap, state: %d, event: Vap Manager Registration Event Add Vap
-S 1 17 0 2416 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: channelSwitchManagerParams.state == CHANNEL_SWITCH_MANAGER_STATE_IDLE
-S 1 17 0 2460 state: %d, event: Vap Manager Registration Event Post Remove Vap
-S 1 17 0 2462 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: channelSwitchManagerParams.state == CHANNEL_SWITCH_MANAGER_STATE_IDLE
-S 1 17 0 2580 ChannelSwitchManager_MldNonTxBssidVapsCount mld nonTx BSSID count: %d
-S 1 17 0 2606 state: %d, event: Csa Manager Start Tx Cfm
-S 1 17 0 2635 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: channelSwitchManager_ProcessInterruptedIndication
-S 1 17 0 2664 state: %d, event: Csa Manager Stop Tx Cfm
-S 1 17 0 2667 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: CSA Manager stop confirm received before CSA Manager start confirm
-S 1 17 0 2745 [channelSwitchManager_SendConfirmationToHost] channelSwitchManagerParams.pUmSetChannelParams->rssi[%d] = %d
-S 1 17 0 2824 [channelSwitchManager_ChannelSwitchDone]
-S 1 17 0 2921 [channelSwitchManager_ChannelLoadBssLoadIeCalc] channelSwitchManagerChannelLoadDb.totalChannelLoadBssLoad[index] = %d
-S 1 17 0 2943 [channelSwitchManager_ChannelLoadBssLoadIeCalc] range = %d index = %d deltaTime = %d
-S 1 17 0 2945 [channelSwitchManager_ChannelLoadBssLoadIeCalc] totalChannelLoadBssLoad = %d accumulatedLoadBssLoad = %d averageLoadBssLoad = %d
-S 1 17 0 2946 [channelSwitchManager_ChannelLoadBssLoadIeCalc] totalChannelLoadBssLoad = %d accumulatedLoadBssLoad = %d averageLoadBssLoad = %d
-S 1 17 0 3007 [channelSwitchManager_ChannelLoadTimerExpired] QBSS1 = %d, QBSS2 = %d
-S 1 17 0 3013 [channelSwitchManager_ChannelLoadTimerExpired] total load = %d, total utilization = %d
-S 1 17 0 3113 [channelSwitchManager_CalcChannelLoad] rxTotal = %d, rxToMe = %d, QBSS1 = %d, QBSS2 = %d
-S 1 17 0 3119 [channelSwitchManager_CalcChannelLoad] total load = %d, total utilization = %d
-S 1 17 0 3125 [channelSwitchManager_CalcChannelLoad] rxToMe = %d
-S 1 17 0 3128 [channelSwitchManager_CalcChannelLoad] delta time = %d
-S 1 17 0 3132 [channelSwitchManager_CalcChannelLoad] load... delta time = %d
-S 1 17 0 3141 [channelSwitchManager_CalcChannelLoad] load... total utilization = %d
-S 1 17 0 3146 [channelSwitchManager_CalcChannelLoad] utilization... delta time = %d
-S 1 17 0 3163 [channelSwitchManager_CalcChannelLoad] chUtilization->chUtilizationBusyRx = %d)
-S 1 17 0 3206 [channelSwitchManager_ChannelLoadReq]
-S 1 17 0 3235 [channelSwitchManager_CalculateChannelLoadForPhyStatusReq]
-S 1 17 0 3508 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: channelSwitchManagerParams.state == CHANNEL_SWITCH_MANAGER_STATE_WAIT_FOR_RSSI_SET_CFM
-S 1 17 0 3560 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Utils_GetSecondayChannelOffset: 80+80 not supported
-S 1 17 0 3563 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Utils_GetSecondayChannelOffset: Illegal rate
-S 1 17 0 3608 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_GetChannelWidth], 80+80 not supported
-S 1 17 0 3611 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_GetChannelWidth], Illegal channel width
-S 1 17 0 3678 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_GetCenterFreq0Idx], 80+80 not supported
-S 1 17 0 3681 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_GetCenterFreq0Idx], Illegal channel width
-S 1 17 0 3730 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_GetCenterFreq1Idx], 80+80 not supported
-S 1 17 0 3733 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_GetCenterFreq1Idx], Illegal channel width
-S 1 17 0 3789 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_CalcActualChannel], invalid ChannelNotificationMode
+S 1 17 0 212 channelSwitchManager_ChangeState from %d, to %d
+S 1 17 0 276 [EASY_CONNECT] ChannelSwitchManagerPostChannelSwitchTxPaused
+S 1 17 0 340 [channelSwitchManager_SetChannelRequest] in RSSI 1
+S 1 17 0 422 [EASY_CONNECT] ChannelSwitchManagerFlushGPHP
+S 1 17 0 517 [EASY_CONNECT][ChannelSwitchManager_EasyConnectTest] pEasyConnectTest->isStDppAction = %d
+S 1 17 0 636 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: Utils_IsBitmapNotEmpty(channelSwitchManagerParams.activeVapsBitmap, CONVERT_WORDS_TO_BIT_INDEX(SYS_VAP_BITMAP_SIZE_WORDS))
+S 1 17 0 649 [channelSwitchManager_SetChannelRequest] CHANNEL_SWITCH_MANAGER_STATE_IDLE, channelSwitchManagerParams.pUmSetChannelParams->switch_type=%d
+S 1 17 0 675 [channelSwitchManager_SetChannelRequest] in RSSI 0
+S 1 17 0 722 [EASY_CONNECT][channelSwitchManager_SetChannelRequest] ST_DPP_ACTION
+S 1 17 0 730 [channelSwitchManager_SetChannelRequest] ST_ZWDFS
+S 1 17 0 739 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: illegal switch type
+S 1 17 0 748 [EASY_CONNECT] [channelSwitchManager_SetChannelRequest] CHANNEL_SWITCH_MANAGER_STATE_DPP
+S 1 17 0 771 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [channelSwitchManager_SetChannelRequest], DPP must be followed by SET CHANNEL with switch type NORMAL
+S 1 17 0 809 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: pUmSetChannelParamsLocal->bg_scan == FALSE
+S 1 17 0 842 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [channelSwitchManager_SetChannelRequest], illegal type in current state
+S 1 17 0 847 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: pUmSetChannelParamsLocal->switch_type == ST_NORMAL_AFTER_RSSI
+S 1 17 0 866 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 904 [channelSwitchManager_ProcessStartConfirm] channelSwitchManagerParams.state = %d, channelSwitchManagerParams.pUmSetChannelParams->switch_type = %d
+S 1 17 0 906 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: processMangerReturnParams->processStatus == PROCESS_STATUS_REQUEST_ACCEPTED
+S 1 17 0 920 [channelSwitchManager_ProcessStartConfirm] send message to HDK
+S 1 17 0 983 [channelSwitchManager_ProcessStartConfirm] Affected band %d, vap %d
+S 1 17 0 1000 [channelSwitchManager_ProcessStartConfirm] Send CSA To Multilink, bitMap %08x
+S 1 17 0 1017 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: illegal switch type
+S 1 17 0 1021 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 1051 state: %d, event: Tx Queue Lock Confirm
+S 1 17 0 1058 [EASY_CONNECT] [channelSwitchManager_TxQueueLockConfirm] CHANNEL_SWITCH_MANAGER_STATE_POST_DPP_WAIT_FOR_TX_QUEUE_LOCK
+S 1 17 0 1126 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 1153 [channelSwitchManager_ProcessFinishConfirm] channelSwitchManagerParams.state = %d
+S 1 17 0 1168 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 1206 [channelSwitchManager_SetChannelConfirm] channelSwitchManagerParams.state = %d
+S 1 17 0 1224 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 1258 [channelSwitchManager_SetChannelConfirm] channelSwitchManagerParams.state = %d
+S 1 17 0 1267 [channelSwitchManager_NotifyConfirm] CHANNEL_SWITCH_MANAGER_STATE_WAIT_FOR_NOTIFY_CFM, channelSwitchManagerParams.pUmSetChannelParams->switch_type = %d
+S 1 17 0 1282 [EASY_CONNECT] [channelSwitchManager_NotifyConfirm] ST_NORMAL easy connect active = %d
+S 1 17 0 1316 [channelSwitchManager_NotifyConfirm] ZWDFS
+S 1 17 0 1336 postProcessServiceBitmap = %x
+S 1 17 0 1361 [channelSwitchManager_NotifyConfirm], pUmSetChannelParamsLocal->u16SID = %d, pRssiParams->vapId = %d
+S 1 17 0 1434 [EASY_CONNECT] [channelSwitchManager_NotifyConfirm] ST_DPP_ACTION
+S 1 17 0 1452 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: illegal switch type
+S 1 17 0 1458 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 1487 state: %d, event: Tx Resume Confirm
+S 1 17 0 1509 [EASY_CONNECT] [channelSwitchManager_TxResumeConfirm] CHANNEL_SWITCH_MANAGER_STATE_DPP_WAIT_FOR_TX_RESUME
+S 1 17 0 1526 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 1552 state: %d, event: Rx Resume Confirm
+S 1 17 0 1574 [EASY_CONNECT] [channelSwitchManager_RxResumeConfirm] CHANNEL_SWITCH_MANAGER_STATE_DPP_WAIT_FOR_RX_RESUME
+S 1 17 0 1584 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 1611 state: %d, event: Tx Pause Confirm
+S 1 17 0 1619 [EASY_CONNECT] [channelSwitchManager_TxPauseConfirm] CHANNEL_SWITCH_MANAGER_STATE_POST_DPP_WAIT_FOR_TX_PAUSE
+S 1 17 0 1666 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 1690 state: %d, event: Rx Pause Confirm
+S 1 17 0 1697 [EASY_CONNECT] [channelSwitchManager_RxPauseConfirm] CHANNEL_SWITCH_MANAGER_STATE_POST_DPP_WAIT_FOR_RX_PAUSE
+S 1 17 0 1721 channelSwitchManager_RxPauseConfirm Csa Stop
+S 1 17 0 1730 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 1759 state: %d, event: Timer Expired
+S 1 17 0 1789 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 1817 state: %d, event: Beacon Add Csa Ie Confirm
+S 1 17 0 1836 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 1870 state: %d, event: OTF MultiLink CSA Start confirm
+S 1 17 0 1889 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 1985 state: %d, event: OTF MultiLink CSA Stop confirm
+S 1 17 0 2010 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 2043 state: %d, vapId: %d, event: CSA Beacon Done Indication
+S 1 17 0 2056 vapId: %d CSA Beacon Done after timer expiry - ignored
+S 1 17 0 2060 vapId: %d CSA Beacon Done received before all VAPs were locked - ignored
+S 1 17 0 2063 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 2095 state: %d, event: CSA Sec Beacon Done Indication from VapIdx %d
+S 1 17 0 2126 state: %d, event: Stop CSA Beacons Confirm
+S 1 17 0 2147 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Channel Switch Manager: illegal event in current state
+S 1 17 0 2257 channelSwitchManager_VapManagerRegistrationEventAddVap, state: %d, event: Vap Manager Registration Event Add Vap
+S 1 17 0 2259 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: channelSwitchManagerParams.state == CHANNEL_SWITCH_MANAGER_STATE_IDLE
+S 1 17 0 2303 state: %d, event: Vap Manager Registration Event Post Remove Vap
+S 1 17 0 2305 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: channelSwitchManagerParams.state == CHANNEL_SWITCH_MANAGER_STATE_IDLE
+S 1 17 0 2423 ChannelSwitchManager_MldNonTxBssidVapsCount mld nonTx BSSID count: %d
+S 1 17 0 2449 state: %d, event: Csa Manager Start Tx Cfm
+S 1 17 0 2478 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: channelSwitchManager_ProcessInterruptedIndication
+S 1 17 0 2507 state: %d, event: Csa Manager Stop Tx Cfm
+S 1 17 0 2510 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: CSA Manager stop confirm received before CSA Manager start confirm
+S 1 17 0 2588 [channelSwitchManager_SendConfirmationToHost] channelSwitchManagerParams.pUmSetChannelParams->rssi[%d] = %d
+S 1 17 0 2667 [channelSwitchManager_ChannelSwitchDone]
+S 1 17 0 2764 [channelSwitchManager_ChannelLoadBssLoadIeCalc] channelSwitchManagerChannelLoadDb.totalChannelLoadBssLoad[index] = %d
+S 1 17 0 2786 [channelSwitchManager_ChannelLoadBssLoadIeCalc] range = %d index = %d deltaTime = %d
+S 1 17 0 2788 [channelSwitchManager_ChannelLoadBssLoadIeCalc] totalChannelLoadBssLoad = %d accumulatedLoadBssLoad = %d averageLoadBssLoad = %d
+S 1 17 0 2789 [channelSwitchManager_ChannelLoadBssLoadIeCalc] totalChannelLoadBssLoad = %d accumulatedLoadBssLoad = %d averageLoadBssLoad = %d
+S 1 17 0 2850 [channelSwitchManager_ChannelLoadTimerExpired] QBSS1 = %d, QBSS2 = %d
+S 1 17 0 2856 [channelSwitchManager_ChannelLoadTimerExpired] total load = %d, total utilization = %d
+S 1 17 0 2956 [channelSwitchManager_CalcChannelLoad] rxTotal = %d, rxToMe = %d, QBSS1 = %d, QBSS2 = %d
+S 1 17 0 2962 [channelSwitchManager_CalcChannelLoad] total load = %d, total utilization = %d
+S 1 17 0 2968 [channelSwitchManager_CalcChannelLoad] rxToMe = %d
+S 1 17 0 2971 [channelSwitchManager_CalcChannelLoad] delta time = %d
+S 1 17 0 2975 [channelSwitchManager_CalcChannelLoad] load... delta time = %d
+S 1 17 0 2984 [channelSwitchManager_CalcChannelLoad] load... total utilization = %d
+S 1 17 0 2989 [channelSwitchManager_CalcChannelLoad] utilization... delta time = %d
+S 1 17 0 3006 [channelSwitchManager_CalcChannelLoad] chUtilization->chUtilizationBusyRx = %d)
+S 1 17 0 3049 [channelSwitchManager_ChannelLoadReq]
+S 1 17 0 3078 [channelSwitchManager_CalculateChannelLoadForPhyStatusReq]
+S 1 17 0 3351 COND_FATAL Error in file: "ChannelSwitchManager.c"; COND_FATAL description: channelSwitchManagerParams.state == CHANNEL_SWITCH_MANAGER_STATE_WAIT_FOR_RSSI_SET_CFM
+S 1 17 0 3403 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Utils_GetSecondayChannelOffset: 80+80 not supported
+S 1 17 0 3406 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Utils_GetSecondayChannelOffset: Illegal rate
+S 1 17 0 3451 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_GetChannelWidth], 80+80 not supported
+S 1 17 0 3454 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_GetChannelWidth], Illegal channel width
+S 1 17 0 3521 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_GetCenterFreq0Idx], 80+80 not supported
+S 1 17 0 3524 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_GetCenterFreq0Idx], Illegal channel width
+S 1 17 0 3573 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_GetCenterFreq1Idx], 80+80 not supported
+S 1 17 0 3576 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_GetCenterFreq1Idx], Illegal channel width
+S 1 17 0 3632 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: [ChannelSwitchManager_CalcActualChannel], invalid ChannelNotificationMode
 S 1 18 0 123 COND_FATAL Error in file: "CoC.c"; COND_FATAL description: cocDb.CoCstate == COC_STATE_IDLE
 S 1 18 0 124 COND_FATAL Error in file: "CoC.c"; COND_FATAL description: cocDb.numOfApModeVaps > 0 || cocDb.numOfStaModeVaps > 0
 S 1 18 0 140 COND_FATAL Error in file: "CoC.c"; COND_FATAL description: changePowerStateMsg->TxAntsMask!=0
@@ -1953,12 +1953,12 @@ S 1 31 3 315 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: Unsuppo
 S 1 31 3 326 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: Host Interface 2 ARCH Unknown event
 S 1 31 3 436 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: Host Interface TxIn Task Failed to Suspend
 S 1 31 3 517 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: Host Interface TxOut Task Failed to Suspend
-S 1 31 3 669 COND_FATAL Error in file: "HostGenRiscInterface.c"; COND_FATAL description: HostInterface_UpdateMldDb: main STA is not an MLD STA
-S 1 31 3 677 HostInterface_UpdateMldDb mainSta %d prevTxSecondary %d newTxSecondary %d
-S 1 31 3 1149 COND_FATAL Error in file: "HostGenRiscInterface.c"; COND_FATAL description: LoggerApi_GetLoggerStationIndex() != INVALID_LOGGER_SID
-S 1 31 3 1255 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: [HostInterface_Initialize], CHI MAGIC FAILED
-S 1 31 3 1300 COND_FATAL Error in file: "HostGenRiscInterface.c"; COND_FATAL description: (pFwHostGenRiscInterfaceMailboxFifoInParams->writeCounter - pFwHostGenRiscInterfaceMailboxFifoInParams->readCounter) < FW_GENRISC_HOST_INTERFACE_MAILBOX_IN_FIFO_NUMBER_OF_ENTRIES
-S 1 31 3 1351 COND_FATAL Error in file: "HostGenRiscInterface.c"; COND_FATAL description: (GET_TSF_TIMER_LOW() - timeStamp) <= HOST_IF_MAX_MICROSECONDS_FOR_ERROR_FLOW
+S 1 31 3 670 COND_FATAL Error in file: "HostGenRiscInterface.c"; COND_FATAL description: HostInterface_UpdateMldDb: main STA is not an MLD STA
+S 1 31 3 678 HostInterface_UpdateMldDb mainSta %d prevTxSecondary %d newTxSecondary %d
+S 1 31 3 1174 COND_FATAL Error in file: "HostGenRiscInterface.c"; COND_FATAL description: LoggerApi_GetLoggerStationIndex() != INVALID_LOGGER_SID
+S 1 31 3 1280 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: [HostInterface_Initialize], CHI MAGIC FAILED
+S 1 31 3 1325 COND_FATAL Error in file: "HostGenRiscInterface.c"; COND_FATAL description: (pFwHostGenRiscInterfaceMailboxFifoInParams->writeCounter - pFwHostGenRiscInterfaceMailboxFifoInParams->readCounter) < FW_GENRISC_HOST_INTERFACE_MAILBOX_IN_FIFO_NUMBER_OF_ENTRIES
+S 1 31 3 1376 COND_FATAL Error in file: "HostGenRiscInterface.c"; COND_FATAL description: (GET_TSF_TIMER_LOW() - timeStamp) <= HOST_IF_MAX_MICROSECONDS_FOR_ERROR_FLOW
 S 1 32 0 150 COND_FATAL Error in file: "GidmManager.c"; COND_FATAL description: event < GIDM_MANAGER_EVENT_NUM_EVENTS
 S 1 32 0 151 COND_FATAL Error in file: "GidmManager.c"; COND_FATAL description: staIndex < SYS_NUM_OF_STAS
 S 1 32 0 164 GidmManager_RunStateMachine: Sta = %d, CurrentState = %d, event = %d
@@ -3570,17 +3570,17 @@ S 1 49 1 178 EndOfSwitchCount for vapi: %d, Band %d
 S 1 49 1 197 EndOfNonTxBssCriticalUpdate for vapi: %d
 S 1 49 1 212 Fatal Error in file: "BaAnalyzer.c"; Fatal Print: [baAnalyzer_StatusFifoNotEmptyEventHandler], No support for nonTxBss critical update without OTF_MULTI_LINK_SUPPORT!
 S 1 49 1 218 EndOfCriticalUpdate for vapi: %d
-S 1 49 1 233 Fatal Error in file: "BaAnalyzer.c"; Fatal Print: [baAnalyzer_StatusFifoNotEmptyEventHandler], No support for critical update without OTF_MULTI_LINK_SUPPORT!
-S 1 49 1 238 EndOfMaxSwitchTimeCount for vapi: %d, Band %d
-S 1 49 1 385 Fatal Error in file: "BaAnalyzer.c"; Fatal Print: [isr_BaAnalyzerInterruptErrorHandler], Ba Analyzer interrupt error!
-S 1 49 1 552 COND_FATAL Error in file: "BaAnalyzer.c"; COND_FATAL description: 0
-S 1 49 1 578 COND_FATAL Error in file: "BaAnalyzer.c"; COND_FATAL description: interruptStatus.bitFields.srUserRateAdaptiveFifoNotEmpty == 1
-S 1 49 1 589 BaAnalyzer_processBaaReportQueue: numberOfCommonReports = %d; numberOfUserReports = %d
-S 1 49 1 592 COND_FATAL Error in file: "BaAnalyzer.c"; COND_FATAL description: numberOfUserReports != 0
-S 1 49 1 602 [BaAnalyzer_processBaaReportQueue] %d accumulated baa common reports
-S 1 49 1 617 COND_FATAL Error in file: "BaAnalyzer.c"; COND_FATAL description: numberOfCommonReports != 0
-S 1 49 1 632 Fatal Error in file: "BaAnalyzer.c"; Fatal Print: [BaAnalyzer_processBaaReportQueue], baAnalyzer_transactionNumberMisalignmentCounter reached threshold
-S 1 49 1 636 COND_FATAL Error in file: "BaAnalyzer.c"; COND_FATAL description: baAnalyzer_lastCommonReport.baaTransactionNumber == baaFullReport.userReport.baaTransactionNumber
+S 1 49 1 235 Fatal Error in file: "BaAnalyzer.c"; Fatal Print: [baAnalyzer_StatusFifoNotEmptyEventHandler], No support for critical update without OTF_MULTI_LINK_SUPPORT!
+S 1 49 1 240 EndOfMaxSwitchTimeCount for vapi: %d, Band %d
+S 1 49 1 387 Fatal Error in file: "BaAnalyzer.c"; Fatal Print: [isr_BaAnalyzerInterruptErrorHandler], Ba Analyzer interrupt error!
+S 1 49 1 554 COND_FATAL Error in file: "BaAnalyzer.c"; COND_FATAL description: 0
+S 1 49 1 580 COND_FATAL Error in file: "BaAnalyzer.c"; COND_FATAL description: interruptStatus.bitFields.srUserRateAdaptiveFifoNotEmpty == 1
+S 1 49 1 591 BaAnalyzer_processBaaReportQueue: numberOfCommonReports = %d; numberOfUserReports = %d
+S 1 49 1 594 COND_FATAL Error in file: "BaAnalyzer.c"; COND_FATAL description: numberOfUserReports != 0
+S 1 49 1 604 [BaAnalyzer_processBaaReportQueue] %d accumulated baa common reports
+S 1 49 1 619 COND_FATAL Error in file: "BaAnalyzer.c"; COND_FATAL description: numberOfCommonReports != 0
+S 1 49 1 634 Fatal Error in file: "BaAnalyzer.c"; Fatal Print: [BaAnalyzer_processBaaReportQueue], baAnalyzer_transactionNumberMisalignmentCounter reached threshold
+S 1 49 1 638 COND_FATAL Error in file: "BaAnalyzer.c"; COND_FATAL description: baAnalyzer_lastCommonReport.baaTransactionNumber == baaFullReport.userReport.baaTransactionNumber
 S 1 49 2 80 COND_FATAL Error in file: "HwMbfm.c"; COND_FATAL description: HwMbfmDb.fifoFullDropCounter == 0
 S 1 49 2 88 COND_FATAL Error in file: "HwMbfm.c"; COND_FATAL description: regMbfmFifoDebug.bitFields.swMbfmFifoDecrementLessThanZero == FALSE
 S 1 49 2 167 Fatal Error in file: "HwMbfm.c"; Fatal Print: [HwMbfm_isrError], FifoOverflow
@@ -5196,7 +5196,7 @@ S 1 56 2 185 COND_FATAL Error in file: "loggerAPI.c"; COND_FATAL description: fi
 S 1 56 2 235 COND_FATAL Error in file: "loggerAPI.c"; COND_FATAL description: filterMsg_p
 S 1 56 2 337 KERNEL_EVENT_RECV_FROM_HOST_MSG kMsgType: %08x
 S 1 56 2 348 KERNEL_EVENT_SEND_TO_HOST_MSG kMsgType: %08x
-S 1 2 0 0 wlan_master@r1830-66f962
+S 1 2 0 0 wlan_7.2.460@r1840+a+28-7f549c
 S 1 57 0 211 COND_FATAL Error in file: "lm_StaDatabase.c"; COND_FATAL description: pStaDbSwEntry->nextSid < (SYS_NUM_OF_STAS)
 S 1 57 0 257 COND_FATAL Error in file: "lm_StaDatabase.c"; COND_FATAL description: nextSid != DB_ASYNC_SID
 S 1 57 0 293 COND_FATAL Error in file: "lm_StaDatabase.c"; COND_FATAL description: staIndex<SYS_NUM_OF_STAS
@@ -8137,12 +8137,12 @@ M 1 16 14 210 dpd_info_t
 M 1 16 14 230 calibration_step_t
 M 1 16 14 236 dpd_phy_t
 M 1 16 14 266 rxeq_step_t
-M 1 17 0 633 UM_SET_CHAN_PARAMS
-M 1 17 0 911 UM_SET_CHAN_PARAMS
-M 1 17 0 982 BeaconCsaStartMsg_t
-M 1 17 0 1003 BeaconCsaMldStartMsg_t
-M 1 17 0 2793 UMI_UM_SET_CHAN_CFM
-M 1 17 0 3186 AAA_DebugChannelStats_t
+M 1 17 0 631 UM_SET_CHAN_PARAMS
+M 1 17 0 909 UM_SET_CHAN_PARAMS
+M 1 17 0 980 BeaconCsaStartMsg_t
+M 1 17 0 1001 BeaconCsaMldStartMsg_t
+M 1 17 0 2636 UMI_UM_SET_CHAN_CFM
+M 1 17 0 3029 AAA_DebugChannelStats_t
 M 1 19 1 530 PCIE_CONFIGURATION
 M 1 19 1 531 RegSocRegsPcieAppsPmWakeup_u
 M 1 27 0 281 dutMessageHeader_t
@@ -8307,7 +8307,7 @@ M 1 45 6 627 Hd_t
 M 1 45 6 659 TxPd_t
 M 1 49 0 130 MbfmErrFifo_t
 M 1 49 0 137 MacBfmDb_t
-M 1 49 1 379 RegBaAnalyzerCalcCntSetToZeroStatus_u
+M 1 49 1 381 RegBaAnalyzerCalcCntSetToZeroStatus_u
 M 1 49 2 138 MbfmErrFifo_t
 M 1 49 2 145 MacBfmDb_t
 M 1 49 10 587 BsrcNdpfbReport_t
