@@ -1943,22 +1943,24 @@ S 1 31 2 198 Fatal Error in file: "SenderInterface.c"; Fatal Print: [isr_Sender]
 S 1 31 2 209 Fatal Error in file: "SenderInterface.c"; Fatal Print: [isr_Sender], Sender Unknown Event
 S 1 31 2 384 COND_FATAL Error in file: "SenderInterface.c"; COND_FATAL description: (GET_TSF_TIMER_LOW() - timeStamp) <= SENDER_MAX_MICROSECONDS_FOR_INITIALIZATION
 S 1 31 2 412 COND_FATAL Error in file: "SenderInterface.c"; COND_FATAL description: (pFwTxSenderMailboxFifoInParams->writeCounter - pFwTxSenderMailboxFifoInParams->readCounter) < FW_GENRISC_TX_SENDER_MAILBOX_IN_FIFO_NUMBER_OF_ENTRIES
-S 1 31 3 245 TX_IN = %d TX_OUT = %d DELTA = %d
-S 1 31 3 246 Max TX delta = %d
-S 1 31 3 247 Max TX delta ever = %d
-S 1 31 3 249 RX_IN = %d RX_OUT = %d DELTA = %d
-S 1 31 3 250 Max RX delta = %d
-S 1 31 3 251 Max RX delta ever = %d
-S 1 31 3 315 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: Unsupported Message ID
-S 1 31 3 326 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: Host Interface 2 ARCH Unknown event
-S 1 31 3 436 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: Host Interface TxIn Task Failed to Suspend
-S 1 31 3 517 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: Host Interface TxOut Task Failed to Suspend
-S 1 31 3 670 COND_FATAL Error in file: "HostGenRiscInterface.c"; COND_FATAL description: HostInterface_UpdateMldDb: main STA is not an MLD STA
-S 1 31 3 678 HostInterface_UpdateMldDb mainSta %d prevTxSecondary %d newTxSecondary %d
-S 1 31 3 1174 COND_FATAL Error in file: "HostGenRiscInterface.c"; COND_FATAL description: LoggerApi_GetLoggerStationIndex() != INVALID_LOGGER_SID
-S 1 31 3 1280 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: [HostInterface_Initialize], CHI MAGIC FAILED
-S 1 31 3 1325 COND_FATAL Error in file: "HostGenRiscInterface.c"; COND_FATAL description: (pFwHostGenRiscInterfaceMailboxFifoInParams->writeCounter - pFwHostGenRiscInterfaceMailboxFifoInParams->readCounter) < FW_GENRISC_HOST_INTERFACE_MAILBOX_IN_FIFO_NUMBER_OF_ENTRIES
-S 1 31 3 1376 COND_FATAL Error in file: "HostGenRiscInterface.c"; COND_FATAL description: (GET_TSF_TIMER_LOW() - timeStamp) <= HOST_IF_MAX_MICROSECONDS_FOR_ERROR_FLOW
+S 1 31 3 249 TX_IN = %d TX_OUT = %d DELTA = %d
+S 1 31 3 250 Max TX delta = %d
+S 1 31 3 251 Max TX delta ever = %d
+S 1 31 3 253 RX_IN = %d RX_OUT = %d DELTA = %d
+S 1 31 3 254 Max RX delta = %d
+S 1 31 3 255 Max RX delta ever = %d
+S 1 31 3 319 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: Unsupported Message ID
+S 1 31 3 330 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: Host Interface 2 ARCH Unknown event
+S 1 31 3 442 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: Host Interface TxIn Task Failed to Suspend
+S 1 31 3 462 COND_FATAL Error in file: "HostGenRiscInterface.c"; COND_FATAL description: QoS counters update done timeout
+S 1 31 3 544 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: Host Interface TxOut Task Failed to Suspend
+S 1 31 3 564 COND_FATAL Error in file: "HostGenRiscInterface.c"; COND_FATAL description: QoS counters update done timeout
+S 1 31 3 716 COND_FATAL Error in file: "HostGenRiscInterface.c"; COND_FATAL description: HostInterface_UpdateMldDb: main STA is not an MLD STA
+S 1 31 3 724 HostInterface_UpdateMldDb mainSta %d prevTxSecondary %d newTxSecondary %d
+S 1 31 3 1223 COND_FATAL Error in file: "HostGenRiscInterface.c"; COND_FATAL description: LoggerApi_GetLoggerStationIndex() != INVALID_LOGGER_SID
+S 1 31 3 1329 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: [HostInterface_Initialize], CHI MAGIC FAILED
+S 1 31 3 1374 COND_FATAL Error in file: "HostGenRiscInterface.c"; COND_FATAL description: (pFwHostGenRiscInterfaceMailboxFifoInParams->writeCounter - pFwHostGenRiscInterfaceMailboxFifoInParams->readCounter) < FW_GENRISC_HOST_INTERFACE_MAILBOX_IN_FIFO_NUMBER_OF_ENTRIES
+S 1 31 3 1425 COND_FATAL Error in file: "HostGenRiscInterface.c"; COND_FATAL description: (GET_TSF_TIMER_LOW() - timeStamp) <= HOST_IF_MAX_MICROSECONDS_FOR_ERROR_FLOW
 S 1 32 0 150 COND_FATAL Error in file: "GidmManager.c"; COND_FATAL description: event < GIDM_MANAGER_EVENT_NUM_EVENTS
 S 1 32 0 151 COND_FATAL Error in file: "GidmManager.c"; COND_FATAL description: staIndex < SYS_NUM_OF_STAS
 S 1 32 0 164 GidmManager_RunStateMachine: Sta = %d, CurrentState = %d, event = %d
@@ -5196,7 +5198,7 @@ S 1 56 2 185 COND_FATAL Error in file: "loggerAPI.c"; COND_FATAL description: fi
 S 1 56 2 235 COND_FATAL Error in file: "loggerAPI.c"; COND_FATAL description: filterMsg_p
 S 1 56 2 337 KERNEL_EVENT_RECV_FROM_HOST_MSG kMsgType: %08x
 S 1 56 2 348 KERNEL_EVENT_SEND_TO_HOST_MSG kMsgType: %08x
-S 1 2 0 0 wlan_7.2.460@r1840+a+28-7f549c
+S 1 2 0 0 wlan_7.2.460@r1840+a+50-31b755
 S 1 57 0 211 COND_FATAL Error in file: "lm_StaDatabase.c"; COND_FATAL description: pStaDbSwEntry->nextSid < (SYS_NUM_OF_STAS)
 S 1 57 0 257 COND_FATAL Error in file: "lm_StaDatabase.c"; COND_FATAL description: nextSid != DB_ASYNC_SID
 S 1 57 0 293 COND_FATAL Error in file: "lm_StaDatabase.c"; COND_FATAL description: staIndex<SYS_NUM_OF_STAS
