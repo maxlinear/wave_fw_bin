@@ -2297,13 +2297,13 @@ S 1 36 1 483 COND_FATAL Error in file: "HdkCdbManagerTask.c"; COND_FATAL descrip
 S 1 36 1 531 COND_FATAL Error in file: "HdkCdbManagerTask.c"; COND_FATAL description: vapId invalid
 S 1 36 1 697 COND_FATAL Error in file: "HdkCdbManagerTask.c"; COND_FATAL description: timediff < PVT_READ_TIMEOUT_SMIC
 S 1 36 1 733 COND_FATAL Error in file: "HdkCdbManagerTask.c"; COND_FATAL description: timediff < PVT_READ_TIMEOUT_SMIC
-S 1 36 1 886 COND_FATAL Error in file: "HdkCdbManagerTask.c"; COND_FATAL description: currentBand < CONFIGURATION_MANAGER_BAND_NUM_MAX
-S 1 36 1 898 [sendEventToSm], StateMachine Type = %d
-S 1 36 1 900 currentBandstate %d otherBand0state %d otherBand1state %d
-S 1 36 1 902 currentBandstate %d otherBand0state %d
-S 1 36 1 907 COND_FATAL Error in file: "HdkCdbManagerTask.c"; COND_FATAL description: event != INVALID_SM_EVENT
-S 1 36 1 914 event=%d eventMode=%d eventNumOfBandsIndex=%d
-S 1 36 1 932 Fatal Error in file: "HdkCdbManagerTask.c"; Fatal Print: [sendEventToSm], HDK_CDB_MAN_INVALID_EVENT
+S 1 36 1 918 COND_FATAL Error in file: "HdkCdbManagerTask.c"; COND_FATAL description: currentBand < CONFIGURATION_MANAGER_BAND_NUM_MAX
+S 1 36 1 934 [sendEventToSm], StateMachine Type = %d
+S 1 36 1 936 currentBandstate %d otherBand0state %d otherBand1state %d
+S 1 36 1 938 currentBandstate %d otherBand0state %d
+S 1 36 1 943 COND_FATAL Error in file: "HdkCdbManagerTask.c"; COND_FATAL description: event != INVALID_SM_EVENT
+S 1 36 1 950 event=%d eventMode=%d eventNumOfBandsIndex=%d
+S 1 36 1 968 Fatal Error in file: "HdkCdbManagerTask.c"; Fatal Print: [sendEventToSm], HDK_CDB_MAN_INVALID_EVENT
 S 1 36 2 273 Fatal Error in file: "HdkCdbManager_ConfigSm.c"; Fatal Print: invalid case
 S 1 36 2 296 HdkCdbManagerConfigSm send stored REQ
 S 1 36 2 317 COND_FATAL Error in file: "HdkCdbManager_ConfigSm.c"; COND_FATAL description: pconfigSmDb->waitForBandRspBitmap == 0
@@ -2345,16 +2345,19 @@ S 1 36 3 1057 [updateOnlineCalEventMode] onlineCalibrationEnabledBitMap=%d event
 S 1 36 3 1058 [updateOnlineCalEventMode] onlineCalibrationEnabledBitMap=%d eventModeTableDefaultValue=%d eventMode=%d
 S 1 36 3 1060 [updateOnlineCalEventMode] onlineCalibrationEnabledBitMap=%d eventModeTableDefaultValue=%d eventMode=%d
 S 1 36 3 1061 [updateOnlineCalEventMode] onlineCalibrationEnabledBitMap=%d eventModeTableDefaultValue=%d eventMode=%d
-S 1 36 4 306 Fatal Error in file: "HdkCdbManager_OfflineCalSm.c"; Fatal Print: invalid case
-S 1 36 4 331 Fatal Error in file: "HdkCdbManager_OfflineCalSm.c"; Fatal Print: invalid case
-S 1 36 4 344 Fatal Error in file: "HdkCdbManager_OfflineCalSm.c"; Fatal Print: invalid case
-S 1 36 4 354 COND_FATAL Error in file: "HdkCdbManager_OfflineCalSm.c"; COND_FATAL description: pOfflineCalMsg->requester == OFFLINE_CAL_CALIBRATE_REQUESTER
-S 1 36 4 359 Fatal Error in file: "HdkCdbManager_OfflineCalSm.c"; Fatal Print: invalid case
-S 1 36 4 370 COND_FATAL Error in file: "HdkCdbManager_OfflineCalSm.c"; COND_FATAL description: pOfflineCalMsg->requester == OFFLINE_CAL_CALIBRATE_REQUESTER
-S 1 36 4 412 Fatal Error in file: "HdkCdbManager_OfflineCalSm.c"; Fatal Print: invalid case
-S 1 36 4 433 Fatal Error in file: "HdkCdbManager_OfflineCalSm.c"; Fatal Print: invalid case
-S 1 36 4 451 Fatal Error in file: "HdkCdbManager_OfflineCalSm.c"; Fatal Print: invalid case
-S 1 36 4 477 offlineCalSmChangeState, state = %d
+S 1 36 4 318 Fatal Error in file: "HdkCdbManager_OfflineCalSm.c"; Fatal Print: Gen7 offline cal: DUAL_BAND flow unreachable - event mode table must be all SINGLE_BAND (WLANRTSYS-101036)
+S 1 36 4 350 Fatal Error in file: "HdkCdbManager_OfflineCalSm.c"; Fatal Print: invalid case
+S 1 36 4 375 Fatal Error in file: "HdkCdbManager_OfflineCalSm.c"; Fatal Print: invalid case
+S 1 36 4 388 Fatal Error in file: "HdkCdbManager_OfflineCalSm.c"; Fatal Print: invalid case
+S 1 36 4 398 COND_FATAL Error in file: "HdkCdbManager_OfflineCalSm.c"; COND_FATAL description: pOfflineCalMsg->requester == OFFLINE_CAL_CALIBRATE_REQUESTER
+S 1 36 4 403 Fatal Error in file: "HdkCdbManager_OfflineCalSm.c"; Fatal Print: invalid case
+S 1 36 4 414 COND_FATAL Error in file: "HdkCdbManager_OfflineCalSm.c"; COND_FATAL description: pOfflineCalMsg->requester == OFFLINE_CAL_CALIBRATE_REQUESTER
+S 1 36 4 426 Fatal Error in file: "HdkCdbManager_OfflineCalSm.c"; Fatal Print: Gen7 offline cal: DUAL_BAND flow unreachable - event mode table must be all SINGLE_BAND (WLANRTSYS-101036)
+S 1 36 4 460 Fatal Error in file: "HdkCdbManager_OfflineCalSm.c"; Fatal Print: invalid case
+S 1 36 4 471 Fatal Error in file: "HdkCdbManager_OfflineCalSm.c"; Fatal Print: Gen7 offline cal: DUAL_BAND flow unreachable - event mode table must be all SINGLE_BAND (WLANRTSYS-101036)
+S 1 36 4 484 Fatal Error in file: "HdkCdbManager_OfflineCalSm.c"; Fatal Print: invalid case
+S 1 36 4 502 Fatal Error in file: "HdkCdbManager_OfflineCalSm.c"; Fatal Print: invalid case
+S 1 36 4 576 offlineCalSmChangeState, band=%d state=%d
 S 1 36 5 275 HdkCdbManager_AddVapSm, event = %d
 S 1 36 5 289 Fatal Error in file: "HdkCdbManager_AddVapSm.c"; Fatal Print: [HdkCdbManager_AddVapSm], invalid case
 S 1 36 5 311 Fatal Error in file: "HdkCdbManager_AddVapSm.c"; Fatal Print: [HdkCdbManager_AddVapSm], invalid case
@@ -5198,7 +5201,7 @@ S 1 56 2 185 COND_FATAL Error in file: "loggerAPI.c"; COND_FATAL description: fi
 S 1 56 2 235 COND_FATAL Error in file: "loggerAPI.c"; COND_FATAL description: filterMsg_p
 S 1 56 2 337 KERNEL_EVENT_RECV_FROM_HOST_MSG kMsgType: %08x
 S 1 56 2 348 KERNEL_EVENT_SEND_TO_HOST_MSG kMsgType: %08x
-S 1 2 0 0 wlan_7.2.460@r1840+a+50-31b755
+S 1 2 0 0 wlan_7.2.460@r1840+a+77-9406f6
 S 1 57 0 211 COND_FATAL Error in file: "lm_StaDatabase.c"; COND_FATAL description: pStaDbSwEntry->nextSid < (SYS_NUM_OF_STAS)
 S 1 57 0 257 COND_FATAL Error in file: "lm_StaDatabase.c"; COND_FATAL description: nextSid != DB_ASYNC_SID
 S 1 57 0 293 COND_FATAL Error in file: "lm_StaDatabase.c"; COND_FATAL description: staIndex<SYS_NUM_OF_STAS
