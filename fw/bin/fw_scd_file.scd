@@ -2573,39 +2573,40 @@ S 1 37 9 5822 HDK event: HDK_EVENT_DPD_COMPUTATION. current state: %d
 S 1 37 9 5870 HDK [Lmmain_HandleGenericReq], Operation not supported in this ASIC
 S 1 37 9 5876 HDK [Lmmain_HandleGenericReq], Unknown message type
 S 1 37 11 440 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: fieldId <= PSD_MAX_NUM_OF_DATA_FIELDS
-S 1 37 11 559 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: tableID < PSD_TABLE_FUNC_ARRAY_SIZE
-S 1 37 11 560 PSD_handlePlatformTabl;e, tableBandDependence[tableID] = %d band = %d tableID = %d
-S 1 37 11 573 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: fieldId <= PSD_MAX_NUM_OF_DATA_FIELDS
-S 1 37 11 619 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: antMask != 0
-S 1 37 11 654 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_PHY_FIELDS_TABLE_NUM_OF_COLS
-S 1 37 11 690 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_PHY_FIELDS_TABLE_NUM_OF_COLS
-S 1 37 11 732 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == rfTableNumOfCol || pShramAddress[PSD_NUM_OF_COLS_INDEX] == rfTableNumOfCol-1
-S 1 37 11 778 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] <= rfTableNumOfCol + 1 && pShramAddress[PSD_NUM_OF_COLS_INDEX] >= rfTableNumOfCol - 1
-S 1 37 11 781 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: ConfigurationManager_GetIsDualBandZWDFS()
-S 1 37 11 783 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == rfTableNumOfCol || pShramAddress[PSD_NUM_OF_COLS_INDEX] == rfTableNumOfCol - 1
-S 1 37 11 832 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] <= rfTableNumOfCol + 1 && pShramAddress[PSD_NUM_OF_COLS_INDEX] >= rfTableNumOfCol - 1
-S 1 37 11 837 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == rfTableNumOfCol || pShramAddress[PSD_NUM_OF_COLS_INDEX] == rfTableNumOfCol - 1
-S 1 37 11 880 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_AFE_TABLE_NUM_OF_COLS
-S 1 37 11 916 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_LIMIT_DAMAGE_LIMIT_NUM_OF_COLS
-S 1 37 11 945 Fatal Error in file: "PSD.c"; Fatal Print: [handleGPIOTable], illigle Zw-dfs GPIO configuraiton
-S 1 37 11 981 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_PHY_DUMPS_TABLE_NUM_OF_COLS
-S 1 37 11 1027 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: (cols == PSD_BF_ACTIVATION_BITMAP_NUM_OF_COLS) && (rows == PSD_BF_ACTIVATION_BITMAP_NUM_OF_ROWS)
-S 1 37 11 1351 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: numRows < MAX_NUM_OF_ANTENNA_MASK_REGIONS
-S 1 37 11 1385 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: numRows < MAX_NUM_OF_ANTENNA_MASK_REGIONS
-S 1 37 11 1443 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_DPD_CONFIG_NUM_OF_COLS
-S 1 37 11 1496 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_ROWS_INDEX] == PSD_SUB_BAND_SELECTION_TABLE_NUM_OF_ROWS
-S 1 37 11 1497 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_SUB_BAND_SELECTION_TABLE_NUM_OF_COLS
-S 1 37 11 1526 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_ROWS_INDEX] == PSD_RSSI_DELTA_VALUE_NUM_OF_ROWS
-S 1 37 11 1527 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_RSSI_DELTA_VALUE_NUM_OF_COLS
-S 1 37 11 1571 Fatal Error in file: "PSD.c"; Fatal Print: [handleZwdfsAntennaMask], invalid Zw-dfs antenna mask for WAV600x
-S 1 37 11 1624 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: region < MAX_NUM_OF_ANTENNA_MASK_REGIONS
-S 1 37 11 1666 Fatal Error in file: "PSD.c"; Fatal Print: [handleInvalidTableId]
-S 1 37 11 1792 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_PHY_FIELDS_TABLE_NUM_OF_COLS
-S 1 37 11 1793 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: rows <= tableMaxSize
-S 1 37 11 1860 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: The PSD version you are using does not match this FW src version. Please update your PSD file to the correct version
-S 1 37 11 1916 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_TX_TEMP_DELTA_VALUE_NUM_OF_COLS
-S 1 37 11 1917 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: rows <= PSD_TX_TEMP_DELTA_MAX_NUM_OF_ROWS
-S 1 37 11 1931 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: psdTxTempDeltaTableSize < PSD_TX_TEMP_DELTA_MAX_NUM_OF_ROWS
+S 1 37 11 560 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: tableID < PSD_TABLE_FUNC_ARRAY_SIZE
+S 1 37 11 562 PSD_handlePlatformTable, tableBandDependence[tableID] = %d band = %d tableID = %d
+S 1 37 11 665 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: fieldId <= PSD_MAX_NUM_OF_DATA_FIELDS
+S 1 37 11 711 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: antMask != 0
+S 1 37 11 746 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_PHY_FIELDS_TABLE_NUM_OF_COLS
+S 1 37 11 782 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_PHY_FIELDS_TABLE_NUM_OF_COLS
+S 1 37 11 824 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == rfTableNumOfCol || pShramAddress[PSD_NUM_OF_COLS_INDEX] == rfTableNumOfCol-1
+S 1 37 11 870 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] <= rfTableNumOfCol + 1 && pShramAddress[PSD_NUM_OF_COLS_INDEX] >= rfTableNumOfCol - 1
+S 1 37 11 873 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: ConfigurationManager_GetIsDualBandZWDFS()
+S 1 37 11 875 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == rfTableNumOfCol || pShramAddress[PSD_NUM_OF_COLS_INDEX] == rfTableNumOfCol - 1
+S 1 37 11 924 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] <= rfTableNumOfCol + 1 && pShramAddress[PSD_NUM_OF_COLS_INDEX] >= rfTableNumOfCol - 1
+S 1 37 11 929 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == rfTableNumOfCol || pShramAddress[PSD_NUM_OF_COLS_INDEX] == rfTableNumOfCol - 1
+S 1 37 11 972 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_AFE_TABLE_NUM_OF_COLS
+S 1 37 11 1008 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_LIMIT_DAMAGE_LIMIT_NUM_OF_COLS
+S 1 37 11 1037 Fatal Error in file: "PSD.c"; Fatal Print: [handleGPIOTable], illigle Zw-dfs GPIO configuraiton
+S 1 37 11 1073 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_PHY_DUMPS_TABLE_NUM_OF_COLS
+S 1 37 11 1119 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: (cols == PSD_BF_ACTIVATION_BITMAP_NUM_OF_COLS) && (rows == PSD_BF_ACTIVATION_BITMAP_NUM_OF_ROWS)
+S 1 37 11 1443 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: numRows < MAX_NUM_OF_ANTENNA_MASK_REGIONS
+S 1 37 11 1477 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: numRows < MAX_NUM_OF_ANTENNA_MASK_REGIONS
+S 1 37 11 1535 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_DPD_CONFIG_NUM_OF_COLS
+S 1 37 11 1588 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_ROWS_INDEX] == PSD_SUB_BAND_SELECTION_TABLE_NUM_OF_ROWS
+S 1 37 11 1589 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_SUB_BAND_SELECTION_TABLE_NUM_OF_COLS
+S 1 37 11 1618 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_ROWS_INDEX] == PSD_RSSI_DELTA_VALUE_NUM_OF_ROWS
+S 1 37 11 1619 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_RSSI_DELTA_VALUE_NUM_OF_COLS
+S 1 37 11 1663 Fatal Error in file: "PSD.c"; Fatal Print: [handleZwdfsAntennaMask], invalid Zw-dfs antenna mask for WAV600x
+S 1 37 11 1716 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: region < MAX_NUM_OF_ANTENNA_MASK_REGIONS
+S 1 37 11 1758 Fatal Error in file: "PSD.c"; Fatal Print: [handleInvalidTableId]
+S 1 37 11 1884 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_PHY_FIELDS_TABLE_NUM_OF_COLS
+S 1 37 11 1885 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: rows <= tableMaxSize
+S 1 37 11 1986 Legacy PSD compatibility mode enabled, PSD version = %d, major = %d, last legacy version = %d
+S 1 37 11 1991 Modern PSD format enabled, PSD version = %d, major = %d, last legacy version = %d
+S 1 37 11 2048 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: pShramAddress[PSD_NUM_OF_COLS_INDEX] == PSD_TX_TEMP_DELTA_VALUE_NUM_OF_COLS
+S 1 37 11 2049 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: rows <= PSD_TX_TEMP_DELTA_MAX_NUM_OF_ROWS
+S 1 37 11 2063 COND_FATAL Error in file: "PSD.c"; COND_FATAL description: psdTxTempDeltaTableSize < PSD_TX_TEMP_DELTA_MAX_NUM_OF_ROWS
 S 1 37 12 214 phyDrvInterfererDetectionDisablePhy, first after SetChannel
 S 1 37 12 267 new ZWDFS, configure radar HW: BUT DISABLED, isRadarDetectionEnabled = %d, freq = %d, chanWidth = %d
 S 1 37 12 331 COND_FATAL Error in file: "PhyDriver.c"; COND_FATAL description: !(phyGenriscInterruptCauseRegister.val & ~(PHY_GEN_RISC_INTEERUPT_ALL_CAUSES_MASK))
@@ -5201,7 +5202,7 @@ S 1 56 2 185 COND_FATAL Error in file: "loggerAPI.c"; COND_FATAL description: fi
 S 1 56 2 235 COND_FATAL Error in file: "loggerAPI.c"; COND_FATAL description: filterMsg_p
 S 1 56 2 337 KERNEL_EVENT_RECV_FROM_HOST_MSG kMsgType: %08x
 S 1 56 2 348 KERNEL_EVENT_SEND_TO_HOST_MSG kMsgType: %08x
-S 1 2 0 0 wlan_7.2.460@r1840+a+77-9406f6
+S 1 2 0 0 wlan_7.2.460@r1840+a+115-fe55d9
 S 1 57 0 211 COND_FATAL Error in file: "lm_StaDatabase.c"; COND_FATAL description: pStaDbSwEntry->nextSid < (SYS_NUM_OF_STAS)
 S 1 57 0 257 COND_FATAL Error in file: "lm_StaDatabase.c"; COND_FATAL description: nextSid != DB_ASYNC_SID
 S 1 57 0 293 COND_FATAL Error in file: "lm_StaDatabase.c"; COND_FATAL description: staIndex<SYS_NUM_OF_STAS
